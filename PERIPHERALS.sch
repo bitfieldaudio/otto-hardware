@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OTTOdiy_SMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -314,7 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1100 5500 900 
 $Comp
-L OTTOdiy_SMD-rescue:Q_PMOS_SSSGDDDD-Device Q1
+L OTTOdiy_SMD-library:Q_PMOS_SSSGDDDD-Device Q1
 U 1 1 5D3A2F32
 P 5200 1000
 AR Path="/5D3A2F32" Ref="Q1"  Part="1" 
@@ -386,7 +385,7 @@ NoConn ~ 2800 6250
 Wire Wire Line
 	1650 7000 2800 7000
 $Comp
-L OTTOdiy_SMD-rescue:2.8INCH_IPS_SPI-Display_Graphic DISPLAY?
+L OTTOdiy_SMD-library:2.8INCH_IPS_SPI-Display_Graphic DISPLAY?
 U 1 1 5D412CB0
 P 4850 6900
 AR Path="/5C43B923/5D412CB0" Ref="DISPLAY?"  Part="1" 

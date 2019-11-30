@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OTTOdiy_SMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -695,7 +694,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 3150 5200 3150
 $Comp
-L Audio:WM8731-Audio U207
+L OTTOdiy_SMD-library:WM8731-Audio-Audio U207
 U 1 1 5DEEB139
 P 3700 2000
 F 0 "U207" H 3700 3265 50  0000 C CNN
@@ -706,7 +705,7 @@ F 3 "" H 8650 300 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack4_Switch-Connector TRS206
+L OTTOdiy_SMD-library:AudioJack4_Switch-Connector-Connector TRS206
 U 1 1 5DF17A71
 P 10350 2950
 F 0 "TRS206" H 10070 3050 50  0000 R CNN
@@ -717,7 +716,7 @@ F 3 "" H 10450 2950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack4_Switch-Connector TRS204
+L OTTOdiy_SMD-library:AudioJack4_Switch-Connector-Connector TRS204
 U 1 1 5DF1C677
 P 10350 1050
 F 0 "TRS204" H 10070 1150 50  0000 R CNN
@@ -728,7 +727,7 @@ F 3 "" H 10450 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack4_Switch-Connector TRS205
+L OTTOdiy_SMD-library:AudioJack4_Switch-Connector-Connector TRS205
 U 1 1 5DF1DA7D
 P 10350 2000
 F 0 "TRS205" H 10070 2100 50  0000 R CNN
@@ -1358,7 +1357,7 @@ F 3 "" H 8950 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Regulator_Linear:TPS79533 U208
+L OTTOdiy_SMD-library:TPS79533-Regulator_Linear U208
 U 1 1 5E2DC32B
 P 4950 6750
 F 0 "U208" H 4950 7015 50  0000 C CNN

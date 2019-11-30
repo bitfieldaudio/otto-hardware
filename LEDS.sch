@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OTTOdiy_SMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -873,47 +872,8 @@ Text Label 12300 7850 2    50   ~ 0
 LED_OUT
 Wire Wire Line
 	12300 7850 11850 7850
-Connection ~ 11550 7550
-Wire Wire Line
-	11550 7550 11950 7550
-Connection ~ 10850 8150
-Connection ~ 10850 7550
-Wire Wire Line
-	10850 8150 11550 8150
-Wire Wire Line
-	10150 8150 10850 8150
-Wire Wire Line
-	10850 7550 11550 7550
-Wire Wire Line
-	10150 7550 10850 7550
-Connection ~ 10150 8150
-Connection ~ 10150 7550
-Connection ~ 9450 7550
-Connection ~ 9450 8150
-Wire Wire Line
-	9450 7550 10150 7550
-Wire Wire Line
-	8750 7550 9450 7550
-Connection ~ 8750 7550
-Wire Wire Line
-	9450 8150 10150 8150
-Wire Wire Line
-	8750 8150 9450 8150
-Connection ~ 8750 8150
-Connection ~ 8050 7550
-Connection ~ 8050 8150
-Wire Wire Line
-	8050 7550 8750 7550
-Wire Wire Line
-	7350 7550 8050 7550
-Connection ~ 7350 7550
-Wire Wire Line
-	8050 8150 8750 8150
-Wire Wire Line
-	7350 8150 8050 8150
-Connection ~ 7350 8150
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED47
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED47
 U 1 1 5E136C04
 P 11550 7850
 AR Path="/5C4320DF/5C4AB546/5E136C04" Ref="LED47"  Part="1" 
@@ -938,7 +898,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 7850 10550 7850
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED46
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED46
 U 1 1 5E136B87
 P 10850 7850
 AR Path="/5C4320DF/5C4AB546/5E136B87" Ref="LED46"  Part="1" 
@@ -951,7 +911,7 @@ F 3 "https://www.adafruit.com/product/1938" H 10950 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED45
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED45
 U 1 1 5E136B32
 P 10150 7850
 AR Path="/5C4320DF/5C4AB546/5E136B32" Ref="LED45"  Part="1" 
@@ -964,7 +924,7 @@ F 3 "https://www.adafruit.com/product/1938" H 10250 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED44
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED44
 U 1 1 5E136B2C
 P 9450 7850
 AR Path="/5C4320DF/5C4AB546/5E136B2C" Ref="LED44"  Part="1" 
@@ -977,7 +937,7 @@ F 3 "https://www.adafruit.com/product/1938" H 9550 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED41
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED41
 U 1 1 5E136B20
 P 7350 7850
 AR Path="/5C4320DF/5C4AB546/5E136B20" Ref="LED41"  Part="1" 
@@ -990,7 +950,7 @@ F 3 "https://www.adafruit.com/product/1938" H 7450 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED42
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED42
 U 1 1 5E136B1A
 P 8050 7850
 AR Path="/5C4320DF/5C4AB546/5E136B1A" Ref="LED42"  Part="1" 
@@ -1003,7 +963,7 @@ F 3 "https://www.adafruit.com/product/1938" H 8150 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED43
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED43
 U 1 1 5E136B14
 P 8750 7850
 AR Path="/5C4320DF/5C4AB546/5E136B14" Ref="LED43"  Part="1" 
@@ -1015,25 +975,6 @@ F 3 "https://www.adafruit.com/product/1938" H 8850 7475 50  0001 L TNN
 	1    8750 7850
 	1    0    0    -1  
 $EndComp
-Connection ~ 5250 8150
-Wire Wire Line
-	5250 8150 5950 8150
-Wire Wire Line
-	4950 8150 5250 8150
-Wire Wire Line
-	6650 7550 7350 7550
-Connection ~ 6650 7550
-Connection ~ 6650 8150
-Connection ~ 5950 7550
-Wire Wire Line
-	6650 8150 7350 8150
-Wire Wire Line
-	5950 8150 6650 8150
-Connection ~ 5950 8150
-Wire Wire Line
-	5950 7550 6650 7550
-Wire Wire Line
-	5250 7550 5950 7550
 Wire Wire Line
 	6250 7850 6350 7850
 Wire Wire Line
@@ -1041,7 +982,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 7850 4950 7850
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED35
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED35
 U 1 1 5E136B81
 P 5950 7850
 AR Path="/5C4320DF/5C4AB546/5E136B81" Ref="LED35"  Part="1" 
@@ -1054,7 +995,7 @@ F 3 "https://www.adafruit.com/product/1938" H 6050 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED34
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED34
 U 1 1 5E136B7B
 P 6650 7850
 AR Path="/5C4320DF/5C4AB546/5E136B7B" Ref="LED34"  Part="1" 
@@ -1067,7 +1008,7 @@ F 3 "https://www.adafruit.com/product/1938" H 6750 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED36
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED36
 U 1 1 5E136B38
 P 5250 7850
 AR Path="/5C4320DF/5C4AB546/5E136B38" Ref="LED36"  Part="1" 
@@ -1080,22 +1021,6 @@ F 3 "https://www.adafruit.com/product/1938" H 5350 7475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11550 6550 12250 6550
-Connection ~ 11550 6550
-Wire Wire Line
-	11550 7150 12250 7150
-Connection ~ 11550 7150
-Connection ~ 10850 6550
-Connection ~ 10850 7150
-Wire Wire Line
-	10850 6550 11550 6550
-Wire Wire Line
-	10150 6550 10850 6550
-Wire Wire Line
-	10850 7150 11550 7150
-Wire Wire Line
-	10150 7150 10850 7150
-Wire Wire Line
 	11850 6850 11950 6850
 Wire Wire Line
 	11150 6850 11250 6850
@@ -1104,7 +1029,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 6850 9850 6850
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED39
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED39
 U 1 1 5E136B4A
 P 10850 6850
 AR Path="/5C4320DF/5C4AB546/5E136B4A" Ref="LED39"  Part="1" 
@@ -1117,7 +1042,7 @@ F 3 "https://www.adafruit.com/product/1938" H 10950 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED38
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED38
 U 1 1 5E136B44
 P 11550 6850
 AR Path="/5C4320DF/5C4AB546/5E136B44" Ref="LED38"  Part="1" 
@@ -1130,7 +1055,7 @@ F 3 "https://www.adafruit.com/product/1938" H 11650 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED37
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED37
 U 1 1 5E136B3E
 P 12250 6850
 AR Path="/5C4320DF/5C4AB546/5E136B3E" Ref="LED37"  Part="1" 
@@ -1143,7 +1068,7 @@ F 3 "https://www.adafruit.com/product/1938" H 12350 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED40
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED40
 U 1 1 5E136B26
 P 10150 6850
 AR Path="/5C4320DF/5C4AB546/5E136B26" Ref="LED40"  Part="1" 
@@ -1155,7 +1080,6 @@ F 3 "https://www.adafruit.com/product/1938" H 10250 6475 50  0001 L TNN
 	1    10150 6850
 	1    0    0    -1  
 $EndComp
-Connection ~ 10150 7150
 $Comp
 L power:GND #PWR010
 U 1 1 5E136B51
@@ -1169,55 +1093,8 @@ F 3 "" H 4950 7150 50  0001 C CNN
 	1    4950 7150
 	0    1    1    0   
 $EndComp
-Connection ~ 10150 6550
 Text GLabel 4850 6550 0    50   Input ~ 0
 +5V_MAIN
-Connection ~ 5250 6550
-Wire Wire Line
-	4850 6550 5250 6550
-Wire Wire Line
-	9450 6550 10150 6550
-Connection ~ 9450 6550
-Connection ~ 9450 7150
-Connection ~ 8750 6550
-Wire Wire Line
-	9450 7150 10150 7150
-Wire Wire Line
-	8750 7150 9450 7150
-Connection ~ 8750 7150
-Wire Wire Line
-	8750 6550 9450 6550
-Wire Wire Line
-	8050 6550 8750 6550
-Connection ~ 8050 6550
-Connection ~ 8050 7150
-Connection ~ 7350 6550
-Wire Wire Line
-	8050 7150 8750 7150
-Wire Wire Line
-	7350 7150 8050 7150
-Connection ~ 7350 7150
-Wire Wire Line
-	7350 6550 8050 6550
-Wire Wire Line
-	6650 6550 7350 6550
-Connection ~ 6650 6550
-Connection ~ 6650 7150
-Wire Wire Line
-	6650 7150 7350 7150
-Wire Wire Line
-	5950 7150 6650 7150
-Connection ~ 5950 7150
-Wire Wire Line
-	5950 7150 5250 7150
-Wire Wire Line
-	5250 7150 4950 7150
-Connection ~ 5250 7150
-Wire Wire Line
-	5950 6550 6650 6550
-Wire Wire Line
-	5950 6550 5250 6550
-Connection ~ 5950 6550
 Text Label 4400 6850 0    50   ~ 0
 LED_CONN2
 Wire Wire Line
@@ -1233,7 +1110,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 6850 6350 6850
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED27
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED27
 U 1 1 5E136B95
 P 5250 6850
 AR Path="/5C4320DF/5C4AB546/5E136B95" Ref="LED27"  Part="1" 
@@ -1246,7 +1123,7 @@ F 3 "https://www.adafruit.com/product/1938" H 5350 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED33
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED33
 U 1 1 5E136B75
 P 9450 6850
 AR Path="/5C4320DF/5C4AB546/5E136B75" Ref="LED33"  Part="1" 
@@ -1259,7 +1136,7 @@ F 3 "https://www.adafruit.com/product/1938" H 9550 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED32
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED32
 U 1 1 5E136B6F
 P 8750 6850
 AR Path="/5C4320DF/5C4AB546/5E136B6F" Ref="LED32"  Part="1" 
@@ -1272,7 +1149,7 @@ F 3 "https://www.adafruit.com/product/1938" H 8850 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED31
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED31
 U 1 1 5E136B69
 P 8050 6850
 AR Path="/5C4320DF/5C4AB546/5E136B69" Ref="LED31"  Part="1" 
@@ -1285,7 +1162,7 @@ F 3 "https://www.adafruit.com/product/1938" H 8150 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED30
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED30
 U 1 1 5E136B63
 P 7350 6850
 AR Path="/5C4320DF/5C4AB546/5E136B63" Ref="LED30"  Part="1" 
@@ -1298,7 +1175,7 @@ F 3 "https://www.adafruit.com/product/1938" H 7450 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED29
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED29
 U 1 1 5E136B5D
 P 6650 6850
 AR Path="/5C4320DF/5C4AB546/5E136B5D" Ref="LED29"  Part="1" 
@@ -1311,7 +1188,7 @@ F 3 "https://www.adafruit.com/product/1938" H 6750 6475 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED28
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED28
 U 1 1 5E136B57
 P 5950 6850
 AR Path="/5C4320DF/5C4AB546/5E136B57" Ref="LED28"  Part="1" 
@@ -1846,11 +1723,8 @@ Text Label 4550 5300 0    50   ~ 0
 LED_IN
 Text Label 12400 5300 2    50   ~ 0
 LED_CONN1
-Connection ~ 5250 5000
-Wire Wire Line
-	4850 5000 5250 5000
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED17
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED17
 U 1 1 5C5B6B5A
 P 5250 5300
 F 0 "LED17" H 5250 5778 50  0000 C CNN
@@ -1861,7 +1735,7 @@ F 3 "https://www.adafruit.com/product/1938" H 5350 4925 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED18
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED18
 U 1 1 5C5B6CD9
 P 5950 5300
 F 0 "LED18" H 5950 5778 50  0000 C CNN
@@ -1874,7 +1748,7 @@ $EndComp
 Wire Wire Line
 	5550 5300 5650 5300
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED19
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED19
 U 1 1 5C5B74A1
 P 6650 5300
 F 0 "LED19" H 6650 5778 50  0000 C CNN
@@ -1885,7 +1759,7 @@ F 3 "https://www.adafruit.com/product/1938" H 6750 4925 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED20
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED20
 U 1 1 5C5B75DC
 P 7350 5300
 F 0 "LED20" H 7350 5778 50  0000 C CNN
@@ -1898,7 +1772,7 @@ $EndComp
 Wire Wire Line
 	6950 5300 7050 5300
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED21
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED21
 U 1 1 5C5B772F
 P 8050 5300
 F 0 "LED21" H 8050 5778 50  0000 C CNN
@@ -1911,7 +1785,7 @@ $EndComp
 Wire Wire Line
 	7650 5300 7750 5300
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED22
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED22
 U 1 1 5C5B793C
 P 8750 5300
 F 0 "LED22" H 8750 5778 50  0000 C CNN
@@ -1922,7 +1796,7 @@ F 3 "https://www.adafruit.com/product/1938" H 8850 4925 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED23
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED23
 U 1 1 5C5B7AEB
 P 9450 5300
 F 0 "LED23" H 9450 5778 50  0000 C CNN
@@ -1935,7 +1809,7 @@ $EndComp
 Wire Wire Line
 	9050 5300 9150 5300
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED24
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED24
 U 1 1 5C5B7D45
 P 10150 5300
 F 0 "LED24" H 10150 5778 50  0000 C CNN
@@ -1946,7 +1820,7 @@ F 3 "https://www.adafruit.com/product/1938" H 10250 4925 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED25
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED25
 U 1 1 5C5B7F94
 P 10850 5300
 F 0 "LED25" H 10850 5778 50  0000 C CNN
@@ -1959,7 +1833,7 @@ $EndComp
 Wire Wire Line
 	10450 5300 10550 5300
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED26
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED26
 U 1 1 5C5B81C2
 P 11550 5300
 F 0 "LED26" H 11550 5778 50  0000 C CNN
@@ -1975,12 +1849,6 @@ Wire Wire Line
 	6250 5300 6350 5300
 Wire Wire Line
 	8350 5300 8450 5300
-Connection ~ 5250 5600
-Wire Wire Line
-	5250 5600 4850 5600
-Connection ~ 5950 5600
-Wire Wire Line
-	5950 5600 5250 5600
 $Comp
 L power:GND #PWR08
 U 1 1 5C5BAEDC
@@ -1994,59 +1862,10 @@ F 3 "" H 4850 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 5300 9850 5300
-Connection ~ 6650 5600
-Wire Wire Line
-	6650 5600 5950 5600
-Connection ~ 7350 5600
-Connection ~ 8050 5600
-Wire Wire Line
-	6650 5600 7350 5600
-Wire Wire Line
-	7350 5600 8050 5600
-Wire Wire Line
-	8050 5600 8750 5600
-Connection ~ 8750 5600
-Wire Wire Line
-	8750 5600 9450 5600
-Connection ~ 9450 5600
-Wire Wire Line
-	9450 5600 10150 5600
-Connection ~ 10150 5600
-Wire Wire Line
-	10150 5600 10850 5600
-Connection ~ 10850 5600
-Wire Wire Line
-	10850 5600 11550 5600
 Wire Wire Line
 	12400 5300 11850 5300
 Wire Wire Line
 	4550 5300 4950 5300
-Connection ~ 5950 5000
-Wire Wire Line
-	5950 5000 5250 5000
-Wire Wire Line
-	6650 5000 5950 5000
-Connection ~ 6650 5000
-Connection ~ 7350 5000
-Connection ~ 8050 5000
-Wire Wire Line
-	6650 5000 7350 5000
-Wire Wire Line
-	7350 5000 8050 5000
-Wire Wire Line
-	8050 5000 8750 5000
-Wire Wire Line
-	8750 5000 9450 5000
-Connection ~ 8750 5000
-Connection ~ 9450 5000
-Wire Wire Line
-	9450 5000 10150 5000
-Wire Wire Line
-	10150 5000 10850 5000
-Connection ~ 10150 5000
-Connection ~ 10850 5000
-Wire Wire Line
-	10850 5000 11550 5000
 Text GLabel 4850 5000 0    50   Input ~ 0
 +5V_MAIN
 Wire Wire Line
@@ -2078,56 +1897,10 @@ Text Label 11000 3700 2    50   ~ 0
 LED_CONN2
 Wire Wire Line
 	10450 3700 11000 3700
-Connection ~ 10150 3400
-Wire Wire Line
-	10150 3400 10450 3400
-Wire Wire Line
-	9450 3400 10150 3400
-Connection ~ 9450 3400
-Connection ~ 8750 3400
-Wire Wire Line
-	8750 3400 9450 3400
-Wire Wire Line
-	8050 3400 8750 3400
-Connection ~ 8050 3400
-Connection ~ 7350 3400
-Wire Wire Line
-	7350 3400 8050 3400
-Wire Wire Line
-	6650 3400 7350 3400
-Connection ~ 6650 3400
-Connection ~ 5950 3400
-Wire Wire Line
-	5950 3400 6650 3400
-Wire Wire Line
-	5250 3400 5950 3400
-Connection ~ 9450 4000
-Connection ~ 8750 4000
-Wire Wire Line
-	8750 4000 8050 4000
-Wire Wire Line
-	8050 4000 7350 4000
-Connection ~ 8050 4000
-Connection ~ 7350 4000
-Wire Wire Line
-	7350 4000 6650 4000
-Wire Wire Line
-	6650 4000 5950 4000
-Connection ~ 6650 4000
-Connection ~ 5950 4000
-Wire Wire Line
-	5950 4000 5250 4000
-Wire Wire Line
-	5250 4000 4850 4000
-Connection ~ 5250 4000
-Wire Wire Line
-	9450 4000 8750 4000
-Wire Wire Line
-	10150 4000 9450 4000
 Wire Wire Line
 	6950 3700 7050 3700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED12
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED12
 U 1 1 5DF8B796
 P 7350 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B796" Ref="LED12"  Part="1" 
@@ -2142,7 +1915,7 @@ $EndComp
 Wire Wire Line
 	6250 3700 6350 3700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED11
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED11
 U 1 1 5DF8B78F
 P 6650 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B78F" Ref="LED11"  Part="1" 
@@ -2157,7 +1930,7 @@ $EndComp
 Wire Wire Line
 	5550 3700 5650 3700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED10
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED10
 U 1 1 5DF8B788
 P 5950 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B788" Ref="LED10"  Part="1" 
@@ -2170,7 +1943,7 @@ F 3 "https://www.adafruit.com/product/1938" H 6050 3325 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED9
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED9
 U 1 1 5DF8B782
 P 5250 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B782" Ref="LED9"  Part="1" 
@@ -2185,7 +1958,7 @@ $EndComp
 Wire Wire Line
 	9750 3700 9850 3700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED16
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED16
 U 1 1 5DF8B77B
 P 10150 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B77B" Ref="LED16"  Part="1" 
@@ -2200,7 +1973,7 @@ $EndComp
 Wire Wire Line
 	9050 3700 9150 3700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED15
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED15
 U 1 1 5DF8B774
 P 9450 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B774" Ref="LED15"  Part="1" 
@@ -2215,7 +1988,7 @@ $EndComp
 Wire Wire Line
 	8350 3700 8450 3700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED14
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED14
 U 1 1 5DF8B76D
 P 8750 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B76D" Ref="LED14"  Part="1" 
@@ -2230,7 +2003,7 @@ $EndComp
 Wire Wire Line
 	7650 3700 7750 3700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED13
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED13
 U 1 1 5DF8B766
 P 8050 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B766" Ref="LED13"  Part="1" 
@@ -2261,56 +2034,10 @@ Wire Wire Line
 	4400 2700 4950 2700
 Text GLabel 4850 2400 0    50   Input ~ 0
 +5V_MAIN
-Connection ~ 5250 2400
-Wire Wire Line
-	4850 2400 5250 2400
-Wire Wire Line
-	9450 2400 10150 2400
-Connection ~ 9450 2400
-Connection ~ 8750 2400
-Wire Wire Line
-	8750 2400 9450 2400
-Wire Wire Line
-	8050 2400 8750 2400
-Connection ~ 8050 2400
-Connection ~ 7350 2400
-Wire Wire Line
-	7350 2400 8050 2400
-Wire Wire Line
-	6650 2400 7350 2400
-Connection ~ 6650 2400
-Connection ~ 5950 2400
-Wire Wire Line
-	5950 2400 6650 2400
-Wire Wire Line
-	5250 2400 5950 2400
-Connection ~ 9450 3000
-Connection ~ 8750 3000
-Wire Wire Line
-	8750 3000 8050 3000
-Wire Wire Line
-	8050 3000 7350 3000
-Connection ~ 8050 3000
-Connection ~ 7350 3000
-Wire Wire Line
-	7350 3000 6650 3000
-Wire Wire Line
-	6650 3000 5950 3000
-Connection ~ 6650 3000
-Connection ~ 5950 3000
-Wire Wire Line
-	5950 3000 5250 3000
-Wire Wire Line
-	5250 3000 4850 3000
-Connection ~ 5250 3000
-Wire Wire Line
-	9450 3000 8750 3000
-Wire Wire Line
-	10150 3000 9450 3000
 Wire Wire Line
 	9050 2700 9150 2700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED7
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED7
 U 1 1 5DF8B7CC
 P 9450 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7CC" Ref="LED7"  Part="1" 
@@ -2325,7 +2052,7 @@ $EndComp
 Wire Wire Line
 	8350 2700 8450 2700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED6
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED6
 U 1 1 5DF8B7C5
 P 8750 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7C5" Ref="LED6"  Part="1" 
@@ -2340,7 +2067,7 @@ $EndComp
 Wire Wire Line
 	7650 2700 7750 2700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED5
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED5
 U 1 1 5DF8B7BE
 P 8050 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7BE" Ref="LED5"  Part="1" 
@@ -2355,7 +2082,7 @@ $EndComp
 Wire Wire Line
 	6950 2700 7050 2700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED4
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED4
 U 1 1 5DF8B7B7
 P 7350 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7B7" Ref="LED4"  Part="1" 
@@ -2370,7 +2097,7 @@ $EndComp
 Wire Wire Line
 	6250 2700 6350 2700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED3
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED3
 U 1 1 5DF8B7B0
 P 6650 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7B0" Ref="LED3"  Part="1" 
@@ -2385,7 +2112,7 @@ $EndComp
 Wire Wire Line
 	5550 2700 5650 2700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED2
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED2
 U 1 1 5DF8B7A9
 P 5950 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7A9" Ref="LED2"  Part="1" 
@@ -2398,7 +2125,7 @@ F 3 "https://www.adafruit.com/product/1938" H 6050 2325 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED1
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED1
 U 1 1 5DF8B7A3
 P 5250 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7A3" Ref="LED1"  Part="1" 
@@ -2413,7 +2140,7 @@ $EndComp
 Wire Wire Line
 	9750 2700 9850 2700
 $Comp
-L OTTOdiy_SMD-rescue:NeoPixel_THT-LED LED8
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED8
 U 1 1 5DF8B79C
 P 10150 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B79C" Ref="LED8"  Part="1" 
@@ -2425,4 +2152,24 @@ F 3 "https://www.adafruit.com/product/1938" H 10250 2325 50  0001 L TNN
 	1    10150 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4850 4000 10150 4000
+Wire Wire Line
+	4850 3000 10150 3000
+Wire Wire Line
+	5250 7550 11950 7550
+Wire Wire Line
+	4950 8150 11550 8150
+Wire Wire Line
+	4850 6550 12250 6550
+Wire Wire Line
+	4950 7150 12250 7150
+Wire Wire Line
+	4850 5000 11550 5000
+Wire Wire Line
+	4850 5600 11550 5600
+Wire Wire Line
+	5250 3400 10450 3400
+Wire Wire Line
+	4850 2400 10150 2400
 $EndSCHEMATC

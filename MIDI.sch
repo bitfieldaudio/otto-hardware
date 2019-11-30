@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:OTTOdiy_SMD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -336,11 +335,12 @@ Connection ~ 5900 5100
 Wire Wire Line
 	5900 5100 4950 5100
 $Comp
-L Connector:AudioJack4_Switch-Connector TRS?
+L OTTOdiy_SMD-library:AudioJack4_Switch-Connector-Connector TRS?
 U 1 1 5DF1F84C
 P 3300 2350
 AR Path="/5C4408C6/5DF1F84C" Ref="TRS?"  Part="1" 
 AR Path="/5C435D84/5DF1F84C" Ref="TRS201"  Part="1" 
+AR Path="/5DF1F84C" Ref="TRS201"  Part="1" 
 F 0 "TRS201" H 3357 2975 50  0000 C CNN
 F 1 "PJ-393-7A" H 3357 2884 50  0000 C CNN
 F 2 "Spatz:3.5mm_jack_PJ-3930-8A" H 3400 2350 50  0001 C CNN
@@ -375,11 +375,12 @@ $EndComp
 Wire Wire Line
 	3650 3300 3750 3300
 $Comp
-L Connector:AudioJack4_Switch-Connector TRS?
+L OTTOdiy_SMD-library:AudioJack4_Switch-Connector-Connector TRS?
 U 1 1 5DF278B3
 P 3300 3500
 AR Path="/5C4408C6/5DF278B3" Ref="TRS?"  Part="1" 
 AR Path="/5C435D84/5DF278B3" Ref="TRS202"  Part="1" 
+AR Path="/5DF278B3" Ref="TRS202"  Part="1" 
 F 0 "TRS202" H 3357 4125 50  0000 C CNN
 F 1 "PJ-393-7A" H 3357 4034 50  0000 C CNN
 F 2 "Spatz:3.5mm_jack_PJ-3930-8A" H 3400 3500 50  0001 C CNN
@@ -401,11 +402,12 @@ $EndComp
 Wire Wire Line
 	3650 3100 3750 3100
 $Comp
-L Connector:AudioJack4_Switch-Connector TRS?
+L OTTOdiy_SMD-library:AudioJack4_Switch-Connector-Connector TRS?
 U 1 1 5DF28FAD
 P 3300 4650
 AR Path="/5C4408C6/5DF28FAD" Ref="TRS?"  Part="1" 
 AR Path="/5C435D84/5DF28FAD" Ref="TRS203"  Part="1" 
+AR Path="/5DF28FAD" Ref="TRS203"  Part="1" 
 F 0 "TRS203" H 3357 5275 50  0000 C CNN
 F 1 "PJ-393-7A" H 3357 5184 50  0000 C CNN
 F 2 "Spatz:3.5mm_jack_PJ-3930-8A" H 3400 4650 50  0001 C CNN
