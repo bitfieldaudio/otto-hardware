@@ -319,27 +319,27 @@ $EndComp
 $Comp
 L Device:C C219
 U 1 1 5DC4F5E0
-P 10650 3700
+P 8900 3700
 AR Path="/5C4320DF/5DC4F5E0" Ref="C219"  Part="1" 
 AR Path="/5C4320DF/5DB999B7/5DC4F5E0" Ref="C?"  Part="1" 
-F 0 "C219" H 10535 3654 50  0000 R CNN
-F 1 "1µF" H 10535 3745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10688 3550 50  0001 C CNN
-F 3 "~" H 10650 3700 50  0001 C CNN
-	1    10650 3700
+F 0 "C219" H 8785 3654 50  0000 R CNN
+F 1 "1µF" H 8785 3745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8938 3550 50  0001 C CNN
+F 3 "~" H 8900 3700 50  0001 C CNN
+	1    8900 3700
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C55
 U 1 1 5DC4F5E6
-P 11150 3700
+P 9400 3700
 AR Path="/5C4320DF/5DC4F5E6" Ref="C55"  Part="1" 
 AR Path="/5C4320DF/5DB999B7/5DC4F5E6" Ref="C?"  Part="1" 
-F 0 "C55" H 11035 3654 50  0000 R CNN
-F 1 "100nF" H 11035 3745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 11188 3550 50  0001 C CNN
-F 3 "~" H 11150 3700 50  0001 C CNN
-	1    11150 3700
+F 0 "C55" H 9285 3654 50  0000 R CNN
+F 1 "100nF" H 9285 3745 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 9438 3550 50  0001 C CNN
+F 3 "~" H 9400 3700 50  0001 C CNN
+	1    9400 3700
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -369,11 +369,7 @@ Connection ~ 8150 2950
 Wire Wire Line
 	8150 2950 8650 2950
 Wire Wire Line
-	11150 3850 11150 3950
-Wire Wire Line
 	8550 3950 8550 4050
-Wire Wire Line
-	10650 3850 10650 3950
 Wire Wire Line
 	10150 3350 10150 3450
 Wire Wire Line
@@ -386,19 +382,15 @@ Connection ~ 8650 3450
 Wire Wire Line
 	8650 3450 8150 3450
 Wire Wire Line
-	10650 3550 10650 3450
-Wire Wire Line
 	9150 3350 9150 3450
 Connection ~ 9150 3450
 Wire Wire Line
-	9150 3450 8650 3450
-Wire Wire Line
-	11150 3550 11150 3450
+	9150 3450 8900 3450
 Wire Wire Line
 	9650 3350 9650 3450
 Connection ~ 9650 3450
 Wire Wire Line
-	9650 3450 9150 3450
+	9650 3450 9400 3450
 Wire Wire Line
 	10150 3450 10650 3450
 Connection ~ 10150 3450
@@ -858,7 +850,7 @@ Text Label 9850 5050 2    50   ~ 0
 CV_DAC_2
 Wire Wire Line
 	9850 5050 9350 5050
-Text Notes 11300 5200 0    50   ~ 0
+Text Notes 9450 10750 0    50   ~ 0
 Internal pullups/pulldowns:\nMAIN_POWER: u\nPWR_BUTTON: u\nSPI_CS_MCU_LED: u\nGATE_IO_1: d\nGATE_IO_2: d\n***Todo: check states of the other connections \nto RPi to prevent different pull states \nduring boot time***
 Text Label 10100 9250 2    50   ~ 0
 TAMPER_RTC
@@ -890,9 +882,6 @@ Wire Wire Line
 	10150 2950 10650 2950
 Connection ~ 10650 2950
 Connection ~ 10650 3450
-Connection ~ 10650 3950
-Wire Wire Line
-	10650 3950 11150 3950
 Wire Wire Line
 	10650 2950 11150 2950
 Wire Wire Line
@@ -1013,8 +1002,6 @@ SPI_MOSI_MCU
 Wire Wire Line
 	10500 7750 9350 7750
 Wire Wire Line
-	9350 7450 10500 7450
-Wire Wire Line
 	10500 7550 9350 7550
 Wire Wire Line
 	9350 7650 10600 7650
@@ -1029,9 +1016,6 @@ SPI_MOSI_MCU
 Connection ~ 11150 3450
 Wire Wire Line
 	11150 3450 11250 3450
-Connection ~ 11150 3950
-Wire Wire Line
-	11150 3950 11250 3950
 Wire Wire Line
 	8350 3950 8450 3950
 $Comp
@@ -1054,8 +1038,6 @@ Wire Wire Line
 Connection ~ 11150 2950
 Wire Wire Line
 	11150 2950 11250 2950
-Wire Wire Line
-	8550 3950 10650 3950
 Connection ~ 8350 3950
 Wire Wire Line
 	8450 3950 8450 4050
@@ -1117,8 +1099,6 @@ Text Label 900  7850 0    50   ~ 0
 PROG_UART_RX
 Wire Wire Line
 	900  7850 1800 7850
-Wire Wire Line
-	2300 7650 2500 7650
 Text GLabel 2500 7100 2    50   Input ~ 0
 +5V_IN
 Text GLabel 1600 7200 0    50   Input ~ 0
@@ -1129,18 +1109,14 @@ Text GLabel 2500 7200 2    50   Input ~ 0
 +5V_MCU
 Text GLabel 1450 7600 0    50   Input ~ 0
 PWR_BUTTON
-Wire Wire Line
-	2500 7750 2300 7750
-Wire Wire Line
-	2500 7850 2300 7850
 Text Label 900  8600 0    50   ~ 0
 EXP_GPIO_5_PWM
 Text Label 3200 8600 2    50   ~ 0
 EXP_GPIO_6_PWM
 Text Label 3200 8800 2    50   ~ 0
 EXP_GPIO_2_ADC
-Text GLabel 9450 5550 2    50   Input ~ 0
-+5V_IN_SENSE
+Text GLabel 10950 4200 2    50   Input ~ 0
++5V_IN
 Text Label 900  8700 0    50   ~ 0
 EXP_GPIO_3_PWM
 Text Label 3200 8700 2    50   ~ 0
@@ -1588,11 +1564,7 @@ Wire Wire Line
 	6750 4550 6250 4550
 Wire Wire Line
 	6950 4550 6850 4550
-Wire Wire Line
-	6850 4550 6850 4450
-Wire Wire Line
-	6850 4450 6250 4450
-Text GLabel 6250 4450 0    50   Input ~ 0
+Text GLabel 5650 4100 0    50   Input ~ 0
 ICP_RST
 Text GLabel 10100 5850 2    50   Input ~ 0
 ICP_SWDIO
@@ -1600,12 +1572,198 @@ Text GLabel 10200 5950 2    50   Input ~ 0
 ICP_SWCLK
 Text GLabel 8950 1100 0    50   Input ~ 0
 ICP_RST
-Text GLabel 2500 7650 2    50   Input ~ 0
-ICP_RST
-Text GLabel 2500 7750 2    50   Input ~ 0
-ICP_SWDIO
-Text GLabel 2500 7850 2    50   Input ~ 0
-ICP_SWCLK
+$Comp
+L Connector:Conn_ARM_JTAG_SWD_20 J?
+U 1 1 5DEEBF3B
+P 14250 6550
+F 0 "J?" H 13720 6596 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_20" H 13720 6505 50  0000 R CNN
+F 2 "" H 14700 5500 50  0001 L TNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.dui0499b/DUI0499B_system_design_reference.pdf" V 13900 5300 50  0001 C CNN
+	1    14250 6550
+	-1   0    0    -1  
+$EndComp
+Text GLabel 14350 5550 1    50   Input ~ 0
++3V3_MCU
 Wire Wire Line
-	9450 5550 9350 5550
+	14350 5550 14350 5750
+Wire Wire Line
+	13650 6450 13250 6450
+Wire Wire Line
+	13650 6550 13250 6550
+NoConn ~ 14250 5750
+NoConn ~ 13650 6350
+NoConn ~ 13650 6650
+NoConn ~ 13650 6750
+NoConn ~ 13650 6950
+NoConn ~ 13650 7050
+$Comp
+L power:GND #PWR?
+U 1 1 5E0C5791
+P 14350 7450
+F 0 "#PWR?" H 14350 7200 50  0001 C CNN
+F 1 "GND" H 14355 7277 50  0000 C CNN
+F 2 "" H 14350 7450 50  0001 C CNN
+F 3 "" H 14350 7450 50  0001 C CNN
+	1    14350 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14350 7350 14350 7450
+Wire Wire Line
+	13650 6150 13450 6150
+$Comp
+L Device:R R?
+U 1 1 5E10041A
+P 13300 6150
+F 0 "R?" V 13093 6150 50  0000 C CNN
+F 1 "0" V 13184 6150 50  0000 C CNN
+F 2 "" V 13230 6150 50  0001 C CNN
+F 3 "~" H 13300 6150 50  0001 C CNN
+	1    13300 6150
+	0    1    1    0   
+$EndComp
+Text GLabel 12950 6150 0    50   Input ~ 0
+ICP_RST
+Wire Wire Line
+	12950 6150 13150 6150
+$Comp
+L Device:C C?
+U 1 1 5E1A8201
+P 5850 4350
+F 0 "C?" H 5965 4396 50  0000 L CNN
+F 1 "1000pF" H 5965 4305 50  0000 L CNN
+F 2 "" H 5888 4200 50  0001 C CNN
+F 3 "~" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E1C666B
+P 5850 4550
+AR Path="/5C4320DF/5E1C666B" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5DB999B7/5E1C666B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5850 4300 50  0001 C CNN
+F 1 "GND" V 5855 4422 50  0000 R CNN
+F 2 "" H 5850 4550 50  0001 C CNN
+F 3 "" H 5850 4550 50  0001 C CNN
+	1    5850 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4100 5850 4100
+Wire Wire Line
+	6850 4100 6850 4550
+Wire Wire Line
+	5850 4200 5850 4100
+Connection ~ 5850 4100
+Wire Wire Line
+	5850 4100 5650 4100
+Wire Wire Line
+	5850 4500 5850 4550
+Text GLabel 13250 6550 0    50   Input ~ 0
+ICP_SWDIO
+Text GLabel 13250 6450 0    50   Input ~ 0
+ICP_SWCLK
+$Comp
+L Device:R R?
+U 1 1 5E2456F0
+P 11050 7450
+F 0 "R?" V 10843 7450 50  0000 C CNN
+F 1 "100k" V 10934 7450 50  0000 C CNN
+F 2 "" V 10980 7450 50  0001 C CNN
+F 3 "~" H 11050 7450 50  0001 C CNN
+	1    11050 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 7450 10900 7450
+Text GLabel 11350 7450 2    50   Input ~ 0
++3V3_MCU
+Wire Wire Line
+	11350 7450 11200 7450
+$Comp
+L Device:R R?
+U 1 1 5E39B322
+P 10800 4450
+F 0 "R?" H 10870 4496 50  0000 L CNN
+F 1 "10k" H 10870 4405 50  0000 L CNN
+F 2 "" V 10730 4450 50  0001 C CNN
+F 3 "~" H 10800 4450 50  0001 C CNN
+	1    10800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E39D1BD
+P 10800 4850
+F 0 "R?" H 10870 4896 50  0000 L CNN
+F 1 "10k" H 10870 4805 50  0000 L CNN
+F 2 "" V 10730 4850 50  0001 C CNN
+F 3 "~" H 10800 4850 50  0001 C CNN
+	1    10800 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 4200 10800 4200
+Wire Wire Line
+	10800 4200 10800 4300
+Wire Wire Line
+	9350 4650 10800 4650
+Wire Wire Line
+	10800 4650 10800 4600
+Wire Wire Line
+	10800 4650 10800 4700
+Connection ~ 10800 4650
+$Comp
+L power:GND #PWR?
+U 1 1 5E414421
+P 10800 5050
+AR Path="/5C4320DF/5E414421" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5DB999B7/5E414421" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10800 4800 50  0001 C CNN
+F 1 "GND" V 10805 4922 50  0000 R CNN
+F 2 "" H 10800 5050 50  0001 C CNN
+F 3 "" H 10800 5050 50  0001 C CNN
+	1    10800 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 5000 10800 5050
+$Comp
+L Device:Ferrite_Bead FB?
+U 1 1 5E433262
+P 10100 3950
+F 0 "FB?" V 9826 3950 50  0000 C CNN
+F 1 "1kΩ@100Mhz" V 9917 3950 50  0000 C CNN
+F 2 "" V 10030 3950 50  0001 C CNN
+F 3 "~" H 10100 3950 50  0001 C CNN
+	1    10100 3950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 3950 8900 3950
+Wire Wire Line
+	8900 3950 8900 3850
+Wire Wire Line
+	8900 3550 8900 3450
+Connection ~ 8900 3450
+Wire Wire Line
+	8900 3450 8650 3450
+Wire Wire Line
+	8900 3950 9400 3950
+Wire Wire Line
+	9400 3950 9400 3850
+Connection ~ 8900 3950
+Wire Wire Line
+	9400 3550 9400 3450
+Connection ~ 9400 3450
+Wire Wire Line
+	9400 3450 9150 3450
+Wire Wire Line
+	9400 3950 9950 3950
+Connection ~ 9400 3950
+Wire Wire Line
+	10250 3950 11250 3950
 $EndSCHEMATC

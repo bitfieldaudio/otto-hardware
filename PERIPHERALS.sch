@@ -202,25 +202,6 @@ F 3 "~" H 1000 960 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Fuse_Small F?
-U 1 1 5D35346E
-P 2000 900
-AR Path="/5C4320DF/5C4AB60A/5D35346E" Ref="F?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D35346E" Ref="F201"  Part="1" 
-F 0 "F201" H 2000 1085 50  0000 C CNN
-F 1 "3A" H 2000 994 50  0000 C CNN
-F 2 "Fuse:Fuse_1806_4516Metric_Pad1.57x1.80mm_HandSolder" H 2000 900 50  0001 C CNN
-F 3 "~" H 2000 900 50  0001 C CNN
-	1    2000 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 900  1900 900 
-Wire Wire Line
-	2100 900  2200 900 
-Wire Wire Line
-	2200 900  2200 1100
-$Comp
 L Device:R R?
 U 1 1 5D353477
 P 4950 1200
@@ -234,70 +215,25 @@ F 3 "~" H 4950 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2700 900  2700 1000
-$Comp
-L Device:CP1 C?
-U 1 1 5D353480
-P 2700 1250
-AR Path="/5C4320DF/5C4AB60A/5D353480" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D353480" Ref="C228"  Part="1" 
-F 0 "C228" H 2815 1296 50  0000 L CNN
-F 1 "1000µF" H 2815 1205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2700 1250 50  0001 C CNN
-F 3 "~" H 2700 1250 50  0001 C CNN
-	1    2700 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4700 1200 4700 900 
 Wire Wire Line
 	4700 900  5000 900 
 Wire Wire Line
 	5100 1200 5200 1200
-Wire Wire Line
-	5400 900  5500 900 
 Text GLabel 5600 900  2    50   Input ~ 0
 +5V_MAIN
 $Comp
 L power:GND #PWR?
 U 1 1 5D35348C
-P 1800 1650
+P 2100 1800
 AR Path="/5C4320DF/5C4AB60A/5D35348C" Ref="#PWR?"  Part="1" 
 AR Path="/5C4320DF/5C4AB597/5D35348C" Ref="#PWR0219"  Part="1" 
-F 0 "#PWR0219" H 1800 1400 50  0001 C CNN
-F 1 "GND" H 1805 1477 50  0000 C CNN
-F 2 "" H 1800 1650 50  0001 C CNN
-F 3 "" H 1800 1650 50  0001 C CNN
-	1    1800 1650
+F 0 "#PWR0219" H 2100 1550 50  0001 C CNN
+F 1 "GND" H 2105 1627 50  0000 C CNN
+F 2 "" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0001 C CNN
+	1    2100 1800
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1250 1100 1800 1100
-$Comp
-L Device:CP1 C?
-U 1 1 5D353498
-P 5500 1250
-AR Path="/5C4320DF/5C4AB60A/5D353498" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D353498" Ref="C229"  Part="1" 
-F 0 "C229" H 5615 1296 50  0000 L CNN
-F 1 "1000µF" H 5615 1205 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5500 1250 50  0001 C CNN
-F 3 "~" H 5500 1250 50  0001 C CNN
-	1    5500 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Zener_ALT D?
-U 1 1 5D35349E
-P 2200 1250
-AR Path="/5C4320DF/5C4AB60A/5D35349E" Ref="D?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D35349E" Ref="D201"  Part="1" 
-F 0 "D201" V 2154 1329 50  0000 L CNN
-F 1 "5.6V" V 2245 1329 50  0000 L CNN
-F 2 "Diode_SMD:D_SMA" H 2200 1250 50  0001 C CNN
-F 3 "~" H 2200 1250 50  0001 C CNN
-	1    2200 1250
-	0    1    1    0   
 $EndComp
 Text GLabel 5100 1550 0    50   Input ~ 0
 MAIN_POWER
@@ -306,12 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 1200 5200 1550
 Wire Wire Line
-	2700 900  2200 900 
-Connection ~ 2200 900 
-Wire Wire Line
 	4700 900  4600 900 
-Wire Wire Line
-	5500 1100 5500 900 
 $Comp
 L OTTOdiy_SMD-library:Q_PMOS_SSSGDDDD-Device Q1
 U 1 1 5D3A2F32
@@ -434,66 +365,11 @@ Wire Wire Line
 	7800 2300 8100 2300
 Text GLabel 4600 900  0    50   Input ~ 0
 +5V_MCU
-Wire Wire Line
-	2800 900  2700 900 
-Connection ~ 2700 900 
-Wire Wire Line
-	2700 1400 2700 1550
-Wire Wire Line
-	2200 1400 2200 1550
-Connection ~ 1800 1550
-Wire Wire Line
-	1800 1550 1800 1650
-Wire Wire Line
-	1800 1100 1800 1550
-Wire Wire Line
-	1800 1550 2200 1550
-Connection ~ 2200 1550
-Wire Wire Line
-	2200 1550 2700 1550
-$Comp
-L power:GND #PWR?
-U 1 1 5DE964DC
-P 5500 1650
-AR Path="/5C4320DF/5C4AB60A/5DE964DC" Ref="#PWR?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5DE964DC" Ref="#PWR0220"  Part="1" 
-F 0 "#PWR0220" H 5500 1400 50  0001 C CNN
-F 1 "GND" H 5505 1477 50  0000 C CNN
-F 2 "" H 5500 1650 50  0001 C CNN
-F 3 "" H 5500 1650 50  0001 C CNN
-	1    5500 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 1400 5500 1650
-Connection ~ 5500 900 
-Wire Wire Line
-	5500 900  5600 900 
 Connection ~ 4700 900 
 Wire Wire Line
 	4700 1200 4800 1200
 Text Notes 3200 850  0    50   ~ 0
 Connected via Jumpers \non the Expansion Header
-Text GLabel 3550 1000 2    50   Input ~ 0
-+5V_IN_SENSE
-Wire Wire Line
-	3150 1000 2700 1000
-Connection ~ 2700 1000
-Wire Wire Line
-	2700 1000 2700 1100
-$Comp
-L Device:R R209
-U 1 1 5DF20481
-P 3300 1000
-F 0 "R209" V 3415 1000 50  0000 C CNN
-F 1 "10k" V 3506 1000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3230 1000 50  0001 C CNN
-F 3 "~" H 3300 1000 50  0001 C CNN
-	1    3300 1000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3550 1000 3450 1000
 Wire Notes Line
 	3150 900  4150 900 
 $Comp
@@ -515,4 +391,91 @@ Wire Wire Line
 	2000 2800 1900 2800
 Wire Wire Line
 	1900 2800 1900 2700
+$Comp
+L OTTOdiy_SMD-library:Q_PMOS_SSSGDDDD-Device Q?
+U 1 1 5E314238
+P 2100 1000
+AR Path="/5E314238" Ref="Q?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5E314238" Ref="Q?"  Part="1" 
+F 0 "Q?" V 2443 1000 50  0000 C CNN
+F 1 "IRF9321PbF" V 2352 1000 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2300 1100 50  0001 C CNN
+F 3 "~" H 2100 1000 50  0001 C CNN
+	1    2100 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1250 900  1450 900 
+$Comp
+L Device:D_TVS_ALT D?
+U 1 1 5E31C6FD
+P 1450 1250
+F 0 "D?" V 1404 1329 50  0000 L CNN
+F 1 "12V" V 1495 1329 50  0000 L CNN
+F 2 "" H 1450 1250 50  0001 C CNN
+F 3 "~" H 1450 1250 50  0001 C CNN
+	1    1450 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 1100 1450 900 
+Connection ~ 1450 900 
+Wire Wire Line
+	1450 900  1900 900 
+Wire Wire Line
+	2300 900  2400 900 
+$Comp
+L Device:R R?
+U 1 1 5E32F203
+P 2100 1500
+F 0 "R?" H 2170 1546 50  0000 L CNN
+F 1 "100k" H 2170 1455 50  0000 L CNN
+F 2 "" V 2030 1500 50  0001 C CNN
+F 3 "~" H 2100 1500 50  0001 C CNN
+	1    2100 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1700 2100 1700
+Wire Wire Line
+	1450 1400 1450 1700
+Wire Wire Line
+	2100 1700 2100 1800
+Connection ~ 2100 1700
+$Comp
+L Device:D_Zener_ALT D?
+U 1 1 5E33CE94
+P 2400 1100
+F 0 "D?" V 2354 1179 50  0000 L CNN
+F 1 "10V" V 2445 1179 50  0000 L CNN
+F 2 "" H 2400 1100 50  0001 C CNN
+F 3 "~" H 2400 1100 50  0001 C CNN
+	1    2400 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 950  2400 900 
+Connection ~ 2400 900 
+Wire Wire Line
+	2100 1650 2100 1700
+Wire Wire Line
+	2100 1200 2100 1300
+Wire Wire Line
+	2100 1300 2400 1300
+Wire Wire Line
+	2400 1300 2400 1250
+Connection ~ 2100 1300
+Wire Wire Line
+	2100 1300 2100 1350
+Connection ~ 1450 1700
+Wire Wire Line
+	1250 1100 1300 1100
+Wire Wire Line
+	1300 1100 1300 1700
+Wire Wire Line
+	1300 1700 1450 1700
+Wire Wire Line
+	2400 900  2800 900 
+Wire Wire Line
+	5400 900  5600 900 
 $EndSCHEMATC

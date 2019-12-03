@@ -93,8 +93,6 @@ F 3 "~" H 800 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 2750 5150 2750
-Wire Wire Line
 	5150 2850 5250 2850
 $Comp
 L Connector:Raspberry_Pi_2_3 J201
@@ -118,60 +116,16 @@ F0 "AUDIO" 50
 F1 "AUDIO.sch" 50
 $EndSheet
 $Comp
-L Device:R R201
-U 1 1 5C6B90EE
-P 600 7150
-F 0 "R201" H 670 7196 50  0000 L CNN
-F 1 "1M" H 670 7105 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 530 7150 50  0001 C CNN
-F 3 "~" H 600 7150 50  0001 C CNN
-	1    600  7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C202
-U 1 1 5C6B9145
-P 1000 7150
-F 0 "C202" H 1115 7196 50  0000 L CNN
-F 1 "1nF/2kV" H 1115 7105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1038 7000 50  0001 C CNN
-F 3 "~" H 1000 7150 50  0001 C CNN
-	1    1000 7150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	600  7000 600  6900
-Wire Wire Line
-	600  6900 800  6900
-Wire Wire Line
-	800  6900 800  6800
-Wire Wire Line
-	1000 7000 1000 6900
-Wire Wire Line
-	1000 6900 800  6900
-Connection ~ 800  6900
-Wire Wire Line
-	600  7300 600  7400
-Wire Wire Line
-	1000 7400 1000 7300
-Wire Wire Line
-	600  7400 800  7400
-$Comp
 L power:GND #PWR0206
 U 1 1 5C6C4424
-P 800 7500
-F 0 "#PWR0206" H 800 7250 50  0001 C CNN
-F 1 "GND" H 805 7327 50  0000 C CNN
-F 2 "" H 800 7500 50  0001 C CNN
-F 3 "" H 800 7500 50  0001 C CNN
-	1    800  7500
+P 800 6850
+F 0 "#PWR0206" H 800 6600 50  0001 C CNN
+F 1 "GND" H 805 6677 50  0000 C CNN
+F 2 "" H 800 6850 50  0001 C CNN
+F 3 "" H 800 6850 50  0001 C CNN
+	1    800  6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	800  7500 800  7400
-Connection ~ 800  7400
-Wire Wire Line
-	800  7400 1000 7400
 $Comp
 L Mechanical:MountingHole H201
 U 1 1 5C6CE0E7
@@ -292,7 +246,7 @@ Wire Wire Line
 Connection ~ 4550 4450
 Wire Wire Line
 	4550 4450 4650 4450
-Text GLabel 5250 2750 2    50   Output ~ 0
+Text GLabel 6100 2750 2    50   Output ~ 0
 ICP_RST
 Text GLabel 3450 3450 0    50   Output ~ 0
 ICP_SWDIO
@@ -323,12 +277,12 @@ $EndComp
 $Comp
 L power:GND #PWR0203
 U 1 1 5DFC7588
-P 1850 6800
-F 0 "#PWR0203" H 1850 6550 50  0001 C CNN
-F 1 "GND" H 1855 6627 50  0000 C CNN
-F 2 "" H 1850 6800 50  0001 C CNN
-F 3 "" H 1850 6800 50  0001 C CNN
-	1    1850 6800
+P 1850 6850
+F 0 "#PWR0203" H 1850 6600 50  0001 C CNN
+F 1 "GND" H 1855 6677 50  0000 C CNN
+F 2 "" H 1850 6850 50  0001 C CNN
+F 3 "" H 1850 6850 50  0001 C CNN
+	1    1850 6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -345,12 +299,12 @@ $EndComp
 $Comp
 L power:GND #PWR0205
 U 1 1 5DFC8611
-P 1850 7400
-F 0 "#PWR0205" H 1850 7150 50  0001 C CNN
-F 1 "GND" H 1855 7227 50  0000 C CNN
-F 2 "" H 1850 7400 50  0001 C CNN
-F 3 "" H 1850 7400 50  0001 C CNN
-	1    1850 7400
+P 1850 7450
+F 0 "#PWR0205" H 1850 7200 50  0001 C CNN
+F 1 "GND" H 1855 7277 50  0000 C CNN
+F 2 "" H 1850 7450 50  0001 C CNN
+F 3 "" H 1850 7450 50  0001 C CNN
+	1    1850 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -444,12 +398,12 @@ $EndComp
 $Comp
 L power:GND #PWR0204
 U 1 1 5E86839B
-P 2850 6800
-F 0 "#PWR0204" H 2850 6550 50  0001 C CNN
-F 1 "GND" H 2855 6627 50  0000 C CNN
-F 2 "" H 2850 6800 50  0001 C CNN
-F 3 "" H 2850 6800 50  0001 C CNN
-	1    2850 6800
+P 2850 6850
+F 0 "#PWR0204" H 2850 6600 50  0001 C CNN
+F 1 "GND" H 2855 6677 50  0000 C CNN
+F 2 "" H 2850 6850 50  0001 C CNN
+F 3 "" H 2850 6850 50  0001 C CNN
+	1    2850 6850
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2150 0    50   Output ~ 0
@@ -473,12 +427,12 @@ $EndComp
 $Comp
 L Connector:Raspberry_Pi_2_3 DUMMY201
 U 1 1 5E18E15A
-P 7350 3050
-F 0 "DUMMY201" H 7350 4650 50  0000 C CNN
-F 1 "RASPBERRY PI 3 A+" H 7350 4550 50  0000 C CNN
-F 2 "Spatz:Raspberry Pi A" H 7350 3050 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 7350 3050 50  0001 C CNN
-	1    7350 3050
+P 8350 3050
+F 0 "DUMMY201" H 8350 4650 50  0000 C CNN
+F 1 "RASPBERRY PI 3 A+" H 8350 4550 50  0000 C CNN
+F 2 "Spatz:Raspberry Pi A" H 8350 3050 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 8350 3050 50  0001 C CNN
+	1    8350 3050
 	1    0    0    -1  
 $EndComp
 Text Notes 5050 7600 0    50   ~ 0
@@ -494,47 +448,47 @@ Wire Wire Line
 	3650 1650 4150 1650
 Wire Wire Line
 	3450 1650 3650 1650
-NoConn ~ 7150 1750
-NoConn ~ 7250 1750
-NoConn ~ 7450 1750
-NoConn ~ 7550 1750
-NoConn ~ 6550 2150
-NoConn ~ 6550 2250
-NoConn ~ 6550 2450
-NoConn ~ 6550 2550
-NoConn ~ 6550 2650
-NoConn ~ 6550 2850
-NoConn ~ 6550 2950
-NoConn ~ 6550 3050
-NoConn ~ 6550 3250
-NoConn ~ 6550 3350
-NoConn ~ 6550 3450
-NoConn ~ 6550 3550
-NoConn ~ 6550 3650
-NoConn ~ 6550 3750
-NoConn ~ 8150 3850
-NoConn ~ 8150 3750
-NoConn ~ 8150 3550
-NoConn ~ 8150 3450
-NoConn ~ 8150 3350
-NoConn ~ 8150 3250
-NoConn ~ 8150 3150
-NoConn ~ 8150 2950
-NoConn ~ 8150 2850
-NoConn ~ 8150 2750
-NoConn ~ 8150 2550
-NoConn ~ 8150 2450
-NoConn ~ 8150 2250
-NoConn ~ 8150 2150
-NoConn ~ 6950 4350
-NoConn ~ 7050 4350
-NoConn ~ 7150 4350
-NoConn ~ 7250 4350
-NoConn ~ 7350 4350
-NoConn ~ 7450 4350
-NoConn ~ 7550 4350
-NoConn ~ 7650 4350
-Text Notes 6700 4000 0    50   ~ 0
+NoConn ~ 8150 1750
+NoConn ~ 8250 1750
+NoConn ~ 8450 1750
+NoConn ~ 8550 1750
+NoConn ~ 7550 2150
+NoConn ~ 7550 2250
+NoConn ~ 7550 2450
+NoConn ~ 7550 2550
+NoConn ~ 7550 2650
+NoConn ~ 7550 2850
+NoConn ~ 7550 2950
+NoConn ~ 7550 3050
+NoConn ~ 7550 3250
+NoConn ~ 7550 3350
+NoConn ~ 7550 3450
+NoConn ~ 7550 3550
+NoConn ~ 7550 3650
+NoConn ~ 7550 3750
+NoConn ~ 9150 3850
+NoConn ~ 9150 3750
+NoConn ~ 9150 3550
+NoConn ~ 9150 3450
+NoConn ~ 9150 3350
+NoConn ~ 9150 3250
+NoConn ~ 9150 3150
+NoConn ~ 9150 2950
+NoConn ~ 9150 2850
+NoConn ~ 9150 2750
+NoConn ~ 9150 2550
+NoConn ~ 9150 2450
+NoConn ~ 9150 2250
+NoConn ~ 9150 2150
+NoConn ~ 7950 4350
+NoConn ~ 8050 4350
+NoConn ~ 8150 4350
+NoConn ~ 8250 4350
+NoConn ~ 8350 4350
+NoConn ~ 8450 4350
+NoConn ~ 8550 4350
+NoConn ~ 8650 4350
+Text Notes 7700 4000 0    50   ~ 0
 Dummy for component alignment
 NoConn ~ 3550 2450
 NoConn ~ 3550 2550
@@ -542,4 +496,27 @@ NoConn ~ 3550 3350
 NoConn ~ 5150 3150
 NoConn ~ 5150 3750
 NoConn ~ 5150 3850
+Wire Wire Line
+	800  6800 800  6850
+Wire Wire Line
+	1850 6800 1850 6850
+Wire Wire Line
+	2850 6800 2850 6850
+Wire Wire Line
+	1850 7400 1850 7450
+$Comp
+L Device:R R?
+U 1 1 5E14AAB9
+P 5750 2750
+F 0 "R?" V 5543 2750 50  0000 C CNN
+F 1 "10k" V 5634 2750 50  0000 C CNN
+F 2 "" V 5680 2750 50  0001 C CNN
+F 3 "~" H 5750 2750 50  0001 C CNN
+	1    5750 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 2750 5600 2750
+Wire Wire Line
+	5900 2750 6100 2750
 $EndSCHEMATC
