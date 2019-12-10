@@ -81,17 +81,6 @@ Wire Wire Line
 	3450 2950 3550 2950
 Wire Wire Line
 	3550 3050 3450 3050
-$Comp
-L Mechanical:MountingHole_Pad H212
-U 1 1 5CA1B5B7
-P 800 6700
-F 0 "H212" H 900 6751 50  0000 L CNN
-F 1 "MountingHole_Pad" H 900 6660 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 800 6700 50  0001 C CNN
-F 3 "~" H 800 6700 50  0001 C CNN
-	1    800  6700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 2850 5250 2850
 $Comp
@@ -115,17 +104,6 @@ U 5C4408C6
 F0 "AUDIO" 50
 F1 "AUDIO.sch" 50
 $EndSheet
-$Comp
-L power:GND #PWR0206
-U 1 1 5C6C4424
-P 800 6850
-F 0 "#PWR0206" H 800 6600 50  0001 C CNN
-F 1 "GND" H 805 6677 50  0000 C CNN
-F 2 "" H 800 6850 50  0001 C CNN
-F 3 "" H 800 6850 50  0001 C CNN
-	1    800  6850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole H201
 U 1 1 5C6CE0E7
@@ -275,17 +253,6 @@ F 3 "~" H 1850 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0203
-U 1 1 5DFC7588
-P 1850 6850
-F 0 "#PWR0203" H 1850 6600 50  0001 C CNN
-F 1 "GND" H 1855 6677 50  0000 C CNN
-F 2 "" H 1850 6850 50  0001 C CNN
-F 3 "" H 1850 6850 50  0001 C CNN
-	1    1850 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H215
 U 1 1 5DFC860B
 P 1850 7300
@@ -294,17 +261,6 @@ F 1 "MountingHole_Pad" H 1950 7260 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 1850 7300 50  0001 C CNN
 F 3 "~" H 1850 7300 50  0001 C CNN
 	1    1850 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0205
-U 1 1 5DFC8611
-P 1850 7450
-F 0 "#PWR0205" H 1850 7200 50  0001 C CNN
-F 1 "GND" H 1855 7277 50  0000 C CNN
-F 2 "" H 1850 7450 50  0001 C CNN
-F 3 "" H 1850 7450 50  0001 C CNN
-	1    1850 7450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -382,28 +338,6 @@ F 1 "MountingHole" H 2950 6005 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2850 6050 50  0001 C CNN
 F 3 "~" H 2850 6050 50  0001 C CNN
 	1    2850 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H214
-U 1 1 5E868395
-P 2850 6700
-F 0 "H214" H 2950 6751 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2950 6660 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2850 6700 50  0001 C CNN
-F 3 "~" H 2850 6700 50  0001 C CNN
-	1    2850 6700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0204
-U 1 1 5E86839B
-P 2850 6850
-F 0 "#PWR0204" H 2850 6600 50  0001 C CNN
-F 1 "GND" H 2855 6677 50  0000 C CNN
-F 2 "" H 2850 6850 50  0001 C CNN
-F 3 "" H 2850 6850 50  0001 C CNN
-	1    2850 6850
 	1    0    0    -1  
 $EndComp
 Text GLabel 3450 2150 0    50   Output ~ 0
@@ -496,20 +430,12 @@ NoConn ~ 3550 3350
 NoConn ~ 5150 3150
 NoConn ~ 5150 3750
 NoConn ~ 5150 3850
-Wire Wire Line
-	800  6800 800  6850
-Wire Wire Line
-	1850 6800 1850 6850
-Wire Wire Line
-	2850 6800 2850 6850
-Wire Wire Line
-	1850 7400 1850 7450
 $Comp
 L Device:R R?
 U 1 1 5E14AAB9
 P 5750 2750
 F 0 "R?" V 5543 2750 50  0000 C CNN
-F 1 "10k" V 5634 2750 50  0000 C CNN
+F 1 "2.2k" V 5634 2750 50  0000 C CNN
 F 2 "" V 5680 2750 50  0001 C CNN
 F 3 "~" H 5750 2750 50  0001 C CNN
 	1    5750 2750
@@ -519,4 +445,78 @@ Wire Wire Line
 	5150 2750 5600 2750
 Wire Wire Line
 	5900 2750 6100 2750
+Wire Wire Line
+	1850 6800 1850 6850
+$Comp
+L power:GND #PWR0203
+U 1 1 5DFC7588
+P 1850 6850
+F 0 "#PWR0203" H 1850 6600 50  0001 C CNN
+F 1 "GND" H 1855 6677 50  0000 C CNN
+F 2 "" H 1850 6850 50  0001 C CNN
+F 3 "" H 1850 6850 50  0001 C CNN
+	1    1850 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 7400 1850 7450
+$Comp
+L power:GND #PWR0205
+U 1 1 5DFC8611
+P 1850 7450
+F 0 "#PWR0205" H 1850 7200 50  0001 C CNN
+F 1 "GND" H 1855 7277 50  0000 C CNN
+F 2 "" H 1850 7450 50  0001 C CNN
+F 3 "" H 1850 7450 50  0001 C CNN
+	1    1850 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0206
+U 1 1 5C6C4424
+P 800 6850
+F 0 "#PWR0206" H 800 6600 50  0001 C CNN
+F 1 "GND" H 805 6677 50  0000 C CNN
+F 2 "" H 800 6850 50  0001 C CNN
+F 3 "" H 800 6850 50  0001 C CNN
+	1    800  6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  6800 800  6850
+Wire Wire Line
+	2850 6800 2850 6850
+$Comp
+L power:GND #PWR0204
+U 1 1 5E86839B
+P 2850 6850
+F 0 "#PWR0204" H 2850 6600 50  0001 C CNN
+F 1 "GND" H 2855 6677 50  0000 C CNN
+F 2 "" H 2850 6850 50  0001 C CNN
+F 3 "" H 2850 6850 50  0001 C CNN
+	1    2850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H214
+U 1 1 5E868395
+P 2850 6700
+F 0 "H214" H 2950 6751 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2950 6660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2850 6700 50  0001 C CNN
+F 3 "~" H 2850 6700 50  0001 C CNN
+	1    2850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H212
+U 1 1 5CA1B5B7
+P 800 6700
+F 0 "H212" H 900 6751 50  0000 L CNN
+F 1 "MountingHole_Pad" H 900 6660 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 800 6700 50  0001 C CNN
+F 3 "~" H 800 6700 50  0001 C CNN
+	1    800  6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

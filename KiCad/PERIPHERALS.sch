@@ -414,6 +414,8 @@ F 0 "D?" V 1404 1329 50  0000 L CNN
 F 1 "12V" V 1495 1329 50  0000 L CNN
 F 2 "" H 1450 1250 50  0001 C CNN
 F 3 "~" H 1450 1250 50  0001 C CNN
+F 4 "SMAJ12CA" V 1450 1250 50  0001 C CNN "Part Number"
+F 5 "Littelfuse" V 1450 1250 50  0001 C CNN "Manufacturer"
 	1    1450 1250
 	0    1    1    0   
 $EndComp

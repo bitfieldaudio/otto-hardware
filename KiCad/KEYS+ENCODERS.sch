@@ -485,10 +485,6 @@ F 3 "~" H 8850 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 4350 8850 4350
-Wire Wire Line
-	8850 4650 8950 4650
-Wire Wire Line
-	9650 4750 9550 4750
 $Comp
 L Device:D_ALT D41
 U 1 1 5CB9E519
@@ -502,10 +498,6 @@ F 3 "~" H 8850 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9250 3200 8850 3200
-Wire Wire Line
-	8850 3500 8950 3500
-Wire Wire Line
-	9650 3600 9550 3600
 $Comp
 L Device:D_ALT D33
 U 1 1 5CBB02CB
@@ -638,10 +630,6 @@ F 3 "~" H 12650 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13050 3200 12650 3200
-Wire Wire Line
-	12650 3500 12750 3500
-Wire Wire Line
-	13450 3600 13350 3600
 $Comp
 L Device:D_ALT D38
 U 1 1 5CBEEA6F
@@ -689,10 +677,6 @@ F 3 "~" H 11700 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12100 3200 11700 3200
-Wire Wire Line
-	11700 3500 11800 3500
-Wire Wire Line
-	12500 3600 12400 3600
 $Comp
 L Device:D_ALT D37
 U 1 1 5CBEEAB1
@@ -740,8 +724,6 @@ F 3 "~" H 10750 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11150 3200 10750 3200
-Wire Wire Line
-	10750 3500 10850 3500
 $Comp
 L Device:D_ALT D36
 U 1 1 5CBFD4A8
@@ -787,10 +769,6 @@ F 3 "~" H 9800 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10200 3200 9800 3200
-Wire Wire Line
-	9800 3500 9900 3500
-Wire Wire Line
-	10600 3600 10500 3600
 $Comp
 L Device:D_ALT D35
 U 1 1 5CBFD4EA
@@ -805,9 +783,9 @@ $EndComp
 Wire Wire Line
 	10200 4350 9800 4350
 Wire Wire Line
-	9800 4650 9900 4650
+	9800 4650 9800 4750
 Wire Wire Line
-	10600 4750 10500 4750
+	10600 4750 10550 4750
 Wire Wire Line
 	1550 7850 1550 8250
 Wire Wire Line
@@ -1147,8 +1125,6 @@ F 3 "" H 15600 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 3200 9650 3600
-Wire Wire Line
 	9650 4350 9650 4750
 Wire Wire Line
 	9650 5450 9650 5850
@@ -1188,8 +1164,6 @@ $EndComp
 Wire Wire Line
 	10600 4350 10600 4750
 Wire Wire Line
-	10600 3200 10600 3600
-Wire Wire Line
 	10600 5450 10600 5850
 $Comp
 L Switch:SW_Push SW42
@@ -1227,19 +1201,13 @@ $EndComp
 Wire Wire Line
 	11550 5450 11550 5850
 Wire Wire Line
-	11550 3200 11550 3600
-Wire Wire Line
 	11550 4350 11550 4750
 Wire Wire Line
 	12500 5450 12500 5850
 Wire Wire Line
-	12500 3200 12500 3600
-Wire Wire Line
 	12500 4350 12500 4750
 Wire Wire Line
 	13450 5450 13450 5850
-Wire Wire Line
-	13450 3200 13450 3600
 Wire Wire Line
 	13450 4350 13450 4750
 Wire Wire Line
@@ -1479,15 +1447,15 @@ Text HLabel 15700 6050 0    50   Input ~ 0
 COL_4
 Text HLabel 15700 8500 0    50   Input ~ 0
 COL_4
-Text HLabel 9550 3850 0    50   Input ~ 0
+Text HLabel 9600 3650 0    50   Input ~ 0
 COL_4
-Text HLabel 9550 4950 0    50   Input ~ 0
+Text HLabel 9600 4750 0    50   Input ~ 0
 COL_4
 Text HLabel 9550 6050 0    50   Input ~ 0
 COL_4
-Text HLabel 8950 3750 2    50   Input ~ 0
+Text HLabel 8900 3650 2    50   Input ~ 0
 ROW_1
-Text HLabel 8950 4850 2    50   Input ~ 0
+Text HLabel 8900 4750 2    50   Input ~ 0
 ROW_2
 Text HLabel 8950 5950 2    50   Input ~ 0
 ROW_3
@@ -1499,19 +1467,19 @@ Text HLabel 15100 4850 2    50   Input ~ 0
 ROW_7
 Text HLabel 15100 3750 2    50   Input ~ 0
 ROW_8
-Text HLabel 10500 3850 0    50   Input ~ 0
+Text HLabel 10550 3650 0    50   Input ~ 0
 COL_5
-Text HLabel 11450 3850 0    50   Input ~ 0
+Text HLabel 11500 3650 0    50   Input ~ 0
 COL_5
-Text HLabel 12400 3850 0    50   Input ~ 0
+Text HLabel 12450 3650 0    50   Input ~ 0
 COL_5
-Text HLabel 13350 3850 0    50   Input ~ 0
+Text HLabel 13400 3650 0    50   Input ~ 0
 COL_5
 Text HLabel 11450 4950 0    50   Input ~ 0
 COL_5
 Text HLabel 12400 4950 0    50   Input ~ 0
 COL_5
-Text HLabel 10500 4950 0    50   Input ~ 0
+Text HLabel 10550 4750 0    50   Input ~ 0
 COL_5
 Text HLabel 14750 4950 0    50   Input ~ 0
 COL_6
@@ -1541,21 +1509,21 @@ Text HLabel 14150 3750 2    50   Input ~ 0
 ROW_8
 Text HLabel 12750 4850 2    50   Input ~ 0
 ROW_7
-Text HLabel 11800 3750 2    50   Input ~ 0
+Text HLabel 11750 3650 2    50   Input ~ 0
 ROW_6
 Text HLabel 11800 4850 2    50   Input ~ 0
 ROW_5
-Text HLabel 10850 3750 2    50   Input ~ 0
+Text HLabel 10800 3650 2    50   Input ~ 0
 ROW_4
-Text HLabel 9900 4850 2    50   Input ~ 0
+Text HLabel 9850 4750 2    50   Input ~ 0
 ROW_2
 Text HLabel 10850 4850 2    50   Input ~ 0
 ROW_3
-Text HLabel 12750 3750 2    50   Input ~ 0
+Text HLabel 12700 3650 2    50   Input ~ 0
 ROW_8
 Text HLabel 14750 3850 0    50   Input ~ 0
 COL_6
-Text HLabel 9900 3750 2    50   Input ~ 0
+Text HLabel 9850 3650 2    50   Input ~ 0
 ROW_1
 Text HLabel 13350 4950 0    50   Input ~ 0
 COL_5
@@ -1941,22 +1909,20 @@ Wire Wire Line
 	7400 5150 7500 5150
 Wire Wire Line
 	7400 4200 7500 4200
-Text HLabel 7950 5150 2    50   Input ~ 0
+Text HLabel 7900 5150 2    50   Input ~ 0
 ROW_4
 Wire Wire Line
 	7900 5150 7800 5150
-Text HLabel 4100 5150 2    50   Input ~ 0
+Text HLabel 4050 5150 2    50   Input ~ 0
 ROW_7
 Wire Wire Line
 	7900 4200 7800 4200
-Text HLabel 7950 4200 2    50   Input ~ 0
+Text HLabel 7900 4200 2    50   Input ~ 0
 ROW_2
-Text HLabel 4100 4200 2    50   Input ~ 0
+Text HLabel 4050 4200 2    50   Input ~ 0
 ROW_1
 Wire Wire Line
 	4050 4200 3950 4200
-Wire Wire Line
-	11450 3600 11550 3600
 Wire Wire Line
 	11450 4750 11550 4750
 Text HLabel 6100 7150 2    50   Input ~ 0
@@ -2003,4 +1969,52 @@ Text HLabel 2900 7250 0    50   Input ~ 0
 COL_1
 Text HLabel 2300 7150 2    50   Input ~ 0
 ROW_1
+Wire Wire Line
+	9650 3200 9650 3650
+Wire Wire Line
+	9650 3650 9600 3650
+Wire Wire Line
+	8850 3500 8850 3650
+Wire Wire Line
+	8850 3650 8900 3650
+Wire Wire Line
+	9800 3500 9800 3650
+Wire Wire Line
+	10600 3650 10550 3650
+Wire Wire Line
+	10600 3200 10600 3650
+Wire Wire Line
+	9850 3650 9800 3650
+Wire Wire Line
+	11550 3650 11500 3650
+Wire Wire Line
+	11550 3200 11550 3650
+Wire Wire Line
+	10750 3500 10750 3650
+Wire Wire Line
+	10750 3650 10800 3650
+Wire Wire Line
+	11700 3500 11700 3650
+Wire Wire Line
+	11700 3650 11750 3650
+Wire Wire Line
+	12450 3650 12500 3650
+Wire Wire Line
+	12500 3200 12500 3650
+Wire Wire Line
+	12650 3500 12650 3650
+Wire Wire Line
+	12650 3650 12700 3650
+Wire Wire Line
+	13450 3650 13400 3650
+Wire Wire Line
+	13450 3200 13450 3650
+Wire Wire Line
+	9650 4750 9600 4750
+Wire Wire Line
+	8900 4750 8850 4750
+Wire Wire Line
+	8850 4750 8850 4650
+Wire Wire Line
+	9800 4750 9850 4750
 $EndSCHEMATC
