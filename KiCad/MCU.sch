@@ -935,8 +935,8 @@ U 1 1 5DDA96E4
 P 8150 6950
 AR Path="/5DDA96E4" Ref="U7"  Part="1" 
 AR Path="/5C4320DF/5DDA96E4" Ref="U202"  Part="1" 
-F 0 "U202" H 8150 4061 50  0000 C CNN
-F 1 "STM32F407VGTx" H 8750 4050 50  0000 C CNN
+F 0 "U202" H 8750 4100 50  0000 C CNN
+F 1 "STM32F407VGTx" H 8950 4000 50  0000 C CNN
 F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 7450 4350 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 8150 6950 50  0001 C CNN
 	1    8150 6950
@@ -1808,4 +1808,12 @@ Wire Wire Line
 	6950 6750 5850 6750
 Wire Wire Line
 	5850 6850 6950 6850
+Wire Wire Line
+	6950 8750 6650 8750
+Wire Wire Line
+	9350 8150 10000 8150
+Text GLabel 10000 8150 2    50   Input ~ 0
+5V_REG_IOUT
+Text GLabel 6650 8750 0    50   Input ~ 0
+PWR_PWM_SYNC
 $EndSCHEMATC
