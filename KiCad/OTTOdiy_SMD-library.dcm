@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SN74LV1T125_SOT-23_A
+F http://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf
+$ENDCMP
+#
+$CMP TLV62568_SOT-23-5_A
+F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
+$ENDCMP
+#
+$CMP TPS22918_SOT23-6_A
+F http://www.ti.com/lit/ds/symlink/tps22918.pdf
+$ENDCMP
+#
 #End Doc Library

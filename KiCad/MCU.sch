@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -12,6 +12,11 @@ Comment1 "no footprints assigned yet"
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Sheet
 S 750  1550 1000 300 
@@ -214,7 +219,7 @@ Wire Wire Line
 Text GLabel 13850 8850 0    50   Output ~ 0
 MAIN_POWER
 Wire Wire Line
-	10100 5650 9350 5650
+	10200 5650 9350 5650
 Wire Wire Line
 	10200 5750 9350 5750
 Text GLabel 14600 8550 2    50   Output ~ 0
@@ -222,31 +227,31 @@ BL_PWM
 Wire Wire Line
 	14600 8550 13850 8550
 Wire Wire Line
-	10600 8850 9350 8850
+	10500 8850 9350 8850
 Wire Wire Line
 	15000 8700 13850 8700
-Text Label 10600 6450 2    50   ~ 0
+Text Label 10500 6450 2    50   ~ 0
 BOOT1
 Wire Wire Line
-	10600 6450 9350 6450
+	10500 6450 9350 6450
 Text Label 6250 4550 0    50   ~ 0
 BOOT0
 Text Label 10500 9450 2    50   ~ 0
 OSC32_OUT
-Text Label 10600 9350 2    50   ~ 0
+Text Label 10500 9350 2    50   ~ 0
 OSC32_IN
 Text Label 5800 6050 0    50   ~ 0
 OSC_OUT
-Text Label 5700 5950 0    50   ~ 0
+Text Label 5800 5950 0    50   ~ 0
 OSC_IN
 Wire Wire Line
 	5800 6050 6950 6050
 Wire Wire Line
-	5700 5950 6950 5950
+	5800 5950 6950 5950
 Wire Wire Line
 	10500 9450 9350 9450
 Wire Wire Line
-	10600 9350 9350 9350
+	10500 9350 9350 9350
 $Comp
 L Device:C C211
 U 1 1 5DC4F5C2
@@ -809,13 +814,13 @@ Connection ~ 7950 3950
 Wire Wire Line
 	7950 3950 7950 4050
 Connection ~ 8050 3950
-Text Label 10100 5650 2    50   ~ 0
+Text Label 10200 5650 2    50   ~ 0
 USBD_N
 Text Label 10200 5750 2    50   ~ 0
 USBD_P
 Text Label 15000 8700 2    50   ~ 0
 BRIGHTNESS
-Text Label 10600 8850 2    50   ~ 0
+Text Label 10500 8850 2    50   ~ 0
 I2C2_SDA
 Text GLabel 10100 7050 2    50   BiDi ~ 0
 I2C_SCL
@@ -839,10 +844,10 @@ Wire Wire Line
 	9850 5050 9350 5050
 Text Notes 9450 10750 0    50   ~ 0
 Internal pullups/pulldowns:\nMAIN_POWER: u\nPWR_BUTTON: u\nSPI_CS_MCU_LED: u\nGATE_IO_1: d\nGATE_IO_2: d\n***Todo: check states of the other connections \nto RPi to prevent different pull states \nduring boot time***
-Text Label 10100 9250 2    50   ~ 0
+Text Label 10500 9250 2    50   ~ 0
 TAMPER_RTC
 Wire Wire Line
-	10100 9250 9350 9250
+	10500 9250 9350 9250
 Wire Wire Line
 	8250 3950 8350 3950
 Wire Wire Line
@@ -957,12 +962,12 @@ Wire Wire Line
 Wire Wire Line
 	10500 8950 9350 8950
 Wire Wire Line
-	9350 9050 10600 9050
+	9350 9050 10500 9050
 Text Label 10500 6050 2    50   ~ 0
 SPI_CS_MCU_LED
 Text Label 10500 8950 2    50   ~ 0
 SPI_SCLK_MCU
-Text Label 10600 9050 2    50   ~ 0
+Text Label 10500 9050 2    50   ~ 0
 SPI_MISO_MCU
 Text Label 10500 9150 2    50   ~ 0
 SPI_MOSI_MCU
@@ -971,10 +976,10 @@ Wire Wire Line
 Wire Wire Line
 	10500 6550 9350 6550
 Wire Wire Line
-	9350 6650 10600 6650
+	9350 6650 10500 6650
 Text Label 10500 6550 2    50   ~ 0
 SPI_SCLK_MCU
-Text Label 10600 6650 2    50   ~ 0
+Text Label 10500 6650 2    50   ~ 0
 SPI_MISO_MCU
 Text Label 10500 6750 2    50   ~ 0
 SPI_MOSI_MCU
@@ -983,12 +988,12 @@ Wire Wire Line
 Wire Wire Line
 	10500 7550 9350 7550
 Wire Wire Line
-	9350 7650 10600 7650
+	9350 7650 10500 7650
 Text Label 10500 7450 2    50   ~ 0
 SPI_CS_MCU_LED
 Text Label 10500 7550 2    50   ~ 0
 SPI_SCLK_MCU
-Text Label 10600 7650 2    50   ~ 0
+Text Label 10500 7650 2    50   ~ 0
 SPI_MISO_MCU
 Text Label 10500 7750 2    50   ~ 0
 SPI_MOSI_MCU
@@ -1080,12 +1085,8 @@ Wire Wire Line
 	900  7850 1800 7850
 Text GLabel 2500 7100 2    50   Input ~ 0
 +5V_IN
-Text GLabel 1600 7200 0    50   Input ~ 0
-+5V_MCU
 Text GLabel 1600 7100 0    50   Input ~ 0
 +5V_IN
-Text GLabel 2500 7200 2    50   Input ~ 0
-+5V_MCU
 Text GLabel 1450 7600 0    50   Input ~ 0
 PWR_BUTTON
 Text Label 900  8600 0    50   ~ 0
@@ -1264,117 +1265,6 @@ Text Label 14350 2150 0    50   ~ 0
 I2C2_SDA
 Text Label 14350 1800 0    50   ~ 0
 I2C2_SCL
-Text GLabel 3550 1150 0    50   Input ~ 0
-+5V_MCU
-Text GLabel 5450 1150 2    50   Input ~ 0
-+3V3_MCU
-Wire Wire Line
-	3550 1150 3650 1150
-Wire Wire Line
-	5450 1150 4850 1150
-$Comp
-L OTTOdiy_SMD-library:TPS79533-Regulator_Linear U?
-U 1 1 5E3AB32C
-P 4250 1050
-AR Path="/5C4408C6/5E3AB32C" Ref="U?"  Part="1" 
-AR Path="/5C4320DF/5E3AB32C" Ref="U201"  Part="1" 
-AR Path="/5E3AB32C" Ref="U201"  Part="1" 
-F 0 "U201" H 4250 1315 50  0000 C CNN
-F 1 "TPS79533" H 4250 1224 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-6" H 5000 550 50  0001 C CNN
-F 3 "" H 5000 550 50  0001 C CNN
-	1    4250 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E3AB332
-P 4850 1400
-AR Path="/5C4408C6/5E3AB332" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5E3AB332" Ref="C209"  Part="1" 
-F 0 "C209" H 4735 1354 50  0000 R CNN
-F 1 "10µF" H 4735 1445 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4888 1250 50  0001 C CNN
-F 3 "~" H 4850 1400 50  0001 C CNN
-	1    4850 1400
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E3AB338
-P 5350 1400
-AR Path="/5C4408C6/5E3AB338" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5E3AB338" Ref="C76"  Part="1" 
-F 0 "C76" H 5465 1446 50  0000 L CNN
-F 1 "100nF" H 5465 1355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5388 1250 50  0001 C CNN
-F 3 "~" H 5350 1400 50  0001 C CNN
-	1    5350 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E3AB33E
-P 3650 1400
-AR Path="/5C4408C6/5E3AB33E" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5E3AB33E" Ref="C208"  Part="1" 
-F 0 "C208" H 3535 1354 50  0000 R CNN
-F 1 "10µF" H 3535 1445 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3688 1250 50  0001 C CNN
-F 3 "~" H 3650 1400 50  0001 C CNN
-	1    3650 1400
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4750 1150 4850 1150
-Wire Wire Line
-	4850 1150 4850 1250
-Wire Wire Line
-	3750 1150 3650 1150
-Wire Wire Line
-	3650 1150 3650 1250
-Wire Wire Line
-	3750 1050 3650 1050
-Wire Wire Line
-	3650 1050 3650 1150
-Connection ~ 3650 1150
-Connection ~ 4850 1150
-Wire Wire Line
-	5350 1250 5350 1050
-Wire Wire Line
-	5350 1050 4750 1050
-$Comp
-L power:GND #PWR0210
-U 1 1 5E3AB34E
-P 4250 1750
-AR Path="/5C4320DF/5E3AB34E" Ref="#PWR0210"  Part="1" 
-AR Path="/5C4320DF/5DB999B7/5E3AB34E" Ref="#PWR?"  Part="1" 
-AR Path="/5C4408C6/5E3AB34E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0210" H 4250 1500 50  0001 C CNN
-F 1 "GND" H 4255 1577 50  0000 C CNN
-F 2 "" H 4250 1750 50  0001 C CNN
-F 3 "" H 4250 1750 50  0001 C CNN
-	1    4250 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 1650 4250 1750
-Wire Wire Line
-	3650 1550 3650 1650
-Wire Wire Line
-	3650 1650 4250 1650
-Wire Wire Line
-	5350 1650 5350 1550
-Connection ~ 4250 1650
-Wire Wire Line
-	4250 1650 4850 1650
-Wire Wire Line
-	4850 1550 4850 1650
-Connection ~ 4850 1650
-Wire Wire Line
-	4850 1650 5350 1650
-Wire Wire Line
-	4250 1550 4250 1650
 $Comp
 L Device:C C223
 U 1 1 5E3EF6FE
@@ -1513,7 +1403,7 @@ Wire Wire Line
 Connection ~ 8150 3450
 Text Label 6050 7250 0    50   ~ 0
 EXP_GPIO_6_PWM
-Text Label 10250 6350 2    50   ~ 0
+Text Label 10300 6350 2    50   ~ 0
 EXP_GPIO_2_ADC
 Text Label 6050 7050 0    50   ~ 0
 EXP_GPIO_4_PWM
@@ -1522,17 +1412,17 @@ Wire Wire Line
 Wire Wire Line
 	6050 7050 6950 7050
 Wire Wire Line
-	10250 6350 9350 6350
-Text Label 6000 7150 0    50   ~ 0
+	10300 6350 9350 6350
+Text Label 6050 7150 0    50   ~ 0
 EXP_GPIO_5_PWM
-Text Label 6000 6950 0    50   ~ 0
+Text Label 6050 6950 0    50   ~ 0
 EXP_GPIO_3_PWM
 Wire Wire Line
-	6000 7150 6950 7150
+	6050 7150 6950 7150
 Text Label 10300 6250 2    50   ~ 0
 EXP_GPIO_1_ADC
 Wire Wire Line
-	6000 6950 6950 6950
+	6050 6950 6950 6950
 Wire Wire Line
 	10300 6250 9350 6250
 Wire Wire Line
@@ -1543,8 +1433,6 @@ Wire Wire Line
 	6750 4550 6250 4550
 Wire Wire Line
 	6950 4550 6850 4550
-Text GLabel 5650 4100 0    50   Input ~ 0
-ICP_RST
 Text GLabel 8950 1100 0    50   Input ~ 0
 ICP_RST
 Text GLabel 14350 5550 1    50   Input ~ 0
@@ -1564,42 +1452,10 @@ F 3 "" H 14350 7050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14350 6950 14350 7050
-Wire Wire Line
-	13850 6050 13650 6050
-$Comp
-L Device:R R?
-U 1 1 5E10041A
-P 13500 6050
-F 0 "R?" V 13293 6050 50  0000 C CNN
-F 1 "0" V 13384 6050 50  0000 C CNN
-F 2 "" V 13430 6050 50  0001 C CNN
-F 3 "~" H 13500 6050 50  0001 C CNN
-	1    13500 6050
-	0    1    1    0   
-$EndComp
-Text GLabel 13150 6050 0    50   Input ~ 0
+Text GLabel 13500 6050 0    50   Input ~ 0
 ICP_RST
 Wire Wire Line
-	13150 6050 13350 6050
-Wire Wire Line
-	6850 4100 6850 4550
-$Comp
-L Device:R R?
-U 1 1 5E2456F0
-P 11050 7450
-F 0 "R?" V 10843 7450 50  0000 C CNN
-F 1 "100k" V 10934 7450 50  0000 C CNN
-F 2 "" V 10980 7450 50  0001 C CNN
-F 3 "~" H 11050 7450 50  0001 C CNN
-	1    11050 7450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9350 7450 10900 7450
-Text GLabel 11350 7450 2    50   Input ~ 0
-+3V3_MCU
-Wire Wire Line
-	11350 7450 11200 7450
+	6850 4300 6850 4550
 $Comp
 L Device:R R?
 U 1 1 5E39B322
@@ -1638,8 +1494,6 @@ F 3 "~" H 6500 3200 50  0001 C CNN
 	1    6500 3200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5650 4100 6850 4100
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J?
 U 1 1 5DEBF301
@@ -1777,17 +1631,15 @@ Wire Wire Line
 Text GLabel 6950 3200 2    50   Input ~ 0
 +3V3A_MCU
 Wire Wire Line
-	12150 5850 12150 6350
+	12000 5850 12000 6350
 Wire Wire Line
-	9350 5850 12150 5850
+	12000 6350 13850 6350
 Wire Wire Line
-	12150 6350 13850 6350
+	12100 6250 12100 5950
 Wire Wire Line
-	12250 6250 12250 5950
+	9350 5950 11600 5950
 Wire Wire Line
-	9350 5950 12250 5950
-Wire Wire Line
-	12250 6250 13850 6250
+	12100 6250 13850 6250
 Text GLabel 5850 6450 0    50   Output ~ 0
 (F427)_SAI1_MCLK_A
 Text GLabel 5850 6550 0    50   Input ~ 0
@@ -1816,4 +1668,97 @@ Text GLabel 10000 8150 2    50   Input ~ 0
 5V_REG_IOUT
 Text GLabel 6650 8750 0    50   Input ~ 0
 PWR_PWM_SYNC
+Wire Wire Line
+	9350 7450 10500 7450
+Text GLabel 12200 5850 2    50   Input ~ 0
+ICP_SWDIO
+Text GLabel 12200 5950 2    50   Input ~ 0
+ICP_SWCLK
+Wire Wire Line
+	12000 5850 12200 5850
+Connection ~ 12000 5850
+Wire Wire Line
+	12100 5950 12200 5950
+Connection ~ 12100 5950
+Wire Wire Line
+	13500 6050 13850 6050
+$Comp
+L Device:R R?
+U 1 1 5E181DA6
+P 6100 4000
+F 0 "R?" H 6170 4045 50  0000 L CNN
+F 1 "10k" H 6170 3955 50  0000 L CNN
+F 2 "" V 6030 4000 50  0001 C CNN
+F 3 "~" H 6100 4000 50  0001 C CNN
+	1    6100 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5650 4300 0    50   Input ~ 0
+ICP_RST
+Wire Wire Line
+	5650 4300 6100 4300
+Text GLabel 5750 3700 0    50   Input ~ 0
++3V3_MCU
+Wire Wire Line
+	5750 3700 6100 3700
+Wire Wire Line
+	6100 3700 6100 3850
+Wire Wire Line
+	6100 4150 6100 4300
+Connection ~ 6100 4300
+Wire Wire Line
+	6100 4300 6850 4300
+$Comp
+L Device:R R?
+U 1 1 5E183D37
+P 11500 5600
+F 0 "R?" H 11570 5645 50  0000 L CNN
+F 1 "10k" H 11570 5555 50  0000 L CNN
+F 2 "" V 11430 5600 50  0001 C CNN
+F 3 "~" H 11500 5600 50  0001 C CNN
+	1    11500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E185281
+P 11600 6200
+F 0 "R?" H 11670 6245 50  0000 L CNN
+F 1 "10k" H 11670 6155 50  0000 L CNN
+F 2 "" V 11530 6200 50  0001 C CNN
+F 3 "~" H 11600 6200 50  0001 C CNN
+	1    11600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5850 11500 5850
+Wire Wire Line
+	11500 5750 11500 5850
+Connection ~ 11500 5850
+Wire Wire Line
+	11500 5850 12000 5850
+Wire Wire Line
+	11600 5950 11600 6050
+Connection ~ 11600 5950
+Wire Wire Line
+	11600 5950 12100 5950
+$Comp
+L power:GND #PWR?
+U 1 1 5E18676D
+P 11600 6450
+F 0 "#PWR?" H 11600 6200 50  0001 C CNN
+F 1 "GND" H 11605 6277 50  0000 C CNN
+F 2 "" H 11600 6450 50  0001 C CNN
+F 3 "" H 11600 6450 50  0001 C CNN
+	1    11600 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 6350 11600 6450
+Text GLabel 11400 5300 0    50   Input ~ 0
++3V3_MCU
+Wire Wire Line
+	11400 5300 11500 5300
+Wire Wire Line
+	11500 5300 11500 5450
 $EndSCHEMATC

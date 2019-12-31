@@ -1,7 +1,7 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 7 7
 Title "OTTOdiy - preliminary"
@@ -12,6 +12,11 @@ Comment1 "no footprints assigned yet"
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 Wire Wire Line
 	8950 3100 10000 3100
@@ -721,12 +726,10 @@ F 3 "" H 10450 2000 50  0001 C CNN
 	1    10350 2000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 4250 6850 0    50   Input ~ 0
-+5V_MAIN
+Text GLabel 4150 6750 0    50   Input ~ 0
++5V_PI
 Text GLabel 6150 6850 2    50   Input ~ 0
 +3V3_ANALOG
-Wire Wire Line
-	4250 6850 4350 6850
 Wire Wire Line
 	6150 6850 5550 6850
 $Comp
@@ -1160,7 +1163,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 6050 1300 6050
 Text GLabel 10200 5100 2    50   Input ~ 0
-+5V_MAIN
++5V_PI
 $Comp
 L Device:C C?
 U 1 1 5DEF7037
@@ -1363,27 +1366,18 @@ $EndComp
 $Comp
 L Device:C C267
 U 1 1 5E317C6C
-P 4350 7100
-F 0 "C267" H 4235 7054 50  0000 R CNN
-F 1 "10µF" H 4235 7145 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4388 6950 50  0001 C CNN
-F 3 "~" H 4350 7100 50  0001 C CNN
-	1    4350 7100
+P 4250 7100
+F 0 "C267" H 4135 7054 50  0000 R CNN
+F 1 "10µF" H 4135 7145 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 6950 50  0001 C CNN
+F 3 "~" H 4250 7100 50  0001 C CNN
+	1    4250 7100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	5450 6850 5550 6850
 Wire Wire Line
 	5550 6850 5550 6950
-Wire Wire Line
-	4450 6850 4350 6850
-Wire Wire Line
-	4350 6850 4350 6950
-Wire Wire Line
-	4450 6750 4350 6750
-Wire Wire Line
-	4350 6750 4350 6850
-Connection ~ 4350 6850
 Connection ~ 5550 6850
 Wire Wire Line
 	6050 6950 6050 6750
@@ -1406,9 +1400,9 @@ $EndComp
 Wire Wire Line
 	4950 7350 4950 7450
 Wire Wire Line
-	4350 7250 4350 7350
+	4250 7250 4250 7350
 Wire Wire Line
-	4350 7350 4950 7350
+	4250 7350 4950 7350
 Wire Wire Line
 	6050 7350 6050 7250
 Connection ~ 4950 7350
@@ -1807,4 +1801,18 @@ Wire Wire Line
 	1700 7100 1600 7100
 Wire Wire Line
 	1700 7450 1600 7450
+Wire Wire Line
+	4150 6750 4250 6750
+Wire Wire Line
+	4250 6750 4250 6950
+Wire Wire Line
+	4250 6750 4350 6750
+Connection ~ 4250 6750
+Wire Wire Line
+	4450 6850 4350 6850
+Wire Wire Line
+	4350 6750 4350 6850
+Connection ~ 4350 6750
+Wire Wire Line
+	4350 6750 4450 6750
 $EndSCHEMATC

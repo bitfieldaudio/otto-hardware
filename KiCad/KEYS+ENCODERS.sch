@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -12,6 +12,11 @@ Comment1 "no footprints assigned yet"
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Comp
 L Device:D_ALT D1
@@ -27,26 +32,9 @@ $EndComp
 Wire Wire Line
 	1150 7850 750  7850
 Wire Wire Line
-	750  8150 850  8150
+	1550 8250 1500 8250
 Wire Wire Line
-	1550 8250 1450 8250
-$Comp
-L Device:D_ALT D2
-U 1 1 5CB1E23E
-P 1700 8000
-F 0 "D2" V 1746 7921 50  0000 R CNN
-F 1 "M7" V 1655 7921 50  0000 R CNN
-F 2 "Diode_SMD:D_SMA" H 1700 8000 50  0001 C CNN
-F 3 "~" H 1700 8000 50  0001 C CNN
-	1    1700 8000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2100 7850 1700 7850
-Wire Wire Line
-	1700 8150 1800 8150
-Wire Wire Line
-	2500 8250 2400 8250
+	2500 8250 2440 8250
 $Comp
 L Device:D_ALT D3
 U 1 1 5CB1E326
@@ -61,9 +49,9 @@ $EndComp
 Wire Wire Line
 	3050 7850 2650 7850
 Wire Wire Line
-	2650 8150 2750 8150
+	2650 8250 2700 8250
 Wire Wire Line
-	3450 8250 3350 8250
+	3450 8250 3400 8250
 $Comp
 L Device:D_ALT D4
 U 1 1 5CB1E33C
@@ -78,9 +66,7 @@ $EndComp
 Wire Wire Line
 	4000 7850 3600 7850
 Wire Wire Line
-	3600 8150 3700 8150
-Wire Wire Line
-	4400 8250 4300 8250
+	4400 8250 4350 8250
 $Comp
 L Device:D_ALT D5
 U 1 1 5CB1E70E
@@ -95,9 +81,9 @@ $EndComp
 Wire Wire Line
 	4950 7850 4550 7850
 Wire Wire Line
-	4550 8150 4650 8150
+	4550 8150 4550 8250
 Wire Wire Line
-	5350 8250 5250 8250
+	5350 8250 5300 8250
 $Comp
 L Device:D_ALT D6
 U 1 1 5CB1E724
@@ -112,9 +98,7 @@ $EndComp
 Wire Wire Line
 	5900 7850 5500 7850
 Wire Wire Line
-	5500 8150 5600 8150
-Wire Wire Line
-	6300 8250 6200 8250
+	6300 8250 6250 8250
 $Comp
 L Device:D_ALT D7
 U 1 1 5CB1E73A
@@ -128,10 +112,6 @@ F 3 "~" H 6450 8000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6850 7850 6450 7850
-Wire Wire Line
-	6450 8150 6550 8150
-Wire Wire Line
-	7250 8250 7150 8250
 $Comp
 L Device:D_ALT D8
 U 1 1 5CB1E750
@@ -146,9 +126,7 @@ $EndComp
 Wire Wire Line
 	7800 7850 7400 7850
 Wire Wire Line
-	7400 8150 7500 8150
-Wire Wire Line
-	8200 8250 8100 8250
+	7400 8150 7400 8250
 $Comp
 L Device:D_ALT D9
 U 1 1 5CB1F10E
@@ -163,9 +141,7 @@ $EndComp
 Wire Wire Line
 	8750 7850 8350 7850
 Wire Wire Line
-	8350 8150 8450 8150
-Wire Wire Line
-	9150 8250 9050 8250
+	8350 8150 8350 8250
 $Comp
 L Device:D_ALT D10
 U 1 1 5CB1F124
@@ -180,9 +156,9 @@ $EndComp
 Wire Wire Line
 	9700 7850 9300 7850
 Wire Wire Line
-	9300 8150 9400 8150
+	9300 8150 9300 8250
 Wire Wire Line
-	10100 8250 10000 8250
+	10100 8250 10050 8250
 $Comp
 L Device:D_ALT D11
 U 1 1 5CB1F13A
@@ -197,9 +173,9 @@ $EndComp
 Wire Wire Line
 	10650 7850 10250 7850
 Wire Wire Line
-	10250 8150 10350 8150
+	10250 8150 10250 8250
 Wire Wire Line
-	11050 8250 10950 8250
+	11050 8250 11000 8250
 $Comp
 L Device:D_ALT D12
 U 1 1 5CB1F150
@@ -214,9 +190,9 @@ $EndComp
 Wire Wire Line
 	11600 7850 11200 7850
 Wire Wire Line
-	11200 8150 11300 8150
+	11200 8150 11200 8250
 Wire Wire Line
-	12000 8250 11900 8250
+	12000 8250 11950 8250
 $Comp
 L Device:D_ALT D13
 U 1 1 5CB1F166
@@ -231,9 +207,9 @@ $EndComp
 Wire Wire Line
 	12550 7850 12150 7850
 Wire Wire Line
-	12150 8150 12250 8150
+	12150 8150 12150 8250
 Wire Wire Line
-	12950 8250 12850 8250
+	12950 8250 12900 8250
 $Comp
 L Device:D_ALT D14
 U 1 1 5CB1F17C
@@ -248,9 +224,9 @@ $EndComp
 Wire Wire Line
 	13500 7850 13100 7850
 Wire Wire Line
-	13100 8150 13200 8150
+	13100 8150 13100 8250
 Wire Wire Line
-	13900 8250 13800 8250
+	13900 8250 13850 8250
 $Comp
 L Device:D_ALT D15
 U 1 1 5CB1F192
@@ -265,9 +241,9 @@ $EndComp
 Wire Wire Line
 	14450 7850 14050 7850
 Wire Wire Line
-	14050 8150 14150 8150
+	14050 8150 14050 8250
 Wire Wire Line
-	14850 8250 14750 8250
+	14850 8250 14800 8250
 $Comp
 L Device:D_ALT D16
 U 1 1 5CB1F1A8
@@ -282,9 +258,9 @@ $EndComp
 Wire Wire Line
 	15400 7850 15000 7850
 Wire Wire Line
-	15000 8150 15100 8150
+	15000 8150 15000 8250
 Wire Wire Line
-	15800 8250 15700 8250
+	15800 8250 15750 8250
 $Comp
 L Device:D_ALT D17
 U 1 1 5CB59516
@@ -299,9 +275,9 @@ $EndComp
 Wire Wire Line
 	2600 6650 2200 6650
 Wire Wire Line
-	2200 6950 2300 6950
+	2200 6950 2200 7050
 Wire Wire Line
-	3000 7050 2900 7050
+	3000 7050 2950 7050
 $Comp
 L Device:D_ALT D18
 U 1 1 5CB5952C
@@ -316,9 +292,9 @@ $EndComp
 Wire Wire Line
 	3550 6650 3150 6650
 Wire Wire Line
-	3150 6950 3250 6950
+	3150 6950 3150 7050
 Wire Wire Line
-	3950 7050 3850 7050
+	3950 7050 3890 7050
 $Comp
 L Device:D_ALT D19
 U 1 1 5CB5BEBF
@@ -333,9 +309,9 @@ $EndComp
 Wire Wire Line
 	5450 6650 5050 6650
 Wire Wire Line
-	5050 6950 5150 6950
+	5050 6950 5050 7050
 Wire Wire Line
-	5850 7050 5750 7050
+	5850 7050 5800 7050
 $Comp
 L Device:D_ALT D20
 U 1 1 5CB5BED5
@@ -350,9 +326,9 @@ $EndComp
 Wire Wire Line
 	6400 6650 6000 6650
 Wire Wire Line
-	6000 6950 6100 6950
+	6000 6950 6000 7050
 Wire Wire Line
-	6800 7050 6700 7050
+	6800 7050 6750 7050
 $Comp
 L Device:D_ALT D21
 U 1 1 5CB5BEEB
@@ -367,9 +343,9 @@ $EndComp
 Wire Wire Line
 	7350 6650 6950 6650
 Wire Wire Line
-	6950 6950 7050 6950
+	6950 6950 6950 7050
 Wire Wire Line
-	7750 7050 7650 7050
+	7750 7050 7700 7050
 $Comp
 L Device:D_ALT D22
 U 1 1 5CB6FD06
@@ -384,9 +360,9 @@ $EndComp
 Wire Wire Line
 	9250 6650 8850 6650
 Wire Wire Line
-	8850 6950 8950 6950
+	8850 6950 8850 7050
 Wire Wire Line
-	9650 7050 9550 7050
+	9650 7050 9600 7050
 $Comp
 L Device:D_ALT D23
 U 1 1 5CB6FD1C
@@ -401,9 +377,9 @@ $EndComp
 Wire Wire Line
 	10200 6650 9800 6650
 Wire Wire Line
-	9800 6950 9900 6950
+	9800 6950 9800 7050
 Wire Wire Line
-	10600 7050 10500 7050
+	10600 7050 10550 7050
 $Comp
 L Device:D_ALT D24
 U 1 1 5CB6FD32
@@ -418,9 +394,9 @@ $EndComp
 Wire Wire Line
 	12100 6650 11700 6650
 Wire Wire Line
-	11700 6950 11800 6950
+	11700 6950 11700 7050
 Wire Wire Line
-	12500 7050 12400 7050
+	12500 7050 12450 7050
 $Comp
 L Device:D_ALT D25
 U 1 1 5CB6FD48
@@ -435,9 +411,9 @@ $EndComp
 Wire Wire Line
 	13050 6650 12650 6650
 Wire Wire Line
-	12650 6950 12750 6950
+	12650 6950 12650 7050
 Wire Wire Line
-	13450 7050 13350 7050
+	13450 7050 13400 7050
 $Comp
 L Device:D_ALT D26
 U 1 1 5CB6FD5E
@@ -452,9 +428,9 @@ $EndComp
 Wire Wire Line
 	14000 6650 13600 6650
 Wire Wire Line
-	13600 6950 13700 6950
+	13600 6950 13600 7050
 Wire Wire Line
-	14400 7050 14300 7050
+	14400 7050 14350 7050
 $Comp
 L Device:D_ALT D27
 U 1 1 5CB91317
@@ -469,9 +445,9 @@ $EndComp
 Wire Wire Line
 	9250 5450 8850 5450
 Wire Wire Line
-	8850 5750 8950 5750
+	8850 5750 8850 5850
 Wire Wire Line
-	9650 5850 9550 5850
+	9650 5850 9600 5850
 $Comp
 L Device:D_ALT D34
 U 1 1 5CB9768C
@@ -512,9 +488,9 @@ $EndComp
 Wire Wire Line
 	15400 5450 15000 5450
 Wire Wire Line
-	15000 5750 15100 5750
+	15000 5750 15000 5850
 Wire Wire Line
-	15800 5850 15700 5850
+	15800 5850 15750 5850
 $Comp
 L Device:D_ALT D47
 U 1 1 5CBB02E1
@@ -528,10 +504,6 @@ F 3 "~" H 15000 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	15400 3200 15000 3200
-Wire Wire Line
-	15000 3500 15100 3500
-Wire Wire Line
-	15800 3600 15700 3600
 $Comp
 L Device:D_ALT D40
 U 1 1 5CBC978A
@@ -546,9 +518,9 @@ $EndComp
 Wire Wire Line
 	15400 4350 15000 4350
 Wire Wire Line
-	15000 4650 15100 4650
+	15000 4650 15000 4750
 Wire Wire Line
-	15800 4750 15700 4750
+	15800 4750 15750 4750
 $Comp
 L Device:D_ALT D32
 U 1 1 5CBE4180
@@ -563,9 +535,9 @@ $EndComp
 Wire Wire Line
 	14450 5450 14050 5450
 Wire Wire Line
-	14050 5750 14150 5750
+	14050 5750 14050 5850
 Wire Wire Line
-	14850 5850 14750 5850
+	14850 5850 14800 5850
 $Comp
 L Device:D_ALT D46
 U 1 1 5CBE4196
@@ -580,9 +552,9 @@ $EndComp
 Wire Wire Line
 	14450 3200 14050 3200
 Wire Wire Line
-	14050 3500 14150 3500
+	14050 3500 14050 3650
 Wire Wire Line
-	14850 3600 14750 3600
+	14850 3650 14800 3650
 $Comp
 L Device:D_ALT D39
 U 1 1 5CBE41AC
@@ -597,9 +569,9 @@ $EndComp
 Wire Wire Line
 	14450 4350 14050 4350
 Wire Wire Line
-	14050 4650 14150 4650
+	14050 4650 14050 4750
 Wire Wire Line
-	14850 4750 14750 4750
+	14850 4750 14800 4750
 $Comp
 L Device:D_ALT D31
 U 1 1 5CBEEA43
@@ -614,9 +586,9 @@ $EndComp
 Wire Wire Line
 	13050 5450 12650 5450
 Wire Wire Line
-	12650 5750 12750 5750
+	12650 5750 12650 5850
 Wire Wire Line
-	13450 5850 13350 5850
+	13450 5850 13400 5850
 $Comp
 L Device:D_ALT D45
 U 1 1 5CBEEA59
@@ -644,9 +616,9 @@ $EndComp
 Wire Wire Line
 	13050 4350 12650 4350
 Wire Wire Line
-	12650 4650 12750 4650
+	12650 4650 12650 4750
 Wire Wire Line
-	13450 4750 13350 4750
+	13450 4750 13400 4750
 $Comp
 L Device:D_ALT D30
 U 1 1 5CBEEA85
@@ -661,9 +633,9 @@ $EndComp
 Wire Wire Line
 	12100 5450 11700 5450
 Wire Wire Line
-	11700 5750 11800 5750
+	11700 5750 11700 5850
 Wire Wire Line
-	12500 5850 12400 5850
+	12500 5850 12450 5850
 $Comp
 L Device:D_ALT D44
 U 1 1 5CBEEA9B
@@ -691,9 +663,9 @@ $EndComp
 Wire Wire Line
 	12100 4350 11700 4350
 Wire Wire Line
-	11700 4650 11800 4650
+	11700 4650 11700 4750
 Wire Wire Line
-	12500 4750 12400 4750
+	12500 4750 12450 4750
 $Comp
 L Device:D_ALT D29
 U 1 1 5CBFD47C
@@ -708,9 +680,9 @@ $EndComp
 Wire Wire Line
 	11150 5450 10750 5450
 Wire Wire Line
-	10750 5750 10850 5750
+	10750 5750 10750 5850
 Wire Wire Line
-	11550 5850 11450 5850
+	11550 5850 11500 5850
 $Comp
 L Device:D_ALT D43
 U 1 1 5CBFD492
@@ -738,7 +710,7 @@ $EndComp
 Wire Wire Line
 	11150 4350 10750 4350
 Wire Wire Line
-	10750 4650 10850 4650
+	10750 4650 10750 4750
 $Comp
 L Device:D_ALT D28
 U 1 1 5CBFD4BE
@@ -753,9 +725,9 @@ $EndComp
 Wire Wire Line
 	10200 5450 9800 5450
 Wire Wire Line
-	9800 5750 9900 5750
+	9800 5750 9800 5850
 Wire Wire Line
-	10600 5850 10500 5850
+	10600 5850 10550 5850
 $Comp
 L Device:D_ALT D42
 U 1 1 5CBFD4D4
@@ -1213,13 +1185,11 @@ Wire Wire Line
 Wire Wire Line
 	14850 5450 14850 5850
 Wire Wire Line
-	14850 3200 14850 3600
+	14850 3200 14850 3650
 Wire Wire Line
 	14850 4350 14850 4750
 Wire Wire Line
 	15800 5450 15800 5850
-Wire Wire Line
-	15800 3200 15800 3600
 Wire Wire Line
 	15800 4350 15800 4750
 $Comp
@@ -1387,86 +1357,76 @@ F 3 "" H 15600 5650 50  0001 C CNN
 	1    15600 5450
 	1    0    0    -1  
 $EndComp
-Text HLabel 1800 8400 2    50   Input ~ 0
+Text HLabel 1760 8250 2    50   Input ~ 0
 ROW_2
-Text HLabel 2750 8400 2    50   Input ~ 0
+Text HLabel 2700 8250 2    50   Input ~ 0
 ROW_3
-Text HLabel 3700 8400 2    50   Input ~ 0
+Text HLabel 3660 8250 2    50   Input ~ 0
 ROW_5
-Text HLabel 4650 8400 2    50   Input ~ 0
+Text HLabel 4610 8250 2    50   Input ~ 0
 ROW_6
-Text HLabel 5150 7150 2    50   Input ~ 0
+Text HLabel 5100 7050 2    50   Input ~ 0
 ROW_7
-Text HLabel 5600 8400 2    50   Input ~ 0
+Text HLabel 5560 8250 2    50   Input ~ 0
 ROW_8
-Text HLabel 2400 8500 0    50   Input ~ 0
+Text HLabel 2440 8250 0    50   Input ~ 0
 COL_1
-Text HLabel 3350 8500 0    50   Input ~ 0
+Text HLabel 3400 8250 0    50   Input ~ 0
 COL_1
-Text HLabel 4300 8500 0    50   Input ~ 0
+Text HLabel 4350 8250 0    50   Input ~ 0
 COL_1
-Text HLabel 5750 7250 0    50   Input ~ 0
+Text HLabel 5800 7050 0    50   Input ~ 0
 COL_1
-Text HLabel 5250 8500 0    50   Input ~ 0
+Text HLabel 5300 8250 0    50   Input ~ 0
 COL_1
-Text HLabel 6200 8500 0    50   Input ~ 0
+Text HLabel 6250 8250 0    50   Input ~ 0
 COL_1
-Text HLabel 7650 7250 0    50   Input ~ 0
+Text HLabel 7700 7050 0    50   Input ~ 0
 COL_2
-Text HLabel 7150 8500 0    50   Input ~ 0
+Text HLabel 8150 8250 0    50   Input ~ 0
 COL_2
-Text HLabel 8100 8500 0    50   Input ~ 0
+Text HLabel 9600 7050 0    50   Input ~ 0
 COL_2
-Text HLabel 9550 7250 0    50   Input ~ 0
+Text HLabel 9100 8250 0    50   Input ~ 0
 COL_2
-Text HLabel 9050 8500 0    50   Input ~ 0
+Text HLabel 10550 7050 0    50   Input ~ 0
 COL_2
-Text HLabel 10500 7250 0    50   Input ~ 0
+Text HLabel 10050 8250 0    50   Input ~ 0
 COL_2
-Text HLabel 10000 8500 0    50   Input ~ 0
-COL_2
-Text HLabel 10950 8500 0    50   Input ~ 0
+Text HLabel 11000 8250 0    50   Input ~ 0
 COL_3
-Text HLabel 12400 7250 0    50   Input ~ 0
+Text HLabel 12450 7050 0    50   Input ~ 0
 COL_3
-Text HLabel 11900 8500 0    50   Input ~ 0
+Text HLabel 11950 8250 0    50   Input ~ 0
 COL_3
-Text HLabel 12850 8500 0    50   Input ~ 0
+Text HLabel 12900 8250 0    50   Input ~ 0
 COL_3
-Text HLabel 14300 7250 0    50   Input ~ 0
+Text HLabel 14350 7050 0    50   Input ~ 0
 COL_3
-Text HLabel 13800 8500 0    50   Input ~ 0
+Text HLabel 13850 8250 0    50   Input ~ 0
 COL_3
-Text HLabel 14750 8500 0    50   Input ~ 0
+Text HLabel 14800 8250 0    50   Input ~ 0
 COL_3
-Text HLabel 15700 3850 0    50   Input ~ 0
+Text HLabel 15750 4750 0    50   Input ~ 0
 COL_4
-Text HLabel 15700 4950 0    50   Input ~ 0
-COL_4
-Text HLabel 15700 6050 0    50   Input ~ 0
-COL_4
-Text HLabel 15700 8500 0    50   Input ~ 0
+Text HLabel 15750 8250 0    50   Input ~ 0
 COL_4
 Text HLabel 9600 3650 0    50   Input ~ 0
 COL_4
 Text HLabel 9600 4750 0    50   Input ~ 0
 COL_4
-Text HLabel 9550 6050 0    50   Input ~ 0
+Text HLabel 9600 5850 0    50   Input ~ 0
 COL_4
 Text HLabel 8900 3650 2    50   Input ~ 0
 ROW_1
 Text HLabel 8900 4750 2    50   Input ~ 0
 ROW_2
-Text HLabel 8950 5950 2    50   Input ~ 0
+Text HLabel 8900 5850 2    50   Input ~ 0
 ROW_3
-Text HLabel 15100 8400 2    50   Input ~ 0
+Text HLabel 15050 8250 2    50   Input ~ 0
 ROW_5
-Text HLabel 15100 5950 2    50   Input ~ 0
-ROW_6
-Text HLabel 15100 4850 2    50   Input ~ 0
+Text HLabel 15050 4750 2    50   Input ~ 0
 ROW_7
-Text HLabel 15100 3750 2    50   Input ~ 0
-ROW_8
 Text HLabel 10550 3650 0    50   Input ~ 0
 COL_5
 Text HLabel 11500 3650 0    50   Input ~ 0
@@ -1475,61 +1435,55 @@ Text HLabel 12450 3650 0    50   Input ~ 0
 COL_5
 Text HLabel 13400 3650 0    50   Input ~ 0
 COL_5
-Text HLabel 11450 4950 0    50   Input ~ 0
+Text HLabel 11500 4750 0    50   Input ~ 0
 COL_5
-Text HLabel 12400 4950 0    50   Input ~ 0
+Text HLabel 12450 4750 0    50   Input ~ 0
 COL_5
 Text HLabel 10550 4750 0    50   Input ~ 0
 COL_5
-Text HLabel 14750 4950 0    50   Input ~ 0
+Text HLabel 14800 4750 0    50   Input ~ 0
 COL_6
-Text HLabel 10500 6050 0    50   Input ~ 0
+Text HLabel 10550 5850 0    50   Input ~ 0
 COL_6
-Text HLabel 11450 6050 0    50   Input ~ 0
+Text HLabel 11500 5850 0    50   Input ~ 0
 COL_6
-Text HLabel 12400 6050 0    50   Input ~ 0
+Text HLabel 12450 5850 0    50   Input ~ 0
 COL_6
-Text HLabel 13350 6050 0    50   Input ~ 0
+Text HLabel 13400 5850 0    50   Input ~ 0
 COL_6
-Text HLabel 14750 6050 0    50   Input ~ 0
-COL_6
-Text HLabel 14150 4850 2    50   Input ~ 0
+Text HLabel 14100 4750 2    50   Input ~ 0
 ROW_7
-Text HLabel 14150 5950 2    50   Input ~ 0
-ROW_6
-Text HLabel 12750 5950 2    50   Input ~ 0
+Text HLabel 12700 5850 2    50   Input ~ 0
 ROW_5
-Text HLabel 10850 5950 2    50   Input ~ 0
+Text HLabel 10800 5850 2    50   Input ~ 0
 ROW_4
-Text HLabel 11800 5950 2    50   Input ~ 0
+Text HLabel 11750 5850 2    50   Input ~ 0
 ROW_3
-Text HLabel 9900 5950 2    50   Input ~ 0
+Text HLabel 9850 5850 2    50   Input ~ 0
 ROW_2
-Text HLabel 14150 3750 2    50   Input ~ 0
-ROW_8
-Text HLabel 12750 4850 2    50   Input ~ 0
+Text HLabel 12700 4750 2    50   Input ~ 0
 ROW_7
 Text HLabel 11750 3650 2    50   Input ~ 0
 ROW_6
-Text HLabel 11800 4850 2    50   Input ~ 0
+Text HLabel 11750 4750 2    50   Input ~ 0
 ROW_5
 Text HLabel 10800 3650 2    50   Input ~ 0
 ROW_4
 Text HLabel 9850 4750 2    50   Input ~ 0
 ROW_2
-Text HLabel 10850 4850 2    50   Input ~ 0
+Text HLabel 10800 4750 2    50   Input ~ 0
 ROW_3
 Text HLabel 12700 3650 2    50   Input ~ 0
 ROW_8
-Text HLabel 14750 3850 0    50   Input ~ 0
+Text HLabel 14800 3650 0    50   Input ~ 0
 COL_6
 Text HLabel 9850 3650 2    50   Input ~ 0
 ROW_1
-Text HLabel 13350 4950 0    50   Input ~ 0
+Text HLabel 13400 4750 0    50   Input ~ 0
 COL_5
-Text HLabel 13350 7250 0    50   Input ~ 0
+Text HLabel 13400 7050 0    50   Input ~ 0
 COL_3
-Text HLabel 6700 7250 0    50   Input ~ 0
+Text HLabel 6750 7050 0    50   Input ~ 0
 COL_2
 $Comp
 L Device:Rotary_Encoder_Switch ENC?
@@ -1570,21 +1524,6 @@ F 3 "~" H 2550 4200 50  0001 C CNN
 	1    2550 4200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C6BBEDA
-P 2450 4100
-AR Path="/5C4320DF/5C935B9F/5C6BBEDA" Ref="#PWR?"  Part="1" 
-AR Path="/5C4320DF/5C971830/5C6BBEDA" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 2450 3850 50  0001 C CNN
-F 1 "GND" V 2455 3972 50  0000 R CNN
-F 2 "" H 2450 4100 50  0001 C CNN
-F 3 "" H 2450 4100 50  0001 C CNN
-	1    2450 4100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2450 4100 2550 4100
 Connection ~ 2550 4100
 Wire Wire Line
 	2550 4100 2950 4100
@@ -1924,50 +1863,50 @@ ROW_1
 Wire Wire Line
 	4050 4200 3950 4200
 Wire Wire Line
-	11450 4750 11550 4750
-Text HLabel 6100 7150 2    50   Input ~ 0
+	11500 4750 11550 4750
+Text HLabel 6050 7050 2    50   Input ~ 0
 ROW_1
-Text HLabel 7050 7150 2    50   Input ~ 0
+Text HLabel 7000 7050 2    50   Input ~ 0
 ROW_4
-Text HLabel 8950 7150 2    50   Input ~ 0
+Text HLabel 8900 7050 2    50   Input ~ 0
 ROW_7
-Text HLabel 11800 7150 2    50   Input ~ 0
+Text HLabel 11750 7050 2    50   Input ~ 0
 ROW_1
-Text HLabel 12750 7150 2    50   Input ~ 0
+Text HLabel 12700 7050 2    50   Input ~ 0
 ROW_4
-Text HLabel 13700 7150 2    50   Input ~ 0
+Text HLabel 13650 7050 2    50   Input ~ 0
 ROW_7
-Text HLabel 6550 8400 2    50   Input ~ 0
+Text HLabel 6500 8250 2    50   Input ~ 0
 ROW_2
-Text HLabel 7500 8400 2    50   Input ~ 0
+Text HLabel 7450 8250 2    50   Input ~ 0
 ROW_3
-Text HLabel 8450 8400 2    50   Input ~ 0
+Text HLabel 8390 8250 2    50   Input ~ 0
 ROW_5
-Text HLabel 9400 8400 2    50   Input ~ 0
+Text HLabel 9350 8250 2    50   Input ~ 0
 ROW_6
-Text HLabel 10350 8400 2    50   Input ~ 0
+Text HLabel 10300 8250 2    50   Input ~ 0
 ROW_8
-Text HLabel 11300 8400 2    50   Input ~ 0
+Text HLabel 11250 8250 2    50   Input ~ 0
 ROW_2
-Text HLabel 12250 8400 2    50   Input ~ 0
+Text HLabel 12200 8250 2    50   Input ~ 0
 ROW_3
-Text HLabel 13200 8400 2    50   Input ~ 0
+Text HLabel 13150 8250 2    50   Input ~ 0
 ROW_5
-Text HLabel 14150 8400 2    50   Input ~ 0
+Text HLabel 14100 8250 2    50   Input ~ 0
 ROW_6
-Text HLabel 9900 7150 2    50   Input ~ 0
+Text HLabel 9850 7050 2    50   Input ~ 0
 ROW_8
-Text HLabel 850  8400 2    50   Input ~ 0
+Text HLabel 800  8250 2    50   Input ~ 0
 ROW_4
-Text HLabel 1450 8500 0    50   Input ~ 0
+Text HLabel 1500 8250 0    50   Input ~ 0
 COL_4
-Text HLabel 3850 7250 0    50   Input ~ 0
+Text HLabel 3890 7050 0    50   Input ~ 0
 COL_1
-Text HLabel 3250 7150 2    50   Input ~ 0
+Text HLabel 3210 7050 2    50   Input ~ 0
 ROW_4
-Text HLabel 2900 7250 0    50   Input ~ 0
+Text HLabel 2950 7050 0    50   Input ~ 0
 COL_1
-Text HLabel 2300 7150 2    50   Input ~ 0
+Text HLabel 2260 7050 2    50   Input ~ 0
 ROW_1
 Wire Wire Line
 	9650 3200 9650 3650
@@ -2017,4 +1956,150 @@ Wire Wire Line
 	8850 4750 8850 4650
 Wire Wire Line
 	9800 4750 9850 4750
+Text HLabel 14100 3650 2    50   Input ~ 0
+ROW_8
+Wire Wire Line
+	14050 3650 14100 3650
+Wire Wire Line
+	15000 3650 15050 3650
+Text HLabel 15050 3650 2    50   Input ~ 0
+ROW_8
+Wire Wire Line
+	15000 3650 15000 3500
+Wire Wire Line
+	15800 3650 15750 3650
+Text HLabel 15750 3650 0    50   Input ~ 0
+COL_4
+Wire Wire Line
+	15800 3200 15800 3650
+Wire Wire Line
+	10750 4750 10800 4750
+Wire Wire Line
+	11700 4750 11750 4750
+Wire Wire Line
+	12650 4750 12700 4750
+Wire Wire Line
+	12650 5850 12700 5850
+Wire Wire Line
+	11700 5850 11750 5850
+Wire Wire Line
+	10750 5850 10800 5850
+Wire Wire Line
+	9800 5850 9850 5850
+Wire Wire Line
+	8850 5850 8900 5850
+Wire Wire Line
+	8850 7050 8900 7050
+Wire Wire Line
+	9800 7050 9850 7050
+Wire Wire Line
+	11700 7050 11750 7050
+Wire Wire Line
+	12650 7050 12700 7050
+Wire Wire Line
+	13600 7050 13650 7050
+Wire Wire Line
+	14050 4750 14100 4750
+Wire Wire Line
+	15000 4750 15050 4750
+Wire Wire Line
+	14050 5850 14100 5850
+Wire Wire Line
+	15000 5850 15050 5850
+Text HLabel 15750 5850 0    50   Input ~ 0
+COL_4
+Text HLabel 15050 5850 2    50   Input ~ 0
+ROW_6
+Text HLabel 14800 5850 0    50   Input ~ 0
+COL_6
+Text HLabel 14100 5850 2    50   Input ~ 0
+ROW_6
+Wire Wire Line
+	5050 7050 5100 7050
+Wire Wire Line
+	6000 7050 6050 7050
+Wire Wire Line
+	6950 7050 7000 7050
+Wire Wire Line
+	15000 8250 15050 8250
+Wire Wire Line
+	14050 8250 14100 8250
+Wire Wire Line
+	13100 8250 13150 8250
+Wire Wire Line
+	12150 8250 12200 8250
+Wire Wire Line
+	11200 8250 11250 8250
+Wire Wire Line
+	10250 8250 10300 8250
+Wire Wire Line
+	9300 8250 9350 8250
+Wire Wire Line
+	8350 8250 8390 8250
+Wire Wire Line
+	9150 8250 9100 8250
+Wire Wire Line
+	7400 8250 7450 8250
+Wire Wire Line
+	8200 8250 8150 8250
+Text HLabel 7200 8250 0    50   Input ~ 0
+COL_2
+Wire Wire Line
+	7250 8250 7200 8250
+Wire Wire Line
+	6450 8150 6450 8250
+Wire Wire Line
+	6450 8250 6500 8250
+Wire Wire Line
+	3600 8250 3600 8150
+Wire Wire Line
+	3600 8250 3660 8250
+Wire Wire Line
+	2650 8250 2650 8150
+$Comp
+L Device:D_ALT D2
+U 1 1 5CB1E23E
+P 1700 8000
+F 0 "D2" V 1746 7921 50  0000 R CNN
+F 1 "M7" V 1655 7921 50  0000 R CNN
+F 2 "Diode_SMD:D_SMA" H 1700 8000 50  0001 C CNN
+F 3 "~" H 1700 8000 50  0001 C CNN
+	1    1700 8000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1700 8250 1760 8250
+Wire Wire Line
+	2100 7850 1700 7850
+Wire Wire Line
+	1700 8250 1700 8150
+Wire Wire Line
+	750  8250 750  8150
+Wire Wire Line
+	750  8250 800  8250
+Wire Wire Line
+	4550 8250 4610 8250
+Wire Wire Line
+	5500 8250 5560 8250
+Wire Wire Line
+	5500 8150 5500 8250
+Wire Wire Line
+	2200 7050 2260 7050
+Wire Wire Line
+	3150 7050 3210 7050
+$Comp
+L power:GND #PWR?
+U 1 1 5C6BBEDA
+P 2450 4100
+AR Path="/5C4320DF/5C935B9F/5C6BBEDA" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C971830/5C6BBEDA" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 2450 3850 50  0001 C CNN
+F 1 "GND" V 2455 3972 50  0000 R CNN
+F 2 "" H 2450 4100 50  0001 C CNN
+F 3 "" H 2450 4100 50  0001 C CNN
+	1    2450 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 4100 2550 4100
 $EndSCHEMATC

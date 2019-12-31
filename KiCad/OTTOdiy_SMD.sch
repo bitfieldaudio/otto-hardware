@@ -1,7 +1,7 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 7
 Title "OTTOdiy - preliminary, prOTTOtype 1"
@@ -12,6 +12,11 @@ Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
 $EndDescr
 $Sheet
 S 700  3500 650  600 
@@ -28,7 +33,7 @@ $EndSheet
 Text GLabel 5250 1650 2    50   Output ~ 0
 +3V3_RASPI
 Text GLabel 3450 1650 0    50   Input ~ 0
-+5V_MAIN
++5V_PI
 Wire Wire Line
 	3650 1250 3650 1150
 $Comp
@@ -94,10 +99,6 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/r
 	1    4350 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 3450 3550 3450
-Wire Wire Line
-	3450 3550 3550 3550
 $Sheet
 S 700  750  650  600 
 U 5C4408C6
@@ -226,9 +227,9 @@ Wire Wire Line
 	4550 4450 4650 4450
 Text GLabel 6100 2750 2    50   Output ~ 0
 ICP_RST
-Text GLabel 3450 3450 0    50   Output ~ 0
+Text GLabel 2650 3450 0    50   Output ~ 0
 ICP_SWDIO
-Text GLabel 3450 3550 0    50   Output ~ 0
+Text GLabel 2650 3550 0    50   Output ~ 0
 ICP_SWCLK
 Text GLabel 3450 3250 0    50   BiDi ~ 0
 TRIGGER1
@@ -435,7 +436,7 @@ L Device:R R?
 U 1 1 5E14AAB9
 P 5750 2750
 F 0 "R?" V 5543 2750 50  0000 C CNN
-F 1 "2.2k" V 5634 2750 50  0000 C CNN
+F 1 "1k" V 5634 2750 50  0000 C CNN
 F 2 "" V 5680 2750 50  0001 C CNN
 F 3 "~" H 5750 2750 50  0001 C CNN
 	1    5750 2750
@@ -519,4 +520,34 @@ F 3 "~" H 800 6700 50  0001 C CNN
 	1    800  6700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5E17B63D
+P 3100 3550
+F 0 "R?" V 3150 3750 50  0000 C CNN
+F 1 "1k" V 3150 3350 50  0000 C CNN
+F 2 "" V 3030 3550 50  0001 C CNN
+F 3 "~" H 3100 3550 50  0001 C CNN
+	1    3100 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E17D8BA
+P 3100 3450
+F 0 "R?" V 3150 3650 50  0000 C CNN
+F 1 "1k" V 3150 3250 50  0000 C CNN
+F 2 "" V 3030 3450 50  0001 C CNN
+F 3 "~" H 3100 3450 50  0001 C CNN
+	1    3100 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 3450 3550 3450
+Wire Wire Line
+	3250 3550 3550 3550
+Wire Wire Line
+	2650 3450 2950 3450
+Wire Wire Line
+	2650 3550 2950 3550
 $EndSCHEMATC
