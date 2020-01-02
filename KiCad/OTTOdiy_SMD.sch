@@ -34,19 +34,6 @@ Text GLabel 7250 2650 2    50   Output ~ 0
 +3V3_RASPI
 Text GLabel 5450 2650 0    50   Input ~ 0
 +5V_PI
-Wire Wire Line
-	5650 2250 5650 2150
-$Comp
-L power:GND #PWR0201
-U 1 1 5C445687
-P 5650 2150
-F 0 "#PWR0201" H 5650 1900 50  0001 C CNN
-F 1 "GND" H 5655 1977 50  0000 C CNN
-F 2 "" H 5650 2150 50  0001 C CNN
-F 3 "" H 5650 2150 50  0001 C CNN
-	1    5650 2150
-	-1   0    0    1   
-$EndComp
 Text GLabel 7250 3850 2    50   Input ~ 0
 PWR_BUTTON
 $Comp
@@ -94,8 +81,12 @@ U 1 1 5C444E85
 P 6350 4050
 F 0 "J201" H 6350 5650 50  0000 C CNN
 F 1 "RASPBERRY PI 3 A+" H 6350 5550 50  0000 C CNN
-F 2 "Connector_Harwin:Harwin_M20-7812045_2x20_P2.54mm_Vertical_SolderHoles" H 6350 4050 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 6350 4050 50  0001 C CNN
+F 2 "OTTOdiy_SMD-library:Raspberry_Pi_A_FacingDown_TH" H 6350 4050 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/app/uploads/2018/11/Raspberry_Pi_3A_product_brief.pdf" H 6350 4050 50  0001 C CNN
+F 4 "M20-7812045" H 6350 4050 50  0001 C CNN "MPN"
+F 5 "Harwin" H 6350 4050 50  0001 C CNN "Manufacturer"
+F 6 "$3.97" H 6350 4050 50  0001 C CNN "EstimatedCost(USD)"
+F 7 "" H 6350 4050 50  0001 C CNN "AssemblyOption"
 	1    6350 4050
 	1    0    0    -1  
 $EndComp
@@ -112,7 +103,9 @@ P 2800 6450
 F 0 "H201" H 2900 6496 50  0000 L CNN
 F 1 "MountingHole" H 2900 6405 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 6450 50  0001 C CNN
-F 3 "~" H 2800 6450 50  0001 C CNN
+F 3 "" H 2800 6450 50  0001 C CNN
+F 4 "$0.00" H 2800 6450 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "DNP" H 2800 6450 50  0001 C CNN "AssemblyOption"
 	1    2800 6450
 	1    0    0    -1  
 $EndComp
@@ -123,7 +116,9 @@ P 2800 6750
 F 0 "H204" H 2900 6796 50  0000 L CNN
 F 1 "MountingHole" H 2900 6705 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 6750 50  0001 C CNN
-F 3 "~" H 2800 6750 50  0001 C CNN
+F 3 "" H 2800 6750 50  0001 C CNN
+F 4 "DNP" H 2800 6750 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 2800 6750 50  0001 C CNN "EstimatedCost(USD)"
 	1    2800 6750
 	1    0    0    -1  
 $EndComp
@@ -134,7 +129,9 @@ P 3850 6450
 F 0 "H202" H 3950 6496 50  0000 L CNN
 F 1 "MountingHole" H 3950 6405 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 6450 50  0001 C CNN
-F 3 "~" H 3850 6450 50  0001 C CNN
+F 3 "" H 3850 6450 50  0001 C CNN
+F 4 "DNP" H 3850 6450 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 3850 6450 50  0001 C CNN "EstimatedCost(USD)"
 	1    3850 6450
 	1    0    0    -1  
 $EndComp
@@ -145,7 +142,9 @@ P 3850 6750
 F 0 "H205" H 3950 6796 50  0000 L CNN
 F 1 "MountingHole" H 3950 6705 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 6750 50  0001 C CNN
-F 3 "~" H 3850 6750 50  0001 C CNN
+F 3 "" H 3850 6750 50  0001 C CNN
+F 4 "DNP" H 3850 6750 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 3850 6750 50  0001 C CNN "EstimatedCost(USD)"
 	1    3850 6750
 	1    0    0    -1  
 $EndComp
@@ -186,8 +185,6 @@ Wire Wire Line
 	7250 2650 6550 2650
 Wire Wire Line
 	6550 2650 6550 2750
-Wire Wire Line
-	5650 2550 5650 2650
 Wire Wire Line
 	5950 5450 6050 5450
 Wire Wire Line
@@ -249,7 +246,9 @@ P 3850 7700
 F 0 "H213" H 3950 7751 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3950 7660 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 3850 7700 50  0001 C CNN
-F 3 "~" H 3850 7700 50  0001 C CNN
+F 3 "" H 3850 7700 50  0001 C CNN
+F 4 "DNP" H 3850 7700 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 3850 7700 50  0001 C CNN "EstimatedCost(USD)"
 	1    3850 7700
 	1    0    0    -1  
 $EndComp
@@ -260,7 +259,9 @@ P 3850 8300
 F 0 "H215" H 3950 8351 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3950 8260 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 3850 8300 50  0001 C CNN
-F 3 "~" H 3850 8300 50  0001 C CNN
+F 3 "" H 3850 8300 50  0001 C CNN
+F 4 "DNP" H 3850 8300 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 3850 8300 50  0001 C CNN "EstimatedCost(USD)"
 	1    3850 8300
 	1    0    0    -1  
 $EndComp
@@ -271,7 +272,9 @@ P 2800 7050
 F 0 "H207" H 2900 7096 50  0000 L CNN
 F 1 "MountingHole" H 2900 7005 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 7050 50  0001 C CNN
-F 3 "~" H 2800 7050 50  0001 C CNN
+F 3 "" H 2800 7050 50  0001 C CNN
+F 4 "DNP" H 2800 7050 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 2800 7050 50  0001 C CNN "EstimatedCost(USD)"
 	1    2800 7050
 	1    0    0    -1  
 $EndComp
@@ -282,7 +285,9 @@ P 2800 7350
 F 0 "H210" H 2900 7396 50  0000 L CNN
 F 1 "MountingHole" H 2900 7305 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 7350 50  0001 C CNN
-F 3 "~" H 2800 7350 50  0001 C CNN
+F 3 "" H 2800 7350 50  0001 C CNN
+F 4 "DNP" H 2800 7350 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 2800 7350 50  0001 C CNN "EstimatedCost(USD)"
 	1    2800 7350
 	1    0    0    -1  
 $EndComp
@@ -293,19 +298,10 @@ P 3850 7050
 F 0 "H208" H 3950 7096 50  0000 L CNN
 F 1 "MountingHole" H 3950 7005 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 7050 50  0001 C CNN
-F 3 "~" H 3850 7050 50  0001 C CNN
+F 3 "" H 3850 7050 50  0001 C CNN
+F 4 "DNP" H 3850 7050 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 3850 7050 50  0001 C CNN "EstimatedCost(USD)"
 	1    3850 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H211
-U 1 1 5DDBF801
-P 3850 7350
-F 0 "H211" H 3950 7396 50  0000 L CNN
-F 1 "MountingHole" H 3950 7305 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 7350 50  0001 C CNN
-F 3 "~" H 3850 7350 50  0001 C CNN
-	1    3850 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -315,7 +311,9 @@ P 4850 6450
 F 0 "H203" H 4950 6496 50  0000 L CNN
 F 1 "MountingHole" H 4950 6405 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 4850 6450 50  0001 C CNN
-F 3 "~" H 4850 6450 50  0001 C CNN
+F 3 "" H 4850 6450 50  0001 C CNN
+F 4 "DNP" H 4850 6450 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 4850 6450 50  0001 C CNN "EstimatedCost(USD)"
 	1    4850 6450
 	1    0    0    -1  
 $EndComp
@@ -326,7 +324,9 @@ P 4850 6750
 F 0 "H206" H 4950 6796 50  0000 L CNN
 F 1 "MountingHole" H 4950 6705 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 4850 6750 50  0001 C CNN
-F 3 "~" H 4850 6750 50  0001 C CNN
+F 3 "" H 4850 6750 50  0001 C CNN
+F 4 "DNP" H 4850 6750 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 4850 6750 50  0001 C CNN "EstimatedCost(USD)"
 	1    4850 6750
 	1    0    0    -1  
 $EndComp
@@ -337,7 +337,9 @@ P 4850 7050
 F 0 "H209" H 4950 7096 50  0000 L CNN
 F 1 "MountingHole" H 4950 7005 50  0000 L CNN
 F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 4850 7050 50  0001 C CNN
-F 3 "~" H 4850 7050 50  0001 C CNN
+F 3 "" H 4850 7050 50  0001 C CNN
+F 4 "DNP" H 4850 7050 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 4850 7050 50  0001 C CNN "EstimatedCost(USD)"
 	1    4850 7050
 	1    0    0    -1  
 $EndComp
@@ -345,31 +347,6 @@ Text GLabel 5450 3150 0    50   Output ~ 0
 MIDI_OUT
 Text GLabel 5450 3250 0    50   Input ~ 0
 MIDI_IN
-$Comp
-L Device:C C?
-U 1 1 5C445597
-P 5650 2400
-AR Path="/5C43B923/5C445597" Ref="C?"  Part="1" 
-AR Path="/5C4408C6/5C445597" Ref="C?"  Part="1" 
-AR Path="/5C445597" Ref="C201"  Part="1" 
-F 0 "C201" H 5765 2446 50  0000 L CNN
-F 1 "10µF" H 5765 2355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5688 2250 50  0001 C CNN
-F 3 "~" H 5650 2400 50  0001 C CNN
-	1    5650 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Raspberry_Pi_2_3 DUMMY201
-U 1 1 5E18E15A
-P 10350 4050
-F 0 "DUMMY201" H 10350 5650 50  0000 C CNN
-F 1 "RASPBERRY PI 3 A+" H 10350 5550 50  0000 C CNN
-F 2 "Spatz:Raspberry Pi A" H 10350 4050 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 10350 4050 50  0001 C CNN
-	1    10350 4050
-	1    0    0    -1  
-$EndComp
 Text Notes 7050 8600 0    50   ~ 0
 PWR_BUTTON must be pulled up during the \nboot time of the Raspberry Pi, so it must \nbe connected to GPIO0-8.\nGPIO9-27 are pulled down during boot time.
 NoConn ~ 7150 3150
@@ -378,56 +355,8 @@ Text Notes 7050 8050 0    50   ~ 0
 Internal pullups/pulldowns:\nICP_RST: u\nSPI_CS_RASPI_DISPLAY: u\n***Todo: check states of the other connections \nto MCU to prevent different pull states \nduring boot time***
 Text Notes 5700 5000 0    50   ~ 0
 Harwin M20-7912045 connector
-Connection ~ 5650 2650
-Wire Wire Line
-	5650 2650 6150 2650
-Wire Wire Line
-	5450 2650 5650 2650
-NoConn ~ 10150 2750
-NoConn ~ 10250 2750
-NoConn ~ 10450 2750
-NoConn ~ 10550 2750
-NoConn ~ 9550 3150
-NoConn ~ 9550 3250
-NoConn ~ 9550 3450
-NoConn ~ 9550 3550
-NoConn ~ 9550 3650
-NoConn ~ 9550 3850
-NoConn ~ 9550 3950
-NoConn ~ 9550 4050
-NoConn ~ 9550 4250
-NoConn ~ 9550 4350
-NoConn ~ 9550 4450
-NoConn ~ 9550 4550
-NoConn ~ 9550 4650
-NoConn ~ 9550 4750
-NoConn ~ 11150 4850
-NoConn ~ 11150 4750
-NoConn ~ 11150 4550
-NoConn ~ 11150 4450
-NoConn ~ 11150 4350
-NoConn ~ 11150 4250
-NoConn ~ 11150 4150
-NoConn ~ 11150 3950
-NoConn ~ 11150 3850
-NoConn ~ 11150 3750
-NoConn ~ 11150 3550
-NoConn ~ 11150 3450
-NoConn ~ 11150 3250
-NoConn ~ 11150 3150
-NoConn ~ 9950 5350
-NoConn ~ 10050 5350
-NoConn ~ 10150 5350
-NoConn ~ 10250 5350
-NoConn ~ 10350 5350
-NoConn ~ 10450 5350
-NoConn ~ 10550 5350
-NoConn ~ 10650 5350
-Text Notes 9700 5000 0    50   ~ 0
-Dummy for component alignment
 NoConn ~ 5550 3450
 NoConn ~ 5550 3550
-NoConn ~ 5550 4350
 NoConn ~ 7150 4150
 NoConn ~ 7150 4750
 NoConn ~ 7150 4850
@@ -437,8 +366,11 @@ U 1 1 5E14AAB9
 P 7750 3750
 F 0 "R3" V 7543 3750 50  0000 C CNN
 F 1 "1k" V 7634 3750 50  0000 C CNN
-F 2 "" V 7680 3750 50  0001 C CNN
-F 3 "~" H 7750 3750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7680 3750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-071KL_C95781.pdf" H 7750 3750 50  0001 C CNN
+F 4 "$.001763" H 7750 3750 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "RC0805FR-071KL" H 7750 3750 50  0001 C CNN "MPN"
+F 6 "Yageo" H 7750 3750 50  0001 C CNN "Manufacturer"
 	1    7750 3750
 	0    1    1    0   
 $EndComp
@@ -505,7 +437,9 @@ P 4850 7700
 F 0 "H214" H 4950 7751 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4950 7660 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 4850 7700 50  0001 C CNN
-F 3 "~" H 4850 7700 50  0001 C CNN
+F 3 "" H 4850 7700 50  0001 C CNN
+F 4 "DNP" H 4850 7700 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 4850 7700 50  0001 C CNN "EstimatedCost(USD)"
 	1    4850 7700
 	1    0    0    -1  
 $EndComp
@@ -516,7 +450,9 @@ P 2800 7700
 F 0 "H212" H 2900 7751 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2900 7660 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2800 7700 50  0001 C CNN
-F 3 "~" H 2800 7700 50  0001 C CNN
+F 3 "" H 2800 7700 50  0001 C CNN
+F 4 "DNP" H 2800 7700 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 2800 7700 50  0001 C CNN "EstimatedCost(USD)"
 	1    2800 7700
 	1    0    0    -1  
 $EndComp
@@ -526,8 +462,11 @@ U 1 1 5E17B63D
 P 5100 4550
 F 0 "R2" V 5150 4750 50  0000 C CNN
 F 1 "1k" V 5150 4350 50  0000 C CNN
-F 2 "" V 5030 4550 50  0001 C CNN
-F 3 "~" H 5100 4550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 4550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-071KL_C95781.pdf" H 5100 4550 50  0001 C CNN
+F 4 "$.001763" H 5100 4550 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "RC0805FR-071KL" H 5100 4550 50  0001 C CNN "MPN"
+F 6 "Yageo" H 5100 4550 50  0001 C CNN "Manufacturer"
 	1    5100 4550
 	0    -1   -1   0   
 $EndComp
@@ -537,8 +476,11 @@ U 1 1 5E17D8BA
 P 5100 4450
 F 0 "R1" V 5150 4650 50  0000 C CNN
 F 1 "1k" V 5150 4250 50  0000 C CNN
-F 2 "" V 5030 4450 50  0001 C CNN
-F 3 "~" H 5100 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5030 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-071KL_C95781.pdf" H 5100 4450 50  0001 C CNN
+F 4 "$.001763" H 5100 4450 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "RC0805FR-071KL" H 5100 4450 50  0001 C CNN "MPN"
+F 6 "Yageo" H 5100 4450 50  0001 C CNN "Manufacturer"
 	1    5100 4450
 	0    -1   -1   0   
 $EndComp
@@ -550,4 +492,23 @@ Wire Wire Line
 	4650 4450 4950 4450
 Wire Wire Line
 	4650 4550 4950 4550
+$Comp
+L Mechanical:MountingHole H211
+U 1 1 5DDBF801
+P 3850 7350
+F 0 "H211" H 3950 7396 50  0000 L CNN
+F 1 "MountingHole" H 3950 7305 50  0000 L CNN
+F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 7350 50  0001 C CNN
+F 3 "" H 3850 7350 50  0001 C CNN
+F 4 "DNP" H 3850 7350 50  0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 3850 7350 50  0001 C CNN "EstimatedCost(USD)"
+	1    3850 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2650 6150 2650
+Text GLabel 4650 4350 0    50   Output ~ 0
+PI_PWR_EN
+Wire Wire Line
+	4650 4350 5550 4350
 $EndSCHEMATC

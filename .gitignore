@@ -1,1 +1,5 @@
 *-bak
+*.DS_Store
+*.bck
+*-cache.lib
+fp-info-cache
