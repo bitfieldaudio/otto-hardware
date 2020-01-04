@@ -219,8 +219,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC86F" Ref="C16"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC86F" Ref="C?"  Part="1" 
 F 0 "C16" H 11042 4496 50  0000 L CNN
 F 1 "100nF" H 11042 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 10950 4450 50  0001 C CNN
-F 3 "~" H 10950 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10950 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 10950 4450 50  0001 C CNN
+F 4 "$0.017724" H 10950 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 10950 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 10950 4450 12700 0001 C CNN "Manufacturer"
 	1    10950 4450
 	1    0    0    -1  
 $EndComp
@@ -232,8 +235,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC869" Ref="C15"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC869" Ref="C?"  Part="1" 
 F 0 "C15" H 10642 4496 50  0000 L CNN
 F 1 "100nF" H 10642 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 10550 4450 50  0001 C CNN
-F 3 "~" H 10550 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10550 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 10550 4450 50  0001 C CNN
+F 4 "$0.017724" H 10550 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 10550 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 10550 4450 12700 0001 C CNN "Manufacturer"
 	1    10550 4450
 	1    0    0    -1  
 $EndComp
@@ -245,8 +251,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC863" Ref="C14"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC863" Ref="C?"  Part="1" 
 F 0 "C14" H 10242 4496 50  0000 L CNN
 F 1 "100nF" H 10242 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 10150 4450 50  0001 C CNN
-F 3 "~" H 10150 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10150 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 10150 4450 50  0001 C CNN
+F 4 "$0.017724" H 10150 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 10150 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 10150 4450 12700 0001 C CNN "Manufacturer"
 	1    10150 4450
 	1    0    0    -1  
 $EndComp
@@ -258,8 +267,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC85D" Ref="C13"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC85D" Ref="C?"  Part="1" 
 F 0 "C13" H 9842 4496 50  0000 L CNN
 F 1 "100nF" H 9842 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 9750 4450 50  0001 C CNN
-F 3 "~" H 9750 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9750 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 9750 4450 50  0001 C CNN
+F 4 "$0.017724" H 9750 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 9750 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 9750 4450 12700 0001 C CNN "Manufacturer"
 	1    9750 4450
 	1    0    0    -1  
 $EndComp
@@ -271,8 +283,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC857" Ref="C12"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC857" Ref="C?"  Part="1" 
 F 0 "C12" H 9442 4496 50  0000 L CNN
 F 1 "100nF" H 9442 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 9350 4450 50  0001 C CNN
-F 3 "~" H 9350 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9350 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 9350 4450 50  0001 C CNN
+F 4 "$0.017724" H 9350 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 9350 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 9350 4450 12700 0001 C CNN "Manufacturer"
 	1    9350 4450
 	1    0    0    -1  
 $EndComp
@@ -284,8 +299,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC851" Ref="C11"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC851" Ref="C?"  Part="1" 
 F 0 "C11" H 9042 4496 50  0000 L CNN
 F 1 "100nF" H 9042 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 8950 4450 50  0001 C CNN
-F 3 "~" H 8950 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8950 4450 50  0001 C CNN
+F 4 "$0.017724" H 8950 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8950 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8950 4450 12700 0001 C CNN "Manufacturer"
 	1    8950 4450
 	1    0    0    -1  
 $EndComp
@@ -297,8 +315,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC84B" Ref="C10"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC84B" Ref="C?"  Part="1" 
 F 0 "C10" H 8642 4496 50  0000 L CNN
 F 1 "100nF" H 8642 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 8550 4450 50  0001 C CNN
-F 3 "~" H 8550 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8550 4450 50  0001 C CNN
+F 4 "$0.017724" H 8550 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8550 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8550 4450 12700 0001 C CNN "Manufacturer"
 	1    8550 4450
 	1    0    0    -1  
 $EndComp
@@ -310,8 +331,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC845" Ref="C9"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC845" Ref="C?"  Part="1" 
 F 0 "C9" H 8242 4496 50  0000 L CNN
 F 1 "100nF" H 8242 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 8150 4450 50  0001 C CNN
-F 3 "~" H 8150 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8150 4450 50  0001 C CNN
+F 4 "$0.017724" H 8150 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8150 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8150 4450 12700 0001 C CNN "Manufacturer"
 	1    8150 4450
 	1    0    0    -1  
 $EndComp
@@ -323,8 +347,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC83F" Ref="C8"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC83F" Ref="C?"  Part="1" 
 F 0 "C8" H 7842 4496 50  0000 L CNN
 F 1 "100nF" H 7842 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 7750 4450 50  0001 C CNN
-F 3 "~" H 7750 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7750 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7750 4450 50  0001 C CNN
+F 4 "$0.017724" H 7750 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7750 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7750 4450 12700 0001 C CNN "Manufacturer"
 	1    7750 4450
 	1    0    0    -1  
 $EndComp
@@ -336,8 +363,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC839" Ref="C7"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC839" Ref="C?"  Part="1" 
 F 0 "C7" H 7442 4496 50  0000 L CNN
 F 1 "100nF" H 7442 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 7350 4450 50  0001 C CNN
-F 3 "~" H 7350 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7350 4450 50  0001 C CNN
+F 4 "$0.017724" H 7350 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7350 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7350 4450 12700 0001 C CNN "Manufacturer"
 	1    7350 4450
 	1    0    0    -1  
 $EndComp
@@ -349,8 +379,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC833" Ref="C6"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC833" Ref="C?"  Part="1" 
 F 0 "C6" H 7042 4496 50  0000 L CNN
 F 1 "100nF" H 7042 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6950 4450 50  0001 C CNN
-F 3 "~" H 6950 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6950 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6950 4450 50  0001 C CNN
+F 4 "$0.017724" H 6950 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6950 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6950 4450 12700 0001 C CNN "Manufacturer"
 	1    6950 4450
 	1    0    0    -1  
 $EndComp
@@ -362,8 +395,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC82D" Ref="C5"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC82D" Ref="C?"  Part="1" 
 F 0 "C5" H 6642 4496 50  0000 L CNN
 F 1 "100nF" H 6642 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6550 4450 50  0001 C CNN
-F 3 "~" H 6550 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6550 4450 50  0001 C CNN
+F 4 "$0.017724" H 6550 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6550 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6550 4450 12700 0001 C CNN "Manufacturer"
 	1    6550 4450
 	1    0    0    -1  
 $EndComp
@@ -375,8 +411,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC827" Ref="C4"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC827" Ref="C?"  Part="1" 
 F 0 "C4" H 6242 4496 50  0000 L CNN
 F 1 "100nF" H 6242 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6150 4450 50  0001 C CNN
-F 3 "~" H 6150 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6150 4450 50  0001 C CNN
+F 4 "$0.017724" H 6150 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6150 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6150 4450 12700 0001 C CNN "Manufacturer"
 	1    6150 4450
 	1    0    0    -1  
 $EndComp
@@ -388,8 +427,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC821" Ref="C3"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC821" Ref="C?"  Part="1" 
 F 0 "C3" H 5842 4496 50  0000 L CNN
 F 1 "100nF" H 5842 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5750 4450 50  0001 C CNN
-F 3 "~" H 5750 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5750 4450 50  0001 C CNN
+F 4 "$0.017724" H 5750 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5750 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5750 4450 12700 0001 C CNN "Manufacturer"
 	1    5750 4450
 	1    0    0    -1  
 $EndComp
@@ -401,8 +443,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC81B" Ref="C2"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC81B" Ref="C?"  Part="1" 
 F 0 "C2" H 5442 4496 50  0000 L CNN
 F 1 "100nF" H 5442 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5350 4450 50  0001 C CNN
-F 3 "~" H 5350 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5350 4450 50  0001 C CNN
+F 4 "$0.017724" H 5350 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5350 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5350 4450 12700 0001 C CNN "Manufacturer"
 	1    5350 4450
 	1    0    0    -1  
 $EndComp
@@ -414,8 +459,11 @@ AR Path="/5C4320DF/5C4AB546/5DFCC815" Ref="C1"  Part="1"
 AR Path="/5C4320DF/5CB0FE15/5DFCC815" Ref="C?"  Part="1" 
 F 0 "C1" H 5042 4496 50  0000 L CNN
 F 1 "100nF" H 5042 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 4950 4450 50  0001 C CNN
-F 3 "~" H 4950 4450 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 4450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 4950 4450 50  0001 C CNN
+F 4 "$0.017724" H 4950 4450 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 4950 4450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 4950 4450 12700 0001 C CNN "Manufacturer"
 	1    4950 4450
 	1    0    0    -1  
 $EndComp
@@ -536,8 +584,11 @@ U 1 1 5C7619CD
 P 8550 6000
 F 0 "C26" H 8642 6046 50  0000 L CNN
 F 1 "100nF" H 8642 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 8550 6000 50  0001 C CNN
-F 3 "~" H 8550 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8550 6000 50  0001 C CNN
+F 4 "$0.017724" H 8550 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8550 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8550 6000 12700 0001 C CNN "Manufacturer"
 	1    8550 6000
 	1    0    0    -1  
 $EndComp
@@ -547,8 +598,11 @@ U 1 1 5C7619C6
 P 8150 6000
 F 0 "C25" H 8242 6046 50  0000 L CNN
 F 1 "100nF" H 8242 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 8150 6000 50  0001 C CNN
-F 3 "~" H 8150 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8150 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8150 6000 50  0001 C CNN
+F 4 "$0.017724" H 8150 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8150 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8150 6000 12700 0001 C CNN "Manufacturer"
 	1    8150 6000
 	1    0    0    -1  
 $EndComp
@@ -558,8 +612,11 @@ U 1 1 5C7619BF
 P 7750 6000
 F 0 "C24" H 7842 6046 50  0000 L CNN
 F 1 "100nF" H 7842 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 7750 6000 50  0001 C CNN
-F 3 "~" H 7750 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7750 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7750 6000 50  0001 C CNN
+F 4 "$0.017724" H 7750 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7750 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7750 6000 12700 0001 C CNN "Manufacturer"
 	1    7750 6000
 	1    0    0    -1  
 $EndComp
@@ -569,8 +626,11 @@ U 1 1 5C7619B8
 P 7350 6000
 F 0 "C23" H 7442 6046 50  0000 L CNN
 F 1 "100nF" H 7442 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 7350 6000 50  0001 C CNN
-F 3 "~" H 7350 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7350 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7350 6000 50  0001 C CNN
+F 4 "$0.017724" H 7350 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7350 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7350 6000 12700 0001 C CNN "Manufacturer"
 	1    7350 6000
 	1    0    0    -1  
 $EndComp
@@ -580,8 +640,11 @@ U 1 1 5C7619B1
 P 6950 6000
 F 0 "C22" H 7042 6046 50  0000 L CNN
 F 1 "100nF" H 7042 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6950 6000 50  0001 C CNN
-F 3 "~" H 6950 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6950 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6950 6000 50  0001 C CNN
+F 4 "$0.017724" H 6950 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6950 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6950 6000 12700 0001 C CNN "Manufacturer"
 	1    6950 6000
 	1    0    0    -1  
 $EndComp
@@ -591,8 +654,11 @@ U 1 1 5C761830
 P 6550 6000
 F 0 "C21" H 6642 6046 50  0000 L CNN
 F 1 "100nF" H 6642 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6550 6000 50  0001 C CNN
-F 3 "~" H 6550 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6550 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6550 6000 50  0001 C CNN
+F 4 "$0.017724" H 6550 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6550 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6550 6000 12700 0001 C CNN "Manufacturer"
 	1    6550 6000
 	1    0    0    -1  
 $EndComp
@@ -602,8 +668,11 @@ U 1 1 5C760FFE
 P 6150 6000
 F 0 "C20" H 6242 6046 50  0000 L CNN
 F 1 "100nF" H 6242 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6150 6000 50  0001 C CNN
-F 3 "~" H 6150 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6150 6000 50  0001 C CNN
+F 4 "$0.017724" H 6150 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6150 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6150 6000 12700 0001 C CNN "Manufacturer"
 	1    6150 6000
 	1    0    0    -1  
 $EndComp
@@ -613,8 +682,11 @@ U 1 1 5C760F5A
 P 5750 6000
 F 0 "C19" H 5842 6046 50  0000 L CNN
 F 1 "100nF" H 5842 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5750 6000 50  0001 C CNN
-F 3 "~" H 5750 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5750 6000 50  0001 C CNN
+F 4 "$0.017724" H 5750 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5750 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5750 6000 12700 0001 C CNN "Manufacturer"
 	1    5750 6000
 	1    0    0    -1  
 $EndComp
@@ -624,8 +696,11 @@ U 1 1 5C760EB4
 P 5350 6000
 F 0 "C18" H 5442 6046 50  0000 L CNN
 F 1 "100nF" H 5442 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5350 6000 50  0001 C CNN
-F 3 "~" H 5350 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5350 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5350 6000 50  0001 C CNN
+F 4 "$0.017724" H 5350 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5350 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5350 6000 12700 0001 C CNN "Manufacturer"
 	1    5350 6000
 	1    0    0    -1  
 $EndComp
@@ -635,8 +710,11 @@ U 1 1 5C760A66
 P 4950 6000
 F 0 "C17" H 5042 6046 50  0000 L CNN
 F 1 "100nF" H 5042 5955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 4950 6000 50  0001 C CNN
-F 3 "~" H 4950 6000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4950 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 4950 6000 50  0001 C CNN
+F 4 "$0.017724" H 4950 6000 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 4950 6000 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 4950 6000 12700 0001 C CNN "Manufacturer"
 	1    4950 6000
 	1    0    0    -1  
 $EndComp
@@ -674,11 +752,11 @@ P 11550 7850
 AR Path="/5C4320DF/5C4AB546/5E136C04" Ref="LED47"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136C04" Ref="LED?"  Part="1" 
 F 0 "LED47" H 11550 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 11550 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 11600 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 11650 7475 50  0001 L TNN
-F 4 "$.107155" H 11550 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 11550 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 11550 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 11600 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 11650 7475 50  0001 L TNN
+F 4 "$0.10303" H 11550 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 11550 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 11550 7850 50  0001 C CNN "Manufacturer"
 	1    11550 7850
 	1    0    0    -1  
@@ -702,11 +780,11 @@ P 10850 7850
 AR Path="/5C4320DF/5C4AB546/5E136B87" Ref="LED46"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B87" Ref="LED?"  Part="1" 
 F 0 "LED46" H 10850 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10850 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10900 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10950 7475 50  0001 L TNN
-F 4 "$.107155" H 10850 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10850 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10850 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10900 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10950 7475 50  0001 L TNN
+F 4 "$0.10303" H 10850 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10850 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10850 7850 50  0001 C CNN "Manufacturer"
 	1    10850 7850
 	1    0    0    -1  
@@ -718,11 +796,11 @@ P 10150 7850
 AR Path="/5C4320DF/5C4AB546/5E136B32" Ref="LED45"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B32" Ref="LED?"  Part="1" 
 F 0 "LED45" H 10150 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10150 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10200 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10250 7475 50  0001 L TNN
-F 4 "$.107155" H 10150 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10150 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10150 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10200 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10250 7475 50  0001 L TNN
+F 4 "$0.10303" H 10150 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10150 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10150 7850 50  0001 C CNN "Manufacturer"
 	1    10150 7850
 	1    0    0    -1  
@@ -734,11 +812,11 @@ P 9450 7850
 AR Path="/5C4320DF/5C4AB546/5E136B2C" Ref="LED44"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B2C" Ref="LED?"  Part="1" 
 F 0 "LED44" H 9450 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 9450 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 9500 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 9550 7475 50  0001 L TNN
-F 4 "$.107155" H 9450 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 9450 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 9450 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 9500 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 9550 7475 50  0001 L TNN
+F 4 "$0.10303" H 9450 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 9450 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 9450 7850 50  0001 C CNN "Manufacturer"
 	1    9450 7850
 	1    0    0    -1  
@@ -750,11 +828,11 @@ P 7350 7850
 AR Path="/5C4320DF/5C4AB546/5E136B20" Ref="LED41"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B20" Ref="LED?"  Part="1" 
 F 0 "LED41" H 7350 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 7350 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 7400 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 7450 7475 50  0001 L TNN
-F 4 "$.107155" H 7350 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 7350 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 7350 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 7400 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 7450 7475 50  0001 L TNN
+F 4 "$0.10303" H 7350 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 7350 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 7350 7850 50  0001 C CNN "Manufacturer"
 	1    7350 7850
 	1    0    0    -1  
@@ -766,11 +844,11 @@ P 8050 7850
 AR Path="/5C4320DF/5C4AB546/5E136B1A" Ref="LED42"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B1A" Ref="LED?"  Part="1" 
 F 0 "LED42" H 8050 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8050 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8100 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8150 7475 50  0001 L TNN
-F 4 "$.107155" H 8050 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8050 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8050 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8100 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8150 7475 50  0001 L TNN
+F 4 "$0.10303" H 8050 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8050 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8050 7850 50  0001 C CNN "Manufacturer"
 	1    8050 7850
 	1    0    0    -1  
@@ -782,11 +860,11 @@ P 8750 7850
 AR Path="/5C4320DF/5C4AB546/5E136B14" Ref="LED43"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B14" Ref="LED?"  Part="1" 
 F 0 "LED43" H 8750 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8750 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8800 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8850 7475 50  0001 L TNN
-F 4 "$.107155" H 8750 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8750 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8750 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8800 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8850 7475 50  0001 L TNN
+F 4 "$0.10303" H 8750 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8750 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8750 7850 50  0001 C CNN "Manufacturer"
 	1    8750 7850
 	1    0    0    -1  
@@ -804,11 +882,11 @@ P 5950 7850
 AR Path="/5C4320DF/5C4AB546/5E136B81" Ref="LED35"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B81" Ref="LED?"  Part="1" 
 F 0 "LED35" H 5950 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5950 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6000 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6050 7475 50  0001 L TNN
-F 4 "$.107155" H 5950 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5950 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5950 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6000 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6050 7475 50  0001 L TNN
+F 4 "$0.10303" H 5950 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5950 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5950 7850 50  0001 C CNN "Manufacturer"
 	1    5950 7850
 	1    0    0    -1  
@@ -820,11 +898,11 @@ P 6650 7850
 AR Path="/5C4320DF/5C4AB546/5E136B7B" Ref="LED34"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B7B" Ref="LED?"  Part="1" 
 F 0 "LED34" H 6650 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 6650 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6700 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6750 7475 50  0001 L TNN
-F 4 "$.107155" H 6650 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 6650 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 6650 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6700 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6750 7475 50  0001 L TNN
+F 4 "$0.10303" H 6650 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 6650 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 6650 7850 50  0001 C CNN "Manufacturer"
 	1    6650 7850
 	1    0    0    -1  
@@ -836,11 +914,11 @@ P 5250 7850
 AR Path="/5C4320DF/5C4AB546/5E136B38" Ref="LED36"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B38" Ref="LED?"  Part="1" 
 F 0 "LED36" H 5250 8328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5250 8237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 5300 7550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 5350 7475 50  0001 L TNN
-F 4 "$.107155" H 5250 7850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5250 7850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5250 8237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 5300 7550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 5350 7475 50  0001 L TNN
+F 4 "$0.10303" H 5250 7850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5250 7850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5250 7850 50  0001 C CNN "Manufacturer"
 	1    5250 7850
 	1    0    0    -1  
@@ -860,11 +938,11 @@ P 10850 6850
 AR Path="/5C4320DF/5C4AB546/5E136B4A" Ref="LED39"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B4A" Ref="LED?"  Part="1" 
 F 0 "LED39" H 10850 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10850 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10900 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10950 6475 50  0001 L TNN
-F 4 "$.107155" H 10850 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10850 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10850 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10900 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10950 6475 50  0001 L TNN
+F 4 "$0.10303" H 10850 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10850 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10850 6850 50  0001 C CNN "Manufacturer"
 	1    10850 6850
 	1    0    0    -1  
@@ -876,11 +954,11 @@ P 11550 6850
 AR Path="/5C4320DF/5C4AB546/5E136B44" Ref="LED38"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B44" Ref="LED?"  Part="1" 
 F 0 "LED38" H 11550 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 11550 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 11600 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 11650 6475 50  0001 L TNN
-F 4 "$.107155" H 11550 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 11550 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 11550 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 11600 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 11650 6475 50  0001 L TNN
+F 4 "$0.10303" H 11550 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 11550 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 11550 6850 50  0001 C CNN "Manufacturer"
 	1    11550 6850
 	1    0    0    -1  
@@ -892,11 +970,11 @@ P 12250 6850
 AR Path="/5C4320DF/5C4AB546/5E136B3E" Ref="LED37"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B3E" Ref="LED?"  Part="1" 
 F 0 "LED37" H 12250 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 12250 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 12300 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 12350 6475 50  0001 L TNN
-F 4 "$.107155" H 12250 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 12250 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 12250 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 12300 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 12350 6475 50  0001 L TNN
+F 4 "$0.10303" H 12250 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 12250 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 12250 6850 50  0001 C CNN "Manufacturer"
 	1    12250 6850
 	1    0    0    -1  
@@ -908,11 +986,11 @@ P 10150 6850
 AR Path="/5C4320DF/5C4AB546/5E136B26" Ref="LED40"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B26" Ref="LED?"  Part="1" 
 F 0 "LED40" H 10150 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10150 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10200 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10250 6475 50  0001 L TNN
-F 4 "$.107155" H 10150 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10150 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10150 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10200 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10250 6475 50  0001 L TNN
+F 4 "$0.10303" H 10150 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10150 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10150 6850 50  0001 C CNN "Manufacturer"
 	1    10150 6850
 	1    0    0    -1  
@@ -953,11 +1031,11 @@ P 5250 6850
 AR Path="/5C4320DF/5C4AB546/5E136B95" Ref="LED27"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B95" Ref="LED?"  Part="1" 
 F 0 "LED27" H 5250 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5250 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 5300 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 5350 6475 50  0001 L TNN
-F 4 "$.107155" H 5250 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5250 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5250 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 5300 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 5350 6475 50  0001 L TNN
+F 4 "$0.10303" H 5250 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5250 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5250 6850 50  0001 C CNN "Manufacturer"
 	1    5250 6850
 	1    0    0    -1  
@@ -969,11 +1047,11 @@ P 9450 6850
 AR Path="/5C4320DF/5C4AB546/5E136B75" Ref="LED33"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B75" Ref="LED?"  Part="1" 
 F 0 "LED33" H 9450 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 9450 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 9500 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 9550 6475 50  0001 L TNN
-F 4 "$.107155" H 9450 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 9450 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 9450 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 9500 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 9550 6475 50  0001 L TNN
+F 4 "$0.10303" H 9450 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 9450 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 9450 6850 50  0001 C CNN "Manufacturer"
 	1    9450 6850
 	1    0    0    -1  
@@ -985,11 +1063,11 @@ P 8750 6850
 AR Path="/5C4320DF/5C4AB546/5E136B6F" Ref="LED32"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B6F" Ref="LED?"  Part="1" 
 F 0 "LED32" H 8750 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8750 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8800 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8850 6475 50  0001 L TNN
-F 4 "$.107155" H 8750 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8750 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8750 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8800 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8850 6475 50  0001 L TNN
+F 4 "$0.10303" H 8750 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8750 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8750 6850 50  0001 C CNN "Manufacturer"
 	1    8750 6850
 	1    0    0    -1  
@@ -1001,11 +1079,11 @@ P 8050 6850
 AR Path="/5C4320DF/5C4AB546/5E136B69" Ref="LED31"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B69" Ref="LED?"  Part="1" 
 F 0 "LED31" H 8050 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8050 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8100 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8150 6475 50  0001 L TNN
-F 4 "$.107155" H 8050 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8050 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8050 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8100 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8150 6475 50  0001 L TNN
+F 4 "$0.10303" H 8050 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8050 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8050 6850 50  0001 C CNN "Manufacturer"
 	1    8050 6850
 	1    0    0    -1  
@@ -1017,11 +1095,11 @@ P 7350 6850
 AR Path="/5C4320DF/5C4AB546/5E136B63" Ref="LED30"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B63" Ref="LED?"  Part="1" 
 F 0 "LED30" H 7350 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 7350 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 7400 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 7450 6475 50  0001 L TNN
-F 4 "$.107155" H 7350 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 7350 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 7350 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 7400 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 7450 6475 50  0001 L TNN
+F 4 "$0.10303" H 7350 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 7350 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 7350 6850 50  0001 C CNN "Manufacturer"
 	1    7350 6850
 	1    0    0    -1  
@@ -1033,11 +1111,11 @@ P 6650 6850
 AR Path="/5C4320DF/5C4AB546/5E136B5D" Ref="LED29"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B5D" Ref="LED?"  Part="1" 
 F 0 "LED29" H 6650 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 6650 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6700 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6750 6475 50  0001 L TNN
-F 4 "$.107155" H 6650 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 6650 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 6650 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6700 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6750 6475 50  0001 L TNN
+F 4 "$0.10303" H 6650 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 6650 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 6650 6850 50  0001 C CNN "Manufacturer"
 	1    6650 6850
 	1    0    0    -1  
@@ -1049,11 +1127,11 @@ P 5950 6850
 AR Path="/5C4320DF/5C4AB546/5E136B57" Ref="LED28"  Part="1" 
 AR Path="/5C4320DF/5CB1CE0C/5E136B57" Ref="LED?"  Part="1" 
 F 0 "LED28" H 5950 7328 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5950 7237 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6000 6550 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6050 6475 50  0001 L TNN
-F 4 "$.107155" H 5950 6850 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5950 6850 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5950 7237 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6000 6550 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6050 6475 50  0001 L TNN
+F 4 "$0.10303" H 5950 6850 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5950 6850 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5950 6850 50  0001 C CNN "Manufacturer"
 	1    5950 6850
 	1    0    0    -1  
@@ -1277,8 +1355,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A399B" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A399B" Ref="C?"  Part="1" 
 F 0 "C29" H 5892 8596 50  0000 L CNN
 F 1 "100nF" H 5892 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5800 8550 50  0001 C CNN
-F 3 "~" H 5800 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5800 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5800 8550 50  0001 C CNN
+F 4 "$0.017724" H 5800 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5800 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5800 8550 12700 0001 C CNN "Manufacturer"
 	1    5800 8550
 	1    0    0    -1  
 $EndComp
@@ -1291,8 +1372,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39A1" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39A1" Ref="C?"  Part="1" 
 F 0 "C30" H 6292 8596 50  0000 L CNN
 F 1 "100nF" H 6292 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6200 8550 50  0001 C CNN
-F 3 "~" H 6200 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6200 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6200 8550 50  0001 C CNN
+F 4 "$0.017724" H 6200 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6200 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6200 8550 12700 0001 C CNN "Manufacturer"
 	1    6200 8550
 	1    0    0    -1  
 $EndComp
@@ -1305,8 +1389,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39AD" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39AD" Ref="C?"  Part="1" 
 F 0 "C28" H 5492 8596 50  0000 L CNN
 F 1 "100nF" H 5492 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5400 8550 50  0001 C CNN
-F 3 "~" H 5400 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5400 8550 50  0001 C CNN
+F 4 "$0.017724" H 5400 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5400 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5400 8550 12700 0001 C CNN "Manufacturer"
 	1    5400 8550
 	1    0    0    -1  
 $EndComp
@@ -1319,8 +1406,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39B3" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39B3" Ref="C?"  Part="1" 
 F 0 "C33" H 7492 8596 50  0000 L CNN
 F 1 "100nF" H 7492 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 7400 8550 50  0001 C CNN
-F 3 "~" H 7400 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7400 8550 50  0001 C CNN
+F 4 "$0.017724" H 7400 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7400 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7400 8550 12700 0001 C CNN "Manufacturer"
 	1    7400 8550
 	1    0    0    -1  
 $EndComp
@@ -1333,8 +1423,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39B9" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39B9" Ref="C?"  Part="1" 
 F 0 "C31" H 6692 8596 50  0000 L CNN
 F 1 "100nF" H 6692 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 6600 8550 50  0001 C CNN
-F 3 "~" H 6600 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6600 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6600 8550 50  0001 C CNN
+F 4 "$0.017724" H 6600 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6600 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6600 8550 12700 0001 C CNN "Manufacturer"
 	1    6600 8550
 	1    0    0    -1  
 $EndComp
@@ -1347,8 +1440,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39BF" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39BF" Ref="C?"  Part="1" 
 F 0 "C32" H 7092 8596 50  0000 L CNN
 F 1 "100nF" H 7092 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 7000 8550 50  0001 C CNN
-F 3 "~" H 7000 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7000 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7000 8550 50  0001 C CNN
+F 4 "$0.017724" H 7000 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7000 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7000 8550 12700 0001 C CNN "Manufacturer"
 	1    7000 8550
 	1    0    0    -1  
 $EndComp
@@ -1361,8 +1457,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39D1" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39D1" Ref="C?"  Part="1" 
 F 0 "C34" H 7892 8596 50  0000 L CNN
 F 1 "100nF" H 7892 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 7800 8550 50  0001 C CNN
-F 3 "~" H 7800 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7800 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7800 8550 50  0001 C CNN
+F 4 "$0.017724" H 7800 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7800 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7800 8550 12700 0001 C CNN "Manufacturer"
 	1    7800 8550
 	1    0    0    -1  
 $EndComp
@@ -1390,8 +1489,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A3A13" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A3A13" Ref="C?"  Part="1" 
 F 0 "C46" H 12692 8596 50  0000 L CNN
 F 1 "100nF" H 12692 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 12600 8550 50  0001 C CNN
-F 3 "~" H 12600 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12600 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 12600 8550 50  0001 C CNN
+F 4 "$0.017724" H 12600 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 12600 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 12600 8550 12700 0001 C CNN "Manufacturer"
 	1    12600 8550
 	1    0    0    -1  
 $EndComp
@@ -1404,8 +1506,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A3A0D" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A3A0D" Ref="C?"  Part="1" 
 F 0 "C45" H 12292 8596 50  0000 L CNN
 F 1 "100nF" H 12292 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 12200 8550 50  0001 C CNN
-F 3 "~" H 12200 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12200 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 12200 8550 50  0001 C CNN
+F 4 "$0.017724" H 12200 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 12200 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 12200 8550 12700 0001 C CNN "Manufacturer"
 	1    12200 8550
 	1    0    0    -1  
 $EndComp
@@ -1418,8 +1523,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A3A07" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A3A07" Ref="C?"  Part="1" 
 F 0 "C47" H 13092 8596 50  0000 L CNN
 F 1 "100nF" H 13092 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 13000 8550 50  0001 C CNN
-F 3 "~" H 13000 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13000 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 13000 8550 50  0001 C CNN
+F 4 "$0.017724" H 13000 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 13000 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 13000 8550 12700 0001 C CNN "Manufacturer"
 	1    13000 8550
 	1    0    0    -1  
 $EndComp
@@ -1432,8 +1540,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A3A01" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A3A01" Ref="C?"  Part="1" 
 F 0 "C42" H 11092 8596 50  0000 L CNN
 F 1 "100nF" H 11092 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 11000 8550 50  0001 C CNN
-F 3 "~" H 11000 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11000 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 11000 8550 50  0001 C CNN
+F 4 "$0.017724" H 11000 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 11000 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 11000 8550 12700 0001 C CNN "Manufacturer"
 	1    11000 8550
 	1    0    0    -1  
 $EndComp
@@ -1446,8 +1557,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39FB" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39FB" Ref="C?"  Part="1" 
 F 0 "C41" H 10692 8596 50  0000 L CNN
 F 1 "100nF" H 10692 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 10600 8550 50  0001 C CNN
-F 3 "~" H 10600 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10600 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 10600 8550 50  0001 C CNN
+F 4 "$0.017724" H 10600 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 10600 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 10600 8550 12700 0001 C CNN "Manufacturer"
 	1    10600 8550
 	1    0    0    -1  
 $EndComp
@@ -1460,8 +1574,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39F5" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39F5" Ref="C?"  Part="1" 
 F 0 "C44" H 11892 8596 50  0000 L CNN
 F 1 "100nF" H 11892 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 11800 8550 50  0001 C CNN
-F 3 "~" H 11800 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11800 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 11800 8550 50  0001 C CNN
+F 4 "$0.017724" H 11800 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 11800 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 11800 8550 12700 0001 C CNN "Manufacturer"
 	1    11800 8550
 	1    0    0    -1  
 $EndComp
@@ -1474,8 +1591,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39EF" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39EF" Ref="C?"  Part="1" 
 F 0 "C43" H 11492 8596 50  0000 L CNN
 F 1 "100nF" H 11492 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 11400 8550 50  0001 C CNN
-F 3 "~" H 11400 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11400 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 11400 8550 50  0001 C CNN
+F 4 "$0.017724" H 11400 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 11400 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 11400 8550 12700 0001 C CNN "Manufacturer"
 	1    11400 8550
 	1    0    0    -1  
 $EndComp
@@ -1488,8 +1608,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39E9" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39E9" Ref="C?"  Part="1" 
 F 0 "C39" H 9892 8596 50  0000 L CNN
 F 1 "100nF" H 9892 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 9800 8550 50  0001 C CNN
-F 3 "~" H 9800 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9800 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 9800 8550 50  0001 C CNN
+F 4 "$0.017724" H 9800 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 9800 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 9800 8550 12700 0001 C CNN "Manufacturer"
 	1    9800 8550
 	1    0    0    -1  
 $EndComp
@@ -1502,8 +1625,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39E3" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39E3" Ref="C?"  Part="1" 
 F 0 "C38" H 9492 8596 50  0000 L CNN
 F 1 "100nF" H 9492 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 9400 8550 50  0001 C CNN
-F 3 "~" H 9400 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9400 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 9400 8550 50  0001 C CNN
+F 4 "$0.017724" H 9400 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 9400 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 9400 8550 12700 0001 C CNN "Manufacturer"
 	1    9400 8550
 	1    0    0    -1  
 $EndComp
@@ -1516,8 +1642,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39DD" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39DD" Ref="C?"  Part="1" 
 F 0 "C40" H 10292 8596 50  0000 L CNN
 F 1 "100nF" H 10292 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 10200 8550 50  0001 C CNN
-F 3 "~" H 10200 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10200 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 10200 8550 50  0001 C CNN
+F 4 "$0.017724" H 10200 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 10200 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 10200 8550 12700 0001 C CNN "Manufacturer"
 	1    10200 8550
 	1    0    0    -1  
 $EndComp
@@ -1530,8 +1659,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39D7" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39D7" Ref="C?"  Part="1" 
 F 0 "C35" H 8292 8596 50  0000 L CNN
 F 1 "100nF" H 8292 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 8200 8550 50  0001 C CNN
-F 3 "~" H 8200 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8200 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8200 8550 50  0001 C CNN
+F 4 "$0.017724" H 8200 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8200 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8200 8550 12700 0001 C CNN "Manufacturer"
 	1    8200 8550
 	1    0    0    -1  
 $EndComp
@@ -1544,8 +1676,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39CB" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39CB" Ref="C?"  Part="1" 
 F 0 "C37" H 9092 8596 50  0000 L CNN
 F 1 "100nF" H 9092 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 9000 8550 50  0001 C CNN
-F 3 "~" H 9000 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9000 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 9000 8550 50  0001 C CNN
+F 4 "$0.017724" H 9000 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 9000 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 9000 8550 12700 0001 C CNN "Manufacturer"
 	1    9000 8550
 	1    0    0    -1  
 $EndComp
@@ -1558,8 +1693,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39C5" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39C5" Ref="C?"  Part="1" 
 F 0 "C36" H 8692 8596 50  0000 L CNN
 F 1 "100nF" H 8692 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 8600 8550 50  0001 C CNN
-F 3 "~" H 8600 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8600 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8600 8550 50  0001 C CNN
+F 4 "$0.017724" H 8600 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8600 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8600 8550 12700 0001 C CNN "Manufacturer"
 	1    8600 8550
 	1    0    0    -1  
 $EndComp
@@ -1572,8 +1710,11 @@ AR Path="/5C4320DF/5CB0FE15/5E1A39A7" Ref="C?"  Part="1"
 AR Path="/5C4320DF/5CB1CE0C/5E1A39A7" Ref="C?"  Part="1" 
 F 0 "C27" H 5092 8596 50  0000 L CNN
 F 1 "100nF" H 5092 8505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5000 8550 50  0001 C CNN
-F 3 "~" H 5000 8550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5000 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5000 8550 50  0001 C CNN
+F 4 "$0.017724" H 5000 8550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5000 8550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5000 8550 12700 0001 C CNN "Manufacturer"
 	1    5000 8550
 	1    0    0    -1  
 $EndComp
@@ -1586,11 +1727,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED17
 U 1 1 5C5B6B5A
 P 5250 5300
 F 0 "LED17" H 5250 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5250 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 5300 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 5350 4925 50  0001 L TNN
-F 4 "$.107155" H 5250 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5250 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5250 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 5300 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 5350 4925 50  0001 L TNN
+F 4 "$0.10303" H 5250 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5250 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5250 5300 50  0001 C CNN "Manufacturer"
 	1    5250 5300
 	1    0    0    -1  
@@ -1600,11 +1741,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED18
 U 1 1 5C5B6CD9
 P 5950 5300
 F 0 "LED18" H 5950 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5950 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6000 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6050 4925 50  0001 L TNN
-F 4 "$.107155" H 5950 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5950 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5950 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6000 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6050 4925 50  0001 L TNN
+F 4 "$0.10303" H 5950 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5950 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5950 5300 50  0001 C CNN "Manufacturer"
 	1    5950 5300
 	1    0    0    -1  
@@ -1616,11 +1757,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED19
 U 1 1 5C5B74A1
 P 6650 5300
 F 0 "LED19" H 6650 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 6650 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6700 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6750 4925 50  0001 L TNN
-F 4 "$.107155" H 6650 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 6650 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 6650 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6700 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6750 4925 50  0001 L TNN
+F 4 "$0.10303" H 6650 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 6650 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 6650 5300 50  0001 C CNN "Manufacturer"
 	1    6650 5300
 	1    0    0    -1  
@@ -1630,11 +1771,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED20
 U 1 1 5C5B75DC
 P 7350 5300
 F 0 "LED20" H 7350 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 7350 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 7400 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 7450 4925 50  0001 L TNN
-F 4 "$.107155" H 7350 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 7350 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 7350 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 7400 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 7450 4925 50  0001 L TNN
+F 4 "$0.10303" H 7350 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 7350 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 7350 5300 50  0001 C CNN "Manufacturer"
 	1    7350 5300
 	1    0    0    -1  
@@ -1646,11 +1787,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED21
 U 1 1 5C5B772F
 P 8050 5300
 F 0 "LED21" H 8050 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8050 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8100 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8150 4925 50  0001 L TNN
-F 4 "$.107155" H 8050 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8050 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8050 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8100 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8150 4925 50  0001 L TNN
+F 4 "$0.10303" H 8050 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8050 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8050 5300 50  0001 C CNN "Manufacturer"
 	1    8050 5300
 	1    0    0    -1  
@@ -1662,11 +1803,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED22
 U 1 1 5C5B793C
 P 8750 5300
 F 0 "LED22" H 8750 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8750 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8800 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8850 4925 50  0001 L TNN
-F 4 "$.107155" H 8750 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8750 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8750 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8800 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8850 4925 50  0001 L TNN
+F 4 "$0.10303" H 8750 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8750 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8750 5300 50  0001 C CNN "Manufacturer"
 	1    8750 5300
 	1    0    0    -1  
@@ -1676,11 +1817,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED23
 U 1 1 5C5B7AEB
 P 9450 5300
 F 0 "LED23" H 9450 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 9450 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 9500 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 9550 4925 50  0001 L TNN
-F 4 "$.107155" H 9450 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 9450 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 9450 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 9500 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 9550 4925 50  0001 L TNN
+F 4 "$0.10303" H 9450 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 9450 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 9450 5300 50  0001 C CNN "Manufacturer"
 	1    9450 5300
 	1    0    0    -1  
@@ -1692,11 +1833,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED24
 U 1 1 5C5B7D45
 P 10150 5300
 F 0 "LED24" H 10150 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10150 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10200 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10250 4925 50  0001 L TNN
-F 4 "$.107155" H 10150 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10150 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10150 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10200 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10250 4925 50  0001 L TNN
+F 4 "$0.10303" H 10150 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10150 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10150 5300 50  0001 C CNN "Manufacturer"
 	1    10150 5300
 	1    0    0    -1  
@@ -1706,11 +1847,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED25
 U 1 1 5C5B7F94
 P 10850 5300
 F 0 "LED25" H 10850 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10850 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10900 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10950 4925 50  0001 L TNN
-F 4 "$.107155" H 10850 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10850 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10850 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10900 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10950 4925 50  0001 L TNN
+F 4 "$0.10303" H 10850 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10850 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10850 5300 50  0001 C CNN "Manufacturer"
 	1    10850 5300
 	1    0    0    -1  
@@ -1722,11 +1863,11 @@ L OTTOdiy_SMD-library:NeoPixel_THT-LED LED26
 U 1 1 5C5B81C2
 P 11550 5300
 F 0 "LED26" H 11550 5778 50  0000 C CNN
-F 1 "WS2812B-Mini" H 11550 5687 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 11600 5000 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 11650 4925 50  0001 L TNN
-F 4 "$.107155" H 11550 5300 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 11550 5300 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 11550 5687 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 11600 5000 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 11650 4925 50  0001 L TNN
+F 4 "$0.10303" H 11550 5300 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 11550 5300 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 11550 5300 50  0001 C CNN "Manufacturer"
 	1    11550 5300
 	1    0    0    -1  
@@ -1792,11 +1933,11 @@ P 7350 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B796" Ref="LED12"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B796" Ref="LED?"  Part="1" 
 F 0 "LED12" H 7350 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 7350 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 7400 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 7450 3325 50  0001 L TNN
-F 4 "$.107155" H 7350 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 7350 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 7350 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 7400 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 7450 3325 50  0001 L TNN
+F 4 "$0.10303" H 7350 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 7350 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 7350 3700 50  0001 C CNN "Manufacturer"
 	1    7350 3700
 	1    0    0    -1  
@@ -1810,11 +1951,11 @@ P 6650 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B78F" Ref="LED11"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B78F" Ref="LED?"  Part="1" 
 F 0 "LED11" H 6650 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 6650 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6700 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6750 3325 50  0001 L TNN
-F 4 "$.107155" H 6650 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 6650 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 6650 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6700 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6750 3325 50  0001 L TNN
+F 4 "$0.10303" H 6650 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 6650 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 6650 3700 50  0001 C CNN "Manufacturer"
 	1    6650 3700
 	1    0    0    -1  
@@ -1828,11 +1969,11 @@ P 5950 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B788" Ref="LED10"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B788" Ref="LED?"  Part="1" 
 F 0 "LED10" H 5950 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5950 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6000 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6050 3325 50  0001 L TNN
-F 4 "$.107155" H 5950 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5950 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5950 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6000 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6050 3325 50  0001 L TNN
+F 4 "$0.10303" H 5950 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5950 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5950 3700 50  0001 C CNN "Manufacturer"
 	1    5950 3700
 	1    0    0    -1  
@@ -1844,11 +1985,11 @@ P 5250 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B782" Ref="LED9"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B782" Ref="LED?"  Part="1" 
 F 0 "LED9" H 5250 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5250 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 5300 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 5350 3325 50  0001 L TNN
-F 4 "$.107155" H 5250 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5250 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5250 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 5300 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 5350 3325 50  0001 L TNN
+F 4 "$0.10303" H 5250 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5250 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5250 3700 50  0001 C CNN "Manufacturer"
 	1    5250 3700
 	1    0    0    -1  
@@ -1862,11 +2003,11 @@ P 10150 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B77B" Ref="LED16"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B77B" Ref="LED?"  Part="1" 
 F 0 "LED16" H 10150 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10150 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10200 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10250 3325 50  0001 L TNN
-F 4 "$.107155" H 10150 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10150 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10150 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10200 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10250 3325 50  0001 L TNN
+F 4 "$0.10303" H 10150 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10150 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10150 3700 50  0001 C CNN "Manufacturer"
 	1    10150 3700
 	1    0    0    -1  
@@ -1880,11 +2021,11 @@ P 9450 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B774" Ref="LED15"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B774" Ref="LED?"  Part="1" 
 F 0 "LED15" H 9450 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 9450 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 9500 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 9550 3325 50  0001 L TNN
-F 4 "$.107155" H 9450 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 9450 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 9450 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 9500 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 9550 3325 50  0001 L TNN
+F 4 "$0.10303" H 9450 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 9450 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 9450 3700 50  0001 C CNN "Manufacturer"
 	1    9450 3700
 	1    0    0    -1  
@@ -1898,11 +2039,11 @@ P 8750 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B76D" Ref="LED14"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B76D" Ref="LED?"  Part="1" 
 F 0 "LED14" H 8750 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8750 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8800 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8850 3325 50  0001 L TNN
-F 4 "$.107155" H 8750 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8750 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8750 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8800 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8850 3325 50  0001 L TNN
+F 4 "$0.10303" H 8750 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8750 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8750 3700 50  0001 C CNN "Manufacturer"
 	1    8750 3700
 	1    0    0    -1  
@@ -1916,11 +2057,11 @@ P 8050 3700
 AR Path="/5C4320DF/5C4AB546/5DF8B766" Ref="LED13"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B766" Ref="LED?"  Part="1" 
 F 0 "LED13" H 8050 4178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8050 4087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8100 3400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8150 3325 50  0001 L TNN
-F 4 "$.107155" H 8050 3700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8050 3700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8050 4087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8100 3400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8150 3325 50  0001 L TNN
+F 4 "$0.10303" H 8050 3700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8050 3700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8050 3700 50  0001 C CNN "Manufacturer"
 	1    8050 3700
 	1    0    0    -1  
@@ -1953,11 +2094,11 @@ P 9450 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7CC" Ref="LED7"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B7CC" Ref="LED?"  Part="1" 
 F 0 "LED7" H 9450 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 9450 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 9500 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 9550 2325 50  0001 L TNN
-F 4 "$.107155" H 9450 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 9450 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 9450 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 9500 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 9550 2325 50  0001 L TNN
+F 4 "$0.10303" H 9450 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 9450 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 9450 2700 50  0001 C CNN "Manufacturer"
 	1    9450 2700
 	1    0    0    -1  
@@ -1971,11 +2112,11 @@ P 8750 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7C5" Ref="LED6"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B7C5" Ref="LED?"  Part="1" 
 F 0 "LED6" H 8750 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8750 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8800 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8850 2325 50  0001 L TNN
-F 4 "$.107155" H 8750 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8750 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8750 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8800 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8850 2325 50  0001 L TNN
+F 4 "$0.10303" H 8750 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8750 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8750 2700 50  0001 C CNN "Manufacturer"
 	1    8750 2700
 	1    0    0    -1  
@@ -1989,11 +2130,11 @@ P 8050 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7BE" Ref="LED5"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B7BE" Ref="LED?"  Part="1" 
 F 0 "LED5" H 8050 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 8050 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 8100 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 8150 2325 50  0001 L TNN
-F 4 "$.107155" H 8050 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 8050 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 8050 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8100 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8150 2325 50  0001 L TNN
+F 4 "$0.10303" H 8050 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 8050 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 8050 2700 50  0001 C CNN "Manufacturer"
 	1    8050 2700
 	1    0    0    -1  
@@ -2007,11 +2148,11 @@ P 7350 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7B7" Ref="LED4"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B7B7" Ref="LED?"  Part="1" 
 F 0 "LED4" H 7350 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 7350 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 7400 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 7450 2325 50  0001 L TNN
-F 4 "$.107155" H 7350 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 7350 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 7350 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 7400 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 7450 2325 50  0001 L TNN
+F 4 "$0.10303" H 7350 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 7350 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 7350 2700 50  0001 C CNN "Manufacturer"
 	1    7350 2700
 	1    0    0    -1  
@@ -2025,11 +2166,11 @@ P 6650 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7B0" Ref="LED3"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B7B0" Ref="LED?"  Part="1" 
 F 0 "LED3" H 6650 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 6650 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6700 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6750 2325 50  0001 L TNN
-F 4 "$.107155" H 6650 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 6650 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 6650 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6700 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6750 2325 50  0001 L TNN
+F 4 "$0.10303" H 6650 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 6650 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 6650 2700 50  0001 C CNN "Manufacturer"
 	1    6650 2700
 	1    0    0    -1  
@@ -2043,11 +2184,11 @@ P 5950 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7A9" Ref="LED2"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B7A9" Ref="LED?"  Part="1" 
 F 0 "LED2" H 5950 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5950 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 6000 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 6050 2325 50  0001 L TNN
-F 4 "$.107155" H 5950 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5950 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5950 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6000 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6050 2325 50  0001 L TNN
+F 4 "$0.10303" H 5950 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5950 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5950 2700 50  0001 C CNN "Manufacturer"
 	1    5950 2700
 	1    0    0    -1  
@@ -2059,11 +2200,11 @@ P 5250 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B7A3" Ref="LED1"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B7A3" Ref="LED?"  Part="1" 
 F 0 "LED1" H 5250 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 5250 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 5300 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 5350 2325 50  0001 L TNN
-F 4 "$.107155" H 5250 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 5250 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 5250 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 5300 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 5350 2325 50  0001 L TNN
+F 4 "$0.10303" H 5250 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 5250 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 5250 2700 50  0001 C CNN "Manufacturer"
 	1    5250 2700
 	1    0    0    -1  
@@ -2077,11 +2218,11 @@ P 10150 2700
 AR Path="/5C4320DF/5C4AB546/5DF8B79C" Ref="LED8"  Part="1" 
 AR Path="/5C4320DF/5CB0FE15/5DF8B79C" Ref="LED?"  Part="1" 
 F 0 "LED8" H 10150 3178 50  0000 C CNN
-F 1 "WS2812B-Mini" H 10150 3087 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:LED3535" H 10200 2400 50  0001 L TNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811041130_Worldsemi-WS2812B-Mini_C114583.pdf" H 10250 2325 50  0001 L TNN
-F 4 "$.107155" H 10150 2700 50  0001 C CNN "EstimatedCost(USD)"
-F 5 "WS2812B-Mini" H 10150 2700 50  0001 C CNN "MPN"
+F 1 "WS2812D-5" H 10150 3087 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10200 2400 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10250 2325 50  0001 L TNN
+F 4 "$0.10303" H 10150 2700 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "WS2812D-F5" H 10150 2700 50  0001 C CNN "MPN"
 F 6 "Worldsemi" H 10150 2700 50  0001 C CNN "Manufacturer"
 	1    10150 2700
 	1    0    0    -1  
@@ -2420,8 +2561,11 @@ U 1 1 5E0C5D75
 P 2650 4550
 F 0 "C78" H 2765 4596 50  0000 L CNN
 F 1 "100nF" H 2765 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 2688 4400 50  0001 C CNN
-F 3 "~" H 2650 4550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 4400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 2650 4550 50  0001 C CNN
+F 4 "$0.017724" H 2650 4550 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 2650 4550 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 2650 4550 12700 0001 C CNN "Manufacturer"
 	1    2650 4550
 	1    0    0    -1  
 $EndComp
@@ -2518,8 +2662,11 @@ U 1 1 5E0D93C1
 P 1750 2100
 F 0 "C76" H 1865 2146 50  0000 L CNN
 F 1 "47uF" H 1865 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 1788 1950 50  0001 C CNN
-F 3 "~" H 1750 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1788 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1910251832_Murata-Electronics-GRM31CR61E476ME44L_C403725.pdf" H 1750 2100 50  0001 C CNN
+F 4 "$0.390909" H 1750 2100 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "GRM31CR61E476ME44L" H 1750 2100 12700 0001 C CNN "MPN"
+F 6 "Murata Electronics" H 1750 2100 12700 0001 C CNN "Manufacturer"
 	1    1750 2100
 	1    0    0    -1  
 $EndComp
@@ -2549,8 +2696,11 @@ U 1 1 5E0DB8E2
 P 2250 2100
 F 0 "C77" H 2365 2146 50  0000 L CNN
 F 1 "10nF" H 2365 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 2288 1950 50  0001 C CNN
-F 3 "~" H 2250 2100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2288 1950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B103KBCNNNC_C84715.pdf" H 2250 2100 50  0001 C CNN
+F 4 "$0.007546" H 2250 2100 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B103KBCNNNC" H 2250 2100 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 2250 2100 12700 0001 C CNN "Manufacturer"
 	1    2250 2100
 	1    0    0    -1  
 $EndComp

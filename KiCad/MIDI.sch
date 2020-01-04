@@ -248,8 +248,11 @@ AR Path="/5C4320DF/5C4AB546/5C6A675D" Ref="C?"  Part="1"
 AR Path="/5C435D84/5C6A675D" Ref="C69"  Part="1" 
 F 0 "C69" V 3187 6850 50  0000 C CNN
 F 1 "100nF" V 3278 6850 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 3050 6850 50  0001 C CNN
-F 3 "~" H 3050 6850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3050 6850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 3050 6850 50  0001 C CNN
+F 4 "$0.017724" H 3050 6850 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 3050 6850 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 3050 6850 12700 0001 C CNN "Manufacturer"
 	1    3050 6850
 	0    1    1    0   
 $EndComp
@@ -324,8 +327,11 @@ AR Path="/5C4320DF/5C4AB546/5D588BE8" Ref="C?"  Part="1"
 AR Path="/5C435D84/5D588BE8" Ref="C68"  Part="1" 
 F 0 "C68" H 5808 4654 50  0000 R CNN
 F 1 "100nF" H 5808 4745 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder_marked" H 5900 4700 50  0001 C CNN
-F 3 "~" H 5900 4700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5900 4700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5900 4700 50  0001 C CNN
+F 4 "$0.017724" H 5900 4700 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "CL21B104JBCNNNC" H 5900 4700 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 5900 4700 12700 0001 C CNN "Manufacturer"
 	1    5900 4700
 	-1   0    0    1   
 $EndComp
