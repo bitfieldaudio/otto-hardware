@@ -1081,9 +1081,9 @@ PROG_UART_RX
 Wire Wire Line
 	900  7850 1800 7850
 Text GLabel 2500 7100 2    50   Input ~ 0
-+5V_IN
+DC_IN
 Text GLabel 1600 7100 0    50   Input ~ 0
-+5V_IN
+DC_IN
 Text GLabel 1450 7600 0    50   Input ~ 0
 PWR_BUTTON
 Text Label 900  8600 0    50   ~ 0
@@ -1093,7 +1093,7 @@ EXP_GPIO_6_PWM
 Text Label 3200 8800 2    50   ~ 0
 EXP_GPIO_2_ADC
 Text GLabel 12050 8050 2    50   Input ~ 0
-+5V_IN
+DC_IN
 Text Label 900  8700 0    50   ~ 0
 EXP_GPIO_3_PWM
 Text Label 3200 8700 2    50   ~ 0
@@ -1340,7 +1340,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 7650 1800 7650
 Text Notes 800  10900 0    50   ~ 0
-This connector can be useful to expand the features of the OTTO. \nNormally, the +5V_IN and +5V_MCU are connected via jumpers, \nbut with an expansion board, you could add a battery with char-\nging circuit to the board. \nPWR_BUTTON is routed here in case the battery IC needs it to \npower up.\nThen there's a connector to program the MCU in case the \nRaspberry Pi has problems doing this.\nI2C and the other connections can be used for the charging \ncircuit, too. (ADC for battery level, PWM for status LEDs)\nThe last bit is for a CV/Gate I/O.
+This connector can be useful to expand the features of the OTTO. \nNormally, DC_IN and +5V_MCU are connected via jumpers, \nbut with an expansion board, you could add a battery with char-\nging circuit to the board. \nPWR_BUTTON is routed here in case the battery IC needs it to \npower up.\nThen there's a connector to program the MCU in case the \nRaspberry Pi has problems doing this.\nI2C and the other connections can be used for the charging \ncircuit, too. (ADC for battery level, PWM for status LEDs)\nThe last bit is for a CV/Gate I/O.
 Wire Notes Line
 	750  10950 750  6300
 Wire Notes Line
@@ -1510,8 +1510,11 @@ U 1 1 5E433262
 P 6500 3200
 F 0 "FB1" V 6226 3200 50  0000 C CNN
 F 1 "1kΩ@100Mhz" V 6317 3200 50  0000 C CNN
-F 2 "" V 6430 3200 50  0001 C CNN
-F 3 "~" H 6500 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TDK-MPZ2012S102ATD25_C80983.pdf" H 6500 3200 50  0001 C CNN
+F 4 "$0.079339" H 6500 3200 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "MPZ2012S102ATD25" H 6500 3200 50  0001 C CNN "MPN"
+F 6 "TDK" H 6500 3200 50  0001 C CNN "Manufacturer"
 	1    6500 3200
 	0    1    1    0   
 $EndComp
@@ -1521,8 +1524,11 @@ U 1 1 5DEBF301
 P 14350 6350
 F 0 "J1" H 13906 6396 50  0000 R CNN
 F 1 "Conn_ARM_JTAG_SWD_10" H 13906 6305 50  0000 R CNN
-F 2 "" H 14350 6350 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 14000 5100 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:FTSH-105-01-X-DV-K" H 14350 6350 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/ftsh_smt.pdf" V 14000 5100 50  0001 C CNN
+F 4 "$2.30" H 14350 6350 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "FTSH-105-01-F-DV-K-A-P" H 14350 6350 50  0001 C CNN "MPN"
+F 6 "Samtec" H 14350 6350 50  0001 C CNN "Manufacturer"
 	1    14350 6350
 	-1   0    0    -1  
 $EndComp

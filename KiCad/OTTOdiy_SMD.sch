@@ -102,10 +102,12 @@ U 1 1 5C6CE0E7
 P 2800 6450
 F 0 "H201" H 2900 6496 50  0000 L CNN
 F 1 "MountingHole" H 2900 6405 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 6450 50  0001 C CNN
-F 3 "" H 2800 6450 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2800 6450 50  0001 C CNN
+F 3 "N/A" H 2800 6450 50  0001 C CNN
 F 4 "$0.00" H 2800 6450 50  0001 C CNN "EstimatedCost(USD)"
 F 5 "DNP" H 2800 6450 50  0001 C CNN "AssemblyOption"
+F 6 "N/A" H 2800 6450 50  0001 C CNN "MPN"
+F 7 "N/A" H 2800 6450 50  0001 C CNN "Manufacturer"
 	1    2800 6450
 	1    0    0    -1  
 $EndComp
@@ -115,10 +117,12 @@ U 1 1 5C6CE137
 P 2800 6750
 F 0 "H204" H 2900 6796 50  0000 L CNN
 F 1 "MountingHole" H 2900 6705 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 6750 50  0001 C CNN
-F 3 "" H 2800 6750 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2800 6750 50  0001 C CNN
+F 3 "N/A" H 2800 6750 50  0001 C CNN
 F 4 "DNP" H 2800 6750 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 2800 6750 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 2800 6750 50  0001 C CNN "MPN"
+F 7 "N/A" H 2800 6750 50  0001 C CNN "Manufacturer"
 	1    2800 6750
 	1    0    0    -1  
 $EndComp
@@ -128,10 +132,12 @@ U 1 1 5C6CE161
 P 3850 6450
 F 0 "H202" H 3950 6496 50  0000 L CNN
 F 1 "MountingHole" H 3950 6405 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 6450 50  0001 C CNN
-F 3 "" H 3850 6450 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3850 6450 50  0001 C CNN
+F 3 "N/A" H 3850 6450 50  0001 C CNN
 F 4 "DNP" H 3850 6450 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 3850 6450 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 3850 6450 50  0001 C CNN "MPN"
+F 7 "N/A" H 3850 6450 50  0001 C CNN "Manufacturer"
 	1    3850 6450
 	1    0    0    -1  
 $EndComp
@@ -141,10 +147,12 @@ U 1 1 5C72862E
 P 3850 6750
 F 0 "H205" H 3950 6796 50  0000 L CNN
 F 1 "MountingHole" H 3950 6705 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 6750 50  0001 C CNN
-F 3 "" H 3850 6750 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3850 6750 50  0001 C CNN
+F 3 "N/A" H 3850 6750 50  0001 C CNN
 F 4 "DNP" H 3850 6750 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 3850 6750 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 3850 6750 50  0001 C CNN "MPN"
+F 7 "N/A" H 3850 6750 50  0001 C CNN "Manufacturer"
 	1    3850 6750
 	1    0    0    -1  
 $EndComp
@@ -246,9 +254,11 @@ P 3850 7700
 F 0 "H213" H 3950 7751 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3950 7660 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 3850 7700 50  0001 C CNN
-F 3 "" H 3850 7700 50  0001 C CNN
+F 3 "N/A" H 3850 7700 50  0001 C CNN
 F 4 "DNP" H 3850 7700 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 3850 7700 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 3850 7700 50  0001 C CNN "MPN"
+F 7 "N/A" H 3850 7700 50  0001 C CNN "Manufacturer"
 	1    3850 7700
 	1    0    0    -1  
 $EndComp
@@ -259,9 +269,11 @@ P 3850 8300
 F 0 "H215" H 3950 8351 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3950 8260 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 3850 8300 50  0001 C CNN
-F 3 "" H 3850 8300 50  0001 C CNN
+F 3 "N/A" H 3850 8300 50  0001 C CNN
 F 4 "DNP" H 3850 8300 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 3850 8300 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 3850 8300 50  0001 C CNN "MPN"
+F 7 "N/A" H 3850 8300 50  0001 C CNN "Manufacturer"
 	1    3850 8300
 	1    0    0    -1  
 $EndComp
@@ -271,10 +283,12 @@ U 1 1 5DDBF7EF
 P 2800 7050
 F 0 "H207" H 2900 7096 50  0000 L CNN
 F 1 "MountingHole" H 2900 7005 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 7050 50  0001 C CNN
-F 3 "" H 2800 7050 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2800 7050 50  0001 C CNN
+F 3 "N/A" H 2800 7050 50  0001 C CNN
 F 4 "DNP" H 2800 7050 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 2800 7050 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 2800 7050 50  0001 C CNN "MPN"
+F 7 "N/A" H 2800 7050 50  0001 C CNN "Manufacturer"
 	1    2800 7050
 	1    0    0    -1  
 $EndComp
@@ -284,10 +298,12 @@ U 1 1 5DDBF7F5
 P 2800 7350
 F 0 "H210" H 2900 7396 50  0000 L CNN
 F 1 "MountingHole" H 2900 7305 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 2800 7350 50  0001 C CNN
-F 3 "" H 2800 7350 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2800 7350 50  0001 C CNN
+F 3 "N/A" H 2800 7350 50  0001 C CNN
 F 4 "DNP" H 2800 7350 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 2800 7350 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 2800 7350 50  0001 C CNN "MPN"
+F 7 "N/A" H 2800 7350 50  0001 C CNN "Manufacturer"
 	1    2800 7350
 	1    0    0    -1  
 $EndComp
@@ -297,10 +313,12 @@ U 1 1 5DDBF7FB
 P 3850 7050
 F 0 "H208" H 3950 7096 50  0000 L CNN
 F 1 "MountingHole" H 3950 7005 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 7050 50  0001 C CNN
-F 3 "" H 3850 7050 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3850 7050 50  0001 C CNN
+F 3 "N/A" H 3850 7050 50  0001 C CNN
 F 4 "DNP" H 3850 7050 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 3850 7050 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 3850 7050 50  0001 C CNN "MPN"
+F 7 "N/A" H 3850 7050 50  0001 C CNN "Manufacturer"
 	1    3850 7050
 	1    0    0    -1  
 $EndComp
@@ -310,10 +328,12 @@ U 1 1 5DE07FDF
 P 4850 6450
 F 0 "H203" H 4950 6496 50  0000 L CNN
 F 1 "MountingHole" H 4950 6405 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 4850 6450 50  0001 C CNN
-F 3 "" H 4850 6450 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 4850 6450 50  0001 C CNN
+F 3 "N/A" H 4850 6450 50  0001 C CNN
 F 4 "DNP" H 4850 6450 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 4850 6450 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 4850 6450 50  0001 C CNN "MPN"
+F 7 "N/A" H 4850 6450 50  0001 C CNN "Manufacturer"
 	1    4850 6450
 	1    0    0    -1  
 $EndComp
@@ -323,10 +343,12 @@ U 1 1 5DE07FE5
 P 4850 6750
 F 0 "H206" H 4950 6796 50  0000 L CNN
 F 1 "MountingHole" H 4950 6705 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 4850 6750 50  0001 C CNN
-F 3 "" H 4850 6750 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 4850 6750 50  0001 C CNN
+F 3 "N/A" H 4850 6750 50  0001 C CNN
 F 4 "DNP" H 4850 6750 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 4850 6750 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 4850 6750 50  0001 C CNN "MPN"
+F 7 "N/A" H 4850 6750 50  0001 C CNN "Manufacturer"
 	1    4850 6750
 	1    0    0    -1  
 $EndComp
@@ -336,10 +358,12 @@ U 1 1 5DE07FEB
 P 4850 7050
 F 0 "H209" H 4950 7096 50  0000 L CNN
 F 1 "MountingHole" H 4950 7005 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 4850 7050 50  0001 C CNN
-F 3 "" H 4850 7050 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 4850 7050 50  0001 C CNN
+F 3 "N/A" H 4850 7050 50  0001 C CNN
 F 4 "DNP" H 4850 7050 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 4850 7050 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 4850 7050 50  0001 C CNN "MPN"
+F 7 "N/A" H 4850 7050 50  0001 C CNN "Manufacturer"
 	1    4850 7050
 	1    0    0    -1  
 $EndComp
@@ -437,9 +461,11 @@ P 4850 7700
 F 0 "H214" H 4950 7751 50  0000 L CNN
 F 1 "MountingHole_Pad" H 4950 7660 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 4850 7700 50  0001 C CNN
-F 3 "" H 4850 7700 50  0001 C CNN
+F 3 "N/A" H 4850 7700 50  0001 C CNN
 F 4 "DNP" H 4850 7700 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 4850 7700 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 4850 7700 50  0001 C CNN "MPN"
+F 7 "N/A" H 4850 7700 50  0001 C CNN "Manufacturer"
 	1    4850 7700
 	1    0    0    -1  
 $EndComp
@@ -450,9 +476,11 @@ P 2800 7700
 F 0 "H212" H 2900 7751 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2900 7660 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2800 7700 50  0001 C CNN
-F 3 "" H 2800 7700 50  0001 C CNN
+F 3 "N/A" H 2800 7700 50  0001 C CNN
 F 4 "DNP" H 2800 7700 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 2800 7700 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 2800 7700 50  0001 C CNN "MPN"
+F 7 "N/A" H 2800 7700 50  0001 C CNN "Manufacturer"
 	1    2800 7700
 	1    0    0    -1  
 $EndComp
@@ -498,10 +526,12 @@ U 1 1 5DDBF801
 P 3850 7350
 F 0 "H211" H 3950 7396 50  0000 L CNN
 F 1 "MountingHole" H 3950 7305 50  0000 L CNN
-F 2 "Spatz:Mounting_Hole_M2.5_Loose_Fit" H 3850 7350 50  0001 C CNN
-F 3 "" H 3850 7350 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3850 7350 50  0001 C CNN
+F 3 "N/A" H 3850 7350 50  0001 C CNN
 F 4 "DNP" H 3850 7350 50  0001 C CNN "AssemblyOption"
 F 5 "$0.00" H 3850 7350 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 3850 7350 50  0001 C CNN "MPN"
+F 7 "N/A" H 3850 7350 50  0001 C CNN "Manufacturer"
 	1    3850 7350
 	1    0    0    -1  
 $EndComp

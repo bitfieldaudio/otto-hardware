@@ -178,7 +178,7 @@ $EndComp
 Wire Wire Line
 	4200 5450 4300 5450
 Text GLabel 4350 1850 2    50   Input ~ 0
-+5V_IN
+DC_IN
 $Comp
 L Connector:Barrel_Jack_Switch DC?
 U 1 1 5D353468
@@ -186,9 +186,12 @@ P 2500 1950
 AR Path="/5C4320DF/5C4AB60A/5D353468" Ref="DC?"  Part="1" 
 AR Path="/5C4320DF/5C4AB597/5D353468" Ref="DC201"  Part="1" 
 F 0 "DC201" H 2555 2267 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 2555 2176 50  0000 C CNN
-F 2 "Spatz:DC Jack" H 2550 1910 50  0001 C CNN
-F 3 "~" H 2550 1910 50  0001 C CNN
+F 1 "Barrel_Jack_Switch_2.0mmID_6.5mmOD" H 2555 2176 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:BarrelJack_2.0mmID_6.5mmOD" H 2550 1910 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1908270930_Boom-Precision-Elec-DC-005-5-5-2-0MM_C16214.pdf" H 2550 1910 50  0001 C CNN
+F 4 "$0.034374" H 2500 1950 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "DC-005 5.5-2.0MM" H 2500 1950 50  0001 C CNN "MPN"
+F 6 "BOOMELE(Boom Precision Elec)" H 2500 1950 50  0001 C CNN "Manufacturer"
 	1    2500 1950
 	1    0    0    -1  
 $EndComp
@@ -203,32 +206,6 @@ F 1 "GND" H 3655 2577 50  0000 C CNN
 F 2 "" H 3650 2750 50  0001 C CNN
 F 3 "" H 3650 2750 50  0001 C CNN
 	1    3650 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 CN?
-U 1 1 5D412C91
-P 4000 6550
-AR Path="/5C43B923/5D412C91" Ref="CN?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D412C91" Ref="CN201"  Part="1" 
-F 0 "CN201" H 4079 6542 50  0000 L CNN
-F 1 "1x4 MALE 1.5mm" H 4079 6451 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal" H 4000 6550 50  0001 C CNN
-F 3 "~" H 4000 6550 50  0001 C CNN
-	1    4000 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 CN?
-U 1 1 5D412C97
-P 4000 7300
-AR Path="/5C43B923/5D412C97" Ref="CN?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D412C97" Ref="CN202"  Part="1" 
-F 0 "CN202" H 4079 7292 50  0000 L CNN
-F 1 "1x4 MALE 1.5mm" H 4079 7201 50  0000 L CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal" H 4000 7300 50  0001 C CNN
-F 3 "~" H 4000 7300 50  0001 C CNN
-	1    4000 7300
 	1    0    0    -1  
 $EndComp
 Text GLabel 2650 6550 0    50   Input ~ 0
@@ -266,19 +243,22 @@ Wire Wire Line
 	2650 6550 3800 6550
 NoConn ~ 3800 6450
 Wire Wire Line
-	2650 7200 3800 7200
+	2650 7550 3800 7550
 $Comp
 L OTTOdiy_SMD-library:2.8INCH_IPS_SPI-Display_Graphic DISPLAY?
 U 1 1 5D412CB0
-P 3700 8400
+P 3700 8650
 AR Path="/5C43B923/5D412CB0" Ref="DISPLAY?"  Part="1" 
 AR Path="/5C4320DF/5C4AB597/5D412CB0" Ref="DISPLAY201"  Part="1" 
-F 0 "DISPLAY201" H 4078 8446 50  0000 L CNN
-F 1 "2.8INCH_IPS_SPI" H 4078 8355 50  0000 L CNN
-F 2 "Spatz:2.8 INCH IPS DISPLAY" H 3700 8400 50  0001 C CNN
-F 3 "" H 3700 8400 50  0001 C CNN
-F 4 "DNP" H 3700 8400 12700 0001 C CNN "AssemblyOption"
-	1    3700 8400
+F 0 "DISPLAY201" H 4078 8696 50  0000 L CNN
+F 1 "2.8INCH_IPS_SPI" H 4078 8605 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:2.8_INCH_IPS_DISPLAY" H 3700 8650 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/32865541140.html?spm=a2g0x.12010615.8148356.70.372429fafMJOYO" H 3700 8650 50  0001 C CNN
+F 4 "DNP" H 3700 8650 12700 0001 C CNN "AssemblyOption"
+F 5 "$8.68" H 3700 8650 50  0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 3700 8650 50  0001 C CNN "MPN"
+F 7 "JR E-Shop" H 3700 8650 50  0001 C CNN "Manufacturer"
+	1    3700 8650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -295,16 +275,16 @@ Connection ~ 3200 6950
 Wire Wire Line
 	3200 6650 2650 6650
 Connection ~ 3200 6650
-NoConn ~ 3800 7400
+NoConn ~ 3800 7750
 Wire Wire Line
-	2650 7300 3800 7300
+	2650 7650 3800 7650
 Wire Wire Line
-	2650 7500 3800 7500
-Text GLabel 2650 7200 0    50   Input ~ 0
+	2650 7850 3800 7850
+Text GLabel 2650 7550 0    50   Input ~ 0
 SPI_CS_RASPI_DISPLAY
-Text GLabel 2650 7300 0    50   Input ~ 0
+Text GLabel 2650 7650 0    50   Input ~ 0
 SPI_SCLK_RASPI
-Text GLabel 2650 7500 0    50   Input ~ 0
+Text GLabel 2650 7850 0    50   Input ~ 0
 SPI_MOSI_RASPI
 NoConn ~ 2800 1950
 Connection ~ 3700 5450
@@ -354,11 +334,12 @@ L Device:D_TVS_ALT D48
 U 1 1 5E31C6FD
 P 3000 2200
 F 0 "D48" V 2954 2279 50  0000 L CNN
-F 1 "12V" V 3045 2279 50  0000 L CNN
-F 2 "" H 3000 2200 50  0001 C CNN
-F 3 "~" H 3000 2200 50  0001 C CNN
-F 4 "Littelfuse" V 3000 2200 50  0001 C CNN "Manufacturer"
-F 5 "SMAJ12CA" H 3000 2200 50  0001 C CNN "MPN"
+F 1 "15V" V 3045 2279 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123F" H 3000 2200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1904291206_MDD-Jiangsu-Yutai-Elec-SMF15CA_C123803.pdf" H 3000 2200 50  0001 C CNN
+F 4 "MDD(Microdiode Electronics)" V 3000 2200 50  0001 C CNN "Manufacturer"
+F 5 "SMF15CA" H 3000 2200 50  0001 C CNN "MPN"
+F 6 "$0.029539" H 3000 2200 50  0001 C CNN "EstimatedCost(USD)"
 	1    3000 2200
 	0    1    1    0   
 $EndComp
@@ -395,9 +376,12 @@ L Device:D_Zener_ALT D49
 U 1 1 5E33CE94
 P 3950 2050
 F 0 "D49" V 3904 2129 50  0000 L CNN
-F 1 "10V" V 3995 2129 50  0000 L CNN
-F 2 "" H 3950 2050 50  0001 C CNN
-F 3 "~" H 3950 2050 50  0001 C CNN
+F 1 "15V" V 3995 2129 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 3950 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/MDD-Jiangsu-Yutai-Elec-BZT52C15_C173427.pdf" H 3950 2050 50  0001 C CNN
+F 4 "$0.010021" H 3950 2050 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "BZT52C15" H 3950 2050 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 3950 2050 50  0001 C CNN "Manufacturer"
 	1    3950 2050
 	0    1    1    0   
 $EndComp
@@ -1220,7 +1204,7 @@ F 6 "Yageo" H 8300 3450 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Text GLabel 7450 3000 0    50   Output ~ 0
-+5V_IN
+DC_IN
 $Comp
 L power:GND #PWR0138
 U 1 1 5DFB080D
@@ -1447,4 +1431,62 @@ F 6 "Samsung Electro-Mechanics" H 11500 4150 12700 0001 C CNN "Manufacturer"
 	1    11500 4150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin CN201
+U 1 1 5E1486E9
+P 4000 6550
+F 0 "CN201" H 4087 6464 50  0000 L CNN
+F 1 "1x4 MALE 1.25mm " H 4087 6373 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 4000 6550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/MOLEX-53261-0471_C240847.pdf" H 4000 6550 50  0001 C CNN
+F 4 "$0.156061" H 4000 6550 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "53261-0471" H 4000 6550 50  0001 C CNN "MPN"
+F 6 "Molex" H 4000 6550 50  0001 C CNN "Manufacturer"
+	1    4000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E14EE2D
+P 4000 7000
+AR Path="/5C43B923/5E14EE2D" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5E14EE2D" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 4000 6750 50  0001 C CNN
+F 1 "GND" H 4087 6963 50  0000 L CNN
+F 2 "" H 4000 7000 50  0001 C CNN
+F 3 "" H 4000 7000 50  0001 C CNN
+	1    4000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic_MountingPin:Conn_01x04_MountingPin CN202
+U 1 1 5E153415
+P 4000 7650
+F 0 "CN202" H 4087 7564 50  0000 L CNN
+F 1 "1x4 MALE 1.25mm " H 4087 7473 50  0000 L CNN
+F 2 "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal" H 4000 7650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/MOLEX-53261-0471_C240847.pdf" H 4000 7650 50  0001 C CNN
+F 4 "$0.156061" H 4000 7650 50  0001 C CNN "EstimatedCost(USD)"
+F 5 "53261-0471" H 4000 7650 50  0001 C CNN "MPN"
+F 6 "Molex" H 4000 7650 50  0001 C CNN "Manufacturer"
+	1    4000 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E153DE1
+P 4000 8100
+AR Path="/5C43B923/5E153DE1" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5E153DE1" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 4000 7850 50  0001 C CNN
+F 1 "GND" H 4005 7927 50  0000 C CNN
+F 2 "" H 4000 8100 50  0001 C CNN
+F 3 "" H 4000 8100 50  0001 C CNN
+	1    4000 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6950 4000 7000
+Wire Wire Line
+	4000 8050 4000 8100
 $EndSCHEMATC

@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP D_TVS_SC70-3
+D Bidirectional transient-voltage-suppression diode, filled shape
+K diode TVS thyrector
+F ~
+$ENDCMP
+#
 $CMP SN74LV1T125_SOT-23_A
 F http://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf
 $ENDCMP
