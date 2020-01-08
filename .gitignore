@@ -3,3 +3,4 @@
 *.bck
 *-cache.lib
 fp-info-cache
+_autosave*

@@ -2539,6 +2539,9 @@ F 0 "U2" H 3200 2216 50  0000 C CNN
 F 1 "TPS22918_SOT23-6_A" H 3200 2125 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3200 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps22918.pdf" H 3250 1150 50  0001 C CNN
+F 4 "$0.228788" H 3200 1850 12700 0001 C CNN "EstimatedCost(USD)"
+F 5 "TPS22918DBVR" H 3200 1850 12700 0001 C CNN "MPN"
+F 6 "Texas Instruments" H 3200 1850 12700 0001 C CNN "Manufacturer"
 	1    3200 1850
 	1    0    0    -1  
 $EndComp
@@ -2552,6 +2555,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2550 5500 60  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf" H 2550 5600 60  0001 L CNN
 F 4 "SN74LV1T125DBVR " H 2550 5800 60  0001 L CNN "MPN"
 F 5 "Texas Instruments" H 2350 5300 50  0001 C CNN "Manufacturer"
+F 6 "$0.45" H 2350 5300 12700 0001 C CNN "EstimatedCost(USD)"
 	1    2350 5300
 	1    0    0    -1  
 $EndComp
@@ -2645,8 +2649,12 @@ U 1 1 5E0D1862
 P 12550 7850
 F 0 "TP1" V 12505 8038 50  0000 L CNN
 F 1 "TestPoint" V 12595 8038 50  0000 L CNN
-F 2 "" H 12750 7850 50  0001 C CNN
-F 3 "~" H 12750 7850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 12750 7850 50  0001 C CNN
+F 3 "N/A" H 12750 7850 50  0001 C CNN
+F 4 "DNP" H 12550 7850 12700 0001 C CNN "AssemblyOption"
+F 5 "$0.00" H 12550 7850 12700 0001 C CNN "EstimatedCost(USD)"
+F 6 "N/A" H 12550 7850 12700 0001 C CNN "MPN"
+F 7 "N/A" H 12550 7850 12700 0001 C CNN "Manufacturer"
 	1    12550 7850
 	0    1    1    0   
 $EndComp

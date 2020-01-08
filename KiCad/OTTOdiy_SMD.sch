@@ -81,7 +81,7 @@ U 1 1 5C444E85
 P 6350 4050
 F 0 "J201" H 6350 5650 50  0000 C CNN
 F 1 "RASPBERRY PI 3 A+" H 6350 5550 50  0000 C CNN
-F 2 "OTTOdiy_SMD-library:Raspberry_Pi_A_FacingDown_TH" H 6350 4050 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:Raspberry_Pi_A_FacingDown_TH" H 6350 4050 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/app/uploads/2018/11/Raspberry_Pi_3A_product_brief.pdf" H 6350 4050 50  0001 C CNN
 F 4 "M20-7812045" H 6350 4050 50  0001 C CNN "MPN"
 F 5 "Harwin" H 6350 4050 50  0001 C CNN "Manufacturer"
