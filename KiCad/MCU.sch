@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 7
+Sheet 4 7
 Title "OTTOdiy"
 Date "2020-01-10"
 Rev "1.0"
@@ -2122,13 +2122,13 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text HLabel 10000 7650 2    50   Input ~ 0
+Text HLabel 10000 7650 2    50   BiDi ~ 0
 GPIO26_RASPI
-Text HLabel 10000 7750 2    50   Input ~ 0
+Text HLabel 10000 7750 2    50   BiDi ~ 0
 GPIO27_RASPI
-Text HLabel 10000 7550 2    50   Input ~ 0
+Text HLabel 10000 7550 2    50   BiDi ~ 0
 GPIO17_RASPI
-Text HLabel 10000 7450 2    50   Input ~ 0
+Text HLabel 10000 7450 2    50   BiDi ~ 0
 GPIO16_RASPI
 Wire Wire Line
 	9350 7450 10000 7450
@@ -2211,4 +2211,34 @@ Wire Wire Line
 	1200 7200 1800 7200
 Text Label 1200 7200 0    50   ~ 0
 +5V_USB
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5ED2EDF0
+P 10000 6550
+F 0 "TP?" V 10000 6750 50  0000 L CNN
+F 1 "TestPoint" V 10000 6950 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10200 6550 50  0001 C CNN
+F 3 "N/A" H 10200 6550 50  0001 C CNN
+F 4 "DNP" H 10000 6550 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 10000 6550 50  0001 C CNN "MPN"
+F 6 "N/A" H 10000 6550 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 10000 6550 50  0001 C CNN "UnitCost(USD)"
+	1    10000 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5ED2F541
+P 10000 6650
+F 0 "TP?" V 10000 6850 50  0000 L CNN
+F 1 "TestPoint" V 10000 7050 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10200 6650 50  0001 C CNN
+F 3 "N/A" H 10200 6650 50  0001 C CNN
+F 4 "DNP" H 10000 6650 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 10000 6650 50  0001 C CNN "MPN"
+F 6 "N/A" H 10000 6650 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 10000 6650 50  0001 C CNN "UnitCost(USD)"
+	1    10000 6650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
