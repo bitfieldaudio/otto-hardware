@@ -1584,7 +1584,7 @@ Text GLabel 5850 6450 0    50   Output ~ 0
 Text GLabel 5850 6550 0    50   Input ~ 0
 (F427)_SAI1_SD_B
 Wire Wire Line
-	5850 6450 6950 6450
+	5850 6450 6000 6450
 Wire Wire Line
 	5850 6550 6950 6550
 Text GLabel 5850 6650 0    50   BiDi ~ 0
@@ -2212,10 +2212,10 @@ Wire Wire Line
 Text Label 1200 7200 0    50   ~ 0
 +5V_USB
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP16
 U 1 1 5ED2EDF0
 P 10000 6550
-F 0 "TP?" V 10000 6750 50  0000 L CNN
+F 0 "TP16" V 10000 6750 50  0000 L CNN
 F 1 "TestPoint" V 10000 6950 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10200 6550 50  0001 C CNN
 F 3 "N/A" H 10200 6550 50  0001 C CNN
@@ -2227,10 +2227,10 @@ F 7 "$0.00" H 10000 6550 50  0001 C CNN "UnitCost(USD)"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP17
 U 1 1 5ED2F541
 P 10000 6650
-F 0 "TP?" V 10000 6850 50  0000 L CNN
+F 0 "TP17" V 10000 6850 50  0000 L CNN
 F 1 "TestPoint" V 10000 7050 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10200 6650 50  0001 C CNN
 F 3 "N/A" H 10200 6650 50  0001 C CNN
@@ -2241,4 +2241,26 @@ F 7 "$0.00" H 10000 6650 50  0001 C CNN "UnitCost(USD)"
 	1    10000 6650
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5EE1F8D3
+P 5850 6250
+F 0 "TP18" V 5804 6438 50  0000 L CNN
+F 1 "TestPoint" V 5895 6438 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 6050 6250 50  0001 C CNN
+F 3 "N/A" H 6050 6250 50  0001 C CNN
+F 4 "DNP" H 5850 6250 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 5850 6250 50  0001 C CNN "MPN"
+F 6 "N/A" H 5850 6250 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 5850 6250 50  0001 C CNN "UnitCost(USD)"
+	1    5850 6250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5850 6250 6000 6250
+Wire Wire Line
+	6000 6250 6000 6450
+Connection ~ 6000 6450
+Wire Wire Line
+	6000 6450 6950 6450
 $EndSCHEMATC

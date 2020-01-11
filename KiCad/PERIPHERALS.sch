@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 7
+Sheet 6 7
 Title "OTTOdiy"
 Date "2020-01-10"
 Rev "1.0"
@@ -400,20 +400,6 @@ Wire Wire Line
 	2850 2050 2850 2650
 Wire Wire Line
 	2850 2650 3000 2650
-$Comp
-L OTTOdiy_SMD-library:LTC3112_TSSOP20_A U3
-U 1 1 5DF6BAC7
-P 10100 2250
-F 0 "U3" H 9300 3300 60  0000 C CNN
-F 1 "LTC3112_TSSOP20_A" H 10450 3300 60  0000 C CNN
-F 2 "OTTO_Footprints_Lib:TSSOP-20_FE_CA" H 10400 600 50  0001 L BNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3112fd.pdf" H 10100 2250 60  0001 C CNN
-F 4 "LTC3112EFE#PBF" H 10100 2250 50  0001 C CNN "MPN"
-F 5 "Analog Devices" H 10100 2250 50  0001 C CNN "Manufacturer"
-F 6 "$4.06" H 10100 2250 12700 0001 C CNN "UnitCost(USD)"
-	1    10100 2250
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:L L1
 U 1 1 5DF7769A
@@ -1996,4 +1982,18 @@ Wire Wire Line
 Connection ~ 8550 3050
 Wire Wire Line
 	8550 3050 8350 3050
+$Comp
+L OTTOdiy_SMD-library:LTC3112_TSSOP20_A U3
+U 1 1 5EE6F2C9
+P 10100 2250
+F 0 "U3" H 10100 3437 60  0000 C CNN
+F 1 "LTC3112_TSSOP20_A" H 10100 3331 60  0000 C CNN
+F 2 "OTTO_Footprints_Lib:TSSOP-20_FE_CA" H 9700 300 50  0001 L BNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3112fd.pdf" H 8700 3100 60  0001 C CNN
+F 4 "LTC3112EFE#PBF" H 9700 400 50  0001 L BNN "MPN"
+F 5 "Analog Devices" H 10100 2250 50  0001 C CNN "Manufacturer"
+F 6 "$4.06" H 10100 2250 50  0001 C CNN "UnitCost(USD)"
+	1    10100 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
