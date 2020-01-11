@@ -687,7 +687,7 @@ F 6 "Korean Hroparts Elec" H 12450 3250 12700 0001 C CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 Text GLabel 5450 8550 0    50   Input ~ 0
-+5V_PI
++5V_RASPI
 Text GLabel 7450 8650 2    50   Input ~ 0
 +3V3_ANALOG
 Wire Wire Line
@@ -1768,7 +1768,7 @@ F 6 "Samsung Electro-Mechanics" H 12200 6500 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Text GLabel 12300 6750 2    50   Input ~ 0
-+5V_PI
++5V_RASPI
 Text GLabel 11400 6850 0    50   BiDi ~ 0
 I2C_SDA
 Text GLabel 11400 6750 0    50   Input ~ 0

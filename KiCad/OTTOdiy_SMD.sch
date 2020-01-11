@@ -25,7 +25,7 @@ $EndSheet
 Text GLabel 9550 4000 2    50   Output ~ 0
 +3V3_RASPI
 Text GLabel 7700 4000 0    50   Input ~ 0
-+5V_PI
++5V_RASPI
 $Comp
 L power:GND #PWR0202
 U 1 1 5C4461C9
@@ -161,10 +161,6 @@ I2C_SDA
 Text GLabel 9550 4900 2    50   BiDi ~ 0
 I2C_SCL
 Wire Wire Line
-	7700 6000 7800 6000
-Wire Wire Line
-	7700 6100 7800 6100
-Wire Wire Line
 	7700 5600 7800 5600
 Wire Wire Line
 	8500 4000 8500 4100
@@ -216,9 +212,9 @@ Wire Wire Line
 	8800 6800 8900 6800
 Text GLabel 7700 5600 0    50   BiDi ~ 0
 TRIGGER1
-Text GLabel 7700 6000 0    50   BiDi ~ 0
+Text GLabel 7700 5700 0    50   BiDi ~ 0
 TRIGGER2
-Text GLabel 7700 6100 0    50   BiDi ~ 0
+Text GLabel 7700 5800 0    50   BiDi ~ 0
 TRIGGER3
 Wire Wire Line
 	8800 4000 8700 4000
@@ -578,7 +574,7 @@ F 7 "$0.00" H 10350 6250 50  0001 C CNN "UnitCost(USD)"
 	0    1    1    0   
 $EndComp
 Text Label 9550 6250 0    50   ~ 0
-RPI_PWM1_GPIO13
+PWM1_GPIO13_RASPI
 Wire Wire Line
 	9400 6200 9450 6200
 Wire Wire Line
@@ -626,69 +622,69 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5EB31494
-P 7150 4750
-F 0 "TP4" V 7250 5000 50  0000 C CNN
-F 1 "TestPoint" V 7150 5100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 7350 4750 50  0001 C CNN
-F 3 "N/A" H 7350 4750 50  0001 C CNN
-F 4 "DNP" H 7150 4750 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 7150 4750 50  0001 C CNN "MPN"
-F 6 "N/A" H 7150 4750 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 7150 4750 50  0001 C CNN "UnitCost(USD)"
-	1    7150 4750
+P 6500 4750
+F 0 "TP4" V 6600 5000 50  0000 C CNN
+F 1 "TestPoint" V 6500 5100 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 6700 4750 50  0001 C CNN
+F 3 "N/A" H 6700 4750 50  0001 C CNN
+F 4 "DNP" H 6500 4750 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 6500 4750 50  0001 C CNN "MPN"
+F 6 "N/A" H 6500 4750 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 6500 4750 50  0001 C CNN "UnitCost(USD)"
+	1    6500 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5EB322D2
-P 7150 4900
-F 0 "TP5" V 7196 5087 50  0000 L CNN
-F 1 "TestPoint" V 7105 5087 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 7350 4900 50  0001 C CNN
-F 3 "N/A" H 7350 4900 50  0001 C CNN
-F 4 "DNP" H 7150 4900 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 7150 4900 50  0001 C CNN "MPN"
-F 6 "N/A" H 7150 4900 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 7150 4900 50  0001 C CNN "UnitCost(USD)"
-	1    7150 4900
+P 6500 4900
+F 0 "TP5" V 6546 5087 50  0000 L CNN
+F 1 "TestPoint" V 6455 5087 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 6700 4900 50  0001 C CNN
+F 3 "N/A" H 6700 4900 50  0001 C CNN
+F 4 "DNP" H 6500 4900 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 6500 4900 50  0001 C CNN "MPN"
+F 6 "N/A" H 6500 4900 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 6500 4900 50  0001 C CNN "UnitCost(USD)"
+	1    6500 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7150 4900 7800 4900
+	6500 4900 7800 4900
 Wire Wire Line
 	7800 4800 7350 4800
 Wire Wire Line
 	7350 4800 7350 4750
 Wire Wire Line
-	7350 4750 7150 4750
+	7350 4750 6500 4750
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5EB37B7C
-P 7100 5600
-F 0 "TP2" V 7146 5787 50  0000 L CNN
-F 1 "TestPoint" V 7055 5787 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 7300 5600 50  0001 C CNN
-F 3 "N/A" H 7300 5600 50  0001 C CNN
-F 4 "DNP" H 7100 5600 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 7100 5600 50  0001 C CNN "MPN"
-F 6 "N/A" H 7100 5600 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 7100 5600 50  0001 C CNN "UnitCost(USD)"
-	1    7100 5600
+P 6500 6400
+F 0 "TP2" V 6546 6587 50  0000 L CNN
+F 1 "TestPoint" V 6455 6587 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 6700 6400 50  0001 C CNN
+F 3 "N/A" H 6700 6400 50  0001 C CNN
+F 4 "DNP" H 6500 6400 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 6500 6400 50  0001 C CNN "MPN"
+F 6 "N/A" H 6500 6400 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 6500 6400 50  0001 C CNN "UnitCost(USD)"
+	1    6500 6400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5EB385D3
-P 7100 5800
-F 0 "TP3" V 7146 5987 50  0000 L CNN
-F 1 "TestPoint" V 7055 5987 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 7300 5800 50  0001 C CNN
-F 3 "N/A" H 7300 5800 50  0001 C CNN
-F 4 "DNP" H 7100 5800 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 7100 5800 50  0001 C CNN "MPN"
-F 6 "N/A" H 7100 5800 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 7100 5800 50  0001 C CNN "UnitCost(USD)"
-	1    7100 5800
+P 6500 6600
+F 0 "TP3" V 6546 6787 50  0000 L CNN
+F 1 "TestPoint" V 6455 6787 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 6700 6600 50  0001 C CNN
+F 3 "N/A" H 6700 6600 50  0001 C CNN
+F 4 "DNP" H 6500 6600 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 6500 6600 50  0001 C CNN "MPN"
+F 6 "N/A" H 6500 6600 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 6500 6600 50  0001 C CNN "UnitCost(USD)"
+	1    6500 6600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -698,13 +694,9 @@ Wire Wire Line
 Wire Wire Line
 	7200 5900 7800 5900
 Wire Wire Line
-	7100 5800 7800 5800
+	7700 5800 7800 5800
 Wire Wire Line
-	7800 5700 7200 5700
-Wire Wire Line
-	7200 5700 7200 5600
-Wire Wire Line
-	7200 5600 7100 5600
+	7800 5700 7700 5700
 $Bitmap
 Pos 15400 10300
 Scale 0.750000
@@ -900,4 +892,24 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text Label 7150 4750 2    50   ~ 0
+GPIO16_RASPI
+Text Label 7150 4900 2    50   ~ 0
+GPIO17_RASPI
+Wire Wire Line
+	7300 6000 7300 6400
+Wire Wire Line
+	7300 6400 6500 6400
+Wire Wire Line
+	7300 6000 7800 6000
+Wire Wire Line
+	7400 6100 7400 6600
+Wire Wire Line
+	7400 6600 6500 6600
+Wire Wire Line
+	7400 6100 7800 6100
+Text Label 7150 6400 2    50   ~ 0
+GPIO26_RASPI
+Text Label 7150 6600 2    50   ~ 0
+GPIO27_RASPI
 $EndSCHEMATC

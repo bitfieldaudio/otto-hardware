@@ -887,7 +887,7 @@ Wire Wire Line
 	12800 6350 13250 6350
 Connection ~ 12800 6350
 Text GLabel 13250 6350 2    50   Output ~ 0
-+5V_PI
++5V_RASPI
 Wire Wire Line
 	8800 6350 9350 6350
 Wire Wire Line
@@ -1160,26 +1160,26 @@ $EndComp
 $Comp
 L power:GND #PWR0137
 U 1 1 5DFD152B
-P 8350 3550
-F 0 "#PWR0137" H 8350 3300 50  0001 C CNN
-F 1 "GND" H 8355 3377 50  0000 C CNN
-F 2 "" H 8350 3550 50  0001 C CNN
-F 3 "" H 8350 3550 50  0001 C CNN
-	1    8350 3550
+P 8550 3550
+F 0 "#PWR0137" H 8550 3300 50  0001 C CNN
+F 1 "GND" H 8555 3377 50  0000 C CNN
+F 2 "" H 8550 3550 50  0001 C CNN
+F 3 "" H 8550 3550 50  0001 C CNN
+	1    8550 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C82
 U 1 1 5DFCE5AF
-P 8350 3300
-F 0 "C82" H 8465 3346 50  0000 L CNN
-F 1 "100nF" H 8465 3255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8388 3150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8350 3300 50  0001 C CNN
-F 4 "$0.017724" H 8350 3300 12700 0001 C CNN "UnitCost(USD)"
-F 5 "CL21B104JBCNNNC" H 8350 3300 12700 0001 C CNN "MPN"
-F 6 "Samsung Electro-Mechanics" H 8350 3300 12700 0001 C CNN "Manufacturer"
-	1    8350 3300
+P 8550 3300
+F 0 "C82" H 8665 3346 50  0000 L CNN
+F 1 "100nF" H 8665 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8588 3150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8550 3300 50  0001 C CNN
+F 4 "$0.017724" H 8550 3300 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8550 3300 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8550 3300 12700 0001 C CNN "Manufacturer"
+	1    8550 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1264,9 +1264,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 3550 7950 3450
 Wire Wire Line
-	8350 3550 8350 3450
-Wire Wire Line
-	8350 3050 8350 3150
+	8550 3550 8550 3450
 Wire Wire Line
 	8350 1950 7900 1950
 Wire Wire Line
@@ -1274,7 +1272,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 3050 8350 2550
 Wire Wire Line
-	8950 3050 8350 3050
+	8950 3050 8550 3050
 Wire Wire Line
 	7900 2450 7900 2500
 Wire Wire Line
@@ -1720,20 +1718,6 @@ Text Label 9900 8200 0    50   ~ 0
 +5V_REG
 Text GLabel 2650 7150 0    50   Input ~ 0
 BL_PWM
-$Comp
-L Switch:SW_SPDT SW49
-U 1 1 5E20BC7B
-P 6700 1950
-F 0 "SW49" H 6700 1625 50  0000 C CNN
-F 1 "SW_SPDT" H 6700 1716 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN" H 6700 1950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810301448_XKB-Enterprise-SS-12D11L5_C319010.pdf" H 6700 1950 50  0001 C CNN
-F 4 "SS-12D11L5" H 6700 1950 50  0001 C CNN "MPN"
-F 5 "XKB Enterprise" H 6700 1950 50  0001 C CNN "Manufacturer"
-F 6 "$0.290909" H 6700 1950 50  0001 C CNN "UnitCost(USD)"
-	1    6700 1950
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6900 1950 7500 1950
 Text Label 7200 1950 0    50   ~ 0
@@ -1748,7 +1732,7 @@ Connection ~ 7500 1950
 Wire Wire Line
 	7500 1950 7900 1950
 Wire Wire Line
-	3950 1850 6500 1850
+	3950 1850 5500 1850
 Wire Wire Line
 	3650 3950 3650 3300
 Wire Wire Line
@@ -1776,7 +1760,7 @@ Wire Wire Line
 	4600 4450 4350 4450
 Text Notes 6450 2250 0    50   ~ 0
 Power Select\n
-Text HLabel 5650 3300 2    50   Input ~ 0
+Text HLabel 5650 3300 2    50   Output ~ 0
 +5V_USB
 Wire Wire Line
 	5650 3300 5500 3300
@@ -1976,4 +1960,40 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text HLabel 5650 1600 2    50   Output ~ 0
+BARREL_IN
+Wire Wire Line
+	5650 1600 5500 1600
+Wire Wire Line
+	5500 1600 5500 1850
+Connection ~ 5500 1850
+Wire Wire Line
+	5500 1850 6500 1850
+$Comp
+L Switch:SW_SP3T SW49
+U 1 1 5E4CE77D
+P 6700 1950
+F 0 "SW49" H 6700 2233 50  0000 C CNN
+F 1 "SW_SP3T (DP3T Parallel)" H 6700 2142 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:SW_SP3T_CK-JS203011JCQN" H 6075 2125 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C-K-JS203011JCQN_C221669.pdf" H 6075 2125 50  0001 C CNN
+F 4 "JS203011JCQN" H 6700 1950 50  0001 C CNN "MPN"
+F 5 "C&K" H 6700 1950 50  0001 C CNN "Manufacturer"
+F 6 "$0.586364" H 6700 1950 50  0001 C CNN "UnitCost(USD)"
+	1    6700 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1950 6350 1950
+Text HLabel 6350 1950 0    50   Input ~ 0
+BATT_IN
+Text HLabel 7500 3050 0    50   Input ~ 0
+5V_RUN
+Wire Wire Line
+	7500 3050 8350 3050
+Wire Wire Line
+	8550 3150 8550 3050
+Connection ~ 8550 3050
+Wire Wire Line
+	8550 3050 8350 3050
 $EndSCHEMATC
