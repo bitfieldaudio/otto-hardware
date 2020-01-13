@@ -814,10 +814,10 @@ AR Path="/5C4320DF/5DF0ABC4" Ref="C?"  Part="1"
 AR Path="/5C4408C6/5DF0ABC4" Ref="C258"  Part="1" 
 F 0 "C258" V 7695 4650 50  0000 C CNN
 F 1 "220uF" V 7786 4650 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7988 4500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Nichicon-UHE1V221MPD6_C251010.pdf" H 7950 4650 50  0001 C CNN
-F 4 "$0.168182" H 7950 4650 50  0001 C CNN "UnitCost(USD)"
-F 5 "UHE1V221MPD6" H 7950 4650 50  0001 C CNN "MPN"
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7988 4500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nichicon-UHE1A221MED_C136290.pdf" H 7950 4650 50  0001 C CNN
+F 4 "$0.116756" H 7950 4650 50  0001 C CNN "UnitCost(USD)"
+F 5 "UHE1A221MED" V 8100 4650 50  0000 C CNN "MPN"
 F 6 "Nichicon" H 7950 4650 50  0001 C CNN "Manufacturer"
 	1    7950 4650
 	0    1    1    0   
@@ -831,10 +831,10 @@ AR Path="/5C4320DF/5DF278DF" Ref="C?"  Part="1"
 AR Path="/5C4408C6/5DF278DF" Ref="C262"  Part="1" 
 F 0 "C262" V 7695 5250 50  0000 C CNN
 F 1 "220uF" V 7786 5250 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 7988 5100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Nichicon-UHE1V221MPD6_C251010.pdf" H 7950 5250 50  0001 C CNN
-F 4 "$0.168182" H 7950 5250 50  0001 C CNN "UnitCost(USD)"
-F 5 "UHE1V221MPD6" H 7950 5250 50  0001 C CNN "MPN"
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 7988 5100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Nichicon-UHE1A221MED_C136290.pdf" H 7950 5250 50  0001 C CNN
+F 4 "$0.116756" H 7950 5250 50  0001 C CNN "UnitCost(USD)"
+F 5 "UHE1A221MED" V 8100 5250 50  0000 C CNN "MPN"
 F 6 "Nichicon" H 7950 5250 50  0001 C CNN "Manufacturer"
 	1    7950 5250
 	0    1    1    0   
@@ -1656,11 +1656,11 @@ Wire Wire Line
 	6750 8750 6750 8850
 Wire Wire Line
 	6050 8750 6050 8850
-Text Label 14250 9100 2    50   ~ 0
+Text Label 14250 9200 2    50   ~ 0
 I2S_DOUT*
-Text Label 14250 9000 2    50   ~ 0
+Text Label 14250 9100 2    50   ~ 0
 I2S_DIN*
-Text Label 11850 8900 0    50   ~ 0
+Text Label 12100 9000 0    50   ~ 0
 I2S_LRCLK*
 Text Label 14250 8550 2    50   ~ 0
 I2S_BCLK*
@@ -1684,14 +1684,14 @@ $EndComp
 $Comp
 L power:GND #PWR0253
 U 1 1 5DEF78AC
-P 12400 9100
+P 12400 9200
 AR Path="/5C4408C6/5DEF78AC" Ref="#PWR0253"  Part="1" 
 AR Path="/5C4320DF/5C4AB597/5DEF78AC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0253" H 12400 8850 50  0001 C CNN
-F 1 "GND" V 12405 8972 50  0000 R CNN
-F 2 "" H 12400 9100 50  0001 C CNN
-F 3 "" H 12400 9100 50  0001 C CNN
-	1    12400 9100
+F 0 "#PWR0253" H 12400 8950 50  0001 C CNN
+F 1 "GND" V 12405 9072 50  0000 R CNN
+F 2 "" H 12400 9200 50  0001 C CNN
+F 3 "" H 12400 9200 50  0001 C CNN
+	1    12400 9200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1710,15 +1710,16 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J207
 U 1 1 5DE4519A
-P 13000 9000
-F 0 "J207" H 13050 9317 50  0000 C CNN
-F 1 "Conn_02x03" H 13050 9226 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:Harwin_M20-7810345_2x03_P2.54mm_Vertical_SolderHoles" H 13000 9000 50  0001 C CNN
-F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_Connectors_M20.pdf" H 13000 9000 50  0001 C CNN
-F 4 "$0.92" H 13000 9000 12700 0001 C CNN "UnitCost(USD)"
-F 5 "M20-7810345" H 13000 9000 12700 0001 C CNN "MPN"
-F 6 "Harwin" H 13000 9000 12700 0001 C CNN "Manufacturer"
-	1    13000 9000
+P 13000 9100
+F 0 "J207" H 13050 9417 50  0000 C CNN
+F 1 "Conn_02x03" H 13050 9326 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:Harwin_M20-7810345_2x03_P2.54mm_Vertical_SolderHoles" H 13000 9100 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_Connectors_M20.pdf" H 13000 9100 50  0001 C CNN
+F 4 "$0.92" H 13000 9100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "M20-7810345" H 13000 9100 12700 0001 C CNN "MPN"
+F 6 "Harwin" H 13000 9100 12700 0001 C CNN "Manufacturer"
+F 7 "DNP" H 13050 8900 50  0000 C CNN "AssemblyOption"
+	1    13000 9100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1732,6 +1733,7 @@ F 3 "https://cdn.harwin.com/pdfs/Harwin_PC_Connectors_M20.pdf" H 13000 8250 50  
 F 4 "$1.71" H 13000 8250 12700 0001 C CNN "UnitCost(USD)"
 F 5 "M20-7810645" H 13000 8250 12700 0001 C CNN "MPN"
 F 6 "Harwin" H 13000 8250 12700 0001 C CNN "Manufacturer"
+F 7 "DNP" H 13050 7850 50  0000 C CNN "AssemblyOption"
 	1    13000 8250
 	1    0    0    -1  
 $EndComp
@@ -1762,6 +1764,7 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B106KOQNNNE
 F 4 "$0.041113" H 13400 7800 50  0001 C CNN "UnitCost(USD)"
 F 5 "CL21B106KOQNNNE" H 13400 7800 50  0001 C CNN "MPN"
 F 6 "Samsung Electro-Mechanics" H 13400 7800 50  0001 C CNN "Manufacturer"
+F 7 "DNP" H 13300 7900 50  0000 C CNN "AssemblyOption"
 	1    13400 7800
 	1    0    0    -1  
 $EndComp
@@ -1785,15 +1788,16 @@ F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B106KOQNNNE
 F 4 "$0.041113" H 12700 7800 50  0001 C CNN "UnitCost(USD)"
 F 5 "CL21B106KOQNNNE" H 12700 7800 50  0001 C CNN "MPN"
 F 6 "Samsung Electro-Mechanics" H 12700 7800 50  0001 C CNN "Manufacturer"
+F 7 "DNP" H 12800 7900 50  0000 C CNN "AssemblyOption"
 	1    12700 7800
 	1    0    0    -1  
 $EndComp
 Text GLabel 12600 8250 0    50   BiDi ~ 0
 I2C_SCL
 Wire Notes Line
-	14300 9500 11800 9500
+	14350 9600 11850 9600
 Wire Notes Line
-	11800 7200 14300 7200
+	11850 7200 14350 7200
 Wire Wire Line
 	13500 8350 13300 8350
 Wire Wire Line
@@ -1801,7 +1805,7 @@ Wire Wire Line
 Wire Wire Line
 	12800 8450 12600 8450
 Wire Wire Line
-	12800 9100 12400 9100
+	12800 9200 12400 9200
 Wire Wire Line
 	13300 8250 13500 8250
 Wire Wire Line
@@ -1835,17 +1839,17 @@ Wire Wire Line
 Wire Wire Line
 	12600 8150 12800 8150
 Wire Wire Line
+	14250 9200 13300 9200
+Wire Wire Line
 	14250 9100 13300 9100
 Wire Wire Line
-	14250 9000 13300 9000
-Wire Wire Line
-	11850 8900 12800 8900
+	12100 9000 12800 9000
 Wire Wire Line
 	14250 8550 13300 8550
 NoConn ~ 12800 8550
 NoConn ~ 12800 8350
-NoConn ~ 12800 9000
-NoConn ~ 13300 8900
+NoConn ~ 12800 9100
+NoConn ~ 13300 9000
 Connection ~ 12700 8050
 Connection ~ 13400 8050
 Connection ~ 13050 7550
@@ -1947,159 +1951,8 @@ F 6 "Littelfuse" H 11650 2350 50  0001 C CNN "Manufacturer"
 	1    11650 2350
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J2
-U 1 1 5E32EB42
-P 12250 5600
-F 0 "J2" V 12126 5680 50  0000 L CNN
-F 1 "JST 2-pin SH" V 12217 5680 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 12250 5600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-SM02B-SRSS-TB-LF-SN_C160402.pdf" H 12250 5600 50  0001 C CNN
-F 4 "DNP" H 12250 5600 50  0001 C CNN "AssemblyOption"
-F 5 "SM02B-SRSS-TB(LF)(SN)" H 12250 5600 50  0001 C CNN "MPN"
-F 6 "JST" H 12250 5600 50  0001 C CNN "Manufacturer"
-F 7 "$0.118182" H 12250 5600 50  0001 C CNN "UnitCost(USD)"
-	1    12250 5600
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J3
-U 1 1 5E32FB2B
-P 13350 5600
-F 0 "J3" V 13226 5680 50  0000 L CNN
-F 1 "JST 2-pin SH" V 13317 5680 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 13350 5600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/JST-Sales-America-SM02B-SRSS-TB-LF-SN_C160402.pdf" H 13350 5600 50  0001 C CNN
-F 4 "DNP" H 13350 5600 50  0001 C CNN "AssemblyOption"
-F 5 "SM02B-SRSS-TB(LF)(SN)" H 13350 5600 50  0001 C CNN "MPN"
-F 6 "JST" H 13350 5600 50  0001 C CNN "Manufacturer"
-F 7 "$0.118182" H 13350 5600 50  0001 C CNN "UnitCost(USD)"
-	1    13350 5600
-	0    1    1    0   
-$EndComp
-NoConn ~ 11950 5600
-NoConn ~ 13050 5600
 Wire Wire Line
-	12250 4800 13550 4800
-$Comp
-L power:GNDA #PWR020
-U 1 1 5E394836
-P 12000 5350
-F 0 "#PWR020" H 12000 5100 50  0001 C CNN
-F 1 "GNDA" V 12005 5223 50  0000 R CNN
-F 2 "" H 12000 5350 50  0001 C CNN
-F 3 "" H 12000 5350 50  0001 C CNN
-	1    12000 5350
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDA #PWR021
-U 1 1 5E394BE3
-P 13050 5350
-F 0 "#PWR021" H 13050 5100 50  0001 C CNN
-F 1 "GNDA" V 13055 5223 50  0000 R CNN
-F 2 "" H 13050 5350 50  0001 C CNN
-F 3 "" H 13050 5350 50  0001 C CNN
-	1    13050 5350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	13050 5350 13250 5350
-Wire Wire Line
-	13250 5350 13250 5400
-Wire Wire Line
-	12000 5350 12150 5350
-Wire Wire Line
-	12150 5350 12150 5400
-Wire Wire Line
-	12600 4600 13350 4600
-Wire Wire Line
-	12250 4800 12250 5150
-Wire Wire Line
-	13350 4600 13350 5150
-Connection ~ 13350 4600
-Wire Wire Line
-	13350 4600 13550 4600
-$Comp
-L Connector:TestPoint TP14
-U 1 1 5E3DC6C0
-P 13500 5150
-F 0 "TP14" V 13454 5338 50  0000 L CNN
-F 1 "TestPoint" V 13545 5338 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 13700 5150 50  0001 C CNN
-F 3 "N/A" H 13700 5150 50  0001 C CNN
-F 4 "DNP" H 13500 5150 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 13500 5150 50  0001 C CNN "MPN"
-F 6 "N/A" H 13500 5150 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 13500 5150 50  0001 C CNN "UnitCost(USD)"
-	1    13500 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP12
-U 1 1 5E3DCB47
-P 12400 5150
-F 0 "TP12" V 12354 5338 50  0000 L CNN
-F 1 "TestPoint" V 12445 5338 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 12600 5150 50  0001 C CNN
-F 3 "N/A" H 12600 5150 50  0001 C CNN
-F 4 "DNP" H 12400 5150 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 12400 5150 50  0001 C CNN "MPN"
-F 6 "N/A" H 12400 5150 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 12400 5150 50  0001 C CNN "UnitCost(USD)"
-	1    12400 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP11
-U 1 1 5E3DCE45
-P 12050 5150
-F 0 "TP11" V 11855 5222 50  0000 C CNN
-F 1 "TestPoint" V 11946 5222 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 12250 5150 50  0001 C CNN
-F 3 "N/A" H 12250 5150 50  0001 C CNN
-F 4 "DNP" H 12050 5150 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 12050 5150 50  0001 C CNN "MPN"
-F 6 "N/A" H 12050 5150 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 12050 5150 50  0001 C CNN "UnitCost(USD)"
-	1    12050 5150
-	0    -1   1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP13
-U 1 1 5E3DD3D8
-P 13150 5150
-F 0 "TP13" V 12955 5222 50  0000 C CNN
-F 1 "TestPoint" V 13046 5222 50  0000 C CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 13350 5150 50  0001 C CNN
-F 3 "N/A" H 13350 5150 50  0001 C CNN
-F 4 "DNP" H 13150 5150 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 13150 5150 50  0001 C CNN "MPN"
-F 6 "N/A" H 13150 5150 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 13150 5150 50  0001 C CNN "UnitCost(USD)"
-	1    13150 5150
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	12400 5150 12250 5150
-Connection ~ 12250 5150
-Wire Wire Line
-	12250 5150 12250 5400
-Wire Wire Line
-	12050 5150 12150 5150
-Wire Wire Line
-	12150 5150 12150 5350
-Connection ~ 12150 5350
-Wire Wire Line
-	13150 5150 13250 5150
-Wire Wire Line
-	13250 5150 13250 5350
-Connection ~ 13250 5350
-Wire Wire Line
-	13500 5150 13350 5150
-Connection ~ 13350 5150
-Wire Wire Line
-	13350 5150 13350 5400
+	12600 4800 13550 4800
 $Comp
 L Connector:TestPoint TP15
 U 1 1 5E42CFAE
@@ -2119,8 +1972,6 @@ Wire Wire Line
 	7600 5850 7500 5850
 Wire Wire Line
 	13550 3200 12400 3200
-Wire Wire Line
-	9050 2750 9050 2400
 Text GLabel 12400 2250 0    50   Input ~ 0
 LI_SENSE
 Wire Wire Line
@@ -2324,10 +2175,122 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text Notes 12350 9450 0    50   ~ 0
+Text Notes 12350 9550 0    50   ~ 0
 Pi-Compatible External Codec Interface\nHeader is split for more PCB space
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J2
+U 1 1 5E1E1703
+P 10150 8150
+F 0 "J2" H 10200 8467 50  0000 C CNN
+F 1 "Conn_02x04" H 10200 8376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 10150 8150 50  0001 C CNN
+F 3 "N/A" H 10150 8150 50  0001 C CNN
+F 4 "DNP" H 10150 8150 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 10150 8150 50  0001 C CNN "MPN"
+F 6 "N/A" H 10150 8150 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 10150 8150 50  0001 C CNN "UnitCost(USD)"
+	1    10150 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 8050 9800 8050
+Text GLabel 9500 8050 0    50   Output ~ 0
++5V_REG
+Wire Wire Line
+	9950 8150 9800 8150
+Wire Wire Line
+	9800 8150 9800 8050
+Connection ~ 9800 8050
+Wire Wire Line
+	9800 8050 9950 8050
+Wire Wire Line
+	9950 8350 9100 8350
+Wire Wire Line
+	10450 8350 11450 8350
+Text Label 9100 8350 0    50   ~ 0
+AMP_OUT_R
+Text Label 11450 8350 2    50   ~ 0
+AMP_OUT_L
+$Comp
+L power:GNDA #PWR021
+U 1 1 5E34488E
+P 10500 8250
+F 0 "#PWR021" H 10500 8000 50  0001 C CNN
+F 1 "GNDA" V 10505 8122 50  0000 R CNN
+F 2 "" H 10500 8250 50  0001 C CNN
+F 3 "" H 10500 8250 50  0001 C CNN
+	1    10500 8250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10450 8250 10500 8250
+$Comp
+L power:GNDA #PWR020
+U 1 1 5E3E4F04
+P 9900 8250
+F 0 "#PWR020" H 9900 8000 50  0001 C CNN
+F 1 "GNDA" V 9905 8123 50  0000 R CNN
+F 2 "" H 9900 8250 50  0001 C CNN
+F 3 "" H 9900 8250 50  0001 C CNN
+	1    9900 8250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9950 8250 9900 8250
+Wire Wire Line
+	10450 8050 11000 8050
+Wire Wire Line
+	10450 8150 10900 8150
+Text GLabel 11000 8050 2    50   Input ~ 0
+HP_SENSE
+Text GLabel 11000 8150 2    50   Input ~ 0
+AMP_ENABLE
+Wire Wire Line
+	12600 4600 13550 4600
+$Comp
+L Device:R R26
+U 1 1 5E6DDE74
+P 10900 8550
+F 0 "R26" H 10970 8596 50  0000 L CNN
+F 1 "100k" H 10970 8505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10830 8550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-07100KL_C96346.pdf" H 10900 8550 50  0001 C CNN
+F 4 "RC0805FR-07100KL" H 10900 8550 50  0001 C CNN "MPN"
+F 5 "Yageo" H 10900 8550 50  0001 C CNN "Manufacturer"
+F 6 "$.00169" H 10900 8550 50  0001 C CNN "UnitCost(USD)"
+	1    10900 8550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 8400 10900 8150
+Connection ~ 10900 8150
+Wire Wire Line
+	10900 8150 11000 8150
+$Comp
+L power:GNDA #PWR022
+U 1 1 5E71A5D1
+P 10900 8800
+F 0 "#PWR022" H 10900 8550 50  0001 C CNN
+F 1 "GNDA" H 10823 8763 50  0000 R CNN
+F 2 "" H 10900 8800 50  0001 C CNN
+F 3 "" H 10900 8800 50  0001 C CNN
+	1    10900 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 8700 10900 8800
 Wire Notes Line
-	11800 7200 11800 9500
+	14350 7200 14350 9600
 Wire Notes Line
-	14300 7200 14300 9500
+	11850 7200 11850 9600
+Wire Notes Line
+	9000 7200 9000 9600
+Wire Notes Line
+	11600 9600 11600 7200
+Wire Notes Line
+	9000 7200 11600 7200
+Wire Notes Line
+	9000 9600 11600 9600
+Text Notes 9600 9300 0    50   ~ 0
+Header for external amplifier board.
 $EndSCHEMATC
