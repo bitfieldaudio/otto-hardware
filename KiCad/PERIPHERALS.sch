@@ -425,28 +425,28 @@ Wire Wire Line
 $Comp
 L Device:C C91
 U 1 1 5DF7BA4E
-P 11600 1450
-F 0 "C91" H 11715 1496 50  0000 L CNN
-F 1 "100nF" H 11715 1405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11638 1300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 11600 1450 50  0001 C CNN
-F 4 "$0.017724" H 11600 1450 12700 0001 C CNN "UnitCost(USD)"
-F 5 "CL21B104JBCNNNC" H 11600 1450 12700 0001 C CNN "MPN"
-F 6 "Samsung Electro-Mechanics" H 11600 1450 12700 0001 C CNN "Manufacturer"
-	1    11600 1450
+P 11750 1450
+F 0 "C91" H 11865 1496 50  0000 L CNN
+F 1 "100nF" H 11865 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11788 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 11750 1450 50  0001 C CNN
+F 4 "$0.017724" H 11750 1450 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 11750 1450 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 11750 1450 12700 0001 C CNN "Manufacturer"
+	1    11750 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11600 1300 11600 1100
+	11750 1300 11750 1100
 Wire Wire Line
-	11600 1100 11350 1100
+	11750 1100 11350 1100
 Connection ~ 11350 1100
 Wire Wire Line
 	11350 1100 11350 1450
 Wire Wire Line
-	11600 1600 11600 1750
+	11750 1600 11750 1750
 Wire Wire Line
-	11600 1750 11250 1750
+	11750 1750 11250 1750
 Wire Wire Line
 	11250 1550 11350 1550
 Wire Wire Line
@@ -1997,7 +1997,11 @@ Text GLabel 7450 8050 0    50   Input ~ 0
 Text GLabel 10150 8200 0    50   Input ~ 0
 +5V_REG
 Text Label 8700 1100 2    50   ~ 0
-SW1
-Text Label 11400 1100 0    50   ~ 0
-SW2
+5V_SW1
+Text Label 11450 1100 0    50   ~ 0
+5V_SW2
+Text Label 11150 4500 0    50   ~ 0
+3V3_SW
+Text Label 3100 1850 0    50   ~ 0
+BARL
 $EndSCHEMATC

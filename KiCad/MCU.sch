@@ -1822,7 +1822,6 @@ Wire Wire Line
 	6050 7650 6950 7650
 NoConn ~ 6950 7350
 NoConn ~ 6950 7450
-NoConn ~ 6950 7550
 NoConn ~ 6950 7750
 Wire Wire Line
 	1750 2050 2700 2050
@@ -2271,4 +2270,40 @@ NoConn ~ 9350 7450
 NoConn ~ 9350 7550
 NoConn ~ 9350 7650
 NoConn ~ 9350 7750
+$Comp
+L Device:LED_ALT D?
+U 1 1 5E4D3D7B
+P 5400 7550
+F 0 "D?" H 5393 7295 50  0000 C CNN
+F 1 "RED LED" H 5393 7386 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5400 7550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Everlight-Elec-17-21SURC-S530-A3-TR8_C72037.pdf" H 5400 7550 50  0001 C CNN
+F 4 "17-21SURC/S530-A3/TR8" H 5400 7550 50  0001 C CNN "MPN"
+F 5 "Everlight Elec" H 5400 7550 50  0001 C CNN "Manufacturer"
+F 6 "$0.017818" H 5400 7550 50  0001 C CNN "UnitCost(USD)"
+	1    5400 7550
+	-1   0    0    1   
+$EndComp
+Text GLabel 5150 7550 0    50   Input ~ 0
++3V3_MCU
+Wire Wire Line
+	5150 7550 5250 7550
+$Comp
+L Device:R R?
+U 1 1 5E4F922A
+P 5800 7550
+F 0 "R?" V 5593 7550 50  0000 C CNN
+F 1 "330" V 5684 7550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5730 7550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-07330RL_C105878.pdf" H 5800 7550 50  0001 C CNN
+F 4 "RC0805FR-07330RL" H 5800 7550 50  0001 C CNN "MPN"
+F 5 "Yageo" H 5800 7550 50  0001 C CNN "Manufacturer"
+F 6 "$.001575" H 5800 7550 50  0001 C CNN "UnitCost(USD)"
+	1    5800 7550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 7550 5650 7550
+Wire Wire Line
+	5950 7550 6950 7550
 $EndSCHEMATC
