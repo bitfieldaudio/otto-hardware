@@ -483,22 +483,6 @@ Wire Wire Line
 	7200 3950 7750 3950
 $Comp
 L Device:Crystal Y?
-U 1 1 5DC4F680
-P 12900 1100
-AR Path="/5C4320DF/5DB999B7/5DC4F680" Ref="Y?"  Part="1" 
-AR Path="/5C4320DF/5DC4F680" Ref="Y202"  Part="1" 
-F 0 "Y202" H 12900 1368 50  0000 C CNN
-F 1 "32.768kHz" H 12900 1277 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering" H 12900 1100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Seiko-Epson-Q13MC3061000300_C16320.pdf" H 12900 1100 50  0001 C CNN
-F 4 "$0.237879" H 12900 1100 12700 0001 C CNN "UnitCost(USD)"
-F 5 "Q13MC3061000300" H 12900 1100 12700 0001 C CNN "MPN"
-F 6 "Seiko Epson" H 12900 1100 12700 0001 C CNN "Manufacturer"
-	1    12900 1100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:Crystal Y?
 U 1 1 5DC4F686
 P 11000 1100
 AR Path="/5C4320DF/5DB999B7/5DC4F686" Ref="Y?"  Part="1" 
@@ -546,13 +530,13 @@ F 6 "Yageo" H 10750 1350 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13150 1200 13150 1100
+	13250 1300 13250 1100
 Wire Wire Line
-	13150 1100 13050 1100
+	13250 1100 13050 1100
 Wire Wire Line
-	12750 1100 12650 1100
+	12750 1100 12550 1100
 Wire Wire Line
-	12650 1100 12650 1200
+	12550 1100 12550 1300
 Wire Wire Line
 	11250 1200 11250 1100
 Wire Wire Line
@@ -585,40 +569,23 @@ Wire Wire Line
 Connection ~ 11000 1600
 Wire Wire Line
 	11000 1600 11250 1600
-$Comp
-L power:GND #PWR0209
-U 1 1 5DC4F6B8
-P 12900 1700
-AR Path="/5C4320DF/5DC4F6B8" Ref="#PWR0209"  Part="1" 
-AR Path="/5C4320DF/5DB999B7/5DC4F6B8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0209" H 12900 1450 50  0001 C CNN
-F 1 "GND" H 12905 1527 50  0000 C CNN
-F 2 "" H 12900 1700 50  0001 C CNN
-F 3 "" H 12900 1700 50  0001 C CNN
-	1    12900 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	12650 1500 12650 1600
+	12550 1600 12550 1800
 Wire Wire Line
-	12650 1600 12900 1600
+	12550 1800 12900 1800
+Connection ~ 12900 1800
 Wire Wire Line
-	13150 1600 13150 1500
-Wire Wire Line
-	12900 1700 12900 1600
-Connection ~ 12900 1600
-Wire Wire Line
-	12900 1600 13150 1600
-Text Label 12250 1100 0    50   ~ 0
+	12900 1800 13000 1800
+Text Label 12150 1100 0    50   ~ 0
 OSC32_IN
-Text Label 13650 1100 2    50   ~ 0
+Text Label 13850 1100 2    50   ~ 0
 OSC32_OUT
 Wire Wire Line
-	13650 1100 13150 1100
-Connection ~ 13150 1100
+	13850 1100 13250 1100
+Connection ~ 13250 1100
 Wire Wire Line
-	12250 1100 12650 1100
-Connection ~ 12650 1100
+	12150 1100 12550 1100
+Connection ~ 12550 1100
 Text Label 10350 1100 0    50   ~ 0
 OSC_IN
 Text Label 11750 1100 2    50   ~ 0
@@ -919,8 +886,6 @@ Wire Wire Line
 Wire Wire Line
 	6250 5250 6250 4950
 Wire Wire Line
-	6250 4950 5850 4950
-Wire Wire Line
 	6250 4950 6350 4950
 Connection ~ 6250 4950
 Text Label 10000 7250 2    50   ~ 0
@@ -1211,61 +1176,10 @@ Text Label 14350 2150 0    50   ~ 0
 I2C2_SDA
 Text Label 14350 1800 0    50   ~ 0
 I2C2_SCL
-$Comp
-L Device:C C223
-U 1 1 5E3EF6FE
-P 5350 5300
-AR Path="/5C4320DF/5E3EF6FE" Ref="C223"  Part="1" 
-AR Path="/5C4320DF/5DB999B7/5E3EF6FE" Ref="C?"  Part="1" 
-F 0 "C223" H 5235 5254 50  0000 R CNN
-F 1 "1uF" H 5235 5345 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5388 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B105KBFVPNE_C307362.pdf" H 5350 5300 50  0001 C CNN
-F 4 "$0.067176" H 5350 5300 50  0001 C CNN "UnitCost(USD)"
-F 5 "CL21B105KBFVPNE" H 5350 5300 50  0001 C CNN "MPN"
-F 6 "Samsung Electro-Mechanics" H 5350 5300 50  0001 C CNN "Manufacturer"
-	1    5350 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C56
-U 1 1 5E3EF704
-P 5850 5300
-AR Path="/5C4320DF/5E3EF704" Ref="C56"  Part="1" 
-AR Path="/5C4320DF/5DB999B7/5E3EF704" Ref="C?"  Part="1" 
-F 0 "C56" H 5735 5254 50  0000 R CNN
-F 1 "100nF" H 5735 5345 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5888 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 5850 5300 50  0001 C CNN
-F 4 "$0.017724" H 5850 5300 12700 0001 C CNN "UnitCost(USD)"
-F 5 "CL21B104JBCNNNC" H 5850 5300 12700 0001 C CNN "MPN"
-F 6 "Samsung Electro-Mechanics" H 5850 5300 12700 0001 C CNN "Manufacturer"
-	1    5850 5300
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6950 5150 6850 5150
 Wire Wire Line
 	6850 5150 6850 5650
-Wire Wire Line
-	6850 5650 5850 5650
-Wire Wire Line
-	5350 5650 5350 5450
-Wire Wire Line
-	5850 5150 5850 4950
-Connection ~ 5850 4950
-Wire Wire Line
-	5850 4950 5350 4950
-Wire Wire Line
-	5350 5150 5350 4950
-Connection ~ 5350 4950
-Wire Wire Line
-	5350 4950 5250 4950
-Wire Wire Line
-	5850 5450 5850 5650
-Connection ~ 5850 5650
-Wire Wire Line
-	5850 5650 5350 5650
 Wire Wire Line
 	15100 1800 15200 1800
 Wire Wire Line
@@ -1517,9 +1431,6 @@ Wire Wire Line
 Wire Wire Line
 	11200 8050 11650 8050
 Wire Wire Line
-	5350 5650 5150 5650
-Connection ~ 5350 5650
-Wire Wire Line
 	8650 3450 9150 3450
 Wire Wire Line
 	9150 3450 9650 3450
@@ -1547,7 +1458,7 @@ Wire Wire Line
 	10900 3950 11250 3950
 Text GLabel 6050 3200 0    50   Input ~ 0
 +3V3_MCU
-Text GLabel 5150 5650 0    50   Input ~ 0
+Text GLabel 5850 5650 0    50   Input ~ 0
 +3V3A_MCU
 Wire Wire Line
 	6050 3200 6350 3200
@@ -1696,33 +1607,33 @@ MIDI_IN
 $Comp
 L Device:C C96
 U 1 1 5E1FEFB6
-P 12650 1350
+P 12550 1450
 AR Path="/5C4320DF/5E1FEFB6" Ref="C96"  Part="1" 
 AR Path="/5C4320DF/5DB999B7/5E1FEFB6" Ref="C?"  Part="1" 
-F 0 "C96" H 12765 1396 50  0000 L CNN
-F 1 "15pF" H 12765 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12688 1200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21C150JBANNNC_C1794.pdf" H 12650 1350 50  0001 C CNN
-F 4 "$0.00985" H 12650 1350 50  0001 C CNN "UnitCost(USD)"
-F 5 "CL21C150JBANNNC" H 12650 1350 50  0001 C CNN "MPN"
-F 6 "Samsung Electro-Mechanics" H 12650 1350 50  0001 C CNN "Manufacturer"
-	1    12650 1350
+F 0 "C96" H 12665 1496 50  0000 L CNN
+F 1 "15pF" H 12665 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12588 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21C150JBANNNC_C1794.pdf" H 12550 1450 50  0001 C CNN
+F 4 "$0.00985" H 12550 1450 50  0001 C CNN "UnitCost(USD)"
+F 5 "CL21C150JBANNNC" H 12550 1450 50  0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 12550 1450 50  0001 C CNN "Manufacturer"
+	1    12550 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C97
 U 1 1 5E2015EC
-P 13150 1350
+P 13250 1450
 AR Path="/5C4320DF/5E2015EC" Ref="C97"  Part="1" 
 AR Path="/5C4320DF/5DB999B7/5E2015EC" Ref="C?"  Part="1" 
-F 0 "C97" H 13265 1396 50  0000 L CNN
-F 1 "15pF" H 13265 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13188 1200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21C150JBANNNC_C1794.pdf" H 13150 1350 50  0001 C CNN
-F 4 "$0.00985" H 13150 1350 50  0001 C CNN "UnitCost(USD)"
-F 5 "CL21C150JBANNNC" H 13150 1350 50  0001 C CNN "MPN"
-F 6 "Samsung Electro-Mechanics" H 13150 1350 50  0001 C CNN "Manufacturer"
-	1    13150 1350
+F 0 "C97" H 13365 1496 50  0000 L CNN
+F 1 "15pF" H 13365 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 13288 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21C150JBANNNC_C1794.pdf" H 13250 1450 50  0001 C CNN
+F 4 "$0.00985" H 13250 1450 50  0001 C CNN "UnitCost(USD)"
+F 5 "CL21C150JBANNNC" H 13250 1450 50  0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 13250 1450 50  0001 C CNN "Manufacturer"
+	1    13250 1450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2306,4 +2217,57 @@ Wire Wire Line
 	5550 7550 5650 7550
 Wire Wire Line
 	5950 7550 6950 7550
+$Comp
+L Device:Crystal_GND23 Y202
+U 1 1 5E2B8B30
+P 12900 1100
+F 0 "Y202" H 12900 1481 50  0000 C CNN
+F 1 "32.768kHz" H 12900 1390 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering" H 12900 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Seiko-Epson-Q13MC3061000300_C16320.pdf" H 12900 1100 50  0001 C CNN
+F 4 "Q13MC3061000300" H 12900 1100 50  0001 C CNN "MPN"
+F 5 "Seiko Epson" H 12900 1100 50  0001 C CNN "Manufacturer"
+F 6 "$0.237879" H 12900 1100 50  0001 C CNN "UnitCost(USD)"
+	1    12900 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0209
+U 1 1 5DC4F6B8
+P 13250 1950
+AR Path="/5C4320DF/5DC4F6B8" Ref="#PWR0209"  Part="1" 
+AR Path="/5C4320DF/5DB999B7/5DC4F6B8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0209" H 13250 1700 50  0001 C CNN
+F 1 "GND" H 13255 1777 50  0000 C CNN
+F 2 "" H 13250 1950 50  0001 C CNN
+F 3 "" H 13250 1950 50  0001 C CNN
+	1    13250 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 1300 12900 1800
+Wire Wire Line
+	12900 900  12900 850 
+Wire Wire Line
+	12900 850  13100 850 
+Wire Wire Line
+	13100 850  13100 1350
+Wire Wire Line
+	13100 1350 13000 1350
+Wire Wire Line
+	13000 1350 13000 1800
+Connection ~ 13000 1800
+Wire Wire Line
+	13000 1800 13250 1800
+Wire Wire Line
+	13250 1800 13250 1600
+Wire Wire Line
+	13250 1800 13250 1950
+Connection ~ 13250 1800
+Wire Wire Line
+	5850 5650 6850 5650
+Wire Wire Line
+	5250 4950 6250 4950
+Text Label 6050 7550 0    50   ~ 0
+STATUS_LED
 $EndSCHEMATC
