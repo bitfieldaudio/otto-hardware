@@ -1261,8 +1261,6 @@ Text GLabel 2600 9550 2    50   Output ~ 0
 (F427)_SAI1_FS_A
 Text GLabel 2600 9900 2    50   Input ~ 0
 (F427)_SAI1_SD_A
-Text GLabel 2600 10250 2    50   Output ~ 0
-(F427)_SAI1_SD_B
 Wire Wire Line
 	5950 8250 6050 8250
 Wire Wire Line
@@ -2293,4 +2291,6 @@ Wire Notes Line
 	9000 9600 11600 9600
 Text Notes 9600 9300 0    50   ~ 0
 Header for external amplifier board.
+Text GLabel 2600 10250 2    50   Output ~ 0
+(F427)_SAI1_SD_B
 $EndSCHEMATC

@@ -1993,7 +1993,7 @@ Text GLabel 8800 4500 0    50   Input ~ 0
 Text GLabel 8800 6350 0    50   Input ~ 0
 +5V_REG
 Text GLabel 7450 8050 0    50   Input ~ 0
-+5V_REG
++3V3_MCU
 Text GLabel 10150 8200 0    50   Input ~ 0
 +5V_REG
 Text Label 8700 1100 2    50   ~ 0
