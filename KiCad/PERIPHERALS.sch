@@ -113,9 +113,9 @@ $EndComp
 Wire Wire Line
 	2550 4650 2550 4750
 Text Label 3350 4150 2    50   ~ 0
-USBD_P_CON
+USBCON_P
 Text Label 3350 4250 2    50   ~ 0
-USBD_N_CON
+USBCON_N
 Wire Wire Line
 	2850 4250 3350 4250
 Wire Wire Line
@@ -1325,7 +1325,7 @@ Wire Wire Line
 	2850 3950 3650 3950
 Wire Wire Line
 	8800 4500 9550 4500
-Text GLabel 9150 7150 0    50   Input ~ 0
+Text GLabel 8650 7150 0    50   Input ~ 0
 PI_PWR_EN
 $Comp
 L Device:CP C84
@@ -1681,7 +1681,7 @@ Text Notes 7850 8400 0    50   ~ 0
 Power Override\n
 Text HLabel 7500 2850 0    50   Input ~ 0
 5V_PWM_SYNC
-Text HLabel 9150 9000 0    50   Input ~ 0
+Text HLabel 8650 9000 0    50   Input ~ 0
 LED_PWR_EN
 Text HLabel 14250 3800 2    50   Output ~ 0
 5V_REG_IOUT
@@ -2004,4 +2004,36 @@ Text Label 11150 4500 0    50   ~ 0
 3V3_SW
 Text Label 3100 1850 0    50   ~ 0
 BARL
+$Comp
+L Device:R R31
+U 1 1 5E6739EA
+P 9000 7150
+F 0 "R31" V 9115 7150 50  0000 C CNN
+F 1 "10k" V 9206 7150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 7150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-0710KL_C84376.pdf" H 9000 7150 50  0001 C CNN
+F 4 "$.001675" H 9000 7150 50  0001 C CNN "UnitCost(USD)"
+F 5 "RC0805FR-0710KL" H 9000 7150 50  0001 C CNN "MPN"
+F 6 "Yageo" H 9000 7150 50  0001 C CNN "Manufacturer"
+	1    9000 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R32
+U 1 1 5E674E79
+P 9000 9000
+F 0 "R32" V 9115 9000 50  0000 C CNN
+F 1 "10k" V 9206 9000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 9000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-0710KL_C84376.pdf" H 9000 9000 50  0001 C CNN
+F 4 "$.001675" H 9000 9000 50  0001 C CNN "UnitCost(USD)"
+F 5 "RC0805FR-0710KL" H 9000 9000 50  0001 C CNN "MPN"
+F 6 "Yageo" H 9000 9000 50  0001 C CNN "Manufacturer"
+	1    9000 9000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 9000 8850 9000
+Wire Wire Line
+	8650 7150 8850 7150
 $EndSCHEMATC

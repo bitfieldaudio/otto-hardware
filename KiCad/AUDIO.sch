@@ -864,11 +864,11 @@ AR Path="/5C4320DF/5DF55A7F" Ref="Y?"  Part="1"
 AR Path="/5C4408C6/5DF55A7F" Ref="Y203"  Part="1" 
 F 0 "Y203" H 5650 6818 50  0000 C CNN
 F 1 "12.288MHz" H 5650 6727 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 5650 6550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X49SM12288MSD2SC_C11240.pdf" H 5650 6550 50  0001 C CNN
-F 4 "$0.084038" H 5650 6550 12700 0001 C CNN "UnitCost(USD)"
-F 5 "X49SM12288MSD2SC" H 5650 6550 12700 0001 C CNN "MPN"
-F 6 "Yangxing Tech" H 5650 6550 12700 0001 C CNN "Manufacturer"
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 5650 6550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/SHENZHEN-CRYSTAL-TECH-6I12288F20UCG_C251589.pdf" H 5650 6550 50  0001 C CNN
+F 4 "$0.192424" H 5650 6550 12700 0001 C CNN "UnitCost(USD)"
+F 5 "6I12288F20UCG" H 5650 6550 12700 0001 C CNN "MPN"
+F 6 "SJK(SHENZHEN CRYSTAL TECH)" H 5650 6550 12700 0001 C CNN "Manufacturer"
 	1    5650 6550
 	1    0    0    -1  
 $EndComp
@@ -1891,7 +1891,7 @@ F 4 "$0.159091" H 11650 4100 50  0001 C CNN "UnitCost(USD)"
 F 5 "SP1002-01JTG" H 11650 4100 50  0001 C CNN "MPN"
 F 6 "Littelfuse" H 11650 4100 50  0001 C CNN "Manufacturer"
 	1    11650 4100
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L OTTOdiy_SMD-library:D_TVS_SC70-3 D56
@@ -1919,7 +1919,7 @@ F 4 "$0.159091" H 11650 4500 50  0001 C CNN "UnitCost(USD)"
 F 5 "SP1002-01JTG" H 11650 4500 50  0001 C CNN "MPN"
 F 6 "Littelfuse" H 11650 4500 50  0001 C CNN "Manufacturer"
 	1    11650 4500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L OTTOdiy_SMD-library:D_TVS_SC70-3 D52

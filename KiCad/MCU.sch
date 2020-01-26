@@ -488,11 +488,11 @@ P 11000 1100
 AR Path="/5C4320DF/5DB999B7/5DC4F686" Ref="Y?"  Part="1" 
 AR Path="/5C4320DF/5DC4F686" Ref="Y201"  Part="1" 
 F 0 "Y201" H 11000 1368 50  0000 C CNN
-F 1 "8MHz" H 11000 1277 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 11000 1100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X49SM8MSD2SC_C12674.pdf" H 11000 1100 50  0001 C CNN
-F 4 "$0.075854" H 11000 1100 12700 0001 C CNN "UnitCost(USD)"
-F 5 "X49SM8MSD2SC" H 11000 1100 12700 0001 C CNN "MPN"
+F 1 "25MHz" H 11000 1277 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 11000 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-X503225MSB2GI_C112569.pdf" H 11000 1100 50  0001 C CNN
+F 4 "$0.171212" H 11000 1100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "X503225MSB2GI" H 11000 1100 12700 0001 C CNN "MPN"
 F 6 "Yangxing Tech" H 11000 1100 12700 0001 C CNN "Manufacturer"
 	1    11000 1100
 	-1   0    0    -1  
@@ -571,11 +571,6 @@ Wire Wire Line
 	11000 1600 11250 1600
 Wire Wire Line
 	12550 1600 12550 1800
-Wire Wire Line
-	12550 1800 12900 1800
-Connection ~ 12900 1800
-Wire Wire Line
-	12900 1800 13000 1800
 Text Label 12150 1100 0    50   ~ 0
 OSC32_IN
 Text Label 13850 1100 2    50   ~ 0
@@ -793,8 +788,6 @@ Wire Wire Line
 	10000 5050 9350 5050
 Text Notes 9450 10750 0    50   ~ 0
 Internal pullups/pulldowns:\nMAIN_POWER: u\nPWR_BUTTON: u\nSPI_CS_MCU_LED: u\nGATE_IO_1: d\nGATE_IO_2: d\n***Todo: check states of the other connections \nto RPi to prevent different pull states \nduring boot time***
-Text Label 10000 9250 2    50   ~ 0
-TAMPER_RTC
 Wire Wire Line
 	8250 3950 8350 3950
 Wire Wire Line
@@ -1255,28 +1248,12 @@ Wire Wire Line
 Wire Wire Line
 	7750 3450 7750 3550
 Connection ~ 8150 3450
-Text Label 6050 7650 0    50   ~ 0
-EXP_GPIO_6_PWM
 Text Label 10000 8450 2    50   ~ 0
 EXP_GPIO_2_ADC
-Text Label 6050 7350 0    50   ~ 0
-EXP_GPIO_4_PWM
-Wire Wire Line
-	6050 7650 6950 7650
-Wire Wire Line
-	6050 7350 6950 7350
 Wire Wire Line
 	10000 8450 9350 8450
-Text Label 6050 7550 0    50   ~ 0
-EXP_GPIO_5_PWM
-Text Label 6050 7150 0    50   ~ 0
-EXP_GPIO_3_PWM
-Wire Wire Line
-	6050 7550 6950 7550
 Text Label 10000 8350 2    50   ~ 0
 EXP_GPIO_1_ADC
-Wire Wire Line
-	6050 7150 6950 7150
 Wire Wire Line
 	10000 8350 9350 8350
 Wire Wire Line
@@ -1663,23 +1640,6 @@ Wire Wire Line
 Text Label 8650 1100 0    50   ~ 0
 ICP_RST
 $Comp
-L Connector:TestPoint TP10
-U 1 1 5EB6C6CB
-P 10050 9250
-F 0 "TP10" V 10004 9438 50  0000 L CNN
-F 1 "TestPoint" V 10095 9438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10250 9250 50  0001 C CNN
-F 3 "N/A" H 10250 9250 50  0001 C CNN
-F 4 "DNP" H 10050 9250 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 10050 9250 50  0001 C CNN "MPN"
-F 6 "N/A" H 10050 9250 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 10050 9250 50  0001 C CNN "UnitCost(USD)"
-	1    10050 9250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9350 9250 10050 9250
-$Comp
 L Device:C C?
 U 1 1 5F213664
 P 2050 6600
@@ -1696,18 +1656,13 @@ F 7 "DNP" V 2000 6750 50  0000 C CNN "AssemblyOption"
 	1    2050 6600
 	0    1    1    0   
 $EndComp
-NoConn ~ 6950 8650
 NoConn ~ 9350 9150
 NoConn ~ 9350 9050
 NoConn ~ 9350 8950
-NoConn ~ 6950 6350
 Text Label 10000 8650 2    50   ~ 0
 5V_PWM_SYNC
 Wire Wire Line
 	10000 8650 9350 8650
-NoConn ~ 6950 7250
-NoConn ~ 6950 7450
-NoConn ~ 6950 7750
 Wire Wire Line
 	1750 2050 2700 2050
 Text Label 2700 2050 2    50   ~ 0
@@ -1720,29 +1675,10 @@ Wire Wire Line
 	5950 9150 6950 9150
 Wire Wire Line
 	6950 9250 5950 9250
-$Comp
-L OTTOdiy_SMD-library:STM32F407VGTx-MCU_ST_STM32F4 U7
-U 1 1 5DDA96E4
-P 8150 6950
-AR Path="/5DDA96E4" Ref="U7"  Part="1" 
-AR Path="/5C4320DF/5DDA96E4" Ref="U202"  Part="1" 
-F 0 "U202" H 8750 4100 50  0000 C CNN
-F 1 "STM32F407VGTx" H 8950 4000 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 7450 4350 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 8150 6950 50  0001 C CNN
-F 4 "$6.469697" H 8150 6950 12700 0001 C CNN "UnitCost(USD)"
-F 5 "STM32F407VGT6" H 8150 6950 12700 0001 C CNN "MPN"
-F 6 "STMicroelectronics" H 8150 6950 12700 0001 C CNN "Manufacturer"
-	1    8150 6950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6950 8350
-NoConn ~ 6950 8250
 Wire Wire Line
 	10000 5450 9350 5450
 Text Label 10000 5450 2    50   ~ 0
 +5V_USB
-NoConn ~ 9350 5550
 Wire Wire Line
 	2700 4600 1750 4600
 Text Label 2700 4600 2    50   ~ 0
@@ -2109,36 +2045,10 @@ Wire Wire Line
 Connection ~ 5750 6450
 Wire Wire Line
 	5750 6450 6950 6450
-$Comp
-L Device:R R25
-U 1 1 5E5F6EE1
-P 6450 8050
-F 0 "R25" V 6400 7850 50  0000 C CNN
-F 1 "10k" V 6400 8250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6380 8050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-0710KL_C84376.pdf" H 6450 8050 50  0001 C CNN
-F 4 "RC0805FR-0710KL" H 6450 8050 50  0001 C CNN "MPN"
-F 5 "Yageo" H 6450 8050 50  0001 C CNN "Manufacturer"
-F 6 "$.001675" H 6450 8050 50  0001 C CNN "UnitCost(USD)"
-	1    6450 8050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5950 8050 6300 8050
-Wire Wire Line
-	6600 8050 6950 8050
-NoConn ~ 6950 8850
-NoConn ~ 6950 8950
-NoConn ~ 6950 9050
 Wire Wire Line
 	5950 9350 6950 9350
-NoConn ~ 6950 8150
 Text Label 10000 4550 2    50   ~ 0
 DC_IN_DIV_5
-NoConn ~ 9350 7450
-NoConn ~ 9350 7550
-NoConn ~ 9350 7650
-NoConn ~ 9350 7750
 $Comp
 L Device:LED_ALT D57
 U 1 1 5E4D3D7B
@@ -2176,20 +2086,6 @@ Wire Wire Line
 Wire Wire Line
 	10200 8550 9350 8550
 $Comp
-L Device:Crystal_GND23 Y202
-U 1 1 5E2B8B30
-P 12900 1100
-F 0 "Y202" H 12900 1481 50  0000 C CNN
-F 1 "32.768kHz" H 12900 1390 50  0000 C CNN
-F 2 "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering" H 12900 1100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Seiko-Epson-Q13MC3061000300_C16320.pdf" H 12900 1100 50  0001 C CNN
-F 4 "Q13MC3061000300" H 12900 1100 50  0001 C CNN "MPN"
-F 5 "Seiko Epson" H 12900 1100 50  0001 C CNN "Manufacturer"
-F 6 "$0.237879" H 12900 1100 50  0001 C CNN "UnitCost(USD)"
-	1    12900 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0209
 U 1 1 5DC4F6B8
 P 13250 1950
@@ -2202,21 +2098,6 @@ F 3 "" H 13250 1950 50  0001 C CNN
 	1    13250 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12900 1300 12900 1800
-Wire Wire Line
-	12900 900  12900 850 
-Wire Wire Line
-	12900 850  13100 850 
-Wire Wire Line
-	13100 850  13100 1350
-Wire Wire Line
-	13100 1350 13000 1350
-Wire Wire Line
-	13000 1350 13000 1800
-Connection ~ 13000 1800
-Wire Wire Line
-	13000 1800 13250 1800
 Wire Wire Line
 	13250 1800 13250 1600
 Wire Wire Line
@@ -2238,9 +2119,7 @@ Wire Wire Line
 	13850 6550 14500 6550
 Wire Wire Line
 	9350 4650 10000 4650
-Wire Wire Line
-	6950 6250 6050 6250
-Text Label 6050 6250 0    50   ~ 0
+Text Label 10000 5550 2    50   ~ 0
 LED_PWR_EN
 Wire Wire Line
 	9350 4750 10000 4750
@@ -2376,8 +2255,6 @@ Wire Wire Line
 	9350 6850 10000 6850
 Wire Wire Line
 	9350 6950 10000 6950
-NoConn ~ 9350 8150
-NoConn ~ 9350 8250
 Wire Wire Line
 	5600 6550 6950 6550
 Text GLabel 5600 6550 0    50   Input ~ 0
@@ -2390,8 +2267,6 @@ Text GLabel 5950 8550 0    50   Input ~ 0
 MIDI_IN
 Text GLabel 5950 8450 0    50   Output ~ 0
 MIDI_OUT
-NoConn ~ 6950 6950
-NoConn ~ 6950 7050
 Wire Wire Line
 	5950 9450 6950 9450
 $Comp
@@ -2413,7 +2288,151 @@ Wire Wire Line
 	10050 8750 9350 8750
 Text Label 10000 8750 2    50   ~ 0
 MCU_PC8
-NoConn ~ 9350 7950
-NoConn ~ 9350 8050
-NoConn ~ 6950 8750
+$Comp
+L Device:Crystal Y?
+U 1 1 5E312A0A
+P 12900 1100
+AR Path="/5C4320DF/5DB999B7/5E312A0A" Ref="Y?"  Part="1" 
+AR Path="/5C4320DF/5E312A0A" Ref="Y202"  Part="1" 
+F 0 "Y202" H 12900 1368 50  0000 C CNN
+F 1 "32.768kHz" H 12900 1277 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:Crystal_SMD_3215-2Pin_3.2x1.5mm_HandSoldering" H 12900 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Yangxing-Tech-YST310S32-768KHz12-5pF10ppm_C94279.pdf" H 12900 1100 50  0001 C CNN
+F 4 "$0.207576" H 12900 1100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "X321532768KGB2SI" H 12900 1100 12700 0001 C CNN "MPN"
+F 6 "Yangxing Tech" H 12900 1100 12700 0001 C CNN "Manufacturer"
+	1    12900 1100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 1800 13250 1800
+NoConn ~ 9350 9250
+Text Label 10000 7450 2    50   ~ 0
+ROW_1
+Text Label 10000 7550 2    50   ~ 0
+ROW_2
+Text Label 10000 7650 2    50   ~ 0
+ROW_3
+Text Label 10000 7750 2    50   ~ 0
+ROW_4
+Text Label 10000 7950 2    50   ~ 0
+ROW_5
+Text Label 10000 8050 2    50   ~ 0
+ROW_6
+Text Label 10000 8150 2    50   ~ 0
+ROW_7
+Text Label 10000 8250 2    50   ~ 0
+ROW_8
+Wire Wire Line
+	10000 7450 9350 7450
+Wire Wire Line
+	9350 7550 10000 7550
+Wire Wire Line
+	10000 7650 9350 7650
+Wire Wire Line
+	9350 7750 10000 7750
+Wire Wire Line
+	10000 7950 9350 7950
+Wire Wire Line
+	9350 8050 10000 8050
+Wire Wire Line
+	10000 8150 9350 8150
+Wire Wire Line
+	9350 8250 10000 8250
+Text Label 6050 7050 0    50   ~ 0
+COL_4
+Text Label 6050 7250 0    50   ~ 0
+COL_5
+Text Label 6050 7450 0    50   ~ 0
+COL_6
+Text Label 6050 7750 0    50   ~ 0
+COL_7
+Wire Wire Line
+	6050 7050 6950 7050
+Wire Wire Line
+	6050 7250 6950 7250
+Wire Wire Line
+	6050 7450 6950 7450
+Wire Wire Line
+	6050 7750 6950 7750
+Wire Wire Line
+	5950 8050 6950 8050
+Wire Wire Line
+	9350 5550 10000 5550
+Wire Wire Line
+	6050 6950 6950 6950
+Wire Wire Line
+	6050 6350 6950 6350
+Wire Wire Line
+	6050 6250 6950 6250
+Text Label 6050 6950 0    50   ~ 0
+COL_3
+Text Label 6050 6350 0    50   ~ 0
+COL_2
+Text Label 6050 6250 0    50   ~ 0
+COL_1
+Wire Wire Line
+	6050 7150 6950 7150
+Wire Wire Line
+	6050 7550 6950 7550
+Text Label 6050 7150 0    50   ~ 0
+EXP_GPIO_3_PWM
+Text Label 6050 7550 0    50   ~ 0
+EXP_GPIO_5_PWM
+Wire Wire Line
+	6050 7350 6950 7350
+Wire Wire Line
+	6050 7650 6950 7650
+Text Label 6050 7350 0    50   ~ 0
+EXP_GPIO_4_PWM
+Text Label 6050 7650 0    50   ~ 0
+EXP_GPIO_6_PWM
+$Comp
+L OTTOdiy_SMD-library:STM32F407VGTx-MCU_ST_STM32F4 U7
+U 1 1 5DDA96E4
+P 8150 6950
+AR Path="/5DDA96E4" Ref="U7"  Part="1" 
+AR Path="/5C4320DF/5DDA96E4" Ref="U202"  Part="1" 
+F 0 "U202" H 8750 4100 50  0000 C CNN
+F 1 "STM32F407VGTx" H 8950 4000 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 7450 4350 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" H 8150 6950 50  0001 C CNN
+F 4 "$6.469697" H 8150 6950 12700 0001 C CNN "UnitCost(USD)"
+F 5 "STM32F407VGT6" H 8150 6950 12700 0001 C CNN "MPN"
+F 6 "STMicroelectronics" H 8150 6950 12700 0001 C CNN "Manufacturer"
+	1    8150 6950
+	1    0    0    -1  
+$EndComp
+Text Label 6050 8150 0    50   ~ 0
+ENC_A_1
+Text Label 6050 8250 0    50   ~ 0
+ENC_B_1
+Text Label 6050 8350 0    50   ~ 0
+ENC_A_2
+Text Label 6050 8650 0    50   ~ 0
+ENC_B_2
+Text Label 6050 8750 0    50   ~ 0
+ENC_A_3
+Text Label 6050 8850 0    50   ~ 0
+ENC_B_3
+Text Label 6050 8950 0    50   ~ 0
+ENC_A_4
+Text Label 6050 9050 0    50   ~ 0
+ENC_B_4
+Wire Wire Line
+	6050 8150 6950 8150
+Wire Wire Line
+	6950 8250 6050 8250
+Wire Wire Line
+	6050 8350 6950 8350
+Wire Wire Line
+	6050 8650 6950 8650
+Wire Wire Line
+	6050 8750 6950 8750
+Wire Wire Line
+	6050 8850 6950 8850
+Wire Wire Line
+	6050 8950 6950 8950
+Wire Wire Line
+	6050 9050 6950 9050
 $EndSCHEMATC
