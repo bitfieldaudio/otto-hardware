@@ -33,13 +33,13 @@ Wire Wire Line
 Wire Wire Line
 	9400 5600 9500 5600
 Wire Wire Line
-	9400 5800 9550 5800
+	9400 5800 9600 5800
 Wire Wire Line
-	9400 5900 9550 5900
+	9400 5900 9600 5900
 Wire Wire Line
-	9550 4800 9400 4800
+	9600 4800 9400 4800
 Wire Wire Line
-	9550 4900 9400 4900
+	9600 4900 9400 4900
 Wire Wire Line
 	7700 4500 7800 4500
 Wire Wire Line
@@ -133,11 +133,11 @@ F 7 "N/A" H 3550 7700 50  0001 C CNN "Manufacturer"
 	1    3550 7700
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 5500 2    50   Output ~ 0
+Text GLabel 9600 5550 2    50   Output ~ 0
 SPI_CS_RASPI_DISPLAY
-Text GLabel 9550 5800 2    50   Output ~ 0
+Text GLabel 9600 5800 2    50   Output ~ 0
 SPI_MOSI_RASPI
-Text GLabel 9550 5900 2    50   Output ~ 0
+Text GLabel 9600 5900 2    50   Output ~ 0
 SPI_SCLK_RASPI
 Text GLabel 7700 5000 0    50   Output ~ 0
 I2S_BCLK
@@ -147,9 +147,9 @@ Text GLabel 7700 5300 0    50   Input ~ 0
 I2S_DIN
 Text GLabel 7700 5400 0    50   Output ~ 0
 I2S_DOUT
-Text GLabel 9550 4800 2    50   BiDi ~ 0
+Text GLabel 9600 4800 2    50   BiDi ~ 0
 I2C_SDA
-Text GLabel 9550 4900 2    50   BiDi ~ 0
+Text GLabel 9600 4900 2    50   BiDi ~ 0
 I2C_SCL
 Wire Wire Line
 	7700 5600 7800 5600
@@ -338,7 +338,6 @@ Text GLabel 7700 4600 0    50   Input ~ 0
 MIDI_IN
 Text Notes 7950 6350 0    50   ~ 0
 Harwin M20-7912045 connector
-NoConn ~ 9400 5500
 $Comp
 L Device:R R3
 U 1 1 5E14AAB9
@@ -486,16 +485,16 @@ F 7 "N/A" H 3550 8300 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	7700 4000 8400 4000
-Text GLabel 9550 5300 2    50   Output ~ 0
+Text GLabel 9600 5300 2    50   Output ~ 0
 PI_PWR_EN
 Text Notes 7900 7800 0    50   ~ 0
 Internal pullups/pulldowns:\nICP_RST: u\nSPI_CS_RASPI_DISPLAY: u
 Text Notes 7900 8000 0    50   ~ 0
 GPIO0-8 are pulled up during boot time.\nGPIO9-27 are pulled down during boot time.
-Text GLabel 9550 6100 2    50   Output ~ 0
+Text GLabel 9600 6100 2    50   Output ~ 0
 BL_PWM
 Wire Wire Line
-	9400 6100 9550 6100
+	9400 6100 9600 6100
 $Sheet
 S 2450 3050 900  600 
 U 5C435D84
@@ -525,7 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 5200 11000 5200
 Wire Wire Line
-	9550 5300 9400 5300
+	9600 5300 9400 5300
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5EB1A876
@@ -543,12 +542,12 @@ F 7 "$0.00" H 10500 5700 50  0001 C CNN "UnitCost(USD)"
 $EndComp
 Wire Wire Line
 	9400 5700 10500 5700
-Text Label 10350 5700 2    50   ~ 0
+Text Label 9650 5700 0    50   ~ 0
 SPI_MISO_RASPI
 Wire Wire Line
-	9500 5600 9500 5500
+	9500 5600 9500 5550
 Wire Wire Line
-	9500 5500 9550 5500
+	9500 5550 9600 5550
 $Comp
 L Connector:TestPoint TP9
 U 1 1 5EB287AC
@@ -564,7 +563,7 @@ F 7 "$0.00" H 10500 6300 50  0001 C CNN "UnitCost(USD)"
 	1    10500 6300
 	0    1    1    0   
 $EndComp
-Text Label 10350 6300 2    50   ~ 0
+Text Label 9650 6300 0    50   ~ 0
 PWM1_GPIO13_RASPI
 Wire Wire Line
 	9400 6200 9450 6200
@@ -851,4 +850,27 @@ Wire Wire Line
 	9400 4600 10350 4600
 Text GLabel 7700 4900 0    50   Input ~ 0
 AMP_ENABLE
+Wire Wire Line
+	9400 5500 9450 5500
+Wire Wire Line
+	9450 5500 9450 5450
+Wire Wire Line
+	9450 5450 10500 5450
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5E3855CC
+P 10500 5450
+F 0 "TP2" V 10454 5638 50  0000 L CNN
+F 1 "TestPoint" V 10545 5638 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10700 5450 50  0001 C CNN
+F 3 "N/A" H 10700 5450 50  0001 C CNN
+F 4 "DNP" H 10500 5450 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 10500 5450 50  0001 C CNN "MPN"
+F 6 "N/A" H 10500 5450 50  0001 C CNN "Manufacturer"
+F 7 "$0.00" H 10500 5450 50  0001 C CNN "UnitCost(USD)"
+	1    10500 5450
+	0    1    1    0   
+$EndComp
+Text Label 9650 5450 0    50   ~ 0
+CE1_GPIO7_RASPI
 $EndSCHEMATC
