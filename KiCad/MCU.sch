@@ -605,7 +605,7 @@ F 4 "$0.636364" H 7350 1200 12700 0001 C CNN "UnitCost(USD)"
 F 5 "EP-02KS" H 7350 1200 12700 0001 C CNN "MPN"
 F 6 "Korean Hroparts Elec" H 7350 1200 12700 0001 C CNN "Manufacturer"
 	1    7350 1200
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Label 6250 1100 0    50   ~ 0
 BOOT0
@@ -697,11 +697,11 @@ P 9350 1100
 AR Path="/5C4320DF/5DB999B7/5DC4F71A" Ref="SW?"  Part="1" 
 AR Path="/5C4320DF/5DC4F71A" Ref="SW201"  Part="1" 
 F 0 "SW201" H 9350 1385 50  0000 C CNN
-F 1 "6x6x5mm" H 9350 1294 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 9350 1300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-C4SW-04_C110153.pdf" H 9350 1300 50  0001 C CNN
-F 4 "$0.034447" H 9350 1100 12700 0001 C CNN "UnitCost(USD)"
-F 5 "K2-1102DP-C4SW-04" H 9350 1100 12700 0001 C CNN "MPN"
+F 1 "5.2x5.2x1.5mm" H 9350 1294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:SW_SPST_5.2x5.2x1.5mm" H 9350 1300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1187SQ-A4SW-06_C92584.pdf" H 9350 1300 50  0001 C CNN
+F 4 "$0.0467" H 9350 1100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1187SQ-A4SW-06" H 9350 1100 12700 0001 C CNN "MPN"
 F 6 "Korean Hroparts Elec" H 9350 1100 12700 0001 C CNN "Manufacturer"
 	1    9350 1100
 	1    0    0    -1  
