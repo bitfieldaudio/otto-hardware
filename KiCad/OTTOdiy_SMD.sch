@@ -832,13 +832,13 @@ Wire Wire Line
 	7700 4250 7800 4250
 Wire Wire Line
 	7150 4150 7800 4150
-Text GLabel 7700 5350 0    50   Input ~ 0
+Text GLabel 7700 5450 0    50   Input ~ 0
 LI_SENSE
-Text GLabel 7700 5250 0    50   Input ~ 0
+Text GLabel 7700 5350 0    50   Input ~ 0
 HP_SENSE
 Wire Wire Line
 	7700 5250 7800 5250
-Text GLabel 7700 5450 0    50   Input ~ 0
+Text GLabel 7700 5250 0    50   Input ~ 0
 LO_SENSE
 Wire Wire Line
 	7700 5450 7800 5450
