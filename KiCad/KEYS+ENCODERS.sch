@@ -2470,47 +2470,47 @@ Text HLabel 14800 8250 0    50   Input ~ 0
 COL_3
 Text HLabel 15750 8250 0    50   Input ~ 0
 COL_4
-Text HLabel 9600 5850 0    50   Input ~ 0
-COL_4
 Text HLabel 10550 5850 0    50   Input ~ 0
 COL_4
 Text HLabel 11500 5850 0    50   Input ~ 0
 COL_4
+Text HLabel 13400 5850 0    50   Input ~ 0
+COL_4
 Text HLabel 12450 5850 0    50   Input ~ 0
 COL_4
-Text HLabel 13400 5850 0    50   Input ~ 0
+Text HLabel 9600 5850 0    50   Input ~ 0
 COL_4
 Text HLabel 14800 5850 0    50   Input ~ 0
 COL_5
-Text HLabel 15750 5850 0    50   Input ~ 0
+Text HLabel 13400 3650 0    50   Input ~ 0
 COL_5
-Text HLabel 14800 4750 0    50   Input ~ 0
+Text HLabel 13400 4750 0    50   Input ~ 0
 COL_5
 Text HLabel 15750 4750 0    50   Input ~ 0
+COL_5
+Text HLabel 15750 5850 0    50   Input ~ 0
 COL_5
 Text HLabel 14800 3650 0    50   Input ~ 0
 COL_5
 Text HLabel 15750 3650 0    50   Input ~ 0
 COL_5
-Text HLabel 13400 4750 0    50   Input ~ 0
+Text HLabel 14800 4750 0    50   Input ~ 0
 COL_5
-Text HLabel 13400 3650 0    50   Input ~ 0
-COL_5
-Text HLabel 12450 3650 0    50   Input ~ 0
-COL_6
-Text HLabel 12450 4750 0    50   Input ~ 0
-COL_6
-Text HLabel 11500 4750 0    50   Input ~ 0
-COL_6
-Text HLabel 11500 3650 0    50   Input ~ 0
-COL_6
-Text HLabel 10550 3650 0    50   Input ~ 0
-COL_6
-Text HLabel 10550 4750 0    50   Input ~ 0
-COL_6
 Text HLabel 9600 3650 0    50   Input ~ 0
 COL_6
 Text HLabel 9600 4750 0    50   Input ~ 0
+COL_6
+Text HLabel 11500 4750 0    50   Input ~ 0
+COL_6
+Text HLabel 12450 4750 0    50   Input ~ 0
+COL_6
+Text HLabel 12450 3650 0    50   Input ~ 0
+COL_6
+Text HLabel 10550 3650 0    50   Input ~ 0
+COL_6
+Text HLabel 11500 3650 0    50   Input ~ 0
+COL_6
+Text HLabel 10550 4750 0    50   Input ~ 0
 COL_6
 Text HLabel 800  8250 2    50   Input ~ 0
 ROW_1
@@ -2580,46 +2580,46 @@ Text HLabel 13650 7050 2    50   Input ~ 0
 ROW_2
 Text HLabel 15050 8250 2    50   Input ~ 0
 ROW_3
-Text HLabel 8900 5850 2    50   Input ~ 0
-ROW_4
 Text HLabel 9850 5850 2    50   Input ~ 0
-ROW_5
+ROW_4
 Text HLabel 10800 5850 2    50   Input ~ 0
+ROW_5
+Text HLabel 12700 5850 2    50   Input ~ 0
 ROW_6
 Text HLabel 11750 5850 2    50   Input ~ 0
 ROW_7
-Text HLabel 12700 5850 2    50   Input ~ 0
+Text HLabel 8900 5850 2    50   Input ~ 0
 ROW_8
 Text HLabel 14100 5850 2    50   Input ~ 0
 ROW_1
-Text HLabel 15050 5850 2    50   Input ~ 0
+Text HLabel 12700 3650 2    50   Input ~ 0
 ROW_2
-Text HLabel 14100 4750 2    50   Input ~ 0
+Text HLabel 12700 4750 2    50   Input ~ 0
 ROW_3
 Text HLabel 15050 4750 2    50   Input ~ 0
 ROW_4
+Text HLabel 15050 5850 2    50   Input ~ 0
+ROW_5
 Text HLabel 14100 3650 2    50   Input ~ 0
-ROW_5
-Text HLabel 15050 3650 2    50   Input ~ 0
 ROW_6
-Text HLabel 12700 3650 2    50   Input ~ 0
+Text HLabel 14100 4750 2    50   Input ~ 0
 ROW_7
-Text HLabel 12700 4750 2    50   Input ~ 0
+Text HLabel 15050 3650 2    50   Input ~ 0
 ROW_8
-Text HLabel 8900 3650 2    50   Input ~ 0
-ROW_1
-Text HLabel 9850 3650 2    50   Input ~ 0
-ROW_2
 Text HLabel 10800 3650 2    50   Input ~ 0
-ROW_3
+ROW_1
 Text HLabel 11750 3650 2    50   Input ~ 0
+ROW_2
+Text HLabel 11750 4750 2    50   Input ~ 0
+ROW_3
+Text HLabel 8900 3650 2    50   Input ~ 0
 ROW_4
-Text HLabel 8900 4750 2    50   Input ~ 0
-ROW_5
 Text HLabel 9850 4750 2    50   Input ~ 0
+ROW_5
+Text HLabel 9850 3650 2    50   Input ~ 0
 ROW_6
 Text HLabel 10800 4750 2    50   Input ~ 0
 ROW_7
-Text HLabel 11750 4750 2    50   Input ~ 0
+Text HLabel 8900 4750 2    50   Input ~ 0
 ROW_8
 $EndSCHEMATC
