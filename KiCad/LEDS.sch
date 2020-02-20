@@ -739,7 +739,7 @@ F 3 "" H 6350 8150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 14400 7850 2    50   ~ 0
-LED_OUT
+LED_CONN3
 $Comp
 L OTTOdiy_SMD-library:NeoPixel_THT-LED LED47
 U 1 1 5E136C04
@@ -2847,4 +2847,354 @@ Wire Wire Line
 Connection ~ 4600 5300
 Wire Wire Line
 	4600 5300 4700 5300
+Connection ~ 6400 9950
+Wire Wire Line
+	8800 10250 8800 10350
+Wire Wire Line
+	8400 10350 8800 10350
+Connection ~ 8400 10350
+Wire Wire Line
+	8400 10250 8400 10350
+Wire Wire Line
+	8000 10350 8400 10350
+Connection ~ 8000 10350
+Wire Wire Line
+	8000 10250 8000 10350
+Wire Wire Line
+	7600 10350 8000 10350
+Connection ~ 7600 10350
+Wire Wire Line
+	7600 10250 7600 10350
+Wire Wire Line
+	7200 10350 7600 10350
+Connection ~ 7200 10350
+Wire Wire Line
+	7200 10250 7200 10350
+Wire Wire Line
+	6800 10350 7200 10350
+Connection ~ 6800 10350
+Wire Wire Line
+	6800 10250 6800 10350
+Wire Wire Line
+	6400 10350 6800 10350
+Connection ~ 6400 10350
+Wire Wire Line
+	6400 10250 6400 10350
+Wire Wire Line
+	6300 10350 6400 10350
+Wire Wire Line
+	6400 9950 6300 9950
+Wire Wire Line
+	8800 10050 8800 9950
+Wire Wire Line
+	8400 9950 8800 9950
+Connection ~ 8400 9950
+Wire Wire Line
+	8400 10050 8400 9950
+Wire Wire Line
+	8000 9950 8400 9950
+Connection ~ 8000 9950
+Wire Wire Line
+	8000 10050 8000 9950
+Wire Wire Line
+	7600 9950 8000 9950
+Connection ~ 7600 9950
+Wire Wire Line
+	7600 10050 7600 9950
+Wire Wire Line
+	7200 9950 7600 9950
+Connection ~ 7200 9950
+Wire Wire Line
+	7200 10050 7200 9950
+Wire Wire Line
+	6800 9950 7200 9950
+Connection ~ 6800 9950
+Wire Wire Line
+	6800 10050 6800 9950
+Wire Wire Line
+	6400 10050 6400 9950
+Wire Wire Line
+	6400 9950 6800 9950
+Text GLabel 6300 9950 0    50   Input ~ 0
++5V_LEDS
+$Comp
+L power:GND #PWR014
+U 1 1 5E89A909
+P 6300 10350
+F 0 "#PWR014" H 6300 10100 50  0001 C CNN
+F 1 "GND" V 6305 10222 50  0000 R CNN
+F 2 "" H 6300 10350 50  0001 C CNN
+F 3 "" H 6300 10350 50  0001 C CNN
+	1    6300 10350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C105
+U 1 1 5E89A92D
+P 8800 10150
+F 0 "C105" H 8892 10196 50  0000 L CNN
+F 1 "100nF" H 8892 10105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 10150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8800 10150 50  0001 C CNN
+F 4 "$0.017724" H 8800 10150 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8800 10150 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8800 10150 12700 0001 C CNN "Manufacturer"
+	1    8800 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C104
+U 1 1 5E89A936
+P 8400 10150
+F 0 "C104" H 8492 10196 50  0000 L CNN
+F 1 "100nF" H 8492 10105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8400 10150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8400 10150 50  0001 C CNN
+F 4 "$0.017724" H 8400 10150 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8400 10150 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8400 10150 12700 0001 C CNN "Manufacturer"
+	1    8400 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C103
+U 1 1 5E89A93F
+P 8000 10150
+F 0 "C103" H 8092 10196 50  0000 L CNN
+F 1 "100nF" H 8092 10105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8000 10150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 8000 10150 50  0001 C CNN
+F 4 "$0.017724" H 8000 10150 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 8000 10150 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 8000 10150 12700 0001 C CNN "Manufacturer"
+	1    8000 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C102
+U 1 1 5E89A948
+P 7600 10150
+F 0 "C102" H 7692 10196 50  0000 L CNN
+F 1 "100nF" H 7692 10105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 10150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7600 10150 50  0001 C CNN
+F 4 "$0.017724" H 7600 10150 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7600 10150 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7600 10150 12700 0001 C CNN "Manufacturer"
+	1    7600 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C101
+U 1 1 5E89A951
+P 7200 10150
+F 0 "C101" H 7292 10196 50  0000 L CNN
+F 1 "100nF" H 7292 10105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7200 10150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 7200 10150 50  0001 C CNN
+F 4 "$0.017724" H 7200 10150 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 7200 10150 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 7200 10150 12700 0001 C CNN "Manufacturer"
+	1    7200 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C100
+U 1 1 5E89A95A
+P 6800 10150
+F 0 "C100" H 6892 10196 50  0000 L CNN
+F 1 "100nF" H 6892 10105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 10150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6800 10150 50  0001 C CNN
+F 4 "$0.017724" H 6800 10150 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6800 10150 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6800 10150 12700 0001 C CNN "Manufacturer"
+	1    6800 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C99
+U 1 1 5E89A963
+P 6400 10150
+F 0 "C99" H 6492 10196 50  0000 L CNN
+F 1 "100nF" H 6492 10105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6400 10150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 6400 10150 50  0001 C CNN
+F 4 "$0.017724" H 6400 10150 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 6400 10150 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 6400 10150 12700 0001 C CNN "Manufacturer"
+	1    6400 10150
+	1    0    0    -1  
+$EndComp
+Text Label 11850 9450 2    50   ~ 0
+LED_OUT
+$Comp
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED48
+U 1 1 5E89A96D
+P 6700 9450
+F 0 "LED48" H 6700 9928 50  0000 C CNN
+F 1 "WS2812D-5" H 6700 9837 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 6750 9150 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 6800 9075 50  0001 L TNN
+F 4 "$0.10303" H 6700 9450 50  0001 C CNN "UnitCost(USD)"
+F 5 "WS2812D-F5" H 6700 9450 50  0001 C CNN "MPN"
+F 6 "Worldsemi" H 6700 9450 50  0001 C CNN "Manufacturer"
+	1    6700 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED49
+U 1 1 5E89A976
+P 7400 9450
+F 0 "LED49" H 7400 9928 50  0000 C CNN
+F 1 "WS2812D-5" H 7400 9837 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 7450 9150 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 7500 9075 50  0001 L TNN
+F 4 "$0.10303" H 7400 9450 50  0001 C CNN "UnitCost(USD)"
+F 5 "WS2812D-F5" H 7400 9450 50  0001 C CNN "MPN"
+F 6 "Worldsemi" H 7400 9450 50  0001 C CNN "Manufacturer"
+	1    7400 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 9450 7100 9450
+$Comp
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED50
+U 1 1 5E89A980
+P 8100 9450
+F 0 "LED50" H 8100 9928 50  0000 C CNN
+F 1 "WS2812D-5" H 8100 9837 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8150 9150 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8200 9075 50  0001 L TNN
+F 4 "$0.10303" H 8100 9450 50  0001 C CNN "UnitCost(USD)"
+F 5 "WS2812D-F5" H 8100 9450 50  0001 C CNN "MPN"
+F 6 "Worldsemi" H 8100 9450 50  0001 C CNN "Manufacturer"
+	1    8100 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED51
+U 1 1 5E89A989
+P 8800 9450
+F 0 "LED51" H 8800 9928 50  0000 C CNN
+F 1 "WS2812D-5" H 8800 9837 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 8850 9150 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 8900 9075 50  0001 L TNN
+F 4 "$0.10303" H 8800 9450 50  0001 C CNN "UnitCost(USD)"
+F 5 "WS2812D-F5" H 8800 9450 50  0001 C CNN "MPN"
+F 6 "Worldsemi" H 8800 9450 50  0001 C CNN "Manufacturer"
+	1    8800 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 9450 8500 9450
+$Comp
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED52
+U 1 1 5E89A993
+P 9500 9450
+F 0 "LED52" H 9500 9928 50  0000 C CNN
+F 1 "WS2812D-5" H 9500 9837 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 9550 9150 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 9600 9075 50  0001 L TNN
+F 4 "$0.10303" H 9500 9450 50  0001 C CNN "UnitCost(USD)"
+F 5 "WS2812D-F5" H 9500 9450 50  0001 C CNN "MPN"
+F 6 "Worldsemi" H 9500 9450 50  0001 C CNN "Manufacturer"
+	1    9500 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 9450 9200 9450
+$Comp
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED53
+U 1 1 5E89A99D
+P 10200 9450
+F 0 "LED53" H 10200 9928 50  0000 C CNN
+F 1 "WS2812D-5" H 10200 9837 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10250 9150 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 10300 9075 50  0001 L TNN
+F 4 "$0.10303" H 10200 9450 50  0001 C CNN "UnitCost(USD)"
+F 5 "WS2812D-F5" H 10200 9450 50  0001 C CNN "MPN"
+F 6 "Worldsemi" H 10200 9450 50  0001 C CNN "Manufacturer"
+	1    10200 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 9450 7800 9450
+Wire Wire Line
+	9800 9450 9900 9450
+$Comp
+L power:GND #PWR013
+U 1 1 5E89A9CC
+P 6300 9750
+F 0 "#PWR013" H 6300 9500 50  0001 C CNN
+F 1 "GND" V 6305 9622 50  0000 R CNN
+F 2 "" H 6300 9750 50  0001 C CNN
+F 3 "" H 6300 9750 50  0001 C CNN
+	1    6300 9750
+	0    1    1    0   
+$EndComp
+Text GLabel 6300 9150 0    50   Input ~ 0
++5V_LEDS
+Wire Wire Line
+	6300 9150 6700 9150
+Wire Wire Line
+	6300 9750 6700 9750
+Connection ~ 6700 9150
+Wire Wire Line
+	6700 9150 7400 9150
+Connection ~ 6700 9750
+Wire Wire Line
+	6700 9750 7400 9750
+Connection ~ 7400 9150
+Wire Wire Line
+	7400 9150 8100 9150
+Connection ~ 7400 9750
+Wire Wire Line
+	7400 9750 8100 9750
+Connection ~ 8100 9150
+Wire Wire Line
+	8100 9150 8800 9150
+Connection ~ 8100 9750
+Wire Wire Line
+	8100 9750 8800 9750
+Connection ~ 8800 9150
+Wire Wire Line
+	8800 9150 9500 9150
+Connection ~ 8800 9750
+Wire Wire Line
+	8800 9750 9500 9750
+Connection ~ 9500 9150
+Wire Wire Line
+	9500 9150 10200 9150
+Connection ~ 9500 9750
+Wire Wire Line
+	9500 9750 10200 9750
+Wire Wire Line
+	5850 9450 6400 9450
+Text Label 5850 9450 0    50   ~ 0
+LED_CONN3
+Connection ~ 10200 9750
+Connection ~ 10200 9150
+Wire Wire Line
+	10500 9450 10600 9450
+Wire Wire Line
+	10200 9750 10900 9750
+Wire Wire Line
+	10200 9150 10900 9150
+$Comp
+L OTTOdiy_SMD-library:NeoPixel_THT-LED LED54
+U 1 1 5E89A9A6
+P 10900 9450
+F 0 "LED54" H 10900 9928 50  0000 C CNN
+F 1 "WS2812D-5" H 10900 9837 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:LED_D5.0mm-4" H 10950 9150 50  0001 L TNN
+F 3 "http://www.world-semi.com/DownLoadFile/135" H 11000 9075 50  0001 L TNN
+F 4 "$0.10303" H 10900 9450 50  0001 C CNN "UnitCost(USD)"
+F 5 "WS2812D-F5" H 10900 9450 50  0001 C CNN "MPN"
+F 6 "Worldsemi" H 10900 9450 50  0001 C CNN "Manufacturer"
+	1    10900 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11200 9450 11850 9450
 $EndSCHEMATC

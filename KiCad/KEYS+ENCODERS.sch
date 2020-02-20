@@ -2622,4 +2622,298 @@ Text HLabel 10800 4750 2    50   Input ~ 0
 ROW_7
 Text HLabel 8900 4750 2    50   Input ~ 0
 ROW_8
+$Comp
+L Device:D_ALT D58
+U 1 1 5E58735E
+P 8850 2250
+F 0 "D58" V 8896 2171 50  0000 R CNN
+F 1 "SM4007PL" V 8805 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 8850 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf" H 8850 2250 50  0001 C CNN
+F 4 "$0.00574" H 8850 2250 50  0001 C CNN "UnitCost(USD)"
+F 5 "SM4007PL" H 8850 2250 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 8850 2250 50  0001 C CNN "Manufacturer"
+	1    8850 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9250 2100 8850 2100
+$Comp
+L Device:D_ALT D64
+U 1 1 5E587368
+P 15000 2250
+F 0 "D64" V 15046 2171 50  0000 R CNN
+F 1 "SM4007PL" V 14955 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 15000 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf" H 15000 2250 50  0001 C CNN
+F 4 "$0.00574" H 15000 2250 50  0001 C CNN "UnitCost(USD)"
+F 5 "SM4007PL" H 15000 2250 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 15000 2250 50  0001 C CNN "Manufacturer"
+	1    15000 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15400 2100 15000 2100
+$Comp
+L Device:D_ALT D63
+U 1 1 5E587372
+P 14050 2250
+F 0 "D63" V 14096 2171 50  0000 R CNN
+F 1 "SM4007PL" V 14005 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 14050 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf" H 14050 2250 50  0001 C CNN
+F 4 "$0.00574" H 14050 2250 50  0001 C CNN "UnitCost(USD)"
+F 5 "SM4007PL" H 14050 2250 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 14050 2250 50  0001 C CNN "Manufacturer"
+	1    14050 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14450 2100 14050 2100
+Wire Wire Line
+	14050 2400 14050 2550
+Wire Wire Line
+	14850 2550 14800 2550
+$Comp
+L Device:D_ALT D62
+U 1 1 5E58737E
+P 12650 2250
+F 0 "D62" V 12696 2171 50  0000 R CNN
+F 1 "SM4007PL" V 12605 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 12650 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf" H 12650 2250 50  0001 C CNN
+F 4 "$0.00574" H 12650 2250 50  0001 C CNN "UnitCost(USD)"
+F 5 "SM4007PL" H 12650 2250 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 12650 2250 50  0001 C CNN "Manufacturer"
+	1    12650 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13050 2100 12650 2100
+$Comp
+L Device:D_ALT D61
+U 1 1 5E587388
+P 11700 2250
+F 0 "D61" V 11746 2171 50  0000 R CNN
+F 1 "SM4007PL" V 11655 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 11700 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf" H 11700 2250 50  0001 C CNN
+F 4 "$0.00574" H 11700 2250 50  0001 C CNN "UnitCost(USD)"
+F 5 "SM4007PL" H 11700 2250 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 11700 2250 50  0001 C CNN "Manufacturer"
+	1    11700 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12100 2100 11700 2100
+$Comp
+L Device:D_ALT D60
+U 1 1 5E587392
+P 10750 2250
+F 0 "D60" V 10796 2171 50  0000 R CNN
+F 1 "SM4007PL" V 10705 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 10750 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf" H 10750 2250 50  0001 C CNN
+F 4 "$0.00574" H 10750 2250 50  0001 C CNN "UnitCost(USD)"
+F 5 "SM4007PL" H 10750 2250 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 10750 2250 50  0001 C CNN "Manufacturer"
+	1    10750 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11150 2100 10750 2100
+$Comp
+L Device:D_ALT D59
+U 1 1 5E58739C
+P 9800 2250
+F 0 "D59" V 9846 2171 50  0000 R CNN
+F 1 "SM4007PL" V 9755 2171 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123F" H 9800 2250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1903051030_MDD-Jiangsu-Yutai-Elec-SM4007PL_C64898.pdf" H 9800 2250 50  0001 C CNN
+F 4 "$0.00574" H 9800 2250 50  0001 C CNN "UnitCost(USD)"
+F 5 "SM4007PL" H 9800 2250 50  0001 C CNN "MPN"
+F 6 "MDD(Microdiode Electronics)" H 9800 2250 50  0001 C CNN "Manufacturer"
+	1    9800 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 2100 9800 2100
+$Comp
+L Switch:SW_Push SW50
+U 1 1 5E5873A6
+P 9450 2100
+F 0 "SW50" H 9450 2385 50  0000 C CNN
+F 1 "6x6x13mm" H 9450 2294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:6x6mm_Switch" H 9450 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-S3SW-04_C136674.pdf" H 9450 2300 50  0001 C CNN
+F 4 "$0.043333" H 9450 2100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1102DP-S3SW-04" H 9450 2100 12700 0001 C CNN "MPN"
+F 6 "Korean Hroparts Elec" H 9450 2100 12700 0001 C CNN "Manufacturer"
+	1    9450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW51
+U 1 1 5E5873AF
+P 10400 2100
+F 0 "SW51" H 10400 2385 50  0000 C CNN
+F 1 "6x6x13mm" H 10400 2294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:6x6mm_Switch" H 10400 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-S3SW-04_C136674.pdf" H 10400 2300 50  0001 C CNN
+F 4 "$0.043333" H 10400 2100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1102DP-S3SW-04" H 10400 2100 12700 0001 C CNN "MPN"
+F 6 "Korean Hroparts Elec" H 10400 2100 12700 0001 C CNN "Manufacturer"
+	1    10400 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 2100 14850 2550
+$Comp
+L Switch:SW_Push SW52
+U 1 1 5E5873B9
+P 11350 2100
+F 0 "SW52" H 11350 2385 50  0000 C CNN
+F 1 "6x6x13mm" H 11350 2294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:6x6mm_Switch" H 11350 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-S3SW-04_C136674.pdf" H 11350 2300 50  0001 C CNN
+F 4 "$0.043333" H 11350 2100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1102DP-S3SW-04" H 11350 2100 12700 0001 C CNN "MPN"
+F 6 "Korean Hroparts Elec" H 11350 2100 12700 0001 C CNN "Manufacturer"
+	1    11350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW53
+U 1 1 5E5873C2
+P 12300 2100
+F 0 "SW53" H 12300 2385 50  0000 C CNN
+F 1 "6x6x13mm" H 12300 2294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:6x6mm_Switch" H 12300 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-S3SW-04_C136674.pdf" H 12300 2300 50  0001 C CNN
+F 4 "$0.043333" H 12300 2100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1102DP-S3SW-04" H 12300 2100 12700 0001 C CNN "MPN"
+F 6 "Korean Hroparts Elec" H 12300 2100 12700 0001 C CNN "Manufacturer"
+	1    12300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW54
+U 1 1 5E5873CB
+P 13250 2100
+F 0 "SW54" H 13250 2385 50  0000 C CNN
+F 1 "6x6x13mm" H 13250 2294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:6x6mm_Switch" H 13250 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-S3SW-04_C136674.pdf" H 13250 2300 50  0001 C CNN
+F 4 "$0.043333" H 13250 2100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1102DP-S3SW-04" H 13250 2100 12700 0001 C CNN "MPN"
+F 6 "Korean Hroparts Elec" H 13250 2100 12700 0001 C CNN "Manufacturer"
+	1    13250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW55
+U 1 1 5E5873D4
+P 14650 2100
+F 0 "SW55" H 14650 2385 50  0000 C CNN
+F 1 "6x6x13mm" H 14650 2294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:6x6mm_Switch" H 14650 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-S3SW-04_C136674.pdf" H 14650 2300 50  0001 C CNN
+F 4 "$0.043333" H 14650 2100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1102DP-S3SW-04" H 14650 2100 12700 0001 C CNN "MPN"
+F 6 "Korean Hroparts Elec" H 14650 2100 12700 0001 C CNN "Manufacturer"
+	1    14650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW56
+U 1 1 5E5873DD
+P 15600 2100
+F 0 "SW56" H 15600 2385 50  0000 C CNN
+F 1 "6x6x13mm" H 15600 2294 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:6x6mm_Switch" H 15600 2300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Korean-Hroparts-Elec-K2-1102DP-S3SW-04_C136674.pdf" H 15600 2300 50  0001 C CNN
+F 4 "$0.043333" H 15600 2100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "K2-1102DP-S3SW-04" H 15600 2100 12700 0001 C CNN "MPN"
+F 6 "Korean Hroparts Elec" H 15600 2100 12700 0001 C CNN "Manufacturer"
+	1    15600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2100 9650 2550
+Wire Wire Line
+	9650 2550 9600 2550
+Wire Wire Line
+	8850 2400 8850 2550
+Wire Wire Line
+	8850 2550 8900 2550
+Wire Wire Line
+	9800 2400 9800 2550
+Wire Wire Line
+	10600 2550 10550 2550
+Wire Wire Line
+	10600 2100 10600 2550
+Wire Wire Line
+	9850 2550 9800 2550
+Wire Wire Line
+	11550 2550 11500 2550
+Wire Wire Line
+	11550 2100 11550 2550
+Wire Wire Line
+	10750 2400 10750 2550
+Wire Wire Line
+	10750 2550 10800 2550
+Wire Wire Line
+	11700 2400 11700 2550
+Wire Wire Line
+	11700 2550 11750 2550
+Wire Wire Line
+	12450 2550 12500 2550
+Wire Wire Line
+	12500 2100 12500 2550
+Wire Wire Line
+	12650 2400 12650 2550
+Wire Wire Line
+	12650 2550 12700 2550
+Wire Wire Line
+	13450 2550 13400 2550
+Wire Wire Line
+	13450 2100 13450 2550
+Wire Wire Line
+	14050 2550 14100 2550
+Wire Wire Line
+	15000 2550 15050 2550
+Wire Wire Line
+	15000 2550 15000 2400
+Wire Wire Line
+	15800 2550 15750 2550
+Wire Wire Line
+	15800 2100 15800 2550
+Text HLabel 13400 2550 0    50   Input ~ 0
+COL_8
+Text HLabel 14800 2550 0    50   Input ~ 0
+COL_8
+Text HLabel 15750 2550 0    50   Input ~ 0
+COL_8
+Text HLabel 9600 2550 0    50   Input ~ 0
+COL_8
+Text HLabel 12450 2550 0    50   Input ~ 0
+COL_8
+Text HLabel 10550 2550 0    50   Input ~ 0
+COL_8
+Text HLabel 11500 2550 0    50   Input ~ 0
+COL_8
+Text HLabel 12700 2550 2    50   Input ~ 0
+ROW_2
+Text HLabel 14100 2550 2    50   Input ~ 0
+ROW_7
+Text HLabel 15050 2550 2    50   Input ~ 0
+ROW_8
+Text HLabel 10800 2550 2    50   Input ~ 0
+ROW_1
+Text HLabel 11750 2550 2    50   Input ~ 0
+ROW_3
+Text HLabel 8900 2550 2    50   Input ~ 0
+ROW_4
+Text HLabel 9850 2550 2    50   Input ~ 0
+ROW_6
 $EndSCHEMATC
