@@ -303,21 +303,6 @@ F 7 "N/A" H 3000 8800 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H206
-U 1 1 5DE07FE5
-P 3000 9100
-F 0 "H206" H 3100 9146 50  0000 L CNN
-F 1 "MountingHole" H 3100 9055 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3000 9100 50  0001 C CNN
-F 3 "N/A" H 3000 9100 50  0001 C CNN
-F 4 "DNP" H 3000 9100 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 3000 9100 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 3000 9100 50  0001 C CNN "MPN"
-F 7 "N/A" H 3000 9100 50  0001 C CNN "Manufacturer"
-	1    3000 9100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H209
 U 1 1 5DE07FEB
 P 3000 9400
