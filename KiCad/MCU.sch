@@ -1599,8 +1599,6 @@ F 7 "DNP" V 2000 6750 50  0000 C CNN "AssemblyOption"
 	1    2050 6600
 	0    1    1    0   
 $EndComp
-NoConn ~ 9350 9150
-NoConn ~ 9350 9050
 Text Label 10000 8650 2    50   ~ 0
 5V_PWM_SYNC
 Wire Wire Line
@@ -2261,7 +2259,7 @@ Text Label 10000 7950 2    50   ~ 0
 ROW_5
 Text Label 10000 8050 2    50   ~ 0
 ROW_6
-Text Label 10000 8150 2    50   ~ 0
+Text Label 10000 9150 2    50   ~ 0
 ROW_7
 Text Label 10000 8250 2    50   ~ 0
 ROW_8
@@ -2278,7 +2276,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 8050 10000 8050
 Wire Wire Line
-	10000 8150 9350 8150
+	10000 9150 9350 9150
 Wire Wire Line
 	9350 8250 10000 8250
 Text Label 6050 7050 0    50   ~ 0
@@ -2445,4 +2443,20 @@ Text Label 10000 8950 2    50   ~ 0
 COL_8
 Wire Wire Line
 	10000 8950 9350 8950
+$Comp
+L power:GND #PWR0147
+U 1 1 5E5EA3D1
+P 10100 8150
+F 0 "#PWR0147" H 10100 7900 50  0001 C CNN
+F 1 "GND" V 10105 8022 50  0000 R CNN
+F 2 "" H 10100 8150 50  0001 C CNN
+F 3 "" H 10100 8150 50  0001 C CNN
+	1    10100 8150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10100 8150 9350 8150
+Text Notes 10450 8150 0    50   ~ 0
+PC2 is reserved to find out the board \nversion with a specified voltage
+NoConn ~ 9350 9050
 $EndSCHEMATC
