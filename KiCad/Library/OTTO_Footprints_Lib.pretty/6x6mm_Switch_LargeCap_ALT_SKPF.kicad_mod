@@ -1,4 +1,4 @@
-(module 6x6mm_Switch_LargeCap_ALT_SKPF (layer F.Cu) (tedit 5E19424C)
+(module 6x6mm_Switch_LargeCap_ALT_SKPF (layer F.Cu) (tedit 5E58F7CE)
   (fp_text reference REF** (at 0 0 -180) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
@@ -27,8 +27,8 @@
   (pad 2 thru_hole oval (at -3.8 2.25) (size 2.8 1.7) (drill oval 2.1 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole oval (at 3.8 2.25) (size 2.8 1.7) (drill oval 2.1 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at -3.8 -2.25) (size 2.8 1.7) (drill oval 2.1 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_PUSH_6mm_H13mm.wrl
-    (offset (xyz -3.15 2.25 0))
+  (model ${KIPRJMOD}/Library/OTTO_3D_Lib.3dshapes/SKHHDA.wrl
+    (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

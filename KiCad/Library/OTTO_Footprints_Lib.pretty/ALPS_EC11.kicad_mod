@@ -1,4 +1,4 @@
-(module ALPS_EC11 (layer F.Cu) (tedit 5E194255)
+(module ALPS_EC11 (layer F.Cu) (tedit 5E58EE81)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
@@ -20,4 +20,9 @@
   (pad B thru_hole oval (at 2.5 7.5) (size 1.4 2) (drill 1) (layers *.Cu *.Mask))
   (pad C thru_hole oval (at 0 7.5) (size 1.4 2) (drill 1) (layers *.Cu *.Mask))
   (pad A thru_hole oval (at -2.5 7.5) (size 1.4 2) (drill 1) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/Library/OTTO_3D_Lib.3dshapes/EC11E-05SW.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
