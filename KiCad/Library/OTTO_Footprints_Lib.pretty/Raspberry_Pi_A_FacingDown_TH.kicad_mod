@@ -1,4 +1,4 @@
-(module Raspberry_Pi_A_FacingDown_TH locked (layer F.Cu) (tedit 5E19431C)
+(module Raspberry_Pi_A_FacingDown_TH locked (layer F.Cu) (tedit 5E5E3470)
   (fp_text reference REF** (at -43.25 31.525) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
@@ -223,4 +223,9 @@
   (pad 26 thru_hole circle (at 1.27 -6.35 180) (size 1.62 1.62) (drill 1.02) (layers *.Cu *.Mask))
   (pad 34 smd rect (at 2.71 -16.51 180) (size 2.18 1.02) (layers F.Cu F.Paste F.Mask))
   (pad 32 smd rect (at 2.71 -13.97 180) (size 2.18 1.02) (layers F.Cu F.Paste F.Mask))
+  (model ${KIPRJMOD}/Library/OTTO_3D_Lib.3dshapes/RPI3A+_6mm_Spacing_reverse.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

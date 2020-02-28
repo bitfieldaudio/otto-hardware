@@ -1,4 +1,4 @@
-(module ALPS_EC11 (layer F.Cu) (tedit 5E58EE81)
+(module ALPS_EC11 (layer F.Cu) (tedit 5E58FD45)
   (fp_text reference REF** (at 0 0) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )

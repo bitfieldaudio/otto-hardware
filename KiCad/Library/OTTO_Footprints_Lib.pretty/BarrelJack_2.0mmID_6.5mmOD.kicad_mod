@@ -1,4 +1,4 @@
-(module BarrelJack_2.0mmID_6.5mmOD (layer F.Cu) (tedit 5E19426F)
+(module BarrelJack_2.0mmID_6.5mmOD (layer F.Cu) (tedit 5E5D63CC)
   (fp_text reference REF** (at 0 15.494 180) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
@@ -14,4 +14,9 @@
   (pad 2 thru_hole oval (at 0 7.5) (size 4 1.8) (drill oval 3 0.8) (layers *.Cu *.Mask))
   (pad 3 thru_hole oval (at -4.8 11 90) (size 4 1.8) (drill oval 3 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole oval (at 0 13.5) (size 4 1.8) (drill oval 3 0.8) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/Library/OTTO_3D_Lib.3dshapes/PJ-102AH.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
