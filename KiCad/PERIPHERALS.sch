@@ -20,7 +20,7 @@ USBD_P
 Text HLabel 4600 4450 2    50   Input ~ 0
 USBD_N
 Text GLabel 2450 5300 2    50   Input ~ 0
-+3V3A_MCU
++3V3_MCU
 $Comp
 L Device:Q_Photo_NPN PHOTO201
 U 1 1 5C5A1F03
@@ -727,7 +727,7 @@ Wire Wire Line
 Wire Wire Line
 	11250 7150 11250 7250
 Wire Wire Line
-	9150 7150 9400 7150
+	9150 7150 9500 7150
 Wire Wire Line
 	12300 6650 12400 6650
 Wire Wire Line
@@ -1589,7 +1589,7 @@ $EndComp
 Wire Wire Line
 	11250 8400 11250 9000
 Wire Wire Line
-	9150 9000 9400 9000
+	9150 9000 9500 9000
 Connection ~ 11250 9000
 Wire Wire Line
 	11250 9000 11250 9050
@@ -1657,19 +1657,19 @@ Connection ~ 12800 8200
 Text GLabel 13000 8200 2    50   Output ~ 0
 +5V_LEDS
 Wire Wire Line
-	8400 8050 9400 8050
+	8400 8050 9500 8050
 Wire Wire Line
-	9400 8050 9400 7150
-Connection ~ 9400 7150
+	9500 8050 9500 7150
+Connection ~ 9500 7150
 Wire Wire Line
-	9400 7150 11250 7150
+	9500 7150 11250 7150
 Wire Wire Line
-	8400 8150 9400 8150
+	8400 8150 9500 8150
 Wire Wire Line
-	9400 8150 9400 9000
-Connection ~ 9400 9000
+	9500 8150 9500 9000
+Connection ~ 9500 9000
 Wire Wire Line
-	9400 9000 11250 9000
+	9500 9000 11250 9000
 Wire Wire Line
 	7800 8150 7700 8150
 Wire Wire Line
@@ -2036,4 +2036,8 @@ Wire Wire Line
 	8650 9000 8850 9000
 Wire Wire Line
 	8650 7150 8850 7150
+Text Label 8550 8050 0    50   ~ 0
+PI_PWR_EN_OVERRIDE
+Text Label 8550 8150 0    50   ~ 0
+LED_PWR_EN_OVERRIDE
 $EndSCHEMATC

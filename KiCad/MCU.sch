@@ -149,7 +149,7 @@ F 7 "DNP" V 14950 1450 50  0000 C CNN "AssemblyOption"
 	0    1    1    0   
 $EndComp
 Text GLabel 15300 1100 2    50   Input ~ 0
-+3V3_MCU
++3V3_RASPI
 Wire Wire Line
 	15100 1100 15200 1100
 Wire Wire Line
@@ -1147,13 +1147,9 @@ Wire Wire Line
 Wire Wire Line
 	15100 1800 15200 1800
 Wire Wire Line
-	15200 1800 15200 1450
-Connection ~ 15200 1450
-Wire Wire Line
 	15100 2150 15200 2150
 Wire Wire Line
 	15200 2150 15200 1800
-Connection ~ 15200 1800
 Wire Wire Line
 	1450 7600 1500 7600
 Wire Wire Line
@@ -1939,7 +1935,7 @@ U 1 1 5ED2EDF0
 P 10000 6550
 F 0 "TP16" V 10000 6750 50  0000 L CNN
 F 1 "TestPoint" V 10000 6950 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10200 6550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10200 6550 50  0001 C CNN
 F 3 "N/A" H 10200 6550 50  0001 C CNN
 F 4 "DNP" H 10000 6550 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10000 6550 50  0001 C CNN "MPN"
@@ -1954,7 +1950,7 @@ U 1 1 5ED2F541
 P 10000 6650
 F 0 "TP17" V 10000 6850 50  0000 L CNN
 F 1 "TestPoint" V 10000 7050 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10200 6650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10200 6650 50  0001 C CNN
 F 3 "N/A" H 10200 6650 50  0001 C CNN
 F 4 "DNP" H 10000 6650 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10000 6650 50  0001 C CNN "MPN"
@@ -1969,7 +1965,7 @@ U 1 1 5EE1F8D3
 P 5550 6250
 F 0 "TP18" V 5504 6438 50  0000 L CNN
 F 1 "TestPoint" V 5595 6438 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 5750 6250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5750 6250 50  0001 C CNN
 F 3 "N/A" H 5750 6250 50  0001 C CNN
 F 4 "DNP" H 5550 6250 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5550 6250 50  0001 C CNN "MPN"
@@ -2215,7 +2211,7 @@ U 1 1 5F4ED346
 P 10050 8750
 F 0 "TP1" V 10050 8950 50  0000 L CNN
 F 1 "TestPoint" V 10050 9150 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 10250 8750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10250 8750 50  0001 C CNN
 F 3 "N/A" H 10250 8750 50  0001 C CNN
 F 4 "DNP" H 10050 8750 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10050 8750 50  0001 C CNN "MPN"
@@ -2459,4 +2455,9 @@ Wire Wire Line
 Text Notes 10450 8150 0    50   ~ 0
 PC2 is reserved to find out the board \nversion with a specified voltage
 NoConn ~ 9350 9050
+Text GLabel 15300 1800 2    50   Input ~ 0
++3V3_MCU
+Wire Wire Line
+	15200 1800 15300 1800
+Connection ~ 15200 1800
 $EndSCHEMATC
