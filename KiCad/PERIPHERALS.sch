@@ -127,51 +127,14 @@ Wire Wire Line
 Connection ~ 2550 4650
 Wire Wire Line
 	2550 4550 2550 4650
-Wire Wire Line
-	3700 6200 3850 6200
-Wire Wire Line
-	4300 6200 4150 6200
-$Comp
-L Device:C C?
-U 1 1 5D34A773
-P 4000 6200
-AR Path="/5C4320DF/5C4AB60A/5D34A773" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5C6CAC95/5D34A773" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D34A773" Ref="C58"  Part="1" 
-F 0 "C58" V 4160 6200 50  0000 C CNN
-F 1 "100nF" V 4251 6200 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4038 6050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 4000 6200 50  0001 C CNN
-F 4 "$0.017724" H 4000 6200 12700 0001 C CNN "UnitCost(USD)"
-F 5 "CL21B104JBCNNNC" H 4000 6200 12700 0001 C CNN "MPN"
-F 6 "Samsung Electro-Mechanics" H 4000 6200 12700 0001 C CNN "Manufacturer"
-	1    4000 6200
-	0    1    1    0   
-$EndComp
-Text GLabel 4600 6050 2    50   Input ~ 0
+Text GLabel 4600 5950 2    50   Input ~ 0
 PWR_BUTTON
 Wire Wire Line
-	3700 6050 3700 6200
+	3700 6050 3700 6300
 Wire Wire Line
-	4300 6050 4300 6200
-$Comp
-L Switch:SW_Push SW?
-U 1 1 5D34A785
-P 4000 6050
-AR Path="/5C4320DF/5C6CAC95/5D34A785" Ref="SW?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D34A785" Ref="SW203"  Part="1" 
-F 0 "SW203" H 4000 6335 50  0000 C CNN
-F 1 "6x6x5.85mm (RA)" H 4000 6244 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Tactile_SKHH_Angled" H 4000 6250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/ALPS-Electric-SKHHLWA010_C125050.pdf" H 4000 6250 50  0001 C CNN
-F 4 "$0.134848" H 4000 6050 12700 0001 C CNN "UnitCost(USD)"
-F 5 "SKHHLWA010" H 4000 6050 12700 0001 C CNN "MPN"
-F 6 "ALPS Electric" H 4000 6050 12700 0001 C CNN "Manufacturer"
-	1    4000 6050
-	-1   0    0    -1  
-$EndComp
+	4300 5950 4300 6300
 Wire Wire Line
-	4200 6050 4300 6050
+	4200 5950 4300 5950
 $Comp
 L Connector:Barrel_Jack_Switch DC?
 U 1 1 5D353468
@@ -283,9 +246,9 @@ Wire Wire Line
 	3700 6050 3600 6050
 Wire Wire Line
 	3700 6050 3800 6050
-Connection ~ 4300 6050
+Connection ~ 4300 5950
 Wire Wire Line
-	4300 6050 4600 6050
+	4300 5950 4600 5950
 $Comp
 L power:GND #PWR?
 U 1 1 5E1A1B78
@@ -2040,4 +2003,37 @@ Text Label 8550 8050 0    50   ~ 0
 PI_PWR_EN_OVERRIDE
 Text Label 8550 8150 0    50   ~ 0
 LED_PWR_EN_OVERRIDE
+$Comp
+L Switch:SW_DPDT_x2 SW203
+U 1 1 5E67BD76
+P 4000 5950
+F 0 "SW203" H 4000 5625 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 4000 5716 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:SSAC120100" H 4000 5950 50  0001 C CNN
+F 3 "~" H 4000 5950 50  0001 C CNN
+	1    4000 5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 6300 3850 6300
+Wire Wire Line
+	4300 6300 4150 6300
+$Comp
+L Device:C C?
+U 1 1 5D34A773
+P 4000 6300
+AR Path="/5C4320DF/5C4AB60A/5D34A773" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C6CAC95/5D34A773" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5D34A773" Ref="C58"  Part="1" 
+F 0 "C58" V 4160 6300 50  0000 C CNN
+F 1 "100nF" V 4251 6300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4038 6150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/Samsung-Electro-Mechanics-CL21B104JBCNNNC_C62912.pdf" H 4000 6300 50  0001 C CNN
+F 4 "$0.017724" H 4000 6300 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B104JBCNNNC" H 4000 6300 12700 0001 C CNN "MPN"
+F 6 "Samsung Electro-Mechanics" H 4000 6300 12700 0001 C CNN "Manufacturer"
+	1    4000 6300
+	0    1    1    0   
+$EndComp
+NoConn ~ 3800 5850
 $EndSCHEMATC

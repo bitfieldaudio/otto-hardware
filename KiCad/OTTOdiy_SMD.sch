@@ -243,51 +243,6 @@ F 7 "N/A" H 2000 10650 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H207
-U 1 1 5DDBF7EF
-P 950 9400
-F 0 "H207" H 1050 9446 50  0000 L CNN
-F 1 "MountingHole" H 1050 9355 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 950 9400 50  0001 C CNN
-F 3 "N/A" H 950 9400 50  0001 C CNN
-F 4 "DNP" H 950 9400 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 950 9400 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 950 9400 50  0001 C CNN "MPN"
-F 7 "N/A" H 950 9400 50  0001 C CNN "Manufacturer"
-	1    950  9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H210
-U 1 1 5DDBF7F5
-P 950 9700
-F 0 "H210" H 1050 9746 50  0000 L CNN
-F 1 "MountingHole" H 1050 9655 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 950 9700 50  0001 C CNN
-F 3 "N/A" H 950 9700 50  0001 C CNN
-F 4 "DNP" H 950 9700 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 950 9700 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 950 9700 50  0001 C CNN "MPN"
-F 7 "N/A" H 950 9700 50  0001 C CNN "Manufacturer"
-	1    950  9700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H208
-U 1 1 5DDBF7FB
-P 2000 9400
-F 0 "H208" H 2100 9446 50  0000 L CNN
-F 1 "MountingHole" H 2100 9355 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2000 9400 50  0001 C CNN
-F 3 "N/A" H 2000 9400 50  0001 C CNN
-F 4 "DNP" H 2000 9400 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 2000 9400 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 9400 50  0001 C CNN "MPN"
-F 7 "N/A" H 2000 9400 50  0001 C CNN "Manufacturer"
-	1    2000 9400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H203
 U 1 1 5DE07FDF
 P 3000 8800
@@ -453,21 +408,6 @@ F 6 "Yageo" H 10250 4550 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	6200 4150 6850 4150
-$Comp
-L Mechanical:MountingHole H211
-U 1 1 5DDBF801
-P 2000 9700
-F 0 "H211" H 2100 9746 50  0000 L CNN
-F 1 "MountingHole" H 2100 9655 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2000 9700 50  0001 C CNN
-F 3 "N/A" H 2000 9700 50  0001 C CNN
-F 4 "DNP" H 2000 9700 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 2000 9700 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 9700 50  0001 C CNN "MPN"
-F 7 "N/A" H 2000 9700 50  0001 C CNN "Manufacturer"
-	1    2000 9700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7700 3350 8400 3350
 Text GLabel 9600 4650 2    50   Output ~ 0
