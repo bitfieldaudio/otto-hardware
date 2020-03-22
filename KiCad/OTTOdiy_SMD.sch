@@ -61,8 +61,8 @@ F 1 "Raspberry Pi Connector" H 8600 6250 50  0000 C CNN
 F 2 "OTTO_Footprints_Lib:Raspberry_Pi_A_FacingDown_TH" H 8600 4750 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/app/uploads/2018/11/Raspberry_Pi_3A_product_brief.pdf" H 8600 4750 50  0001 C CNN
 F 4 "M20-7812045" H 8600 4750 50  0001 C CNN "MPN"
-F 5 "Harwin" H 8600 4750 50  0001 C CNN "Manufacturer"
-F 6 "$3.97" H 8600 4750 50  0001 C CNN "UnitCost(USD)"
+F 5 "" H 8600 4750 50  0001 C CNN "Manufacturer"
+F 6 "Harwin" H 8600 4750 50  0001 C CNN "UnitCost(USD)"
 F 7 "" H 8600 4750 50  0001 C CNN "AssemblyOption"
 	1    8600 4750
 	1    0    0    -1  
@@ -81,10 +81,10 @@ F 0 "H201" H 1050 8846 50  0000 L CNN
 F 1 "MountingHole" H 1050 8755 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 950 8800 50  0001 C CNN
 F 3 "N/A" H 950 8800 50  0001 C CNN
-F 4 "$0.00" H 950 8800 50  0001 C CNN "UnitCost(USD)"
+F 4 "N/A" H 950 8800 50  0001 C CNN "UnitCost(USD)"
 F 5 "DNP" H 950 8800 50  0001 C CNN "AssemblyOption"
 F 6 "N/A" H 950 8800 50  0001 C CNN "MPN"
-F 7 "N/A" H 950 8800 50  0001 C CNN "Manufacturer"
+F 7 "" H 950 8800 50  0001 C CNN "Manufacturer"
 	1    950  8800
 	1    0    0    -1  
 $EndComp
@@ -97,9 +97,9 @@ F 1 "MountingHole" H 1050 9055 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 950 9100 50  0001 C CNN
 F 3 "N/A" H 950 9100 50  0001 C CNN
 F 4 "DNP" H 950 9100 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 950 9100 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 950 9100 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 950 9100 50  0001 C CNN "MPN"
-F 7 "N/A" H 950 9100 50  0001 C CNN "Manufacturer"
+F 7 "" H 950 9100 50  0001 C CNN "Manufacturer"
 	1    950  9100
 	1    0    0    -1  
 $EndComp
@@ -112,9 +112,9 @@ F 1 "MountingHole" H 2100 8755 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2000 8800 50  0001 C CNN
 F 3 "N/A" H 2000 8800 50  0001 C CNN
 F 4 "DNP" H 2000 8800 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 2000 8800 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 2000 8800 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 8800 50  0001 C CNN "MPN"
-F 7 "N/A" H 2000 8800 50  0001 C CNN "Manufacturer"
+F 7 "" H 2000 8800 50  0001 C CNN "Manufacturer"
 	1    2000 8800
 	1    0    0    -1  
 $EndComp
@@ -127,9 +127,9 @@ F 1 "MountingHole" H 2100 9055 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2000 9100 50  0001 C CNN
 F 3 "N/A" H 2000 9100 50  0001 C CNN
 F 4 "DNP" H 2000 9100 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 2000 9100 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 2000 9100 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 9100 50  0001 C CNN "MPN"
-F 7 "N/A" H 2000 9100 50  0001 C CNN "Manufacturer"
+F 7 "" H 2000 9100 50  0001 C CNN "Manufacturer"
 	1    2000 9100
 	1    0    0    -1  
 $EndComp
@@ -221,9 +221,9 @@ F 1 "MountingHole_Pad" H 2100 10010 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2000 10050 50  0001 C CNN
 F 3 "N/A" H 2000 10050 50  0001 C CNN
 F 4 "DNP" H 2000 10050 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 2000 10050 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 2000 10050 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 10050 50  0001 C CNN "MPN"
-F 7 "N/A" H 2000 10050 50  0001 C CNN "Manufacturer"
+F 7 "" H 2000 10050 50  0001 C CNN "Manufacturer"
 	1    2000 10050
 	1    0    0    -1  
 $EndComp
@@ -236,9 +236,9 @@ F 1 "MountingHole_Pad" H 2100 10610 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2000 10650 50  0001 C CNN
 F 3 "N/A" H 2000 10650 50  0001 C CNN
 F 4 "DNP" H 2000 10650 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 2000 10650 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 2000 10650 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 10650 50  0001 C CNN "MPN"
-F 7 "N/A" H 2000 10650 50  0001 C CNN "Manufacturer"
+F 7 "" H 2000 10650 50  0001 C CNN "Manufacturer"
 	1    2000 10650
 	1    0    0    -1  
 $EndComp
@@ -251,9 +251,9 @@ F 1 "MountingHole" H 3100 8755 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3000 8800 50  0001 C CNN
 F 3 "N/A" H 3000 8800 50  0001 C CNN
 F 4 "DNP" H 3000 8800 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 3000 8800 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 3000 8800 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 3000 8800 50  0001 C CNN "MPN"
-F 7 "N/A" H 3000 8800 50  0001 C CNN "Manufacturer"
+F 7 "" H 3000 8800 50  0001 C CNN "Manufacturer"
 	1    3000 8800
 	1    0    0    -1  
 $EndComp
@@ -266,9 +266,9 @@ F 1 "MountingHole" H 3100 9355 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3000 9400 50  0001 C CNN
 F 3 "N/A" H 3000 9400 50  0001 C CNN
 F 4 "DNP" H 3000 9400 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 3000 9400 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 3000 9400 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 3000 9400 50  0001 C CNN "MPN"
-F 7 "N/A" H 3000 9400 50  0001 C CNN "Manufacturer"
+F 7 "" H 3000 9400 50  0001 C CNN "Manufacturer"
 	1    3000 9400
 	1    0    0    -1  
 $EndComp
@@ -286,9 +286,11 @@ F 0 "R3" V 10200 4250 50  0000 C CNN
 F 1 "1k" V 10200 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 4450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-071KL_C95781.pdf" H 10250 4450 50  0001 C CNN
-F 4 "$.001763" H 10250 4450 50  0001 C CNN "UnitCost(USD)"
-F 5 "RC0805FR-071KL" H 10250 4450 50  0001 C CNN "MPN"
-F 6 "Yageo" H 10250 4450 50  0001 C CNN "Manufacturer"
+F 4 "Yageo" H 10250 4450 50  0001 C CNN "UnitCost(USD)"
+F 5 "0805W8F1001T5E" H 10250 4450 50  0001 C CNN "MPN"
+F 6 "" H 10250 4450 50  0001 C CNN "Manufacturer"
+F 7 "BASIC" H 10250 4450 50  0001 C CNN "JLCASM"
+F 8 "C17513" H 10250 4450 50  0001 C CNN "LCSC PN"
 	1    10250 4450
 	0    1    1    0   
 $EndComp
@@ -357,9 +359,9 @@ F 1 "MountingHole_Pad" H 3100 10010 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 3000 10050 50  0001 C CNN
 F 3 "N/A" H 3000 10050 50  0001 C CNN
 F 4 "DNP" H 3000 10050 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 3000 10050 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 3000 10050 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 3000 10050 50  0001 C CNN "MPN"
-F 7 "N/A" H 3000 10050 50  0001 C CNN "Manufacturer"
+F 7 "" H 3000 10050 50  0001 C CNN "Manufacturer"
 	1    3000 10050
 	1    0    0    -1  
 $EndComp
@@ -372,9 +374,9 @@ F 1 "MountingHole_Pad" H 1050 10010 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 950 10050 50  0001 C CNN
 F 3 "N/A" H 950 10050 50  0001 C CNN
 F 4 "DNP" H 950 10050 50  0001 C CNN "AssemblyOption"
-F 5 "$0.00" H 950 10050 50  0001 C CNN "UnitCost(USD)"
+F 5 "N/A" H 950 10050 50  0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 950 10050 50  0001 C CNN "MPN"
-F 7 "N/A" H 950 10050 50  0001 C CNN "Manufacturer"
+F 7 "" H 950 10050 50  0001 C CNN "Manufacturer"
 	1    950  10050
 	1    0    0    -1  
 $EndComp
@@ -386,9 +388,11 @@ F 0 "R2" V 7050 4350 50  0000 C CNN
 F 1 "1k" V 7050 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-071KL_C95781.pdf" H 7000 4150 50  0001 C CNN
-F 4 "$.001763" H 7000 4150 50  0001 C CNN "UnitCost(USD)"
-F 5 "RC0805FR-071KL" H 7000 4150 50  0001 C CNN "MPN"
-F 6 "Yageo" H 7000 4150 50  0001 C CNN "Manufacturer"
+F 4 "Yageo" H 7000 4150 50  0001 C CNN "UnitCost(USD)"
+F 5 "0805W8F1001T5E" H 7000 4150 50  0001 C CNN "MPN"
+F 6 "" H 7000 4150 50  0001 C CNN "Manufacturer"
+F 7 "BASIC" H 7000 4150 50  0001 C CNN "JLCASM"
+F 8 "C17513" H 7000 4150 50  0001 C CNN "LCSC PN"
 	1    7000 4150
 	0    -1   -1   0   
 $EndComp
@@ -400,9 +404,11 @@ F 0 "R1" V 10300 4750 50  0000 C CNN
 F 1 "1k" V 10300 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 4550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/YAGEO-RC0805FR-071KL_C95781.pdf" H 10250 4550 50  0001 C CNN
-F 4 "$.001763" H 10250 4550 50  0001 C CNN "UnitCost(USD)"
-F 5 "RC0805FR-071KL" H 10250 4550 50  0001 C CNN "MPN"
-F 6 "Yageo" H 10250 4550 50  0001 C CNN "Manufacturer"
+F 4 "Yageo" H 10250 4550 50  0001 C CNN "UnitCost(USD)"
+F 5 "0805W8F1001T5E" H 10250 4550 50  0001 C CNN "MPN"
+F 6 "" H 10250 4550 50  0001 C CNN "Manufacturer"
+F 7 "BASIC" H 10250 4550 50  0001 C CNN "JLCASM"
+F 8 "C17513" H 10250 4550 50  0001 C CNN "LCSC PN"
 	1    10250 4550
 	0    -1   -1   0   
 $EndComp
@@ -460,8 +466,9 @@ F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10700 5050 50  0001 C CNN
 F 3 "N/A" H 10700 5050 50  0001 C CNN
 F 4 "DNP" H 10500 5050 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10500 5050 50  0001 C CNN "MPN"
-F 6 "N/A" H 10500 5050 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 10500 5050 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 10500 5050 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 10500 5050 50  0001 C CNN "UnitCost(USD)"
+F 8 "N/A" H 10500 5050 50  0001 C CNN "JLCASM"
 	1    10500 5050
 	0    1    1    0   
 $EndComp
@@ -483,8 +490,9 @@ F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10700 5650 50  0001 C CNN
 F 3 "N/A" H 10700 5650 50  0001 C CNN
 F 4 "DNP" H 10500 5650 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10500 5650 50  0001 C CNN "MPN"
-F 6 "N/A" H 10500 5650 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 10500 5650 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 10500 5650 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 10500 5650 50  0001 C CNN "UnitCost(USD)"
+F 8 "N/A" H 10500 5650 50  0001 C CNN "JLCASM"
 	1    10500 5650
 	0    1    1    0   
 $EndComp
@@ -506,8 +514,9 @@ F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10550 3850 50  0001 C CNN
 F 3 "N/A" H 10550 3850 50  0001 C CNN
 F 4 "DNP" H 10350 3850 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10350 3850 50  0001 C CNN "MPN"
-F 6 "N/A" H 10350 3850 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 10350 3850 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 10350 3850 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 10350 3850 50  0001 C CNN "UnitCost(USD)"
+F 8 "N/A" H 10350 3850 50  0001 C CNN "JLCASM"
 	1    10350 3850
 	0    1    1    0   
 $EndComp
@@ -521,8 +530,9 @@ F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10550 3950 50  0001 C CNN
 F 3 "N/A" H 10550 3950 50  0001 C CNN
 F 4 "DNP" H 10350 3950 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10350 3950 50  0001 C CNN "MPN"
-F 6 "N/A" H 10350 3950 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 10350 3950 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 10350 3950 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 10350 3950 50  0001 C CNN "UnitCost(USD)"
+F 8 "N/A" H 10350 3950 50  0001 C CNN "JLCASM"
 	1    10350 3950
 	0    1    1    0   
 $EndComp
@@ -791,8 +801,9 @@ F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10700 4800 50  0001 C CNN
 F 3 "N/A" H 10700 4800 50  0001 C CNN
 F 4 "DNP" H 10500 4800 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10500 4800 50  0001 C CNN "MPN"
-F 6 "N/A" H 10500 4800 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 10500 4800 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 10500 4800 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 10500 4800 50  0001 C CNN "UnitCost(USD)"
+F 8 "N/A" H 10500 4800 50  0001 C CNN "JLCASM"
 	1    10500 4800
 	0    1    1    0   
 $EndComp
@@ -808,8 +819,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 9100 50  0001 C CNN
 F 3 "~" H 4750 9100 50  0001 C CNN
 F 4 "DNP" H 4750 9100 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 4750 9100 50  0001 C CNN "MPN"
-F 6 "N/A" H 4750 9100 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 4750 9100 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 4750 9100 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 4750 9100 50  0001 C CNN "UnitCost(USD)"
 	1    4750 9100
 	1    0    0    -1  
 $EndComp
@@ -823,8 +834,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 9400 50  0001 C CNN
 F 3 "~" H 4750 9400 50  0001 C CNN
 F 4 "DNP" H 4750 9400 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 4750 9400 50  0001 C CNN "MPN"
-F 6 "N/A" H 4750 9400 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 4750 9400 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 4750 9400 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 4750 9400 50  0001 C CNN "UnitCost(USD)"
 	1    4750 9400
 	1    0    0    -1  
 $EndComp
@@ -838,8 +849,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 9700 50  0001 C CNN
 F 3 "~" H 4750 9700 50  0001 C CNN
 F 4 "DNP" H 4750 9700 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 4750 9700 50  0001 C CNN "MPN"
-F 6 "N/A" H 4750 9700 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 4750 9700 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 4750 9700 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 4750 9700 50  0001 C CNN "UnitCost(USD)"
 	1    4750 9700
 	1    0    0    -1  
 $EndComp
@@ -853,8 +864,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 10000 50  0001 C CNN
 F 3 "~" H 4750 10000 50  0001 C CNN
 F 4 "DNP" H 4750 10000 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 4750 10000 50  0001 C CNN "MPN"
-F 6 "N/A" H 4750 10000 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 4750 10000 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 4750 10000 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 4750 10000 50  0001 C CNN "UnitCost(USD)"
 	1    4750 10000
 	1    0    0    -1  
 $EndComp
@@ -868,8 +879,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 10300 50  0001 C CNN
 F 3 "~" H 4750 10300 50  0001 C CNN
 F 4 "DNP" H 4750 10300 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 4750 10300 50  0001 C CNN "MPN"
-F 6 "N/A" H 4750 10300 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 4750 10300 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 4750 10300 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 4750 10300 50  0001 C CNN "UnitCost(USD)"
 	1    4750 10300
 	1    0    0    -1  
 $EndComp
@@ -883,8 +894,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5300 9100 50  0001 C CNN
 F 3 "~" H 5300 9100 50  0001 C CNN
 F 4 "DNP" H 5300 9100 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5300 9100 50  0001 C CNN "MPN"
-F 6 "N/A" H 5300 9100 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 5300 9100 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 5300 9100 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 5300 9100 50  0001 C CNN "UnitCost(USD)"
 	1    5300 9100
 	1    0    0    -1  
 $EndComp
@@ -898,8 +909,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5300 9400 50  0001 C CNN
 F 3 "~" H 5300 9400 50  0001 C CNN
 F 4 "DNP" H 5300 9400 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5300 9400 50  0001 C CNN "MPN"
-F 6 "N/A" H 5300 9400 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 5300 9400 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 5300 9400 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 5300 9400 50  0001 C CNN "UnitCost(USD)"
 	1    5300 9400
 	1    0    0    -1  
 $EndComp
@@ -913,8 +924,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5300 9700 50  0001 C CNN
 F 3 "~" H 5300 9700 50  0001 C CNN
 F 4 "DNP" H 5300 9700 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5300 9700 50  0001 C CNN "MPN"
-F 6 "N/A" H 5300 9700 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 5300 9700 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 5300 9700 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 5300 9700 50  0001 C CNN "UnitCost(USD)"
 	1    5300 9700
 	1    0    0    -1  
 $EndComp
@@ -928,8 +939,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5300 10000 50  0001 C CNN
 F 3 "~" H 5300 10000 50  0001 C CNN
 F 4 "DNP" H 5300 10000 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5300 10000 50  0001 C CNN "MPN"
-F 6 "N/A" H 5300 10000 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 5300 10000 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 5300 10000 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 5300 10000 50  0001 C CNN "UnitCost(USD)"
 	1    5300 10000
 	1    0    0    -1  
 $EndComp
@@ -943,8 +954,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5300 10300 50  0001 C CNN
 F 3 "~" H 5300 10300 50  0001 C CNN
 F 4 "DNP" H 5300 10300 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5300 10300 50  0001 C CNN "MPN"
-F 6 "N/A" H 5300 10300 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 5300 10300 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 5300 10300 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 5300 10300 50  0001 C CNN "UnitCost(USD)"
 	1    5300 10300
 	1    0    0    -1  
 $EndComp
@@ -958,8 +969,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 10600 50  0001 C CNN
 F 3 "~" H 4750 10600 50  0001 C CNN
 F 4 "DNP" H 4750 10600 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 4750 10600 50  0001 C CNN "MPN"
-F 6 "N/A" H 4750 10600 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 4750 10600 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 4750 10600 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 4750 10600 50  0001 C CNN "UnitCost(USD)"
 	1    4750 10600
 	1    0    0    -1  
 $EndComp
@@ -973,8 +984,8 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5300 10600 50  0001 C CNN
 F 3 "~" H 5300 10600 50  0001 C CNN
 F 4 "DNP" H 5300 10600 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5300 10600 50  0001 C CNN "MPN"
-F 6 "N/A" H 5300 10600 50  0001 C CNN "Manufacturer"
-F 7 "$0.00" H 5300 10600 50  0001 C CNN "UnitCost(USD)"
+F 6 "" H 5300 10600 50  0001 C CNN "Manufacturer"
+F 7 "N/A" H 5300 10600 50  0001 C CNN "UnitCost(USD)"
 	1    5300 10600
 	1    0    0    -1  
 $EndComp
