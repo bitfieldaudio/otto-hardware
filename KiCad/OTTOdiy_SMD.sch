@@ -1042,4 +1042,52 @@ Text Notes 750  8600 0    100  ~ 20
 Mounting Features
 Text Notes 4550 8600 0    100  ~ 20
 Optical Alignment\n
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E979C7D
+P 6500 8600
+F 0 "H1" H 6600 8646 50  0000 L CNN
+F 1 "Tooling Hole" H 6600 8555 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:JLC_TOOLING_HOLE" H 6500 8600 50  0001 C CNN
+F 3 "" H 6500 8600 50  0001 C CNN
+F 4 "DNP" H 6500 8600 50  0001 C CNN "AssemblyOption"
+F 5 "" H 6500 8600 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 6500 8600 50  0001 C CNN "MPN"
+F 7 "" H 6500 8600 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 6500 8600 50  0001 C CNN "JLCASM"
+	1    6500 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E97B256
+P 6500 8950
+F 0 "H2" H 6600 8996 50  0000 L CNN
+F 1 "Tooling Hole" H 6600 8905 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:JLC_TOOLING_HOLE" H 6500 8950 50  0001 C CNN
+F 3 "" H 6500 8950 50  0001 C CNN
+F 4 "DNP" H 6500 8950 50  0001 C CNN "AssemblyOption"
+F 5 "" H 6500 8950 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 6500 8950 50  0001 C CNN "MPN"
+F 7 "" H 6500 8950 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 6500 8950 50  0001 C CNN "JLCASM"
+	1    6500 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E97B7A3
+P 7400 8950
+F 0 "H3" H 7500 8996 50  0000 L CNN
+F 1 "Tooling Hole" H 7500 8905 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:JLC_TOOLING_HOLE" H 7400 8950 50  0001 C CNN
+F 3 "" H 7400 8950 50  0001 C CNN
+F 4 "DNP" H 7400 8950 50  0001 C CNN "AssemblyOption"
+F 5 "" H 7400 8950 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 7400 8950 50  0001 C CNN "MPN"
+F 7 "" H 7400 8950 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 7400 8950 50  0001 C CNN "JLCASM"
+	1    7400 8950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
