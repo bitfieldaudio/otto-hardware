@@ -1090,4 +1090,8 @@ F 8 "N/A" H 7400 8950 50  0001 C CNN "JLCASM"
 	1    7400 8950
 	1    0    0    -1  
 $EndComp
+Text Notes 10200 4250 0    50   ~ 0
+To prioritize external jtag connection.\n1k is too much, steven will look into suitable values
+Wire Notes Line style solid
+	10350 4300 10250 4400
 $EndSCHEMATC
