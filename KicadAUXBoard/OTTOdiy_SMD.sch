@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 7
+Sheet 1 5
 Title "OTTOdiy"
 Date "2020-01-10"
 Rev "1.0"
@@ -13,67 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 9550 3350 2    50   Output ~ 0
-+3V3_RASPI
-Text GLabel 7700 3350 0    50   Input ~ 0
-+5V_RASPI
-$Comp
-L power:GND #PWR0202
-U 1 1 5C4461C9
-P 8200 6250
-F 0 "#PWR0202" H 8200 6000 50  0001 C CNN
-F 1 "GND" H 8205 6077 50  0000 C CNN
-F 2 "" H 8200 6250 50  0001 C CNN
-F 3 "" H 8200 6250 50  0001 C CNN
-	1    8200 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8200 6150 8200 6250
-Wire Wire Line
-	9400 4950 9500 4950
-Wire Wire Line
-	9400 5150 9600 5150
-Wire Wire Line
-	9400 5250 9600 5250
-Wire Wire Line
-	9600 4150 9400 4150
-Wire Wire Line
-	9600 4250 9400 4250
-Wire Wire Line
-	7700 3850 7800 3850
-Wire Wire Line
-	7800 3950 7700 3950
-Wire Wire Line
-	7700 4350 7800 4350
-Wire Wire Line
-	7800 4550 7700 4550
-Wire Wire Line
-	7700 4650 7800 4650
-Wire Wire Line
-	7800 4750 7700 4750
-$Comp
-L Connector:Raspberry_Pi_2_3 J201
-U 1 1 5C444E85
-P 8600 4750
-F 0 "J201" H 8600 6350 50  0000 C CNN
-F 1 "Raspberry Pi Connector" H 8600 6250 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:Raspberry_Pi_A_FacingDown_TH" H 8600 4750 50  0001 C CNN
-F 3 "" H 8600 4750 50  0001 C CNN
-F 4 "M20-7812045" H 8600 4750 50  0001 C CNN "MPN"
-F 5 "" H 8600 4750 50  0001 C CNN "Manufacturer"
-F 6 "" H 8600 4750 50  0001 C CNN "UnitCost(USD)"
-F 7 "" H 8600 4750 50  0001 C CNN "AssemblyOption"
-F 8 "N/A" H 8600 4750 50  0001 C CNN "JLCASM"
-	1    8600 4750
-	1    0    0    -1  
-$EndComp
-$Sheet
-S 2000 2500 900  600 
-U 5C4408C6
-F0 "AUDIO" 50
-F1 "AUDIO.sch" 50
-$EndSheet
 $Comp
 L Mechanical:MountingHole H201
 U 1 1 5C6CE0E7
@@ -138,85 +77,6 @@ F 8 "N/A" H 2000 9100 50  0001 C CNN "JLCASM"
 	1    2000 9100
 	1    0    0    -1  
 $EndComp
-Text GLabel 9600 4900 2    50   Output ~ 0
-SPI_CS_RASPI_DISPLAY
-Text GLabel 9600 5150 2    50   Output ~ 0
-SPI_MOSI_RASPI
-Text GLabel 9600 5250 2    50   Output ~ 0
-SPI_SCLK_RASPI
-Text GLabel 7700 4350 0    50   Output ~ 0
-I2S_BCLK
-Text GLabel 7700 4550 0    50   Output ~ 0
-I2S_LRCLK
-Text GLabel 7700 4650 0    50   Input ~ 0
-I2S_DIN
-Text GLabel 7700 4750 0    50   Output ~ 0
-I2S_DOUT
-Text GLabel 9600 4150 2    50   BiDi ~ 0
-I2C_SDA
-Text GLabel 9600 4250 2    50   BiDi ~ 0
-I2C_SCL
-Wire Wire Line
-	7700 4950 7800 4950
-Wire Wire Line
-	8500 3350 8500 3450
-Wire Wire Line
-	8400 3450 8400 3350
-Connection ~ 8400 3350
-Wire Wire Line
-	8400 3350 8500 3350
-Wire Wire Line
-	9550 3350 8800 3350
-Wire Wire Line
-	8800 3350 8800 3450
-Wire Wire Line
-	8200 6150 8300 6150
-Wire Wire Line
-	8900 6150 8900 6050
-Wire Wire Line
-	8200 6050 8200 6150
-Connection ~ 8200 6150
-Wire Wire Line
-	8300 6050 8300 6150
-Connection ~ 8300 6150
-Wire Wire Line
-	8300 6150 8400 6150
-Wire Wire Line
-	8400 6050 8400 6150
-Connection ~ 8400 6150
-Wire Wire Line
-	8400 6150 8500 6150
-Wire Wire Line
-	8500 6050 8500 6150
-Connection ~ 8500 6150
-Wire Wire Line
-	8500 6150 8600 6150
-Wire Wire Line
-	8600 6050 8600 6150
-Connection ~ 8600 6150
-Wire Wire Line
-	8600 6150 8700 6150
-Wire Wire Line
-	8700 6050 8700 6150
-Connection ~ 8700 6150
-Wire Wire Line
-	8700 6150 8800 6150
-Wire Wire Line
-	8800 6050 8800 6150
-Connection ~ 8800 6150
-Wire Wire Line
-	8800 6150 8900 6150
-Text GLabel 7700 4950 0    50   BiDi ~ 0
-TRIGGER1
-Text GLabel 7700 5050 0    50   BiDi ~ 0
-TRIGGER2
-Text GLabel 7700 5150 0    50   BiDi ~ 0
-TRIGGER3
-Wire Wire Line
-	8800 3350 8700 3350
-Wire Wire Line
-	8700 3350 8700 3450
-Connection ~ 8800 3350
 $Comp
 L Mechanical:MountingHole_Pad H213
 U 1 1 5DFC7102
@@ -265,48 +125,6 @@ F 8 "N/A" H 3000 8800 50  0001 C CNN "JLCASM"
 	1    3000 8800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H209
-U 1 1 5DE07FEB
-P 3000 9400
-F 0 "H209" H 3100 9446 50  0000 L CNN
-F 1 "MountingHole" H 3100 9355 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3000 9400 50  0001 C CNN
-F 3 "" H 3000 9400 50  0001 C CNN
-F 4 "DNP" H 3000 9400 50  0001 C CNN "AssemblyOption"
-F 5 "" H 3000 9400 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 3000 9400 50  0001 C CNN "MPN"
-F 7 "" H 3000 9400 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 3000 9400 50  0001 C CNN "JLCASM"
-	1    3000 9400
-	1    0    0    -1  
-$EndComp
-Text GLabel 7700 3850 0    50   Output ~ 0
-MIDI_OUT
-Text GLabel 7700 3950 0    50   Input ~ 0
-MIDI_IN
-Text Notes 7950 5700 0    50   ~ 0
-Harwin M20-7912045 connector
-$Comp
-L Device:R R3
-U 1 1 5E14AAB9
-P 10250 4450
-F 0 "R3" V 10200 4250 50  0000 C CNN
-F 1 "1k" V 10200 4650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 4450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17513.pdf" H 10250 4450 50  0001 C CNN
-F 4 "" H 10250 4450 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F1001T5E" H 10250 4450 50  0001 C CNN "MPN"
-F 6 "" H 10250 4450 50  0001 C CNN "Manufacturer"
-F 7 "BASIC" H 10250 4450 50  0001 C CNN "JLCASM"
-F 8 "C17513" H 10250 4450 50  0001 C CNN "LCSC PN"
-	1    10250 4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9400 4450 10100 4450
-Wire Wire Line
-	10400 4450 11000 4450
 Wire Wire Line
 	2000 10150 2000 10200
 $Comp
@@ -391,58 +209,6 @@ F 8 "N/A" H 950 10050 50  0001 C CNN "JLCASM"
 	1    950  10050
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R2
-U 1 1 5E17B63D
-P 7000 4150
-F 0 "R2" V 7050 4350 50  0000 C CNN
-F 1 "1k" V 7050 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17513.pdf" H 7000 4150 50  0001 C CNN
-F 4 "" H 7000 4150 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F1001T5E" H 7000 4150 50  0001 C CNN "MPN"
-F 6 "" H 7000 4150 50  0001 C CNN "Manufacturer"
-F 7 "BASIC" H 7000 4150 50  0001 C CNN "JLCASM"
-F 8 "C17513" H 7000 4150 50  0001 C CNN "LCSC PN"
-	1    7000 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5E17D8BA
-P 10250 4550
-F 0 "R1" V 10300 4750 50  0000 C CNN
-F 1 "1k" V 10300 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 4550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17513.pdf" H 10250 4550 50  0001 C CNN
-F 4 "" H 10250 4550 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F1001T5E" H 10250 4550 50  0001 C CNN "MPN"
-F 6 "" H 10250 4550 50  0001 C CNN "Manufacturer"
-F 7 "BASIC" H 10250 4550 50  0001 C CNN "JLCASM"
-F 8 "C17513" H 10250 4550 50  0001 C CNN "LCSC PN"
-	1    10250 4550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 4150 6850 4150
-Wire Wire Line
-	7700 3350 8400 3350
-Text GLabel 9600 4650 2    50   Output ~ 0
-PI_PWR_EN
-Text Notes 7900 7150 0    50   ~ 0
-Internal pullups/pulldowns:\nICP_RST: u\nSPI_CS_RASPI_DISPLAY: u
-Text Notes 7900 7350 0    50   ~ 0
-GPIO0-8 are pulled up during boot time.\nGPIO9-27 are pulled down during boot time.
-Text GLabel 9600 5450 2    50   Output ~ 0
-BL_PWM
-Wire Wire Line
-	9400 5450 9600 5450
-$Sheet
-S 2000 3350 900  600 
-U 5C435D84
-F0 "MIDI" 50
-F1 "MIDI.sch" 50
-$EndSheet
 Wire Wire Line
 	2900 4350 3850 4350
 Wire Wire Line
@@ -455,104 +221,6 @@ Text Label 3850 4500 2    50   ~ 0
 ICP_SWCLK
 Text Label 3850 4600 2    50   ~ 0
 ICP_SWDIO
-Text Label 11000 4550 2    50   ~ 0
-ICP_SWDIO
-Text Label 6200 4150 0    50   ~ 0
-ICP_SWCLK
-Text Label 11000 4450 2    50   ~ 0
-ICP_RST
-Wire Wire Line
-	9400 4550 10100 4550
-Wire Wire Line
-	10400 4550 11000 4550
-Wire Wire Line
-	9600 4650 9400 4650
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5EB1A876
-P 10500 5050
-F 0 "TP8" V 10454 5238 50  0000 L CNN
-F 1 "TestPoint" V 10545 5238 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10700 5050 50  0001 C CNN
-F 3 "" H 10700 5050 50  0001 C CNN
-F 4 "DNP" H 10500 5050 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 10500 5050 50  0001 C CNN "MPN"
-F 6 "" H 10500 5050 50  0001 C CNN "Manufacturer"
-F 7 "" H 10500 5050 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 10500 5050 50  0001 C CNN "JLCASM"
-	1    10500 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9400 5050 10500 5050
-Text Label 9650 5050 0    50   ~ 0
-SPI_MISO_RASPI
-Wire Wire Line
-	9500 4950 9500 4900
-Wire Wire Line
-	9500 4900 9600 4900
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5EB287AC
-P 10500 5650
-F 0 "TP9" V 10454 5838 50  0000 L CNN
-F 1 "TestPoint" V 10545 5838 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10700 5650 50  0001 C CNN
-F 3 "" H 10700 5650 50  0001 C CNN
-F 4 "DNP" H 10500 5650 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 10500 5650 50  0001 C CNN "MPN"
-F 6 "" H 10500 5650 50  0001 C CNN "Manufacturer"
-F 7 "" H 10500 5650 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 10500 5650 50  0001 C CNN "JLCASM"
-	1    10500 5650
-	0    1    1    0   
-$EndComp
-Text Label 9650 5650 0    50   ~ 0
-PWM1_GPIO13_RASPI
-Wire Wire Line
-	9400 5550 9450 5550
-Wire Wire Line
-	9450 5550 9450 5650
-Wire Wire Line
-	9450 5650 10500 5650
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5EB2DA56
-P 10350 3850
-F 0 "TP6" V 10350 4050 50  0000 L CNN
-F 1 "TestPoint" V 10350 4250 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10550 3850 50  0001 C CNN
-F 3 "" H 10550 3850 50  0001 C CNN
-F 4 "DNP" H 10350 3850 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 10350 3850 50  0001 C CNN "MPN"
-F 6 "" H 10350 3850 50  0001 C CNN "Manufacturer"
-F 7 "" H 10350 3850 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 10350 3850 50  0001 C CNN "JLCASM"
-	1    10350 3850
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP7
-U 1 1 5EB2E331
-P 10350 3950
-F 0 "TP7" V 10350 4150 50  0000 L CNN
-F 1 "TestPoint" V 10350 4350 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10550 3950 50  0001 C CNN
-F 3 "" H 10550 3950 50  0001 C CNN
-F 4 "DNP" H 10350 3950 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 10350 3950 50  0001 C CNN "MPN"
-F 6 "" H 10350 3950 50  0001 C CNN "Manufacturer"
-F 7 "" H 10350 3950 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 10350 3950 50  0001 C CNN "JLCASM"
-	1    10350 3950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9400 3850 10350 3850
-Wire Wire Line
-	7700 5150 7800 5150
-Wire Wire Line
-	7800 5050 7700 5050
 $Bitmap
 Pos 15400 10300
 Scale 0.750000
@@ -749,8 +417,6 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 EndData
 $EndBitmap
 Wire Wire Line
-	7700 5350 7800 5350
-Wire Wire Line
 	2900 4750 3850 4750
 Wire Wire Line
 	2900 4850 3850 4850
@@ -774,52 +440,6 @@ F5 "PWM1_GPIO13_RASPI" B R 2900 4750 50
 F6 "GPIO1_RASPI" B R 2900 4950 50 
 F7 "GPIO0_RASPI" B R 2900 4850 50 
 $EndSheet
-Wire Wire Line
-	7700 4250 7800 4250
-Wire Wire Line
-	7150 4150 7800 4150
-Text GLabel 7700 5450 0    50   Input ~ 0
-LI_SENSE
-Text GLabel 7700 5350 0    50   Input ~ 0
-HP_SENSE
-Wire Wire Line
-	7700 5250 7800 5250
-Text GLabel 7700 5250 0    50   Input ~ 0
-LO_SENSE
-Wire Wire Line
-	7700 5450 7800 5450
-Text Label 10150 3850 2    50   ~ 0
-GPIO0_RASPI
-Text Label 10150 3950 2    50   ~ 0
-GPIO1_RASPI
-Wire Wire Line
-	9400 3950 10350 3950
-Text GLabel 7700 4250 0    50   Input ~ 0
-AMP_ENABLE
-Wire Wire Line
-	9400 4850 9450 4850
-Wire Wire Line
-	9450 4850 9450 4800
-Wire Wire Line
-	9450 4800 10500 4800
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5E3855CC
-P 10500 4800
-F 0 "TP2" V 10454 4988 50  0000 L CNN
-F 1 "TestPoint" V 10545 4988 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10700 4800 50  0001 C CNN
-F 3 "" H 10700 4800 50  0001 C CNN
-F 4 "DNP" H 10500 4800 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 10500 4800 50  0001 C CNN "MPN"
-F 6 "" H 10500 4800 50  0001 C CNN "Manufacturer"
-F 7 "" H 10500 4800 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 10500 4800 50  0001 C CNN "JLCASM"
-	1    10500 4800
-	0    1    1    0   
-$EndComp
-Text Label 9650 4800 0    50   ~ 0
-CE1_GPIO7_RASPI
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5E4B0BDE
@@ -1013,16 +633,6 @@ F 8 "N/A" H 5300 10600 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	5900 2500 11350 2500
-Wire Notes Line
-	11350 2500 11350 7450
-Wire Notes Line
-	11350 7450 5900 7450
-Wire Notes Line
-	5900 7450 5900 2500
-Text Notes 6000 2750 0    100  ~ 20
-Raspberry Pi Model 3A+
-Wire Notes Line
 	4000 8350 4000 11100
 Wire Notes Line
 	4000 11100 650  11100
@@ -1088,6 +698,353 @@ F 6 "N/A" H 7400 8950 50  0001 C CNN "MPN"
 F 7 "" H 7400 8950 50  0001 C CNN "Manufacturer"
 F 8 "N/A" H 7400 8950 50  0001 C CNN "JLCASM"
 	1    7400 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x25_Counter_Clockwise J1_KD028QVFMA17
+U 1 1 5E6A6C77
+P 5650 3300
+F 0 "J1_KD028QVFMA17" H 5700 4717 50  0000 C CNN
+F 1 "Conn_02x25_Counter_Clockwise" H 5700 4626 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:F0501-B-50-20T-R" H 5650 3300 50  0001 C CNN
+F 3 "~" H 5650 3300 50  0001 C CNN
+	1    5650 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 2900 0    50   Input ~ 0
+GND
+Text GLabel 7300 3000 0    50   Input ~ 0
+3V3
+Text GLabel 7300 3100 0    50   Input ~ 0
+BL_PWM
+Text GLabel 7300 3200 0    50   Input ~ 0
+SPI_MOSI_RASPI
+Text GLabel 7300 3300 0    50   Input ~ 0
+SPI_SCLK_RASPI
+Text GLabel 7300 3400 0    50   Input ~ 0
+SPI_CS_RASPI
+Wire Wire Line
+	7400 2900 7300 2900
+Wire Wire Line
+	7400 3000 7300 3000
+Wire Wire Line
+	7400 3100 7300 3100
+Wire Wire Line
+	7400 3200 7300 3200
+Wire Wire Line
+	7400 3300 7300 3300
+Wire Wire Line
+	7400 3400 7300 3400
+Text GLabel 5400 2100 0    50   Input ~ 0
+GND
+Text GLabel 5350 2750 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5450 2600 5400 2600
+Wire Wire Line
+	5400 2750 5350 2750
+Wire Wire Line
+	5450 2700 5400 2700
+Wire Wire Line
+	5400 2600 5400 2700
+Connection ~ 5400 2700
+Wire Wire Line
+	5400 2700 5400 2750
+Wire Wire Line
+	5450 2800 5400 2800
+Wire Wire Line
+	5400 2800 5400 2750
+Connection ~ 5400 2750
+Wire Wire Line
+	5450 2900 5400 2900
+Wire Wire Line
+	5400 2900 5400 2800
+Connection ~ 5400 2800
+Text GLabel 5350 3400 0    50   Input ~ 0
+SPI_CS_RASPI
+Wire Wire Line
+	5450 3400 5350 3400
+Wire Wire Line
+	5450 2100 5400 2100
+Text GLabel 5350 3600 0    50   Input ~ 0
+GND
+Text GLabel 6050 2800 2    50   Input ~ 0
+BL_PWM
+Wire Wire Line
+	5950 2800 6050 2800
+Text GLabel 6050 2500 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5950 2500 6000 2500
+Wire Wire Line
+	5950 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 2500
+Connection ~ 6000 2500
+Wire Wire Line
+	6000 2500 6050 2500
+Wire Wire Line
+	5950 2600 6000 2600
+Wire Wire Line
+	6000 2600 6000 2500
+Wire Wire Line
+	5950 2300 6000 2300
+Wire Wire Line
+	6000 2300 6000 2400
+Connection ~ 6000 2400
+Wire Wire Line
+	5950 2700 6000 2700
+Wire Wire Line
+	6000 2700 6000 2600
+Connection ~ 6000 2600
+Wire Wire Line
+	5950 2200 6000 2200
+Wire Wire Line
+	6000 2200 6000 2300
+Connection ~ 6000 2300
+Text GLabel 6050 2100 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5950 2100 6050 2100
+Text GLabel 6050 2900 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5950 2900 6050 2900
+Text GLabel 5350 4200 0    50   Input ~ 0
+SPI_MOSI_RASPI
+Wire Wire Line
+	5450 4200 5350 4200
+Text GLabel 6200 4500 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5450 4300 5450 4400
+Wire Wire Line
+	5450 4400 5450 4500
+Connection ~ 5450 4400
+Wire Wire Line
+	5450 4500 5450 4600
+Wire Wire Line
+	5450 4600 6100 4600
+Wire Wire Line
+	6100 4600 6100 4500
+Wire Wire Line
+	6100 4500 6200 4500
+Connection ~ 5450 4500
+Wire Wire Line
+	5950 4500 6100 4500
+Connection ~ 6100 4500
+Wire Wire Line
+	5950 4400 5950 4500
+Connection ~ 5950 4500
+Wire Wire Line
+	5950 4300 5950 4400
+Connection ~ 5950 4400
+Wire Wire Line
+	5950 4200 5950 4300
+Connection ~ 5950 4300
+Wire Wire Line
+	5950 4100 5950 4200
+Connection ~ 5950 4200
+Wire Wire Line
+	5950 4000 5950 4100
+Connection ~ 5950 4100
+Wire Wire Line
+	5950 3900 5950 4000
+Connection ~ 5950 4000
+Wire Wire Line
+	5950 3800 5950 3900
+Connection ~ 5950 3900
+Wire Wire Line
+	5950 3700 5950 3800
+Connection ~ 5950 3800
+Wire Wire Line
+	5950 3600 5950 3700
+Connection ~ 5950 3700
+Wire Wire Line
+	5950 3500 5950 3600
+Connection ~ 5950 3600
+Wire Wire Line
+	5950 3400 5950 3500
+Connection ~ 5950 3500
+Wire Wire Line
+	5950 3300 5950 3400
+Connection ~ 5950 3400
+Wire Wire Line
+	5950 3200 5950 3300
+Connection ~ 5950 3300
+Wire Wire Line
+	5950 3100 5950 3200
+Connection ~ 5950 3200
+Text GLabel 5350 3500 0    50   Input ~ 0
+SPI_SCLK_RASPI
+Wire Wire Line
+	5450 3500 5350 3500
+Wire Wire Line
+	5450 3600 5350 3600
+Text GLabel 5300 3100 0    50   Input ~ 0
+GND
+Text GLabel 5350 3900 0    50   Input ~ 0
+GND
+Wire Wire Line
+	5450 3700 5400 3700
+Wire Wire Line
+	5400 3700 5400 3800
+Wire Wire Line
+	5400 3900 5350 3900
+Wire Wire Line
+	5450 3800 5400 3800
+Connection ~ 5400 3800
+Wire Wire Line
+	5400 3800 5400 3900
+Wire Wire Line
+	5450 3900 5400 3900
+Connection ~ 5400 3900
+Wire Wire Line
+	5450 4000 5400 4000
+Wire Wire Line
+	5400 4000 5400 3900
+Wire Wire Line
+	5450 4100 5400 4100
+Wire Wire Line
+	5400 4100 5400 4000
+Connection ~ 5400 4000
+NoConn ~ 5450 2200
+NoConn ~ 5450 2300
+NoConn ~ 5450 2400
+NoConn ~ 5450 2500
+NoConn ~ 5950 3000
+Text GLabel 5350 3300 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	5450 3300 5350 3300
+Text GLabel 5300 3000 0    50   Input ~ 0
+3V3
+Text GLabel 5300 3200 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5450 3000 5300 3000
+Wire Wire Line
+	5450 3100 5300 3100
+Wire Wire Line
+	5450 3200 5300 3200
+$Comp
+L Connector_Generic:Conn_01x06 CN203
+U 1 1 5E72E891
+P 7600 3100
+F 0 "CN203" H 7680 3142 50  0000 L CNN
+F 1 "Conn_01x06" H 7680 3051 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical" H 7600 3100 50  0001 C CNN
+F 3 "~" H 7600 3100 50  0001 C CNN
+	1    7600 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7250 4350 0    50   Input ~ 0
+RESET
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5E8F38C4
+P 7550 4000
+F 0 "JP1" V 7504 4098 50  0000 L CNN
+F 1 "Jumper_2_Open" V 7595 4098 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7550 4000 50  0001 C CNN
+F 3 "~" H 7550 4000 50  0001 C CNN
+	1    7550 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP2
+U 1 1 5E8F9880
+P 7550 4700
+F 0 "JP2" V 7504 4798 50  0000 L CNN
+F 1 "Jumper_2_Open" V 7595 4798 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7550 4700 50  0001 C CNN
+F 3 "~" H 7550 4700 50  0001 C CNN
+	1    7550 4700
+	0    1    1    0   
+$EndComp
+Text GLabel 7550 3700 0    50   Input ~ 0
+3V3
+Text GLabel 7550 5000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	7250 4350 7550 4350
+Wire Wire Line
+	7550 4350 7550 4200
+Wire Wire Line
+	7550 4350 7550 4500
+Connection ~ 7550 4350
+Wire Wire Line
+	7550 4900 7550 5000
+Wire Wire Line
+	7550 3800 7550 3700
+Text GLabel 8850 4350 0    50   Input ~ 0
+SPI_CS_RASPI
+$Comp
+L Jumper:Jumper_2_Open JP3
+U 1 1 5E901592
+P 9000 4700
+F 0 "JP3" V 8954 4798 50  0000 L CNN
+F 1 "Jumper_2_Open" V 9045 4798 50  0000 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 9000 4700 50  0001 C CNN
+F 3 "~" H 9000 4700 50  0001 C CNN
+	1    9000 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 4350 9000 4350
+Wire Wire Line
+	9000 4350 9000 4500
+Text GLabel 9000 5000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	9000 4900 9000 5000
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5E907C1F
+P 7550 4350
+F 0 "TP1" V 7504 4538 50  0000 L CNN
+F 1 "TestPoint" V 7595 4538 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 7750 4350 50  0001 C CNN
+F 3 "~" H 7750 4350 50  0001 C CNN
+	1    7550 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 7100 2000 0    50   Input ~ 0
+3V3
+Text GLabel 7100 2300 0    50   Input ~ 0
+GND
+$Comp
+L Device:C C48
+U 1 1 5E911CA8
+P 7200 2150
+F 0 "C48" H 7315 2196 50  0000 L CNN
+F 1 "100nF" H 7315 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 2000 50  0001 C CNN
+F 3 "~" H 7200 2150 50  0001 C CNN
+	1    7200 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2000 7200 2000
+Wire Wire Line
+	7200 2300 7100 2300
+$Comp
+L OTTOdiy_SMD-library:2.8INCH_IPS_SPI-Display_Graphic DISPLAY?
+U 1 1 5EF7A6D1
+P 9500 1900
+AR Path="/5C43B923/5EF7A6D1" Ref="DISPLAY?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5EF7A6D1" Ref="DISPLAY?"  Part="1" 
+AR Path="/5EF7A6D1" Ref="DISPLAY1"  Part="1" 
+F 0 "DISPLAY1" H 9878 1946 50  0000 L CNN
+F 1 "2.8 Inch IPS Display, SPI Interface" H 9878 1855 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:2.8_INCH_IPS_DISPLAY" H 9500 1900 50  0001 C CNN
+F 3 "" H 9500 1900 50  0001 C CNN
+F 4 "DNP" H 9500 1900 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 9500 1900 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 9500 1900 50  0001 C CNN "MPN"
+F 7 "" H 9500 1900 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 9500 1900 50  0001 C CNN "JLCASM"
+	1    9500 1900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
