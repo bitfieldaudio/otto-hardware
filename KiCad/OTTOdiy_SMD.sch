@@ -292,7 +292,7 @@ L Device:R R3
 U 1 1 5E14AAB9
 P 10250 4450
 F 0 "R3" V 10200 4250 50  0000 C CNN
-F 1 "1k" V 10200 4650 50  0000 C CNN
+F 1 "0" V 10200 4650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 4450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C17513.pdf" H 10250 4450 50  0001 C CNN
 F 4 "" H 10250 4450 50  0001 C CNN "UnitCost(USD)"
@@ -396,7 +396,7 @@ L Device:R R2
 U 1 1 5E17B63D
 P 7000 4150
 F 0 "R2" V 7050 4350 50  0000 C CNN
-F 1 "1k" V 7050 3950 50  0000 C CNN
+F 1 "0" V 7050 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4150 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C17513.pdf" H 7000 4150 50  0001 C CNN
 F 4 "" H 7000 4150 50  0001 C CNN "UnitCost(USD)"
@@ -412,7 +412,7 @@ L Device:R R1
 U 1 1 5E17D8BA
 P 10250 4550
 F 0 "R1" V 10300 4750 50  0000 C CNN
-F 1 "1k" V 10300 4350 50  0000 C CNN
+F 1 "0" V 10300 4350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10180 4550 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C17513.pdf" H 10250 4550 50  0001 C CNN
 F 4 "" H 10250 4550 50  0001 C CNN "UnitCost(USD)"
@@ -1091,7 +1091,7 @@ F 8 "N/A" H 7400 8950 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 Text Notes 10200 4250 0    50   ~ 0
-To prioritize external jtag connection.\n1k is too much, steven will look into suitable values
+Might be needed to prioritize external jtag connection.
 Wire Notes Line style solid
 	10350 4300 10250 4400
 $EndSCHEMATC
