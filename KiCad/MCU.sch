@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 7
-Title "OTTOdiy"
-Date "2020-01-10"
-Rev "1.0"
+Title "OTTO beta"
+Date "2020-05-25"
+Rev "0.1.0"
 Comp "https://github.com/otto-project"
-Comment1 "Design by Bastian \"Spatz\" Mohing and Steven \"adorbs\" Hang"
-Comment2 ""
+Comment1 ""
+Comment2 "Design by Bastian \"Spatz\" Mohing, Steven \"adorbs\" Hang,\\nand Bitfield Audio"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -427,13 +427,13 @@ PWR_BUTTON
 Wire Wire Line
 	5950 7950 6950 7950
 $Comp
-L Device:Crystal Y?
+L Device:Crystal_GND24 Y?
 U 1 1 5DC4F686
 P 11000 1100
 AR Path="/5C4320DF/5DB999B7/5DC4F686" Ref="Y?"  Part="1" 
 AR Path="/5C4320DF/5DC4F686" Ref="Y201"  Part="1" 
-F 0 "Y201" H 11000 1368 50  0000 C CNN
-F 1 "25MHz" H 11000 1277 50  0000 C CNN
+F 0 "Y201" H 10750 1200 50  0000 C CNN
+F 1 "25MHz" H 10750 1300 50  0000 C CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 11000 1100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C9006.pdf" H 11000 1100 50  0001 C CNN
 F 4 "" H 11000 1100 12700 0001 C CNN "UnitCost(USD)"
@@ -478,7 +478,7 @@ F 6 "" H 10750 1350 50  0001 C CNN "Manufacturer"
 F 7 "C1809" H 10750 1350 50  0001 C CNN "LCSC PN"
 F 8 "BASIC" H 10750 1350 50  0001 C CNN "JLCASM"
 	1    10750 1350
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	13250 1300 13250 1100
@@ -2514,4 +2514,19 @@ F 6 "0805W8F0000T5E" H 6500 3200 50  0001 C CNN "MPN"
 $EndComp
 Text Notes 5600 2900 0    50   ~ 0
 NOTE: Replace with Ferrite Bead 1kΩ@100Mhz
+Wire Wire Line
+	11000 1300 11000 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5EE78651
+P 11000 650
+F 0 "#PWR?" H 11000 400 50  0001 C CNN
+F 1 "GND" H 11005 477 50  0000 C CNN
+F 2 "" H 11000 650 50  0001 C CNN
+F 3 "" H 11000 650 50  0001 C CNN
+	1    11000 650 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11000 650  11000 900 
 $EndSCHEMATC

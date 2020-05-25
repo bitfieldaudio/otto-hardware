@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 7
-Title "OTTOdiy"
-Date "2020-01-10"
-Rev "1.0"
+Title "OTTO beta"
+Date "2020-05-25"
+Rev "0.1.0"
 Comp "https://github.com/otto-project"
-Comment1 "Design by Bastian \"Spatz\" Mohing and Steven \"adorbs\" Hang"
-Comment2 ""
+Comment1 ""
+Comment2 "Design by Bastian \"Spatz\" Mohing, Steven \"adorbs\" Hang,\\nand Bitfield Audio"
 Comment3 ""
 Comment4 ""
 $EndDescr

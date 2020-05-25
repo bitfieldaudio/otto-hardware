@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 2 7
-Title "OTTOdiy"
-Date "2020-01-10"
-Rev "1.0"
+Title "OTTO beta"
+Date "2020-05-25"
+Rev "0.1.0"
 Comp "https://github.com/otto-project"
-Comment1 "Design by Bastian \"Spatz\" Mohing and Steven \"adorbs\" Hang"
-Comment2 ""
+Comment1 ""
+Comment2 "Design by Bastian \"Spatz\" Mohing, Steven \"adorbs\" Hang,\\nand Bitfield Audio"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -1789,7 +1789,7 @@ F 6 "" H 7950 4650 50  0001 C CNN "Manufacturer"
 F 7 "DNP" H 7950 4650 50  0001 C CNN "JLCASM"
 F 8 "C225866" H 7950 4650 50  0001 C CNN "LCSC PN"
 	1    7950 4650
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:CP C?
@@ -1808,7 +1808,7 @@ F 6 "" H 7950 5250 50  0001 C CNN "Manufacturer"
 F 7 "DNP" H 7950 5250 50  0001 C CNN "JLCASM"
 F 8 "C225866" H 7950 5250 50  0001 C CNN "LCSC PN"
 	1    7950 5250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R230
@@ -1827,7 +1827,7 @@ F 8 "C17713" H 8350 5450 50  0001 C CNN "LCSC PN"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Crystal Y?
+L Device:Crystal_GND24 Y?
 U 1 1 5DF55A7F
 P 5650 6550
 AR Path="/5C4320DF/5DB999B7/5DF55A7F" Ref="Y?"  Part="1" 
@@ -2367,4 +2367,35 @@ F 8 "C7171" H 5850 8600 50  0001 C CNN "LCSC PN"
 	1    5850 8600
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EEBDC1D
+P 5650 7100
+AR Path="/5C4320DF/5EEBDC1D" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5DB999B7/5EEBDC1D" Ref="#PWR?"  Part="1" 
+AR Path="/5C4408C6/5EEBDC1D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5650 6850 50  0001 C CNN
+F 1 "GND" H 5655 6927 50  0000 C CNN
+F 2 "" H 5650 7100 50  0001 C CNN
+F 3 "" H 5650 7100 50  0001 C CNN
+	1    5650 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 7100 5650 6750
+$Comp
+L power:GND #PWR?
+U 1 1 5EECD1C8
+P 5150 6250
+F 0 "#PWR?" H 5150 6000 50  0001 C CNN
+F 1 "GND" V 5155 6122 50  0000 R CNN
+F 2 "" H 5150 6250 50  0001 C CNN
+F 3 "" H 5150 6250 50  0001 C CNN
+	1    5150 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 6250 5650 6250
+Wire Wire Line
+	5650 6250 5650 6350
 $EndSCHEMATC
