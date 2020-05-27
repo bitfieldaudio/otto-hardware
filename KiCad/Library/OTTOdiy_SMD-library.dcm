@@ -26,4 +26,8 @@ $CMP TPS22918_SOT23-6_A
 F http://www.ti.com/lit/ds/symlink/tps22918.pdf
 $ENDCMP
 #
+$CMP TPS5430DDAR
+F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-TPS54331DR_C9865.pdf
+$ENDCMP
+#
 #End Doc Library
