@@ -41,10 +41,6 @@ Wire Wire Line
 Wire Wire Line
 	9600 4250 9400 4250
 Wire Wire Line
-	7700 3850 7800 3850
-Wire Wire Line
-	7800 3950 7700 3950
-Wire Wire Line
 	7700 4350 7800 4350
 Wire Wire Line
 	7800 4550 7700 4550
@@ -281,10 +277,6 @@ F 8 "N/A" H 3000 9400 50  0001 C CNN "JLCASM"
 	1    3000 9400
 	1    0    0    -1  
 $EndComp
-Text GLabel 7700 3850 0    50   Output ~ 0
-MIDI_OUT
-Text GLabel 7700 3950 0    50   Input ~ 0
-MIDI_IN
 Text Notes 7950 5700 0    50   ~ 0
 Harwin M20-7912045 connector
 $Comp
@@ -1094,4 +1086,12 @@ Text Notes 10200 4250 0    50   ~ 0
 Might be needed to prioritize external jtag connection.
 Wire Notes Line style solid
 	10350 4300 10250 4400
+Text GLabel 7700 3850 0    50   Input ~ 0
+RPI_UART_TX
+Text GLabel 7700 3950 0    50   Input ~ 0
+RPI_UART_RX
+Wire Wire Line
+	7700 3950 7800 3950
+Wire Wire Line
+	7800 3850 7700 3850
 $EndSCHEMATC

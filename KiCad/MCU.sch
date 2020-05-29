@@ -14,101 +14,80 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 750  2500 1000 300 
+S 750  1900 1000 200 
 U 5C4AB546
 F0 "LEDS" 50
 F1 "LEDS.sch" 50
-F2 "SPI_MOSI_MCU" I R 1750 2600 50 
-F3 "SPI_CS_MCU_LED" I R 1750 2700 50 
+F2 "SPI_MOSI_MCU" I R 1750 2000 50 
 $EndSheet
-$Sheet
-S 750  800  1000 1400
-U 5C4AB597
-F0 "PERIPHERALS" 50
-F1 "PERIPHERALS.sch" 50
-F2 "USBD_P" I R 1750 1050 50 
-F3 "USBD_N" I R 1750 1150 50 
-F4 "5V_PWM_SYNC" I R 1750 1400 50 
-F5 "LED_PWR_EN" I R 1750 1600 50 
-F6 "5V_REG_IOUT" O R 1750 1300 50 
-F7 "DC_IN" O R 1750 2050 50 
-F8 "+5V_USB" I R 1750 1950 50 
-F9 "BARREL_IN" O R 1750 1750 50 
-F10 "BATT_IN" I R 1750 1850 50 
-F11 "5V_RUN" I R 1750 1500 50 
-$EndSheet
-Text Label 2700 1150 2    50   ~ 0
+Text Label 2700 950  2    50   ~ 0
 USBD_N
-Text Label 2700 1050 2    50   ~ 0
+Text Label 2700 850  2    50   ~ 0
 USBD_P
-Text Label 2700 2600 2    50   ~ 0
+Text Label 2700 2000 2    50   ~ 0
 SPI_MOSI_MCU
-Text Label 2700 3150 2    50   ~ 0
+Text Label 2700 2550 2    50   ~ 0
 ROW_1
-Text Label 2700 3250 2    50   ~ 0
+Text Label 2700 2650 2    50   ~ 0
 ROW_2
-Text Label 2700 3350 2    50   ~ 0
+Text Label 2700 2750 2    50   ~ 0
 ROW_3
-Text Label 2700 3450 2    50   ~ 0
+Text Label 2700 2850 2    50   ~ 0
 ROW_4
-Text Label 2700 3550 2    50   ~ 0
+Text Label 2700 2950 2    50   ~ 0
 ROW_5
-Text Label 2700 3650 2    50   ~ 0
+Text Label 2700 3050 2    50   ~ 0
 ROW_6
-Text Label 2700 3750 2    50   ~ 0
+Text Label 2700 3150 2    50   ~ 0
 ROW_7
-Text Label 2700 4000 2    50   ~ 0
+Text Label 2700 3400 2    50   ~ 0
 COL_1
-Text Label 2700 4100 2    50   ~ 0
+Text Label 2700 3500 2    50   ~ 0
 COL_2
-Text Label 2700 4200 2    50   ~ 0
+Text Label 2700 3600 2    50   ~ 0
 COL_3
-Text Label 2700 4300 2    50   ~ 0
+Text Label 2700 3700 2    50   ~ 0
 COL_4
-Text Label 2700 4400 2    50   ~ 0
+Text Label 2700 3800 2    50   ~ 0
 COL_5
-Text Label 2700 4500 2    50   ~ 0
+Text Label 2700 3900 2    50   ~ 0
 COL_6
-Text Label 2700 3850 2    50   ~ 0
+Text Label 2700 3250 2    50   ~ 0
 ROW_8
-Text Label 2700 2700 2    50   ~ 0
-SPI_CS_MCU_LED
 Wire Wire Line
-	1750 1050 2700 1050
+	1750 850  2700 850 
 Wire Wire Line
-	2700 1150 1750 1150
+	2700 950  1750 950 
 Wire Wire Line
-	1750 2600 2700 2600
+	1750 2000 2700 2000
 Wire Wire Line
-	2700 2700 1750 2700
+	2700 2550 1750 2550
 Wire Wire Line
-	2700 3150 1750 3150
+	1750 2650 2700 2650
 Wire Wire Line
-	1750 3250 2700 3250
+	2700 2750 1750 2750
 Wire Wire Line
-	2700 3350 1750 3350
+	1750 2850 2700 2850
 Wire Wire Line
-	1750 3450 2700 3450
+	1750 2950 2700 2950
 Wire Wire Line
-	1750 3550 2700 3550
+	2700 3050 1750 3050
 Wire Wire Line
-	2700 3650 1750 3650
+	1750 3150 2700 3150
 Wire Wire Line
-	1750 3750 2700 3750
+	2700 3250 1750 3250
 Wire Wire Line
-	2700 3850 1750 3850
+	1750 3400 2700 3400
 Wire Wire Line
-	1750 4000 2700 4000
+	2700 3500 1750 3500
 Wire Wire Line
-	2700 4100 1750 4100
+	1750 3600 2700 3600
 Wire Wire Line
-	1750 4200 2700 4200
+	2700 3700 1750 3700
 Wire Wire Line
-	2700 4300 1750 4300
+	1750 3800 2700 3800
 Wire Wire Line
-	1750 4400 2700 4400
-Wire Wire Line
-	2700 4500 1750 4500
+	2700 3900 1750 3900
 Wire Wire Line
 	14700 1100 14800 1100
 Wire Wire Line
@@ -852,12 +831,6 @@ PROG_UART_RX
 Wire Wire Line
 	10000 7350 9350 7350
 Wire Wire Line
-	9350 6050 10000 6050
-Text Label 10000 6050 2    50   ~ 0
-SPI_CS_MCU_LED
-Wire Wire Line
-	10000 6750 9350 6750
-Wire Wire Line
 	10000 6550 9350 6550
 Wire Wire Line
 	9350 6650 10000 6650
@@ -865,8 +838,6 @@ Text Label 10000 6550 2    50   ~ 0
 SPI_SCLK_MCU
 Text Label 10000 6650 2    50   ~ 0
 SPI_MISO_MCU
-Text Label 10000 6750 2    50   ~ 0
-SPI_MOSI_MCU
 Connection ~ 11150 3450
 Wire Wire Line
 	11150 3450 11250 3450
@@ -916,186 +887,6 @@ Wire Wire Line
 	10000 6350 9350 6350
 Wire Wire Line
 	10000 6250 9350 6250
-Text Label 900  9250 0    50   ~ 0
-CV_DAC_1
-Wire Wire Line
-	900  9250 1800 9250
-Text Label 3200 9250 2    50   ~ 0
-CV_DAC_2
-Wire Wire Line
-	3200 9250 2300 9250
-Text Label 900  9350 0    50   ~ 0
-CV_ADC_1
-Wire Wire Line
-	900  9350 1800 9350
-Text Label 3200 9350 2    50   ~ 0
-CV_ADC_2
-Wire Wire Line
-	3200 9350 2300 9350
-Text Label 900  9450 0    50   ~ 0
-GATE_IO_1
-Text Label 3200 9450 2    50   ~ 0
-GATE_IO_2
-Wire Wire Line
-	3200 9450 2300 9450
-Wire Wire Line
-	900  9450 1800 9450
-Wire Wire Line
-	3200 8400 2300 8400
-Text Label 3200 8400 2    50   ~ 0
-I2C2_SCL
-Wire Wire Line
-	900  8400 1800 8400
-Text Label 900  8400 0    50   ~ 0
-I2C2_SDA
-Text GLabel 2500 8050 2    50   Input ~ 0
-+3V3_MCU
-Text Label 900  7750 0    50   ~ 0
-PROG_UART_TX
-Wire Wire Line
-	900  7750 1800 7750
-Text Label 900  7850 0    50   ~ 0
-PROG_UART_RX
-Wire Wire Line
-	900  7850 1800 7850
-Text GLabel 1450 7600 0    50   Input ~ 0
-PWR_BUTTON
-Text Label 900  8600 0    50   ~ 0
-EXP_GPIO_5_PWM
-Text Label 3200 8600 2    50   ~ 0
-EXP_GPIO_6_PWM
-Text Label 3200 8800 2    50   ~ 0
-EXP_GPIO_2_ADC
-Text Label 900  8700 0    50   ~ 0
-EXP_GPIO_3_PWM
-Text Label 3200 8700 2    50   ~ 0
-EXP_GPIO_4_PWM
-Text GLabel 1600 8050 0    50   Input ~ 0
-+3V3_MCU
-Wire Wire Line
-	1600 8050 1800 8050
-Wire Wire Line
-	2500 8050 2300 8050
-Wire Wire Line
-	3200 8600 2300 8600
-Wire Wire Line
-	900  8600 1800 8600
-Wire Wire Line
-	3200 8700 2300 8700
-Text Label 900  8800 0    50   ~ 0
-EXP_GPIO_1_ADC
-Wire Wire Line
-	900  8700 1800 8700
-Wire Wire Line
-	3200 8800 2300 8800
-Wire Wire Line
-	900  8800 1800 8800
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J203
-U 1 1 5E420133
-P 2000 7850
-F 0 "J203" H 2050 8267 50  0000 C CNN
-F 1 "Conn_02x05" H 2050 8176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 7850 50  0001 C CNN
-F 3 "" H 2000 7850 50  0001 C CNN
-F 4 "DNP" H 2000 7850 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 2000 7850 12700 0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 7850 12700 0001 C CNN "MPN"
-F 7 "" H 2000 7850 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 7850 50  0001 C CNN "JLCASM"
-	1    2000 7850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J204
-U 1 1 5E4DC2CC
-P 2000 8600
-F 0 "J204" H 2050 9017 50  0000 C CNN
-F 1 "Conn_02x05" H 2050 8926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 8600 50  0001 C CNN
-F 3 "" H 2000 8600 50  0001 C CNN
-F 4 "DNP" H 2000 8600 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 2000 8600 12700 0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 8600 12700 0001 C CNN "MPN"
-F 7 "" H 2000 8600 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 8600 50  0001 C CNN "JLCASM"
-	1    2000 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J205
-U 1 1 5E54E3B9
-P 2000 9250
-F 0 "J205" H 2050 9567 50  0000 C CNN
-F 1 "Conn_02x04" H 2050 9476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2000 9250 50  0001 C CNN
-F 3 "" H 2000 9250 50  0001 C CNN
-F 4 "DNP" H 2000 9250 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 2000 9250 12700 0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 9250 12700 0001 C CNN "MPN"
-F 7 "" H 2000 9250 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 9250 50  0001 C CNN "JLCASM"
-	1    2000 9250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 7300 1700 7300
-Wire Wire Line
-	1700 7300 1700 7950
-Wire Wire Line
-	1700 9600 2050 9600
-Wire Wire Line
-	2400 9600 2400 9150
-Wire Wire Line
-	2400 7300 2300 7300
-Wire Wire Line
-	2300 7950 2400 7950
-Connection ~ 2400 7950
-Wire Wire Line
-	2400 7950 2400 7300
-Wire Wire Line
-	1800 7950 1700 7950
-Connection ~ 1700 7950
-Wire Wire Line
-	1700 7950 1700 8500
-Wire Wire Line
-	2300 8500 2400 8500
-Connection ~ 2400 8500
-Wire Wire Line
-	2400 8500 2400 7950
-Wire Wire Line
-	1800 8500 1700 8500
-Connection ~ 1700 8500
-Wire Wire Line
-	1700 8500 1700 9150
-Wire Wire Line
-	2300 9150 2400 9150
-Connection ~ 2400 9150
-Wire Wire Line
-	2400 9150 2400 8500
-Wire Wire Line
-	1800 9150 1700 9150
-Connection ~ 1700 9150
-Wire Wire Line
-	1700 9150 1700 9600
-$Comp
-L power:GND #PWR0217
-U 1 1 5E76BBF6
-P 2050 9700
-AR Path="/5C4320DF/5E76BBF6" Ref="#PWR0217"  Part="1" 
-AR Path="/5C4320DF/5DB999B7/5E76BBF6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0217" H 2050 9450 50  0001 C CNN
-F 1 "GND" H 2055 9527 50  0000 C CNN
-F 2 "" H 2050 9700 50  0001 C CNN
-F 3 "" H 2050 9700 50  0001 C CNN
-	1    2050 9700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 9700 2050 9600
-Connection ~ 2050 9600
-Wire Wire Line
-	2050 9600 2400 9600
 $Comp
 L Device:R R206
 U 1 1 5E83B2BF
@@ -1150,45 +941,12 @@ Wire Wire Line
 	15100 2150 15200 2150
 Wire Wire Line
 	15200 2150 15200 1800
-Wire Wire Line
-	1450 7600 1500 7600
-Wire Wire Line
-	1500 7600 1500 7650
-Wire Wire Line
-	1500 7650 1800 7650
-Text Notes 800  10800 0    50   ~ 0
-This connector can be useful to expand the features of the OTTO. \nWith an expansion board, you could add a battery with char-\nging circuit to the board. \nPWR_BUTTON is routed here in case the battery IC needs it to \npower up.\nI2C and the other connections can be used for the charging \ncircuit, too. (ADC for battery level, PWM for status LEDs)\nThe last bit is for a CV/Gate I/O.
-Wire Notes Line
-	750  10850 750  6200
-Wire Notes Line
-	750  6200 3400 6200
-Wire Notes Line
-	3400 6200 3400 10850
-Wire Notes Line
-	3400 10850 750  10850
 Text GLabel 5950 9150 0    50   BiDi ~ 0
 TRIGGER1
 Text GLabel 5950 9250 0    50   BiDi ~ 0
 TRIGGER2
 Text GLabel 5950 9350 0    50   BiDi ~ 0
 TRIGGER3
-Text GLabel 1600 6600 0    50   Input ~ 0
-+3V3_MCU
-$Comp
-L power:GND #PWR0216
-U 1 1 5F293747
-P 2500 6600
-AR Path="/5C4320DF/5F293747" Ref="#PWR0216"  Part="1" 
-AR Path="/5C4320DF/5DB999B7/5F293747" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0216" H 2500 6350 50  0001 C CNN
-F 1 "GND" V 2505 6472 50  0000 R CNN
-F 2 "" H 2500 6600 50  0001 C CNN
-F 3 "" H 2500 6600 50  0001 C CNN
-	1    2500 6600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2500 6600 2200 6600
 $Comp
 L Device:C C218
 U 1 1 5F3CE62A
@@ -1440,18 +1198,6 @@ F 8 "C1794" H 13250 1450 50  0001 C CNN "LCSC PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1750 1300 2700 1300
-Wire Wire Line
-	1750 1400 2700 1400
-Wire Wire Line
-	1750 1600 2700 1600
-Text Label 2700 1300 2    50   ~ 0
-5V_REG_IOUT
-Text Label 2700 1400 2    50   ~ 0
-5V_PWM_SYNC
-Text Label 2700 1600 2    50   ~ 0
-LED_PWR_EN
-Wire Wire Line
 	14200 7700 14350 7700
 Text Label 13150 8250 0    50   ~ 0
 ICP_RST
@@ -1481,33 +1227,6 @@ Wire Wire Line
 	8650 1100 9050 1100
 Text Label 8650 1100 0    50   ~ 0
 ICP_RST
-$Comp
-L Device:C C?
-U 1 1 5F213664
-P 2050 6600
-AR Path="/5C4408C6/5F213664" Ref="C?"  Part="1" 
-AR Path="/5C4320DF/5F213664" Ref="C226"  Part="1" 
-F 0 "C226" V 1798 6600 50  0000 C CNN
-F 1 "10uF" V 1889 6600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2088 6450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C15850.pdf" H 2050 6600 50  0001 C CNN
-F 4 "" H 2050 6600 50  0001 C CNN "UnitCost(USD)"
-F 5 "CL21A106KAYNNNE" H 2050 6600 50  0001 C CNN "MPN"
-F 6 "" H 2050 6600 50  0001 C CNN "Manufacturer"
-F 7 "" V 2000 6750 50  0000 C CNN "AssemblyOption"
-F 8 "BASIC" H 2050 6600 50  0001 C CNN "JLCASM"
-F 9 "C15850" H 2050 6600 50  0001 C CNN "LCSC PN"
-	1    2050 6600
-	0    1    1    0   
-$EndComp
-Text Label 10000 8650 2    50   ~ 0
-5V_PWM_SYNC
-Wire Wire Line
-	10000 8650 9350 8650
-Wire Wire Line
-	1750 2050 2700 2050
-Text Label 2700 2050 2    50   ~ 0
-DC_IN
 Wire Wire Line
 	5950 9150 6950 9150
 Wire Wire Line
@@ -1517,45 +1236,41 @@ Wire Wire Line
 Text Label 10000 5450 2    50   ~ 0
 +5V_USB
 Wire Wire Line
-	2700 4600 1750 4600
-Text Label 2700 4600 2    50   ~ 0
+	2700 4000 1750 4000
+Text Label 2700 4000 2    50   ~ 0
 COL_7
-Wire Wire Line
-	2700 5700 1750 5700
-Wire Wire Line
-	1750 4850 2700 4850
-Text Label 2700 4850 2    50   ~ 0
-ENC_A_1
-Wire Wire Line
-	2700 5600 1750 5600
-Wire Wire Line
-	1750 5450 2700 5450
-Wire Wire Line
-	2700 5350 1750 5350
-Wire Wire Line
-	1750 5200 2700 5200
 Wire Wire Line
 	2700 5100 1750 5100
 Wire Wire Line
-	1750 4950 2700 4950
-Text Label 2700 5700 2    50   ~ 0
-ENC_B_4
-Text Label 2700 5600 2    50   ~ 0
-ENC_A_4
-Text Label 2700 5450 2    50   ~ 0
-ENC_B_3
-Text Label 2700 5350 2    50   ~ 0
-ENC_A_3
-Text Label 2700 5200 2    50   ~ 0
-ENC_B_2
-Text Label 2700 5100 2    50   ~ 0
-ENC_A_2
-Text Label 2700 4950 2    50   ~ 0
-ENC_B_1
+	1750 4250 2700 4250
+Text Label 2700 4250 2    50   ~ 0
+ENC_A_1
 Wire Wire Line
-	1750 1950 2700 1950
-Text Label 2700 1950 2    50   ~ 0
-+5V_USB
+	2700 5000 1750 5000
+Wire Wire Line
+	1750 4850 2700 4850
+Wire Wire Line
+	2700 4750 1750 4750
+Wire Wire Line
+	1750 4600 2700 4600
+Wire Wire Line
+	2700 4500 1750 4500
+Wire Wire Line
+	1750 4350 2700 4350
+Text Label 2700 5100 2    50   ~ 0
+ENC_B_4
+Text Label 2700 5000 2    50   ~ 0
+ENC_A_4
+Text Label 2700 4850 2    50   ~ 0
+ENC_B_3
+Text Label 2700 4750 2    50   ~ 0
+ENC_A_3
+Text Label 2700 4600 2    50   ~ 0
+ENC_B_2
+Text Label 2700 4500 2    50   ~ 0
+ENC_A_2
+Text Label 2700 4350 2    50   ~ 0
+ENC_B_1
 $Bitmap
 Pos 15400 10300
 Scale 0.750000
@@ -1757,76 +1472,14 @@ Text HLabel 10000 6950 2    50   BiDi ~ 0
 GPIO1_RASPI
 Text HLabel 10000 6850 2    50   BiDi ~ 0
 GPIO0_RASPI
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J202
-U 1 1 5E4E3F94
-P 2000 7100
-F 0 "J202" H 2050 7417 50  0000 C CNN
-F 1 "Conn_02x04" H 2050 7326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2000 7100 50  0001 C CNN
-F 3 "" H 2000 7100 50  0001 C CNN
-F 4 "DNP" H 2000 7100 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 2000 7100 12700 0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 7100 12700 0001 C CNN "MPN"
-F 7 "" H 2000 7100 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 7100 50  0001 C CNN "JLCASM"
-	1    2000 7100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1600 6600 1900 6600
-Wire Wire Line
-	1750 1500 2700 1500
-Text Label 2700 1500 2    50   ~ 0
-5V_RUN
-Wire Wire Line
-	1750 1750 2700 1750
-Wire Wire Line
-	1750 1850 2700 1850
-Text Label 2700 1750 2    50   ~ 0
-BARREL_IN
-Text Label 2700 1850 2    50   ~ 0
-BATT_IN
-Text Label 1200 7100 0    50   ~ 0
-BARREL_IN
-Text Label 2900 7200 2    50   ~ 0
-+5V_USB
-Wire Wire Line
-	2300 7000 2900 7000
-Wire Wire Line
-	2300 7100 2900 7100
-Wire Wire Line
-	2300 7200 2900 7200
-Text Label 2900 7000 2    50   ~ 0
-DC_IN
-Wire Wire Line
-	1200 7000 1800 7000
-Wire Wire Line
-	1200 7100 1800 7100
-Wire Wire Line
-	2300 7650 2900 7650
-Text Label 2900 7650 2    50   ~ 0
-5V_RUN
 Wire Wire Line
 	13700 8550 13700 8650
 Wire Wire Line
 	13150 8650 13700 8650
 Wire Wire Line
-	2300 7750 2900 7750
-Wire Wire Line
-	2300 7850 2900 7850
-Text Label 2900 7750 2    50   ~ 0
-ICP_SWDIO
-Text Label 2900 7850 2    50   ~ 0
-ICP_SWCLK
-Wire Wire Line
 	14350 7700 14350 7950
 Wire Wire Line
 	14350 9150 14350 9400
-Wire Wire Line
-	1200 7200 1800 7200
-Text Label 1200 7200 0    50   ~ 0
-+5V_USB
 $Comp
 L Connector:TestPoint TP16
 U 1 1 5ED2EDF0
@@ -2250,39 +1903,39 @@ F 3 "" H 11500 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 750  3050 1000 2700
+S 750  2450 1000 2700
 U 5C971830
 F0 "KEYS+ENCODERS" 50
 F1 "KEYS+ENCODERS.sch" 50
-F2 "ROW_1" I R 1750 3150 50 
-F3 "ROW_2" I R 1750 3250 50 
-F4 "ROW_3" I R 1750 3350 50 
-F5 "ROW_4" I R 1750 3450 50 
-F6 "ROW_5" I R 1750 3550 50 
-F7 "ROW_6" I R 1750 3650 50 
-F8 "ROW_7" I R 1750 3750 50 
-F9 "COL_1" I R 1750 4000 50 
-F10 "COL_2" I R 1750 4100 50 
-F11 "COL_3" I R 1750 4200 50 
-F12 "COL_4" I R 1750 4300 50 
-F13 "COL_5" I R 1750 4400 50 
-F14 "COL_6" I R 1750 4500 50 
-F15 "ROW_8" I R 1750 3850 50 
-F16 "ENC_A_1" I R 1750 4850 50 
-F17 "ENC_B_1" I R 1750 4950 50 
-F18 "ENC_A_2" I R 1750 5100 50 
-F19 "ENC_B_2" I R 1750 5200 50 
-F20 "ENC_A_3" I R 1750 5350 50 
-F21 "ENC_A_4" I R 1750 5600 50 
-F22 "ENC_B_4" I R 1750 5700 50 
-F23 "ENC_B_3" I R 1750 5450 50 
-F24 "COL_7" I R 1750 4600 50 
-F25 "COL_8" I R 1750 4700 50 
+F2 "ROW_1" I R 1750 2550 50 
+F3 "ROW_2" I R 1750 2650 50 
+F4 "ROW_3" I R 1750 2750 50 
+F5 "ROW_4" I R 1750 2850 50 
+F6 "ROW_5" I R 1750 2950 50 
+F7 "ROW_6" I R 1750 3050 50 
+F8 "ROW_7" I R 1750 3150 50 
+F9 "COL_1" I R 1750 3400 50 
+F10 "COL_2" I R 1750 3500 50 
+F11 "COL_3" I R 1750 3600 50 
+F12 "COL_4" I R 1750 3700 50 
+F13 "COL_5" I R 1750 3800 50 
+F14 "COL_6" I R 1750 3900 50 
+F15 "ROW_8" I R 1750 3250 50 
+F16 "ENC_A_1" I R 1750 4250 50 
+F17 "ENC_B_1" I R 1750 4350 50 
+F18 "ENC_A_2" I R 1750 4500 50 
+F19 "ENC_B_2" I R 1750 4600 50 
+F20 "ENC_A_3" I R 1750 4750 50 
+F21 "ENC_A_4" I R 1750 5000 50 
+F22 "ENC_B_4" I R 1750 5100 50 
+F23 "ENC_B_3" I R 1750 4850 50 
+F24 "COL_7" I R 1750 4000 50 
+F25 "COL_8" I R 1750 4100 50 
 $EndSheet
-Text Label 2700 4700 2    50   ~ 0
+Text Label 2700 4100 2    50   ~ 0
 COL_8
 Wire Wire Line
-	2700 4700 1750 4700
+	2700 4100 1750 4100
 Text Label 10000 8950 2    50   ~ 0
 COL_8
 Wire Wire Line
@@ -2372,10 +2025,6 @@ F 3 "" H 11500 6200 50  0001 C CNN
 	1    11500 6200
 	1    0    0    -1  
 $EndComp
-Text Label 1200 7000 0    50   ~ 0
-DC_IN
-Text Label 2900 7100 2    50   ~ 0
-BARREL_IN
 NoConn ~ 9350 4850
 NoConn ~ 9350 4550
 Wire Wire Line
@@ -2403,4 +2052,428 @@ F 8 "N/A" H 5550 6250 50  0001 C CNN "JLCASM"
 	1    5550 6250
 	0    -1   1    0   
 $EndComp
+Text GLabel 15200 5200 2    50   Input ~ 0
+PWR_BUTTON
+Wire Wire Line
+	14300 5300 14300 5550
+Wire Wire Line
+	14900 5200 14900 5550
+Wire Wire Line
+	14800 5200 14900 5200
+Connection ~ 14300 5300
+Wire Wire Line
+	14300 5300 14200 5300
+Wire Wire Line
+	14300 5300 14400 5300
+Connection ~ 14900 5200
+Wire Wire Line
+	14900 5200 15200 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5F4853EC
+P 14200 5300
+AR Path="/5C4320DF/5C4AB60A/5F4853EC" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5F4853EC" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5F4853EC" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 14200 5050 50  0001 C CNN
+F 1 "GND" H 14205 5127 50  0000 C CNN
+F 2 "" H 14200 5300 50  0001 C CNN
+F 3 "" H 14200 5300 50  0001 C CNN
+	1    14200 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW?
+U 1 1 5F4853F7
+P 14600 5200
+AR Path="/5C4320DF/5C4AB597/5F4853F7" Ref="SW?"  Part="1" 
+AR Path="/5C4320DF/5F4853F7" Ref="SW49"  Part="1" 
+F 0 "SW49" H 14750 5000 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 14750 5000 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:SSAC120100" H 14600 5200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C202374.pdf" H 14600 5200 50  0001 C CNN
+F 4 "DNP" H 14600 5200 50  0001 C CNN "JLCASM"
+F 5 "C202374" H 14600 5200 50  0001 C CNN "LCSC PN"
+F 6 "SSAC120100" H 14600 5200 50  0001 C CNN "MPN"
+F 7 "" H 14600 5200 50  0001 C CNN "Manufacturer"
+F 8 "" H 14600 5200 50  0001 C CNN "UnitCost(USD)"
+	1    14600 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14300 5550 14450 5550
+Wire Wire Line
+	14900 5550 14750 5550
+$Comp
+L Device:C C?
+U 1 1 5F485404
+P 14600 5550
+AR Path="/5C4320DF/5C4AB60A/5F485404" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C6CAC95/5F485404" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5F485404" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5F485404" Ref="C4"  Part="1" 
+F 0 "C4" V 14760 5550 50  0000 C CNN
+F 1 "100nF" V 14851 5550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14638 5400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C49678.pdf" H 14600 5550 50  0001 C CNN
+F 4 "" H 14600 5550 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CC0805KRX7R9BB104" H 14600 5550 12700 0001 C CNN "MPN"
+F 6 "" H 14600 5550 12700 0001 C CNN "Manufacturer"
+F 7 "C49678" H 14600 5550 50  0001 C CNN "LCSC PN"
+F 8 "BASIC" H 14600 5550 50  0001 C CNN "JLCASM"
+	1    14600 5550
+	0    1    1    0   
+$EndComp
+NoConn ~ 14400 5100
+Wire Notes Line
+	15800 5950 15800 4750
+Wire Notes Line
+	15800 4750 13850 4750
+Wire Notes Line
+	13850 4750 13850 5950
+Wire Notes Line
+	13850 5950 15800 5950
+Text Notes 13950 4900 0    50   ~ 0
+Power button to MCU\n
+Text Label 900  9350 0    50   ~ 0
+CV_DAC_1
+Wire Wire Line
+	900  9350 1800 9350
+Text Label 3200 9350 2    50   ~ 0
+CV_DAC_2
+Wire Wire Line
+	3200 9350 2300 9350
+Text Label 900  9450 0    50   ~ 0
+CV_ADC_1
+Wire Wire Line
+	900  9450 1800 9450
+Text Label 3200 9450 2    50   ~ 0
+CV_ADC_2
+Wire Wire Line
+	3200 9450 2300 9450
+Text Label 900  9550 0    50   ~ 0
+GATE_IO_1
+Text Label 3200 9550 2    50   ~ 0
+GATE_IO_2
+Wire Wire Line
+	3200 9550 2300 9550
+Wire Wire Line
+	900  9550 1800 9550
+Wire Wire Line
+	3200 8500 2300 8500
+Text Label 3200 8500 2    50   ~ 0
+I2C2_SCL
+Wire Wire Line
+	900  8500 1800 8500
+Text Label 900  8500 0    50   ~ 0
+I2C2_SDA
+Text GLabel 2500 8150 2    50   Input ~ 0
++3V3_MCU
+Text Label 900  7850 0    50   ~ 0
+PROG_UART_TX
+Wire Wire Line
+	900  7850 1800 7850
+Text Label 900  7950 0    50   ~ 0
+PROG_UART_RX
+Wire Wire Line
+	900  7950 1800 7950
+Text GLabel 1450 7700 0    50   Input ~ 0
+PWR_BUTTON
+Text Label 900  8700 0    50   ~ 0
+EXP_GPIO_5_PWM
+Text Label 3200 8700 2    50   ~ 0
+EXP_GPIO_6_PWM
+Text Label 3200 8900 2    50   ~ 0
+EXP_GPIO_2_ADC
+Text Label 900  8800 0    50   ~ 0
+EXP_GPIO_3_PWM
+Text Label 3200 8800 2    50   ~ 0
+EXP_GPIO_4_PWM
+Text GLabel 1600 8150 0    50   Input ~ 0
++3V3_MCU
+Wire Wire Line
+	1600 8150 1800 8150
+Wire Wire Line
+	2500 8150 2300 8150
+Wire Wire Line
+	3200 8700 2300 8700
+Wire Wire Line
+	900  8700 1800 8700
+Wire Wire Line
+	3200 8800 2300 8800
+Text Label 900  8900 0    50   ~ 0
+EXP_GPIO_1_ADC
+Wire Wire Line
+	900  8800 1800 8800
+Wire Wire Line
+	3200 8900 2300 8900
+Wire Wire Line
+	900  8900 1800 8900
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 5F59A3A1
+P 2000 7950
+F 0 "J4" H 2050 8367 50  0000 C CNN
+F 1 "Conn_02x05" H 2050 8276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 7950 50  0001 C CNN
+F 3 "" H 2000 7950 50  0001 C CNN
+F 4 "DNP" H 2000 7950 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 2000 7950 12700 0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 2000 7950 12700 0001 C CNN "MPN"
+F 7 "" H 2000 7950 12700 0001 C CNN "Manufacturer"
+F 8 "N/A" H 2000 7950 50  0001 C CNN "JLCASM"
+	1    2000 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J5
+U 1 1 5F59A3AC
+P 2000 8700
+F 0 "J5" H 2050 9117 50  0000 C CNN
+F 1 "Conn_02x05" H 2050 9026 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 8700 50  0001 C CNN
+F 3 "" H 2000 8700 50  0001 C CNN
+F 4 "DNP" H 2000 8700 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 2000 8700 12700 0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 2000 8700 12700 0001 C CNN "MPN"
+F 7 "" H 2000 8700 12700 0001 C CNN "Manufacturer"
+F 8 "N/A" H 2000 8700 50  0001 C CNN "JLCASM"
+	1    2000 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J6
+U 1 1 5F59A3B7
+P 2000 9350
+F 0 "J6" H 2050 9667 50  0000 C CNN
+F 1 "Conn_02x04" H 2050 9576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2000 9350 50  0001 C CNN
+F 3 "" H 2000 9350 50  0001 C CNN
+F 4 "DNP" H 2000 9350 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 2000 9350 12700 0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 2000 9350 12700 0001 C CNN "MPN"
+F 7 "" H 2000 9350 12700 0001 C CNN "Manufacturer"
+F 8 "N/A" H 2000 9350 50  0001 C CNN "JLCASM"
+	1    2000 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 9700 2050 9700
+Wire Wire Line
+	2400 9700 2400 9250
+Wire Wire Line
+	2400 7300 2300 7300
+Wire Wire Line
+	2300 8050 2400 8050
+Wire Wire Line
+	1800 8050 1700 8050
+Wire Wire Line
+	1700 8050 1700 8600
+Wire Wire Line
+	2300 8600 2400 8600
+Connection ~ 2400 8600
+Wire Wire Line
+	2400 8600 2400 8050
+Wire Wire Line
+	1800 8600 1700 8600
+Connection ~ 1700 8600
+Wire Wire Line
+	1700 8600 1700 9250
+Wire Wire Line
+	2300 9250 2400 9250
+Connection ~ 2400 9250
+Wire Wire Line
+	2400 9250 2400 8600
+Wire Wire Line
+	1800 9250 1700 9250
+Connection ~ 1700 9250
+Wire Wire Line
+	1700 9250 1700 9700
+$Comp
+L power:GND #PWR0106
+U 1 1 5F59A3D4
+P 2050 9800
+AR Path="/5C4320DF/5F59A3D4" Ref="#PWR0106"  Part="1" 
+AR Path="/5C4320DF/5DB999B7/5F59A3D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0106" H 2050 9550 50  0001 C CNN
+F 1 "GND" H 2055 9627 50  0000 C CNN
+F 2 "" H 2050 9800 50  0001 C CNN
+F 3 "" H 2050 9800 50  0001 C CNN
+	1    2050 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 9800 2050 9700
+Connection ~ 2050 9700
+Wire Wire Line
+	2050 9700 2400 9700
+Wire Wire Line
+	1450 7700 1500 7700
+Wire Wire Line
+	1500 7700 1500 7750
+Wire Wire Line
+	1500 7750 1800 7750
+Text Notes 800  10900 0    50   ~ 0
+This connector can be useful to expand the features of the OTTO. \nWith an expansion board, you could add a battery with char-\nging circuit to the board. \nPWR_BUTTON is routed here in case the battery IC needs it to \npower up.\nI2C and the other connections can be used for the charging \ncircuit, too. (ADC for battery level, PWM for status LEDs)\nThe last bit is for a CV/Gate I/O.
+Wire Notes Line
+	750  10850 750  6200
+Wire Notes Line
+	750  6200 3400 6200
+Wire Notes Line
+	3400 6200 3400 10850
+Wire Notes Line
+	3400 10950 750  10950
+Text GLabel 1600 6550 0    50   Input ~ 0
++3V3_MCU
+$Comp
+L power:GND #PWR0116
+U 1 1 5F59A3E6
+P 2500 6550
+AR Path="/5C4320DF/5F59A3E6" Ref="#PWR0116"  Part="1" 
+AR Path="/5C4320DF/5DB999B7/5F59A3E6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0116" H 2500 6300 50  0001 C CNN
+F 1 "GND" V 2505 6422 50  0000 R CNN
+F 2 "" H 2500 6550 50  0001 C CNN
+F 3 "" H 2500 6550 50  0001 C CNN
+	1    2500 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 6550 2200 6550
+$Comp
+L Device:C C?
+U 1 1 5F59A3F3
+P 2050 6550
+AR Path="/5C4408C6/5F59A3F3" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5F59A3F3" Ref="C3"  Part="1" 
+F 0 "C3" V 1798 6550 50  0000 C CNN
+F 1 "10uF" V 1889 6550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2088 6400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C15850.pdf" H 2050 6550 50  0001 C CNN
+F 4 "" H 2050 6550 50  0001 C CNN "UnitCost(USD)"
+F 5 "CL21A106KAYNNNE" H 2050 6550 50  0001 C CNN "MPN"
+F 6 "" H 2050 6550 50  0001 C CNN "Manufacturer"
+F 7 "" V 2000 6700 50  0000 C CNN "AssemblyOption"
+F 8 "BASIC" H 2050 6550 50  0001 C CNN "JLCASM"
+F 9 "C15850" H 2050 6550 50  0001 C CNN "LCSC PN"
+	1    2050 6550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 6550 1900 6550
+Text Label 1200 6900 0    50   ~ 0
+BARREL_IN
+Wire Wire Line
+	1200 6900 1800 6900
+Wire Wire Line
+	1200 7000 1800 7000
+Wire Wire Line
+	2300 7850 2900 7850
+Wire Wire Line
+	2300 7950 2900 7950
+Text Label 2900 7850 2    50   ~ 0
+ICP_SWDIO
+Text Label 2900 7950 2    50   ~ 0
+ICP_SWCLK
+Wire Wire Line
+	1200 7400 1800 7400
+Text Label 1200 7400 0    50   ~ 0
++5V_USB
+Text Label 2700 1250 2    50   ~ 0
+BARREL_IN
+Wire Wire Line
+	1750 1250 2700 1250
+Text Label 2700 1350 2    50   ~ 0
++5V_USB
+Wire Wire Line
+	1750 1350 2700 1350
+Text Label 2700 1500 2    50   ~ 0
+BUCK_IN
+Wire Wire Line
+	1750 1500 2700 1500
+Text Label 2700 1100 2    50   ~ 0
+LED_PWR_EN
+Wire Wire Line
+	1750 1100 2700 1100
+$Sheet
+S 750  750  1000 950 
+U 5C4AB597
+F0 "PERIPHERALS" 50
+F1 "PERIPHERALS.sch" 50
+F2 "USBD_P" I R 1750 850 50 
+F3 "USBD_N" I R 1750 950 50 
+F4 "LED_PWR_EN" I R 1750 1100 50 
+F5 "BUCK_IN" O R 1750 1500 50 
+F6 "+5V_USB" I R 1750 1350 50 
+F7 "BARREL_IN" O R 1750 1250 50 
+F8 "BUCK_OUT" O R 1750 1600 50 
+$EndSheet
+Text Label 10000 6750 2    50   ~ 0
+SPI_MOSI_MCU
+Wire Wire Line
+	10000 6750 9350 6750
+NoConn ~ 9350 6050
+NoConn ~ 9350 8650
+NoConn ~ 2300 7750
+Text Label 1200 7000 0    50   ~ 0
+BARREL_IN
+Text Label 2700 1600 2    50   ~ 0
+BUCK_OUT
+Wire Wire Line
+	2700 1600 1750 1600
+Text Label 2900 7200 2    50   ~ 0
+BUCK_OUT
+Wire Wire Line
+	2900 7100 2300 7100
+Text Label 2900 7100 2    50   ~ 0
+BUCK_OUT
+Wire Wire Line
+	2900 7200 2300 7200
+Text Label 2900 7000 2    50   ~ 0
+BUCK_IN
+Text Label 2900 6900 2    50   ~ 0
+BUCK_IN
+Wire Wire Line
+	2300 7000 2900 7000
+Wire Wire Line
+	2300 6900 2900 6900
+Wire Wire Line
+	1800 7300 1700 7300
+Connection ~ 1700 8050
+Wire Wire Line
+	1700 7300 1700 8050
+Text Label 2900 7400 2    50   ~ 0
++5V_USB
+Text GLabel 1550 7100 0    50   Input ~ 0
++5V_REG
+Wire Wire Line
+	1550 7100 1700 7100
+Wire Wire Line
+	1700 7100 1700 7200
+Wire Wire Line
+	1700 7200 1800 7200
+Connection ~ 1700 7100
+Wire Wire Line
+	1700 7100 1800 7100
+Wire Wire Line
+	2300 7400 2900 7400
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J3
+U 1 1 5F59A3FE
+P 2000 7100
+F 0 "J3" H 2050 7500 50  0000 C CNN
+F 1 "Conn_02x06" H 2050 7400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2000 7100 50  0001 C CNN
+F 3 "" H 2000 7100 50  0001 C CNN
+F 4 "DNP" H 2000 7100 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 2000 7100 12700 0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 2000 7100 12700 0001 C CNN "MPN"
+F 7 "" H 2000 7100 12700 0001 C CNN "Manufacturer"
+F 8 "N/A" H 2000 7100 50  0001 C CNN "JLCASM"
+	1    2000 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 8050 2400 7300
+Connection ~ 2400 8050
 $EndSCHEMATC

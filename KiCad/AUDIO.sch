@@ -434,10 +434,6 @@ Text Label 12100 9000 0    50   ~ 0
 I2S_LRCLK*
 Text Label 14250 8550 2    50   ~ 0
 I2S_BCLK*
-Text GLabel 13500 8450 2    50   Output ~ 0
-MIDI_IN
-Text GLabel 13500 8350 2    50   Input ~ 0
-MIDI_OUT
 $Comp
 L power:GND #PWR0251
 U 1 1 5DF9E5E4
@@ -1114,10 +1110,6 @@ Wire Notes Line
 	14350 9600 11850 9600
 Wire Notes Line
 	11850 7200 14350 7200
-Wire Wire Line
-	13500 8350 13300 8350
-Wire Wire Line
-	13500 8450 13300 8450
 Wire Wire Line
 	12800 8450 12600 8450
 Wire Wire Line
@@ -2398,4 +2390,12 @@ Wire Wire Line
 	5150 6250 5650 6250
 Wire Wire Line
 	5650 6250 5650 6350
+Text GLabel 13500 8350 2    50   Input ~ 0
+RPI_UART_TX
+Wire Wire Line
+	13500 8350 13300 8350
+Text GLabel 13500 8450 2    50   Input ~ 0
+RPI_UART_RX
+Wire Wire Line
+	13300 8450 13500 8450
 $EndSCHEMATC
