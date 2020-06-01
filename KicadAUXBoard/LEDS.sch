@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "OTTOdiy"
 Date "2020-01-10"
 Rev "1.0"
@@ -15,8 +15,6 @@ Comment4 ""
 $EndDescr
 Text HLabel 2400 5400 0    50   Input ~ 0
 SPI_MOSI_MCU
-Text GLabel 2900 4250 0    50   Input ~ 0
-+5V_LEDS
 $Comp
 L Device:R R208
 U 1 1 5C5B66C4
@@ -3064,38 +3062,8 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L Device:R R27
-U 1 1 5ED35FED
-P 4850 4750
-F 0 "R27" V 4643 4750 50  0000 C CNN
-F 1 "100" V 4734 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4780 4750 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17408.pdf" H 4850 4750 50  0001 C CNN
-F 4 "" H 4850 4750 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F1000T5E" H 4850 4750 50  0001 C CNN "MPN"
-F 6 "" H 4850 4750 50  0001 C CNN "Manufacturer"
-F 7 "" V 4850 4750 50  0000 C CNN "AssemblyOption"
-F 8 "BASIC" H 4850 4750 50  0001 C CNN "JLCASM"
-F 9 "C17408" H 4850 4750 50  0001 C CNN "LCSC PN"
-	1    4850 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4700 4750 4600 4750
 Wire Wire Line
 	5000 5300 6350 5300
-Wire Wire Line
-	5000 4750 5500 4750
-Text Label 5500 4750 2    50   ~ 0
-LED_OUT
-Wire Wire Line
-	4500 5300 4600 5300
-Wire Wire Line
-	4600 4750 4600 5300
-Connection ~ 4600 5300
-Wire Wire Line
-	4600 5300 4700 5300
 Connection ~ 6400 9950
 Wire Wire Line
 	8800 10250 8800 10350
@@ -3474,4 +3442,14 @@ F 8 "C190565" H 10900 9450 50  0001 C CNN "LCSC PN"
 $EndComp
 Wire Wire Line
 	11200 9450 11850 9450
+Text HLabel 2900 4250 0    50   Input ~ 0
++5V_LEDS
+Text GLabel 2900 4000 0    50   Input ~ 0
++5V_LEDS
+Wire Wire Line
+	3050 4250 3050 4000
+Wire Wire Line
+	3050 4000 2900 4000
+Wire Wire Line
+	4500 5300 4700 5300
 $EndSCHEMATC

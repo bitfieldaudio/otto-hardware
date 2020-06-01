@@ -13,27 +13,6 @@ Comment2 "Design by Bastian \"Spatz\" Mohing, Steven \"adorbs\" Hang,\\nand Bitf
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2400 5400 0    50   Input ~ 0
-SPI_MOSI_MCU
-Text GLabel 2900 4250 0    50   Input ~ 0
-+5V_LEDS
-$Comp
-L power:GND #PWR0110
-U 1 1 5E0CC3A4
-P 3050 5800
-F 0 "#PWR0110" H 3050 5550 50  0001 C CNN
-F 1 "GND" H 3055 5627 50  0000 C CNN
-F 2 "" H 3050 5800 50  0001 C CNN
-F 3 "" H 3050 5800 50  0001 C CNN
-	1    3050 5800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3050 5600 3050 5800
-Wire Wire Line
-	3350 4250 3350 4400
-Wire Wire Line
-	2400 5400 2750 5400
 $Bitmap
 Pos 15400 10300
 Scale 0.750000
@@ -229,8 +208,4 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Wire Wire Line
-	6300 10350 8800 10350
-Wire Wire Line
-	2900 4250 3350 4250
 $EndSCHEMATC

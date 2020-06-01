@@ -13,13 +13,6 @@ Comment2 "Design by Bastian \"Spatz\" Mohing, Steven \"adorbs\" Hang,\\nand Bitf
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 750  1900 1000 200 
-U 5C4AB546
-F0 "LEDS" 50
-F1 "LEDS.sch" 50
-F2 "SPI_MOSI_MCU" I R 1750 2000 50 
-$EndSheet
 Text Label 2700 950  2    50   ~ 0
 USBD_N
 Text Label 2700 850  2    50   ~ 0
@@ -2476,4 +2469,11 @@ $EndComp
 Wire Wire Line
 	2400 8050 2400 7300
 Connection ~ 2400 8050
+$Sheet
+S 750  1900 1000 200 
+U 5C4AB546
+F0 "LEDS" 50
+F1 "LEDS.sch" 50
+F2 "SPI_MOSI_MCU" I R 1750 2000 50 
+$EndSheet
 $EndSCHEMATC
