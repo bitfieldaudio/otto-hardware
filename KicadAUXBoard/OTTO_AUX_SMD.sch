@@ -1495,8 +1495,6 @@ Wire Wire Line
 Text GLabel 9750 2500 2    50   Input ~ 0
 5V_BACKLIGHT
 Wire Wire Line
-	6450 6000 6350 6000
-Wire Wire Line
 	6350 5900 6450 5900
 $Comp
 L power:GND #PWR019
@@ -1522,12 +1520,10 @@ Wire Wire Line
 Connection ~ 6700 6450
 Text GLabel 6350 5900 0    50   Input ~ 0
 +5V_REG
-Text GLabel 6350 6000 0    50   Input ~ 0
+Text GLabel 7100 6000 2    50   Input ~ 0
 LED_PWR_EN
-Text Label 7750 6000 2    50   ~ 0
+Text Label 5300 6000 0    50   ~ 0
 SPI_MOSI_MCU
-Wire Wire Line
-	6950 6000 7750 6000
 Text GLabel 7100 5900 2    50   Input ~ 0
 +5V_REG
 Wire Wire Line
@@ -1583,4 +1579,9 @@ Wire Wire Line
 	7250 2450 7400 2450
 Wire Wire Line
 	6900 2450 7150 2450
+NoConn ~ 6950 6100
+Wire Wire Line
+	5300 6000 6450 6000
+Wire Wire Line
+	7100 6000 6950 6000
 $EndSCHEMATC

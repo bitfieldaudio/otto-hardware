@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title "OTTO beta"
 Date "2020-05-25"
 Rev "0.1.0"
@@ -90,24 +90,6 @@ $EndComp
 Wire Wire Line
 	-4500 7350 -3350 7350
 NoConn ~ -3350 7250
-$Comp
-L OTTOdiy_SMD-library:2.8INCH_IPS_SPI-Display_Graphic DISPLAY?
-U 1 1 5D412CB0
-P -3450 9450
-AR Path="/5C43B923/5D412CB0" Ref="DISPLAY?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D412CB0" Ref="DISPLAY201"  Part="1" 
-F 0 "DISPLAY201" H -3072 9496 50  0000 L CNN
-F 1 "2.8 Inch IPS Display, SPI Interface" H -3072 9405 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:2.8_INCH_IPS_DISPLAY" H -3450 9450 50  0001 C CNN
-F 3 "" H -3450 9450 50  0001 C CNN
-F 4 "DNP" H -3450 9450 12700 0001 C CNN "AssemblyOption"
-F 5 "" H -3450 9450 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H -3450 9450 50  0001 C CNN "MPN"
-F 7 "" H -3450 9450 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H -3450 9450 50  0001 C CNN "JLCASM"
-	1    -3450 9450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-3350 7750 -3350 7550
 Text GLabel -4500 7450 0    50   Input ~ 0
