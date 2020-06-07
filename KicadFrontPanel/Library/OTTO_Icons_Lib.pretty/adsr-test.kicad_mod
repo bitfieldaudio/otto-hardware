@@ -167,5 +167,5 @@
     (xy -2.67946 -4.566462) (xy -2.678783 -4.569345) (xy -2.661133 -4.60602) (xy -2.632015 -4.643321)
     (xy -2.595961 -4.67635) (xy -2.55787 -4.700038) (xy -2.502751 -4.717075) (xy -2.446126 -4.718753)
     (xy -2.391905 -4.705054)) (layer F.Mask) (width 0.01))
-  (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
 )

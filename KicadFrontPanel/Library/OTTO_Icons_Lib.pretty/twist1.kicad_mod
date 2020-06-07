@@ -5,7 +5,7 @@
   (fp_text value LOGO (at -3.75 -4.5) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask))
+  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
   (fp_poly (pts (xy -5.031649 -5.474406) (xy -5.011026 -5.469173) (xy -4.994385 -5.46382) (xy -4.979114 -5.457148)
     (xy -4.963209 -5.447547) (xy -4.944668 -5.433404) (xy -4.921488 -5.41311) (xy -4.891665 -5.385052)
     (xy -4.853198 -5.347621) (xy -4.823218 -5.318101) (xy -4.757771 -5.252309) (xy -4.703588 -5.194877)
