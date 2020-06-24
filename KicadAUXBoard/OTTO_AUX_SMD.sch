@@ -30,10 +30,10 @@ F 8 "N/A" H 950 8800 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H204
+L Mechanical:MountingHole H203
 U 1 1 5C6CE137
 P 950 9100
-F 0 "H204" H 1050 9146 50  0000 L CNN
+F 0 "H203" H 1050 9146 50  0000 L CNN
 F 1 "MountingHole" H 1050 9055 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 950 9100 50  0001 C CNN
 F 3 "" H 950 9100 50  0001 C CNN
@@ -43,22 +43,6 @@ F 6 "N/A" H 950 9100 50  0001 C CNN "MPN"
 F 7 "" H 950 9100 50  0001 C CNN "Manufacturer"
 F 8 "N/A" H 950 9100 50  0001 C CNN "JLCASM"
 	1    950  9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H202
-U 1 1 5C6CE161
-P 2000 8800
-F 0 "H202" H 2100 8846 50  0000 L CNN
-F 1 "MountingHole" H 2100 8755 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 2000 8800 50  0001 C CNN
-F 3 "" H 2000 8800 50  0001 C CNN
-F 4 "DNP" H 2000 8800 50  0001 C CNN "AssemblyOption"
-F 5 "" H 2000 8800 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 8800 50  0001 C CNN "MPN"
-F 7 "" H 2000 8800 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 8800 50  0001 C CNN "JLCASM"
-	1    2000 8800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -78,28 +62,12 @@ F 8 "N/A" H 2000 9100 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H213
-U 1 1 5DFC7102
-P 2000 10050
-F 0 "H213" H 2100 10101 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2100 10010 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2000 10050 50  0001 C CNN
-F 3 "" H 2000 10050 50  0001 C CNN
-F 4 "DNP" H 2000 10050 50  0001 C CNN "AssemblyOption"
-F 5 "" H 2000 10050 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 10050 50  0001 C CNN "MPN"
-F 7 "" H 2000 10050 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 10050 50  0001 C CNN "JLCASM"
-	1    2000 10050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H215
+L Mechanical:MountingHole H5
 U 1 1 5DFC860B
 P 2000 10650
-F 0 "H215" H 2100 10701 50  0000 L CNN
+F 0 "H5" H 2100 10701 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2100 10610 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 2000 10650 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 2000 10650 50  0001 C CNN
 F 3 "" H 2000 10650 50  0001 C CNN
 F 4 "DNP" H 2000 10650 50  0001 C CNN "AssemblyOption"
 F 5 "" H 2000 10650 50  0001 C CNN "UnitCost(USD)"
@@ -110,80 +78,12 @@ F 8 "N/A" H 2000 10650 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H203
-U 1 1 5DE07FDF
-P 3000 8800
-F 0 "H203" H 3100 8846 50  0000 L CNN
-F 1 "MountingHole" H 3100 8755 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3000 8800 50  0001 C CNN
-F 3 "" H 3000 8800 50  0001 C CNN
-F 4 "DNP" H 3000 8800 50  0001 C CNN "AssemblyOption"
-F 5 "" H 3000 8800 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 3000 8800 50  0001 C CNN "MPN"
-F 7 "" H 3000 8800 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 3000 8800 50  0001 C CNN "JLCASM"
-	1    3000 8800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 10150 2000 10200
-$Comp
-L power:GND #PWR0203
-U 1 1 5DFC7588
-P 2000 10200
-F 0 "#PWR0203" H 2000 9950 50  0001 C CNN
-F 1 "GND" H 2005 10027 50  0000 C CNN
-F 2 "" H 2000 10200 50  0001 C CNN
-F 3 "" H 2000 10200 50  0001 C CNN
-	1    2000 10200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 10750 2000 10800
-$Comp
-L power:GND #PWR0205
-U 1 1 5DFC8611
-P 2000 10800
-F 0 "#PWR0205" H 2000 10550 50  0001 C CNN
-F 1 "GND" H 2005 10627 50  0000 C CNN
-F 2 "" H 2000 10800 50  0001 C CNN
-F 3 "" H 2000 10800 50  0001 C CNN
-	1    2000 10800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0206
-U 1 1 5C6C4424
-P 950 10200
-F 0 "#PWR0206" H 950 9950 50  0001 C CNN
-F 1 "GND" H 955 10027 50  0000 C CNN
-F 2 "" H 950 10200 50  0001 C CNN
-F 3 "" H 950 10200 50  0001 C CNN
-	1    950  10200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	950  10150 950  10200
-Wire Wire Line
-	3000 10150 3000 10200
-$Comp
-L power:GND #PWR0204
-U 1 1 5E86839B
-P 3000 10200
-F 0 "#PWR0204" H 3000 9950 50  0001 C CNN
-F 1 "GND" H 3005 10027 50  0000 C CNN
-F 2 "" H 3000 10200 50  0001 C CNN
-F 3 "" H 3000 10200 50  0001 C CNN
-	1    3000 10200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H214
+L Mechanical:MountingHole H2
 U 1 1 5E868395
 P 3000 10050
-F 0 "H214" H 3100 10101 50  0000 L CNN
+F 0 "H2" H 3100 10101 50  0000 L CNN
 F 1 "MountingHole_Pad" H 3100 10010 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 3000 10050 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 3000 10050 50  0001 C CNN
 F 3 "" H 3000 10050 50  0001 C CNN
 F 4 "DNP" H 3000 10050 50  0001 C CNN "AssemblyOption"
 F 5 "" H 3000 10050 50  0001 C CNN "UnitCost(USD)"
@@ -194,12 +94,12 @@ F 8 "N/A" H 3000 10050 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H212
+L Mechanical:MountingHole H1
 U 1 1 5CA1B5B7
 P 950 10050
-F 0 "H212" H 1050 10101 50  0000 L CNN
+F 0 "H1" H 1050 10101 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1050 10010 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_Via" H 950 10050 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 950 10050 50  0001 C CNN
 F 3 "" H 950 10050 50  0001 C CNN
 F 4 "DNP" H 950 10050 50  0001 C CNN "AssemblyOption"
 F 5 "" H 950 10050 50  0001 C CNN "UnitCost(USD)"
@@ -617,10 +517,10 @@ Mounting Features
 Text Notes 4550 8600 0    100  ~ 20
 Optical Alignment\n
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole H101
 U 1 1 5E979C7D
 P 6500 8600
-F 0 "H1" H 6600 8646 50  0000 L CNN
+F 0 "H101" H 6600 8646 50  0000 L CNN
 F 1 "Tooling Hole" H 6600 8555 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:JLC_TOOLING_HOLE" H 6500 8600 50  0001 C CNN
 F 3 "" H 6500 8600 50  0001 C CNN
@@ -633,10 +533,10 @@ F 8 "N/A" H 6500 8600 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole H102
 U 1 1 5E97B256
 P 6500 8950
-F 0 "H2" H 6600 8996 50  0000 L CNN
+F 0 "H102" H 6600 8996 50  0000 L CNN
 F 1 "Tooling Hole" H 6600 8905 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:JLC_TOOLING_HOLE" H 6500 8950 50  0001 C CNN
 F 3 "" H 6500 8950 50  0001 C CNN
@@ -649,10 +549,10 @@ F 8 "N/A" H 6500 8950 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H103
 U 1 1 5E97B7A3
 P 7400 8950
-F 0 "H3" H 7500 8996 50  0000 L CNN
+F 0 "H103" H 7500 8996 50  0000 L CNN
 F 1 "Tooling Hole" H 7500 8905 50  0000 L CNN
 F 2 "OTTO_Footprints_Lib:JLC_TOOLING_HOLE" H 7400 8950 50  0001 C CNN
 F 3 "" H 7400 8950 50  0001 C CNN
@@ -782,25 +682,6 @@ F 1 "100nF" H 4415 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4338 1500 50  0001 C CNN
 F 3 "~" H 4300 1650 50  0001 C CNN
 	1    4300 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L OTTOdiy_SMD-library:2.8INCH_IPS_SPI-Display_Graphic DISPLAY?
-U 1 1 5EF7A6D1
-P 13250 1250
-AR Path="/5C43B923/5EF7A6D1" Ref="DISPLAY?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5EF7A6D1" Ref="DISPLAY?"  Part="1" 
-AR Path="/5EF7A6D1" Ref="DISPLAY1"  Part="1" 
-F 0 "DISPLAY1" H 13628 1296 50  0000 L CNN
-F 1 "2.8 Inch IPS Display, SPI Interface" H 13628 1205 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:2.8_INCH_IPS_DISPLAY" H 13250 1250 50  0001 C CNN
-F 3 "" H 13250 1250 50  0001 C CNN
-F 4 "DNP" H 13250 1250 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 13250 1250 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 13250 1250 50  0001 C CNN "MPN"
-F 7 "" H 13250 1250 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 13250 1250 50  0001 C CNN "JLCASM"
-	1    13250 1250
 	1    0    0    -1  
 $EndComp
 Text Label 2550 750  2    50   ~ 0
@@ -1584,4 +1465,68 @@ Wire Wire Line
 	5300 6000 6450 6000
 Wire Wire Line
 	7100 6000 6950 6000
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5EE93400
+P 950 10650
+F 0 "H3" H 1050 10701 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1050 10610 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 950 10650 50  0001 C CNN
+F 3 "" H 950 10650 50  0001 C CNN
+F 4 "DNP" H 950 10650 50  0001 C CNN "AssemblyOption"
+F 5 "" H 950 10650 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 950 10650 50  0001 C CNN "MPN"
+F 7 "" H 950 10650 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 950 10650 50  0001 C CNN "JLCASM"
+	1    950  10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5EE9FC51
+P 3000 10650
+F 0 "H4" H 3100 10701 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3100 10610 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 3000 10650 50  0001 C CNN
+F 3 "" H 3000 10650 50  0001 C CNN
+F 4 "DNP" H 3000 10650 50  0001 C CNN "AssemblyOption"
+F 5 "" H 3000 10650 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 3000 10650 50  0001 C CNN "MPN"
+F 7 "" H 3000 10650 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 3000 10650 50  0001 C CNN "JLCASM"
+	1    3000 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H204
+U 1 1 5C6CE161
+P 3000 9100
+F 0 "H204" H 3100 9146 50  0000 L CNN
+F 1 "MountingHole" H 3100 9055 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3000 9100 50  0001 C CNN
+F 3 "" H 3000 9100 50  0001 C CNN
+F 4 "DNP" H 3000 9100 50  0001 C CNN "AssemblyOption"
+F 5 "" H 3000 9100 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 3000 9100 50  0001 C CNN "MPN"
+F 7 "" H 3000 9100 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 3000 9100 50  0001 C CNN "JLCASM"
+	1    3000 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H202
+U 1 1 5DE07FDF
+P 3000 8800
+F 0 "H202" H 3100 8846 50  0000 L CNN
+F 1 "MountingHole" H 3100 8755 50  0000 L CNN
+F 2 "OTTO_Footprints_Lib:Mounting_Hole_M2.5_Loose_Fit" H 3000 8800 50  0001 C CNN
+F 3 "" H 3000 8800 50  0001 C CNN
+F 4 "DNP" H 3000 8800 50  0001 C CNN "AssemblyOption"
+F 5 "" H 3000 8800 50  0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 3000 8800 50  0001 C CNN "MPN"
+F 7 "" H 3000 8800 50  0001 C CNN "Manufacturer"
+F 8 "N/A" H 3000 8800 50  0001 C CNN "JLCASM"
+	1    3000 8800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

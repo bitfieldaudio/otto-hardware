@@ -17,8 +17,6 @@ Text Label 2700 950  2    50   ~ 0
 USBD_N
 Text Label 2700 850  2    50   ~ 0
 USBD_P
-Text Label 2700 2000 2    50   ~ 0
-SPI_MOSI_MCU
 Text Label 2700 2550 2    50   ~ 0
 ROW_1
 Text Label 2700 2650 2    50   ~ 0
@@ -51,8 +49,6 @@ Wire Wire Line
 	1750 850  2700 850 
 Wire Wire Line
 	2700 950  1750 950 
-Wire Wire Line
-	1750 2000 2700 2000
 Wire Wire Line
 	2700 2550 1750 2550
 Wire Wire Line
@@ -630,7 +626,7 @@ F 1 "5.2x5.2x1.5mm" H 9350 1294 50  0000 C CNN
 F 2 "OTTO_Footprints_Lib:SW_SPST_5.2x5.2x1.5mm" H 9350 1300 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C318884.pdf" H 9350 1300 50  0001 C CNN
 F 4 "" H 9350 1100 12700 0001 C CNN "UnitCost(USD)"
-F 5 "K2-1187SQ-A4SW-06" H 9350 1100 12700 0001 C CNN "MPN"
+F 5 "TS-1187A-B-A-B" H 9350 1100 12700 0001 C CNN "MPN"
 F 6 "" H 9350 1100 12700 0001 C CNN "Manufacturer"
 F 7 "EXTDNP" H 9350 1100 50  0001 C CNN "JLCASM"
 F 8 "C318884" H 9350 1100 50  0001 C CNN "LCSC PN"
@@ -1571,8 +1567,6 @@ Wire Wire Line
 	5900 4950 6250 4950
 Text Label 10000 8550 2    50   ~ 0
 STATUS_LED
-Text Label 10000 5550 2    50   ~ 0
-LED_PWR_EN
 Wire Wire Line
 	9350 4750 10000 4750
 $Comp
@@ -1891,7 +1885,10 @@ P 11500 5600
 F 0 "R6" H 11570 5646 50  0000 L CNN
 F 1 "4.7K" H 11570 5555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11430 5600 50  0001 C CNN
-F 3 "" H 11500 5600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17673.pdf" H 11500 5600 50  0001 C CNN
+F 4 "BASIC" H 11500 5600 50  0001 C CNN "JLCASM"
+F 5 "C17673" H 11500 5600 50  0001 C CNN "LCSC PN"
+F 6 "0805W8F4701T5E" H 11500 5600 50  0001 C CNN "MPN"
 	1    11500 5600
 	1    0    0    -1  
 $EndComp
@@ -1983,7 +1980,7 @@ P 6500 3200
 F 0 "R19" V 6293 3200 50  0000 C CNN
 F 1 "0" V 6384 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17477pdf" H 6500 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17477.pdf" H 6500 3200 50  0001 C CNN
 F 4 "BASIC" H 6500 3200 50  0001 C CNN "JLCASM"
 F 5 "C17477" H 6500 3200 50  0001 C CNN "LCSC PN"
 F 6 "0805W8F0000T5E" H 6500 3200 50  0001 C CNN "MPN"
@@ -2014,12 +2011,13 @@ P 11500 6200
 F 0 "R7" H 11570 6246 50  0000 L CNN
 F 1 "4.7K" H 11570 6155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11430 6200 50  0001 C CNN
-F 3 "" H 11500 6200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17673.pdf" H 11500 6200 50  0001 C CNN
+F 4 "BASIC" H 11500 6200 50  0001 C CNN "JLCASM"
+F 5 "C17673" H 11500 6200 50  0001 C CNN "LCSC PN"
+F 6 "0805W8F4701T5E" H 11500 6200 50  0001 C CNN "MPN"
 	1    11500 6200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 9350 4850
-NoConn ~ 9350 4550
 Wire Wire Line
 	5550 6250 5750 6250
 Wire Wire Line
@@ -2170,7 +2168,7 @@ Text Label 900  7950 0    50   ~ 0
 PROG_UART_RX
 Wire Wire Line
 	900  7950 1800 7950
-Text GLabel 1450 7700 0    50   Input ~ 0
+Text GLabel 2650 7850 2    50   Input ~ 0
 PWR_BUTTON
 Text Label 900  8700 0    50   ~ 0
 EXP_GPIO_5_PWM
@@ -2202,58 +2200,6 @@ Wire Wire Line
 	3200 8900 2300 8900
 Wire Wire Line
 	900  8900 1800 8900
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
-U 1 1 5F59A3A1
-P 2000 7950
-F 0 "J4" H 2050 8367 50  0000 C CNN
-F 1 "Conn_02x05" H 2050 8276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 7950 50  0001 C CNN
-F 3 "" H 2000 7950 50  0001 C CNN
-F 4 "DNP" H 2000 7950 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 2000 7950 12700 0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 7950 12700 0001 C CNN "MPN"
-F 7 "" H 2000 7950 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 7950 50  0001 C CNN "JLCASM"
-	1    2000 7950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J5
-U 1 1 5F59A3AC
-P 2000 8700
-F 0 "J5" H 2050 9117 50  0000 C CNN
-F 1 "Conn_02x05" H 2050 9026 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 8700 50  0001 C CNN
-F 3 "" H 2000 8700 50  0001 C CNN
-F 4 "DNP" H 2000 8700 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 2000 8700 12700 0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 8700 12700 0001 C CNN "MPN"
-F 7 "" H 2000 8700 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 8700 50  0001 C CNN "JLCASM"
-	1    2000 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J6
-U 1 1 5F59A3B7
-P 2000 9350
-F 0 "J6" H 2050 9667 50  0000 C CNN
-F 1 "Conn_02x04" H 2050 9576 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2000 9350 50  0001 C CNN
-F 3 "" H 2000 9350 50  0001 C CNN
-F 4 "DNP" H 2000 9350 12700 0001 C CNN "AssemblyOption"
-F 5 "" H 2000 9350 12700 0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 9350 12700 0001 C CNN "MPN"
-F 7 "" H 2000 9350 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 9350 50  0001 C CNN "JLCASM"
-	1    2000 9350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1700 9700 2050 9700
-Wire Wire Line
-	2400 9700 2400 9250
 Wire Wire Line
 	2400 7300 2300 7300
 Wire Wire Line
@@ -2280,32 +2226,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 9250 1700 9250
 Connection ~ 1700 9250
-Wire Wire Line
-	1700 9250 1700 9700
-$Comp
-L power:GND #PWR0106
-U 1 1 5F59A3D4
-P 2050 9800
-AR Path="/5C4320DF/5F59A3D4" Ref="#PWR0106"  Part="1" 
-AR Path="/5C4320DF/5DB999B7/5F59A3D4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0106" H 2050 9550 50  0001 C CNN
-F 1 "GND" H 2055 9627 50  0000 C CNN
-F 2 "" H 2050 9800 50  0001 C CNN
-F 3 "" H 2050 9800 50  0001 C CNN
-	1    2050 9800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 9800 2050 9700
-Connection ~ 2050 9700
-Wire Wire Line
-	2050 9700 2400 9700
-Wire Wire Line
-	1450 7700 1500 7700
-Wire Wire Line
-	1500 7700 1500 7750
-Wire Wire Line
-	1500 7750 1800 7750
 Text Notes 800  10900 0    50   ~ 0
 This connector can be useful to expand the features of the OTTO. \nWith an expansion board, you could add a battery with char-\nging circuit to the board. \nPWR_BUTTON is routed here in case the battery IC needs it to \npower up.\nI2C and the other connections can be used for the charging \ncircuit, too. (ADC for battery level, PWM for status LEDs)\nThe last bit is for a CV/Gate I/O.
 Wire Notes Line
@@ -2361,16 +2281,8 @@ Wire Wire Line
 Wire Wire Line
 	1200 7000 1800 7000
 Wire Wire Line
-	2300 7850 2900 7850
-Wire Wire Line
-	2300 7950 2900 7950
-Text Label 2900 7850 2    50   ~ 0
-ICP_SWDIO
-Text Label 2900 7950 2    50   ~ 0
-ICP_SWCLK
-Wire Wire Line
-	1200 7400 1800 7400
-Text Label 1200 7400 0    50   ~ 0
+	1200 7750 1800 7750
+Text Label 1200 7750 0    50   ~ 0
 +5V_USB
 Text Label 2700 1250 2    50   ~ 0
 BARREL_IN
@@ -2401,13 +2313,9 @@ F6 "+5V_USB" I R 1750 1350 50
 F7 "BARREL_IN" O R 1750 1250 50 
 F8 "BUCK_OUT" O R 1750 1600 50 
 $EndSheet
-Text Label 10000 6750 2    50   ~ 0
-SPI_MOSI_MCU
 Wire Wire Line
 	10000 6750 9350 6750
 NoConn ~ 9350 6050
-NoConn ~ 9350 8650
-NoConn ~ 2300 7750
 Text Label 1200 7000 0    50   ~ 0
 BARREL_IN
 Text Label 2700 1600 2    50   ~ 0
@@ -2435,8 +2343,6 @@ Wire Wire Line
 Connection ~ 1700 8050
 Wire Wire Line
 	1700 7300 1700 8050
-Text Label 2900 7400 2    50   ~ 0
-+5V_USB
 Text GLabel 1550 7100 0    50   Input ~ 0
 +5V_REG
 Wire Wire Line
@@ -2448,34 +2354,26 @@ Wire Wire Line
 Connection ~ 1700 7100
 Wire Wire Line
 	1700 7100 1800 7100
-Wire Wire Line
-	2300 7400 2900 7400
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J3
+L Connector_Generic:Conn_02x05_Odd_Even J3
 U 1 1 5F59A3FE
 P 2000 7100
 F 0 "J3" H 2050 7500 50  0000 C CNN
-F 1 "Conn_02x06" H 2050 7400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2000 7100 50  0001 C CNN
-F 3 "" H 2000 7100 50  0001 C CNN
+F 1 "Conn_02x05" H 2050 7400 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 7100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 7100 50  0001 C CNN
 F 4 "DNP" H 2000 7100 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 7100 12700 0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 7100 12700 0001 C CNN "MPN"
 F 7 "" H 2000 7100 12700 0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 7100 50  0001 C CNN "JLCASM"
+F 8 "DNP" H 2000 7100 50  0001 C CNN "JLCASM"
+F 9 "C124355" H 2000 7100 50  0001 C CNN "LCSC PN"
 	1    2000 7100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2400 8050 2400 7300
 Connection ~ 2400 8050
-$Sheet
-S 750  1900 1000 200 
-U 5C4AB546
-F0 "LEDS" 50
-F1 "LEDS.sch" 50
-F2 "SPI_MOSI_MCU" I R 1750 2000 50 
-$EndSheet
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J?
 U 1 1 5EDC544B
@@ -2485,7 +2383,9 @@ AR Path="/5C4320DF/5EDC544B" Ref="J8"  Part="1"
 F 0 "J8" H 14050 3867 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 14050 3776 50  0000 C CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical_SMD" H 14000 3450 50  0001 C CNN
-F 3 "~" H 14000 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C124357.pdf" H 14000 3450 50  0001 C CNN
+F 4 "DNP" H 14000 3450 50  0001 C CNN "JLCASM"
+F 5 "C124357" H 14000 3450 50  0001 C CNN "LCSC PN"
 	1    14000 3450
 	1    0    0    -1  
 $EndComp
@@ -2527,4 +2427,121 @@ F 3 "" H 14300 3650 50  0001 C CNN
 	1    14300 3650
 	0    -1   -1   0   
 $EndComp
+Text Label 2700 2000 2    50   ~ 0
+SPI_MOSI_MCU
+Wire Wire Line
+	1750 2000 2700 2000
+$Sheet
+S 750  1900 1000 200 
+U 5C4AB546
+F0 "LEDS" 50
+F1 "LEDS.sch" 50
+F2 "SPI_MOSI_MCU" I R 1750 2000 50 
+$EndSheet
+Text Label 10000 6750 2    50   ~ 0
+SPI_MOSI_MCU
+Text Label 10000 5550 2    50   ~ 0
+LED_PWR_EN
+Wire Wire Line
+	2400 9800 2400 9250
+$Comp
+L power:GND #PWR0106
+U 1 1 5F59A3D4
+P 2050 9900
+AR Path="/5C4320DF/5F59A3D4" Ref="#PWR0106"  Part="1" 
+AR Path="/5C4320DF/5DB999B7/5F59A3D4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0106" H 2050 9650 50  0001 C CNN
+F 1 "GND" H 2055 9727 50  0000 C CNN
+F 2 "" H 2050 9900 50  0001 C CNN
+F 3 "" H 2050 9900 50  0001 C CNN
+	1    2050 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 9800 2400 9800
+Wire Wire Line
+	2050 9900 2050 9800
+Connection ~ 2050 9800
+Wire Wire Line
+	1700 9250 1700 9800
+Wire Wire Line
+	1700 9800 2050 9800
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J6
+U 1 1 5F59A3B7
+P 2000 9450
+F 0 "J6" H 2050 9850 50  0000 C CNN
+F 1 "Conn_02x05" H 2050 9750 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 9450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 9450 50  0001 C CNN
+F 4 "DNP" H 2000 9450 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 2000 9450 12700 0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 2000 9450 12700 0001 C CNN "MPN"
+F 7 "" H 2000 9450 12700 0001 C CNN "Manufacturer"
+F 8 "DNP" H 2000 9450 50  0001 C CNN "JLCASM"
+F 9 "C124355" H 2000 9450 50  0001 C CNN "LCSC PN"
+	1    2000 9450
+	1    0    0    -1  
+$EndComp
+Text Label 2900 7750 2    50   ~ 0
++5V_USB
+Wire Wire Line
+	2300 7750 2900 7750
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J5
+U 1 1 5F59A3AC
+P 2000 8700
+F 0 "J5" H 2050 9117 50  0000 C CNN
+F 1 "Conn_02x05" H 2050 9026 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 8700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 8700 50  0001 C CNN
+F 4 "DNP" H 2000 8700 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 2000 8700 12700 0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 2000 8700 12700 0001 C CNN "MPN"
+F 7 "" H 2000 8700 12700 0001 C CNN "Manufacturer"
+F 8 "DNP" H 2000 8700 50  0001 C CNN "JLCASM"
+F 9 "C124355" H 2000 8700 50  0001 C CNN "LCSC PN"
+	1    2000 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 5F59A3A1
+P 2000 7950
+F 0 "J4" H 2050 8367 50  0000 C CNN
+F 1 "Conn_02x05" H 2050 8276 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 7950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 7950 50  0001 C CNN
+F 4 "DNP" H 2000 7950 12700 0001 C CNN "AssemblyOption"
+F 5 "" H 2000 7950 12700 0001 C CNN "UnitCost(USD)"
+F 6 "N/A" H 2000 7950 12700 0001 C CNN "MPN"
+F 7 "" H 2000 7950 12700 0001 C CNN "Manufacturer"
+F 8 "DNP" H 2000 7950 50  0001 C CNN "JLCASM"
+F 9 "C124355" H 2000 7950 50  0001 C CNN "LCSC PN"
+	1    2000 7950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2300 7950
+Wire Wire Line
+	2650 7850 2300 7850
+Wire Wire Line
+	10000 8650 9350 8650
+Text Label 10000 8650 2    50   ~ 0
+MCU_PC7
+Wire Wire Line
+	10000 4850 9350 4850
+Text Label 10000 4850 2    50   ~ 0
+MCU_PA3
+Wire Wire Line
+	10000 4550 9350 4550
+Text Label 10000 4550 2    50   ~ 0
+MCU_PA0
+Wire Wire Line
+	1150 9650 1800 9650
+Text Label 1150 9650 0    50   ~ 0
+MCU_PA0
+Wire Wire Line
+	2950 9650 2300 9650
+Text Label 2950 9650 2    50   ~ 0
+MCU_PC7
 $EndSCHEMATC
