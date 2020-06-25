@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jonatan/Documents/Dev/otto-hardware/KiCad/OTTOdiy_SMD.sch</source>
-    <date>Thu 25 Jun 2020 07:49:58 PM CEST</date>
-    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
+    <source>/home/topisani/dev/otto-hardware/KiCad/OTTOdiy_SMD.sch</source>
+    <date>2020-06-25T20:11:58 CEST</date>
+    <tool>Eeschema 5.1.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>OTTO beta</title>
@@ -4087,12 +4087,12 @@
     </comp>
     <comp ref="L2">
       <value>15uH</value>
-      <footprint>OTTO_Footprints_Lib:L_7.3x6.6_H3</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C132136.pdf</datasheet>
+      <footprint>OTTO_Footprints_Lib:L_10.5x11.5</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/C151872.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C132136</field>
-        <field name="MPN">MWSA0603-150MT</field>
+        <field name="LCSC PN">C151872</field>
+        <field name="MPN">MWSA1004-150MT</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
       <sheetpath names="/MCU/PERIPHERALS/" tstamps="/5C4320DF/5C4AB597/"/>
@@ -4152,11 +4152,11 @@
     </comp>
     <comp ref="L1">
       <value>15uH</value>
-      <footprint>OTTO_Footprints_Lib:L_7.3x6.6_H3</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C132136.pdf</datasheet>
+      <footprint>OTTO_Footprints_Lib:L_10.5x11.5</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/C151872.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C132136</field>
+        <field name="LCSC PN">C151872</field>
         <field name="MPN">MWSA0603-150MT</field>
       </fields>
       <libsource lib="Device" part="L" description="Inductor"/>
@@ -5196,7 +5196,7 @@
       <uri>/usr/share/kicad/library/Mechanical.lib</uri>
     </library>
     <library logical="OTTOdiy_SMD-library">
-      <uri>/home/jonatan/Documents/Dev/otto-hardware/KiCad/Library/OTTOdiy_SMD-library.lib</uri>
+      <uri>/home/topisani/dev/otto-hardware/KiCad/Library/OTTOdiy_SMD-library.lib</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/usr/share/kicad/library/Power_Protection.lib</uri>
