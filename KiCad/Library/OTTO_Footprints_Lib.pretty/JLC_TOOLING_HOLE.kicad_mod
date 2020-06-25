@@ -1,10 +1,10 @@
-(module JLC_TOOLING_HOLE (layer F.Cu) (tedit 5E7B3CB8)
+(module JLC_TOOLING_HOLE (layer F.Cu) (tedit 5EF4CBDD)
   (fp_text reference REF** (at 0.5 -4.9) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value JLC_TOOLING_HOLE (at 1.5 -6.5) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 1.3 1.3) (drill 1.152) (layers *.Cu *.Mask)
+  (pad "" np_thru_hole circle (at 0 0) (size 1.152 1.152) (drill 1.152) (layers *.Cu *.Mask)
     (clearance 0.4) (zone_connect 0))
 )

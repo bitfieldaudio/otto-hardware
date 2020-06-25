@@ -1477,7 +1477,7 @@ F 0 "TP16" V 10000 6750 50  0000 L CNN
 F 1 "TestPoint" V 10000 6950 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10200 6550 50  0001 C CNN
 F 3 "" H 10200 6550 50  0001 C CNN
-F 4 "DNP" H 10000 6550 50  0001 C CNN "AssemblyOption"
+F 4 "" H 10000 6550 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10000 6550 50  0001 C CNN "MPN"
 F 6 "" H 10000 6550 50  0001 C CNN "Manufacturer"
 F 7 "" H 10000 6550 50  0001 C CNN "UnitCost(USD)"
@@ -1493,7 +1493,7 @@ F 0 "TP17" V 10000 6850 50  0000 L CNN
 F 1 "TestPoint" V 10000 7050 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10200 6650 50  0001 C CNN
 F 3 "" H 10200 6650 50  0001 C CNN
-F 4 "DNP" H 10000 6650 50  0001 C CNN "AssemblyOption"
+F 4 "" H 10000 6650 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10000 6650 50  0001 C CNN "MPN"
 F 6 "" H 10000 6650 50  0001 C CNN "Manufacturer"
 F 7 "" H 10000 6650 50  0001 C CNN "UnitCost(USD)"
@@ -1715,7 +1715,7 @@ F 0 "TP1" V 10050 8950 50  0000 L CNN
 F 1 "TestPoint" V 10050 9150 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10250 8750 50  0001 C CNN
 F 3 "" H 10250 8750 50  0001 C CNN
-F 4 "DNP" H 10050 8750 50  0001 C CNN "AssemblyOption"
+F 4 "" H 10050 8750 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 10050 8750 50  0001 C CNN "MPN"
 F 6 "" H 10050 8750 50  0001 C CNN "Manufacturer"
 F 7 "" H 10050 8750 50  0001 C CNN "UnitCost(USD)"
@@ -2035,7 +2035,7 @@ F 0 "TP18" V 5504 6438 50  0000 L CNN
 F 1 "TestPoint" V 5595 6438 50  0000 L CNN
 F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5750 6250 50  0001 C CNN
 F 3 "" H 5750 6250 50  0001 C CNN
-F 4 "DNP" H 5550 6250 50  0001 C CNN "AssemblyOption"
+F 4 "" H 5550 6250 50  0001 C CNN "AssemblyOption"
 F 5 "N/A" H 5550 6250 50  0001 C CNN "MPN"
 F 6 "" H 5550 6250 50  0001 C CNN "Manufacturer"
 F 7 "" H 5550 6250 50  0001 C CNN "UnitCost(USD)"
@@ -2362,7 +2362,7 @@ F 0 "J3" H 2050 7500 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 7400 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 7100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 7100 50  0001 C CNN
-F 4 "DNP" H 2000 7100 12700 0001 C CNN "AssemblyOption"
+F 4 "" H 2000 7100 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 7100 12700 0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 7100 12700 0001 C CNN "MPN"
 F 7 "" H 2000 7100 12700 0001 C CNN "Manufacturer"
@@ -2474,7 +2474,7 @@ F 0 "J6" H 2050 9850 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 9750 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 9450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 9450 50  0001 C CNN
-F 4 "DNP" H 2000 9450 12700 0001 C CNN "AssemblyOption"
+F 4 "" H 2000 9450 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 9450 12700 0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 9450 12700 0001 C CNN "MPN"
 F 7 "" H 2000 9450 12700 0001 C CNN "Manufacturer"
@@ -2495,7 +2495,7 @@ F 0 "J5" H 2050 9117 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 9026 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 8700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 8700 50  0001 C CNN
-F 4 "DNP" H 2000 8700 12700 0001 C CNN "AssemblyOption"
+F 4 "" H 2000 8700 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 8700 12700 0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 8700 12700 0001 C CNN "MPN"
 F 7 "" H 2000 8700 12700 0001 C CNN "Manufacturer"
@@ -2512,7 +2512,7 @@ F 0 "J4" H 2050 8367 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 8276 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 7950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 7950 50  0001 C CNN
-F 4 "DNP" H 2000 7950 12700 0001 C CNN "AssemblyOption"
+F 4 "" H 2000 7950 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 7950 12700 0001 C CNN "UnitCost(USD)"
 F 6 "N/A" H 2000 7950 12700 0001 C CNN "MPN"
 F 7 "" H 2000 7950 12700 0001 C CNN "Manufacturer"
