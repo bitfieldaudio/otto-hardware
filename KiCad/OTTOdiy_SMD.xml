@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/topisani/dev/otto-hardware/KiCad/OTTOdiy_SMD.sch</source>
-    <date>2020-06-25T18:27:43 CEST</date>
-    <tool>Eeschema 5.1.6</tool>
+    <source>/home/jonatan/Documents/Dev/otto-hardware/KiCad/OTTOdiy_SMD.sch</source>
+    <date>Thu 25 Jun 2020 07:49:58 PM CEST</date>
+    <tool>Eeschema 5.1.5+dfsg1-2build2</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>OTTO beta</title>
@@ -5196,7 +5196,7 @@
       <uri>/usr/share/kicad/library/Mechanical.lib</uri>
     </library>
     <library logical="OTTOdiy_SMD-library">
-      <uri>/home/topisani/dev/otto-hardware/KiCad/Library/OTTOdiy_SMD-library.lib</uri>
+      <uri>/home/jonatan/Documents/Dev/otto-hardware/KiCad/Library/OTTOdiy_SMD-library.lib</uri>
     </library>
     <library logical="Power_Protection">
       <uri>/usr/share/kicad/library/Power_Protection.lib</uri>
