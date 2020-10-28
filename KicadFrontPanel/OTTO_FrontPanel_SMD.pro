@@ -1,6 +1,6 @@
-update=09/30/20 20:33:55
+update=2020-06-02T14:31:58 CEST
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -27,7 +27,7 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=
 CopperLayerCount=2
-BoardThickness=1.6
+BoardThickness=1.2
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
