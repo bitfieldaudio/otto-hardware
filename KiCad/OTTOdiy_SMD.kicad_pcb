@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.6)-1")
+(kicad_pcb (version 20171130) (host pcbnew 5.1.6)
 
   (general
     (thickness 1.6)
@@ -14303,7 +14303,7 @@
   )
   (gr_circle (center 36.638 14.023) (end 37.088 14.348) (layer F.SilkS) (width 0.15))
   (gr_circle (center 40.288 14.023) (end 40.738 14.323) (layer F.SilkS) (width 0.15))
-  (gr_text "MAIN BOARD V0.1.0" (at 121.67 54.864) (layer F.SilkS)
+  (gr_text "MAIN BOARD V0.2.0" (at 121.67 54.864) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text "BY BITFIELD AUDIO" (at 144.6722 67.189) (layer F.SilkS)
