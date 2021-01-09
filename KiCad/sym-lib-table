@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "OTTOdiy_SMD-library")(type "Legacy")(uri "${KIPRJMOD}/Library/OTTOdiy_SMD-library.lib")(options "")(descr ""))
+  (lib (name OTTOdiy_SMD-library)(type Legacy)(uri ${KIPRJMOD}/Library/OTTOdiy_SMD-library.lib)(options "")(descr ""))
+  (lib (name OTTOdiy_SMD-rescue)(type Legacy)(uri ${KIPRJMOD}/OTTOdiy_SMD-rescue.lib)(options "")(descr ""))
 )

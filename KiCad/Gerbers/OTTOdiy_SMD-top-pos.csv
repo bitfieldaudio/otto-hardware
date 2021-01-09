@@ -5,5 +5,5 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "FID4","Fiducial","Fiducial_1mm_Mask2mm",102.700000,98.400000,0.000000,top
 "FID5","Fiducial","Fiducial_1mm_Mask2mm",254.900000,183.600000,0.000000,top
 "FID6","Fiducial","Fiducial_1mm_Mask2mm",246.700000,100.600000,0.000000,top
-"J7","Conn_02x05_Odd_Even","PinSocket_2x05_P1.27mm_Vertical_SMD",94.500000,183.500000,90.000000,top
+"J7","Conn_02x05_Odd_Even","PinSocket_2x05_P1.27mm_Vertical_SMD",86.607400,154.519800,180.000000,top
 "J8","Conn_02x05_Odd_Even","PinSocket_2x05_P1.27mm_Vertical_SMD",-19.730000,123.500000,0.000000,top

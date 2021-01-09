@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/topisani/dev/otto-hardware/KicadAUXBoard/OTTO_AUX_SMD.sch</source>
-    <date>2020-06-25T21:16:47 CEST</date>
+    <date>2020-11-05T20:22:36 CET</date>
     <tool>Eeschema 5.1.6</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -468,7 +468,7 @@
     </comp>
     <comp ref="Q1">
       <value>AO3400A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <footprint>OTTO_Footprints_Lib:SOT-23</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf</datasheet>
       <fields>
         <field name="JLCASM">BASIC</field>
@@ -2398,7 +2398,7 @@
     </comp>
     <comp ref="U1">
       <value>SN74LV1T34_SOT-23_A</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
+      <footprint>OTTO_Footprints_Lib:SOT-23-5_HandSoldering</footprint>
       <datasheet>https://datasheet.lcsc.com/szlcsc/C100024.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
