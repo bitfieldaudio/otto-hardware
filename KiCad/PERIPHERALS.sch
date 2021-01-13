@@ -1319,4 +1319,26 @@ Wire Wire Line
 	-4500 7450 -3350 7450
 Wire Wire Line
 	-4500 7750 -3350 7750
+Text HLabel 6950 1650 0    50   Input ~ 0
+BARREL_IN
+Text HLabel 6950 1400 0    50   Input ~ 0
+BUCK_IN
+Wire Wire Line
+	6950 1400 7100 1400
+Wire Wire Line
+	7100 1400 7100 1650
+Wire Wire Line
+	7100 1650 6950 1650
+Text HLabel 6950 1950 0    50   Input ~ 0
+BUCK_OUT
+Text GLabel 6950 2200 0    50   Input ~ 0
++5V_REG
+Wire Wire Line
+	6950 1950 7100 1950
+Wire Wire Line
+	7100 1950 7100 2200
+Wire Wire Line
+	7100 2200 6950 2200
+Text Notes 6300 1250 0    50   ~ 0
+Cut these connections to use \nthe battery extension header
 $EndSCHEMATC
