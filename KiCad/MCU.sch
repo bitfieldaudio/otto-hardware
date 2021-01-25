@@ -1799,8 +1799,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 8050 6950 8050
 Wire Wire Line
-	9350 5550 10000 5550
-Wire Wire Line
 	6050 6950 6950 6950
 Wire Wire Line
 	6050 6350 6950 6350
@@ -2313,8 +2311,6 @@ F6 "+5V_USB" I R 1750 1350 50
 F7 "BARREL_IN" O R 1750 1250 50 
 F8 "BUCK_OUT" O R 1750 1600 50 
 $EndSheet
-Wire Wire Line
-	10000 6750 9350 6750
 NoConn ~ 9350 6050
 Text Label 1200 7000 0    50   ~ 0
 BARREL_IN
@@ -2360,7 +2356,7 @@ U 1 1 5F59A3FE
 P 2000 7100
 F 0 "J3" H 2050 7500 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 7400 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 7100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 7100 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 7100 50  0001 C CNN
 F 4 "" H 2000 7100 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 7100 12700 0001 C CNN "UnitCost(USD)"
@@ -2374,59 +2370,6 @@ $EndComp
 Wire Wire Line
 	2400 8050 2400 7300
 Connection ~ 2400 8050
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J?
-U 1 1 5EDC544B
-P 14000 3450
-AR Path="/5EDC544B" Ref="J?"  Part="1" 
-AR Path="/5C4320DF/5EDC544B" Ref="J8"  Part="1" 
-F 0 "J8" H 14050 3867 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 14050 3776 50  0000 C CNN
-F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical_SMD" H 14000 3450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C124357.pdf" H 14000 3450 50  0001 C CNN
-F 4 "DNP" H 14000 3450 50  0001 C CNN "JLCASM"
-F 5 "C124357" H 14000 3450 50  0001 C CNN "LCSC PN"
-	1    14000 3450
-	1    0    0    -1  
-$EndComp
-Text Label 12900 3350 0    50   ~ 0
-SPI_MOSI_MCU
-Wire Wire Line
-	14300 3350 15250 3350
-Text GLabel 13800 3250 0    50   Input ~ 0
-+5V_REG
-Text GLabel 14300 3250 2    50   Input ~ 0
-+5V_REG
-Text Label 15250 3350 2    50   ~ 0
-LED_PWR_EN
-Wire Wire Line
-	13800 3350 12900 3350
-NoConn ~ 13800 3450
-NoConn ~ 13800 3550
-NoConn ~ 14300 3450
-NoConn ~ 14300 3550
-$Comp
-L power:GND #PWR02
-U 1 1 5F093D8C
-P 13800 3650
-F 0 "#PWR02" H 13800 3400 50  0001 C CNN
-F 1 "GND" V 13805 3522 50  0000 R CNN
-F 2 "" H 13800 3650 50  0001 C CNN
-F 3 "" H 13800 3650 50  0001 C CNN
-	1    13800 3650
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5F094034
-P 14300 3650
-F 0 "#PWR08" H 14300 3400 50  0001 C CNN
-F 1 "GND" V 14305 3522 50  0000 R CNN
-F 2 "" H 14300 3650 50  0001 C CNN
-F 3 "" H 14300 3650 50  0001 C CNN
-	1    14300 3650
-	0    -1   -1   0   
-$EndComp
 Text Label 2700 2000 2    50   ~ 0
 SPI_MOSI_MCU
 Wire Wire Line
@@ -2438,10 +2381,6 @@ F0 "LEDS" 50
 F1 "LEDS.sch" 50
 F2 "SPI_MOSI_MCU" I R 1750 2000 50 
 $EndSheet
-Text Label 10000 6750 2    50   ~ 0
-SPI_MOSI_MCU
-Text Label 10000 5550 2    50   ~ 0
-LED_PWR_EN
 Wire Wire Line
 	2400 9800 2400 9250
 $Comp
@@ -2472,7 +2411,7 @@ U 1 1 5F59A3B7
 P 2000 9450
 F 0 "J6" H 2050 9850 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 9750 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 9450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 9450 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 9450 50  0001 C CNN
 F 4 "" H 2000 9450 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 9450 12700 0001 C CNN "UnitCost(USD)"
@@ -2493,7 +2432,7 @@ U 1 1 5F59A3AC
 P 2000 8700
 F 0 "J5" H 2050 9117 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 9026 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 8700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 8700 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 8700 50  0001 C CNN
 F 4 "" H 2000 8700 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 8700 12700 0001 C CNN "UnitCost(USD)"
@@ -2510,7 +2449,7 @@ U 1 1 5F59A3A1
 P 2000 7950
 F 0 "J4" H 2050 8367 50  0000 C CNN
 F 1 "Conn_02x05" H 2050 8276 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 2000 7950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2000 7950 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C124355.pdf" H 2000 7950 50  0001 C CNN
 F 4 "" H 2000 7950 12700 0001 C CNN "AssemblyOption"
 F 5 "" H 2000 7950 12700 0001 C CNN "UnitCost(USD)"
@@ -2544,4 +2483,12 @@ Wire Wire Line
 	2950 9650 2300 9650
 Text Label 2950 9650 2    50   ~ 0
 MCU_PC7
+Text GLabel 10800 6750 2    50   Input ~ 0
+SPI_MOSI_MCU
+Wire Wire Line
+	9350 6750 10800 6750
+Text GLabel 10100 5550 2    50   Input ~ 0
+LED_PWR_EN
+Wire Wire Line
+	9350 5550 10100 5550
 $EndSCHEMATC
