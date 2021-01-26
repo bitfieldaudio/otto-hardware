@@ -564,26 +564,16 @@ F 8 "N/A" H 7400 8950 50  0001 C CNN "JLCASM"
 	1    7400 8950
 	1    0    0    -1  
 $EndComp
-Text GLabel 9750 2800 2    50   Input ~ 0
+Text GLabel 8300 4400 0    50   Input ~ 0
 3V3
-Text GLabel 9750 2900 2    50   Input ~ 0
+Text GLabel 8300 5000 0    50   Input ~ 0
 BL_PWM
-Text GLabel 9050 2600 0    50   Input ~ 0
+Text GLabel 8300 4500 0    50   Input ~ 0
 SPI_MOSI_RASPI
-Text GLabel 9050 2700 0    50   Input ~ 0
+Text GLabel 8300 4600 0    50   Input ~ 0
 SPI_SCLK_RASPI
-Text GLabel 9050 2800 0    50   Input ~ 0
+Text GLabel 8300 4700 0    50   Input ~ 0
 SPI_CS_RASPI
-Wire Wire Line
-	9150 2700 9050 2700
-Wire Wire Line
-	9150 2800 9050 2800
-Wire Wire Line
-	9650 2800 9750 2800
-Wire Wire Line
-	9650 2700 9750 2700
-Wire Wire Line
-	9650 2600 9750 2600
 Text GLabel 4850 2000 0    50   Input ~ 0
 3V3
 Wire Wire Line
@@ -1279,27 +1269,8 @@ Text GLabel 5550 2050 2    50   Input ~ 0
 5V_BACKLIGHT
 Wire Wire Line
 	7150 2450 7250 2450
-Text GLabel 9050 2900 0    50   Input ~ 0
+Text GLabel 8300 4900 0    50   Input ~ 0
 RESET
-Wire Wire Line
-	9050 2900 9150 2900
-Wire Wire Line
-	9050 2600 9150 2600
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5ED4551D
-P 9450 2700
-F 0 "J2" H 9500 3117 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9500 3026 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 9450 2700 50  0001 C CNN
-F 3 "" H 9450 2700 50  0001 C CNN
-F 4 "" H 9450 2700 50  0001 C CNN "LCSC PN"
-F 5 "DNP" H 9450 2700 50  0001 C CNN "JLCASM"
-	1    9450 2700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 2500 9650 2500
 $Comp
 L power:GND #PWR016
 U 1 1 5ED97401
@@ -1314,13 +1285,13 @@ $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5ED977CA
-P 9750 2700
-F 0 "#PWR020" H 9750 2450 50  0001 C CNN
-F 1 "GND" V 9755 2572 50  0000 R CNN
-F 2 "" H 9750 2700 50  0001 C CNN
-F 3 "" H 9750 2700 50  0001 C CNN
-	1    9750 2700
-	0    -1   -1   0   
+P 8250 5400
+F 0 "#PWR020" H 8250 5150 50  0001 C CNN
+F 1 "GND" V 8255 5272 50  0000 R CNN
+F 2 "" H 8250 5400 50  0001 C CNN
+F 3 "" H 8250 5400 50  0001 C CNN
+	1    8250 5400
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR02
@@ -1404,45 +1375,12 @@ Wire Wire Line
 	4200 1400 4300 1400
 Wire Wire Line
 	4300 1400 4300 1500
-Text GLabel 9750 2500 2    50   Input ~ 0
-5V_BACKLIGHT
-Wire Wire Line
-	6350 5900 6450 5900
-$Comp
-L power:GND #PWR019
-U 1 1 5EE2D3D3
-P 6700 6550
-F 0 "#PWR019" H 6700 6300 50  0001 C CNN
-F 1 "GND" H 6705 6377 50  0000 C CNN
-F 2 "" H 6700 6550 50  0001 C CNN
-F 3 "" H 6700 6550 50  0001 C CNN
-	1    6700 6550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 6450 6450 6450
-Wire Wire Line
-	6450 6450 6450 6300
-Wire Wire Line
-	6700 6550 6700 6450
-Wire Wire Line
-	6700 6450 6950 6450
-Wire Wire Line
-	6950 6450 6950 6300
-Connection ~ 6700 6450
-Text GLabel 6350 5900 0    50   Input ~ 0
+Text GLabel 8300 5100 0    50   Input ~ 0
 +5V_REG
-Text GLabel 7100 6000 2    50   Input ~ 0
+Text GLabel 8300 5300 0    50   Input ~ 0
 LED_PWR_EN
-Text Label 5300 6000 0    50   ~ 0
+Text Label 7350 5200 0    50   ~ 0
 SPI_MOSI_MCU
-Text GLabel 7100 5900 2    50   Input ~ 0
-+5V_REG
-Wire Wire Line
-	7100 5900 6950 5900
-NoConn ~ 6950 6200
-NoConn ~ 6450 6200
-NoConn ~ 6450 6100
 $Sheet
 S 600  650  1000 300 
 U 5ED65394
@@ -1456,34 +1394,30 @@ Text Label 4800 5700 2    50   ~ 0
 Text Label 2550 850  2    50   ~ 0
 +5V_LEDS
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J1
+L Connector_Generic:Conn_01x12 J1
 U 1 1 5EECD93B
-P 6650 6100
-F 0 "J1" H 6700 6517 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 6700 6426 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 6650 6100 50  0001 C CNN
-F 3 "" H 6650 6100 50  0001 C CNN
-F 4 "" H 6650 6100 50  0001 C CNN "LCSC PN"
-F 5 "DNP" H 6650 6100 50  0001 C CNN "JLCASM"
-	1    6650 6100
+P 8600 4800
+F 0 "J1" H 8600 5450 50  0000 C CNN
+F 1 "Conn_01x12" H 8600 5400 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:X10B25L12T_FPC_1x12-1MP_P1.00mm_Horizontal" H 8600 4800 50  0001 C CNN
+F 3 "" H 8600 4800 50  0001 C CNN
+F 4 "" H 8600 4800 50  0001 C CNN "LCSC PN"
+F 5 "DNP" H 8600 4800 50  0001 C CNN "JLCASM"
+	1    8600 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9750 2900 9650 2900
 $Comp
 L power:GND #PWR0105
 U 1 1 5EF4FAFA
-P 9750 2600
-F 0 "#PWR0105" H 9750 2350 50  0001 C CNN
-F 1 "GND" V 9755 2472 50  0000 R CNN
-F 2 "" H 9750 2600 50  0001 C CNN
-F 3 "" H 9750 2600 50  0001 C CNN
-	1    9750 2600
-	0    -1   -1   0   
+P 8300 4800
+F 0 "#PWR0105" H 8300 4550 50  0001 C CNN
+F 1 "GND" V 8305 4672 50  0000 R CNN
+F 2 "" H 8300 4800 50  0001 C CNN
+F 3 "" H 8300 4800 50  0001 C CNN
+	1    8300 4800
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9050 2500 9150 2500
-Text GLabel 9050 2500 0    50   Input ~ 0
+Text GLabel 8300 4300 0    50   Input ~ 0
 5V_BACKLIGHT
 Wire Wire Line
 	3750 5800 3850 5800
@@ -1492,11 +1426,6 @@ Wire Wire Line
 	7250 2450 7400 2450
 Wire Wire Line
 	6900 2450 7150 2450
-NoConn ~ 6950 6100
-Wire Wire Line
-	5300 6000 6450 6000
-Wire Wire Line
-	7100 6000 6950 6000
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5EE93400
@@ -1561,4 +1490,28 @@ F 8 "N/A" H 3000 8800 50  0001 C CNN "JLCASM"
 	1    3000 8800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8400 5200 7350 5200
+Wire Wire Line
+	8400 4300 8300 4300
+Wire Wire Line
+	8400 4400 8300 4400
+Wire Wire Line
+	8400 4500 8300 4500
+Wire Wire Line
+	8400 4600 8300 4600
+Wire Wire Line
+	8400 4700 8300 4700
+Wire Wire Line
+	8400 4800 8300 4800
+Wire Wire Line
+	8400 4900 8300 4900
+Wire Wire Line
+	8400 5000 8300 5000
+Wire Wire Line
+	8400 5100 8300 5100
+Wire Wire Line
+	8400 5300 8300 5300
+Wire Wire Line
+	8400 5400 8250 5400
 $EndSCHEMATC
