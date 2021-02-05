@@ -30,4 +30,9 @@ $CMP TPS5430DDAR
 F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-TPS54331DR_C9865.pdf
 $ENDCMP
 #
+$CMP XL1509-3.3E1
+D DC-DC Converter (3V3)
+F https://datasheet.lcsc.com/szlcsc/1809200015_XLSEMI-XL1509-3-3E1_C74193.pdf
+$ENDCMP
+#
 #End Doc Library
