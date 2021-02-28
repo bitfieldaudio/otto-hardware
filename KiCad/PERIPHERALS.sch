@@ -1186,8 +1186,8 @@ U 1 1 601C3240
 P 11300 5050
 F 0 "U2" H 11300 5720 50  0000 C CNN
 F 1 "TPS54331DR" H 11300 5629 50  0000 C CNN
-F 2 "SOIC127P599X175-8N" H 11300 5050 50  0001 L BNN
-F 3 "" H 11300 5050 50  0001 L BNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 11300 5050 50  0001 L BNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C9865.pdf" H 11300 5050 50  0001 L BNN
 F 4 "BASIC" H 11300 5050 50  0001 C CNN "JLCASM"
 F 5 "C9865" H 11300 5050 50  0001 C CNN "LCSC PN"
 F 6 "TPS54331DR" H 11300 5050 50  0001 C CNN "MPN"
@@ -1208,7 +1208,6 @@ F 6 "CL21B103KBANNNC" H 9450 5200 50  0001 C CNN "MPN"
 	1    9450 5200
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10600 4750
 $Comp
 L Device:C C6
 U 1 1 6023DCC5
@@ -1503,4 +1502,89 @@ Wire Wire Line
 Connection ~ 9450 5050
 Wire Wire Line
 	9450 5050 10600 5050
+$Comp
+L Device:R R18
+U 1 1 603CDAE5
+P 3600 6900
+F 0 "R18" H 3670 6946 50  0000 L CNN
+F 1 "100k" H 3670 6855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3530 6900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17407.pdf" H 3600 6900 50  0001 C CNN
+F 4 "BASIC" H 3600 6900 50  0001 C CNN "JLCASM"
+F 5 "C17407" H 3600 6900 50  0001 C CNN "LCSC PN"
+F 6 "0805W8F1003T5E" H 3600 6900 50  0001 C CNN "MPN"
+	1    3600 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R20
+U 1 1 603CE3EB
+P 4150 6550
+F 0 "R20" H 4220 6596 50  0000 L CNN
+F 1 "100k" H 4220 6505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 6550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17407.pdf" H 4150 6550 50  0001 C CNN
+F 4 "BASIC" H 4150 6550 50  0001 C CNN "JLCASM"
+F 5 "C17407" H 4150 6550 50  0001 C CNN "LCSC PN"
+F 6 "0805W8F1003T5E" H 4150 6550 50  0001 C CNN "MPN"
+	1    4150 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 7400 2    50   Input ~ 0
+PWR_BUTTON
+Wire Wire Line
+	4150 7400 4150 7250
+Wire Wire Line
+	3850 7050 3600 7050
+Wire Wire Line
+	3600 6750 3600 6400
+Wire Wire Line
+	3600 6400 4150 6400
+Text GLabel 3600 6300 0    50   Input ~ 0
+5V_REG
+Wire Wire Line
+	3600 6300 3600 6400
+Connection ~ 3600 6400
+Wire Wire Line
+	4150 6700 4150 6850
+Text GLabel 4950 6850 2    50   Input ~ 0
+PI_PWR_EN
+Text GLabel 9650 4750 0    50   Input ~ 0
+PI_PWR_EN
+Wire Wire Line
+	9650 4750 10600 4750
+Wire Wire Line
+	4150 6850 4950 6850
+Wire Notes Line
+	2200 5650 5700 5650
+Wire Notes Line
+	5700 5650 5700 8000
+Wire Notes Line
+	5700 8000 2200 8000
+Wire Notes Line
+	2200 8000 2200 5650
+Text Notes 2300 5850 0    50   ~ 0
+Power Hold circuit.\nPI_PWR_EN goes to enable pin of both 5v_RASPI and 3V3 nets
+Text Notes 2300 6050 0    50   ~ 0
+PWR_HOLD bin is active low. MCU should pull this low when active, \nand release when it wants to power down.
+Text GLabel 3400 7050 0    50   Input ~ 0
+PWR_HOLD
+Wire Wire Line
+	3400 7050 3600 7050
+Connection ~ 3600 7050
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 6045DB04
+P 4050 7050
+F 0 "Q2" H 4254 7096 50  0000 L CNN
+F 1 "2N7002" H 4254 7005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 6975 50  0001 L CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/C8545.pdf" H 4050 7050 50  0001 L CNN
+F 4 "C8545" H 4050 7050 50  0001 C CNN "LCSC PN"
+F 5 "BASIC" H 4050 7050 50  0001 C CNN "JLCASM"
+F 6 "2N7002" H 4050 7050 50  0001 C CNN "MPN"
+	1    4050 7050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 6850
 $EndSCHEMATC
