@@ -564,15 +564,15 @@ F 8 "N/A" H 7400 8950 50  0001 C CNN "JLCASM"
 	1    7400 8950
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 4400 0    50   Input ~ 0
+Text GLabel 8300 4200 0    50   Input ~ 0
 3V3
-Text GLabel 8300 5000 0    50   Input ~ 0
+Text GLabel 8300 5100 0    50   Input ~ 0
 BL_PWM
 Text GLabel 8300 4500 0    50   Input ~ 0
 SPI_MOSI_RASPI
 Text GLabel 8300 4600 0    50   Input ~ 0
 SPI_SCLK_RASPI
-Text GLabel 8300 4700 0    50   Input ~ 0
+Text GLabel 8300 4800 0    50   Input ~ 0
 SPI_CS_RASPI
 Text GLabel 4850 2000 0    50   Input ~ 0
 3V3
@@ -1285,12 +1285,12 @@ $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 5ED977CA
-P 8250 5400
-F 0 "#PWR020" H 8250 5150 50  0001 C CNN
-F 1 "GND" V 8255 5272 50  0000 R CNN
-F 2 "" H 8250 5400 50  0001 C CNN
-F 3 "" H 8250 5400 50  0001 C CNN
-	1    8250 5400
+P 8300 5000
+F 0 "#PWR020" H 8300 4750 50  0001 C CNN
+F 1 "GND" V 8305 4872 50  0000 R CNN
+F 2 "" H 8300 5000 50  0001 C CNN
+F 3 "" H 8300 5000 50  0001 C CNN
+	1    8300 5000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1375,11 +1375,11 @@ Wire Wire Line
 	4200 1400 4300 1400
 Wire Wire Line
 	4300 1400 4300 1500
-Text GLabel 8300 5100 0    50   Input ~ 0
+Text GLabel 8300 5200 0    50   Input ~ 0
 +5V_REG
-Text GLabel 8300 5300 0    50   Input ~ 0
+Text GLabel 8250 5700 0    50   Input ~ 0
 LED_PWR_EN
-Text Label 7350 5200 0    50   ~ 0
+Text Label 7350 5600 0    50   ~ 0
 SPI_MOSI_MCU
 $Sheet
 S 600  650  1000 300 
@@ -1394,12 +1394,12 @@ Text Label 4800 5700 2    50   ~ 0
 Text Label 2550 850  2    50   ~ 0
 +5V_LEDS
 $Comp
-L Connector_Generic:Conn_01x12 J1
+L Connector_Generic:Conn_01x20 J1
 U 1 1 5EECD93B
 P 8600 4800
-F 0 "J1" H 8600 5450 50  0000 C CNN
-F 1 "Conn_01x12" H 8600 5400 50  0000 C CNN
-F 2 "OTTO_Footprints_Lib:X10B25L12T_FPC_1x12-1MP_P1.00mm_Horizontal" H 8600 4800 50  0001 C CNN
+F 0 "J1" H 8600 5950 50  0000 C CNN
+F 1 "Conn_01x20" H 8600 5850 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:X10B25L20T_FPC_1x20-1MP_P1.00mm_Horizontal" H 8600 4800 50  0001 C CNN
 F 3 "" H 8600 4800 50  0001 C CNN
 F 4 "" H 8600 4800 50  0001 C CNN "LCSC PN"
 F 5 "DNP" H 8600 4800 50  0001 C CNN "JLCASM"
@@ -1409,15 +1409,15 @@ $EndComp
 $Comp
 L power:GND #PWR0105
 U 1 1 5EF4FAFA
-P 8300 4800
-F 0 "#PWR0105" H 8300 4550 50  0001 C CNN
-F 1 "GND" V 8305 4672 50  0000 R CNN
-F 2 "" H 8300 4800 50  0001 C CNN
-F 3 "" H 8300 4800 50  0001 C CNN
-	1    8300 4800
+P 8300 4700
+F 0 "#PWR0105" H 8300 4450 50  0001 C CNN
+F 1 "GND" V 8305 4572 50  0000 R CNN
+F 2 "" H 8300 4700 50  0001 C CNN
+F 3 "" H 8300 4700 50  0001 C CNN
+	1    8300 4700
 	0    1    1    0   
 $EndComp
-Text GLabel 8300 4300 0    50   Input ~ 0
+Text GLabel 8300 3900 0    50   Input ~ 0
 5V_BACKLIGHT
 Wire Wire Line
 	3750 5800 3850 5800
@@ -1491,7 +1491,7 @@ F 8 "N/A" H 3000 8800 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 5200 7350 5200
+	8400 5600 7350 5600
 Wire Wire Line
 	8400 4300 8300 4300
 Wire Wire Line
@@ -1510,8 +1510,49 @@ Wire Wire Line
 	8400 5000 8300 5000
 Wire Wire Line
 	8400 5100 8300 5100
+Text GLabel 8300 4000 0    50   Input ~ 0
+5V_BACKLIGHT
+Text GLabel 8300 4100 0    50   Input ~ 0
+5V_BACKLIGHT
+Text GLabel 8300 4300 0    50   Input ~ 0
+3V3
+Text GLabel 8300 4400 0    50   Input ~ 0
+3V3
+$Comp
+L power:GND #PWR?
+U 1 1 604087CE
+P 8250 5800
+F 0 "#PWR?" H 8250 5550 50  0001 C CNN
+F 1 "GND" V 8255 5672 50  0000 R CNN
+F 2 "" H 8250 5800 50  0001 C CNN
+F 3 "" H 8250 5800 50  0001 C CNN
+	1    8250 5800
+	0    1    1    0   
+$EndComp
+Text GLabel 8300 5300 0    50   Input ~ 0
++5V_REG
+Text GLabel 8300 5400 0    50   Input ~ 0
++5V_REG
+Text GLabel 8300 5500 0    50   Input ~ 0
++5V_REG
 Wire Wire Line
-	8400 5300 8300 5300
+	8250 5800 8400 5800
 Wire Wire Line
-	8400 5400 8250 5400
+	8400 5700 8250 5700
+Wire Wire Line
+	8300 5500 8400 5500
+Wire Wire Line
+	8300 5400 8400 5400
+Wire Wire Line
+	8300 5300 8400 5300
+Wire Wire Line
+	8300 5200 8400 5200
+Wire Wire Line
+	8300 3900 8400 3900
+Wire Wire Line
+	8300 4000 8400 4000
+Wire Wire Line
+	8300 4100 8400 4100
+Wire Wire Line
+	8300 4200 8400 4200
 $EndSCHEMATC
