@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 7
+Sheet 6 6
 Title "OTTO beta"
 Date "2020-05-25"
 Rev "0.1.0"
@@ -18,9 +18,11 @@ USBD_P
 Text HLabel 3100 4550 2    50   Input ~ 0
 USBD_N
 $Comp
-L Connector:USB_B USB201
+L OTTOdiy_SMD-rescue:USB_B-Connector USB201
 U 1 1 5C5A5238
 P 1700 4300
+AR Path="/5C5A5238" Ref="USB201"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/5C5A5238" Ref="USB201"  Part="1" 
 F 0 "USB201" H 1755 4767 50  0000 C CNN
 F 1 "USB_B" H 1755 4676 50  0000 C CNN
 F 2 "OTTO_Footprints_Lib:USB_B" H 1850 4250 50  0001 C CNN

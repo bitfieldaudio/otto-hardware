@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 7
+Sheet 4 6
 Title "OTTO beta"
 Date "2020-05-25"
 Rev "0.1.0"
@@ -2368,17 +2368,6 @@ $EndComp
 Wire Wire Line
 	2400 8050 2400 7300
 Connection ~ 2400 8050
-Text Label 2700 2000 2    50   ~ 0
-SPI_MOSI_MCU
-Wire Wire Line
-	1750 2000 2700 2000
-$Sheet
-S 750  1900 1000 200 
-U 5C4AB546
-F0 "LEDS" 50
-F1 "LEDS.sch" 50
-F2 "SPI_MOSI_MCU" I R 1750 2000 50 
-$EndSheet
 Wire Wire Line
 	2400 9800 2400 9250
 $Comp
