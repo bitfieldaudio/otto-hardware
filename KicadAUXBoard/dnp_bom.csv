@@ -1,3 +1,0 @@
-Reference, Quantity, Value, Footprint, Datasheet, AssemblyOption, JLCASM, MPN, LCSC PN
-J1_KD028QVFMA17 ,1,"Conn_02x25_Counter_Clockwise","OTTO_Footprints_Lib:F0501-B-50-20T-R","https://datasheet.lcsc.com/szlcsc/Worldsemi-WS2812B-B_C114586.pdf","","DNP","F0501-B-50-20T-R","C481235"
-J2 J1 ,2,"Conn_02x05_Odd_Even","Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical","","","DNP","",""

@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name OTTO_Footprints_Lib)(type KiCad)(uri ${KIPRJMOD}/Library/OTTO_Footprints_Lib.pretty)(options "")(descr "Footprints for OTTO Project"))
-  (lib (name OTTO_Icons_Lib)(type KiCad)(uri ${KIPRJMOD}/Library/OTTO_Icons_Lib.pretty)(options "")(descr ""))
-)

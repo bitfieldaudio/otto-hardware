@@ -1,9 +1,0 @@
-(module only_hole (layer F.Cu) (tedit 5EE14F58)
-  (fp_text reference G*** (at -0.8932 0.0466) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
-  )
-  (fp_text value LOGO (at -0.1432 0.0466) (layer F.SilkS) hide
-    (effects (font (size 1.524 1.524) (thickness 0.3)))
-  )
-  (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask))
-)
