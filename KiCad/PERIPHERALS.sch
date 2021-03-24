@@ -76,32 +76,6 @@ F 3 "" H 3650 2850 50  0001 C CNN
 	1    3650 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D412CA4
-P -4500 7750
-AR Path="/5C43B923/5D412CA4" Ref="#PWR?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5D412CA4" Ref="#PWR0224"  Part="1" 
-F 0 "#PWR0224" H -4500 7500 50  0001 C CNN
-F 1 "GND" V -4495 7622 50  0000 R CNN
-F 2 "" H -4500 7750 50  0001 C CNN
-F 3 "" H -4500 7750 50  0001 C CNN
-	1    -4500 7750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	-4500 7350 -3350 7350
-NoConn ~ -3350 7250
-Wire Wire Line
-	-3350 7750 -3350 7550
-Text GLabel -4500 7450 0    50   Input ~ 0
-+3V3_RASPI
-Text GLabel -4500 8350 0    50   Input ~ 0
-SPI_CS_RASPI_DISPLAY
-Text GLabel -4500 8450 0    50   Input ~ 0
-SPI_SCLK_RASPI
-Text GLabel -4500 8650 0    50   Input ~ 0
-SPI_MOSI_RASPI
 NoConn ~ 2800 2050
 Wire Wire Line
 	2000 4300 2600 4300
@@ -215,10 +189,6 @@ Wire Wire Line
 Wire Wire Line
 	10850 6450 11400 6450
 Wire Wire Line
-	11250 7150 11250 7250
-Wire Wire Line
-	9150 7150 9500 7150
-Wire Wire Line
 	12300 6650 12400 6650
 Wire Wire Line
 	10350 6750 10350 6850
@@ -228,8 +198,6 @@ Wire Wire Line
 	12200 6350 12800 6350
 Wire Wire Line
 	11800 6750 11800 6950
-Wire Wire Line
-	11250 7550 11250 7600
 Wire Wire Line
 	11250 6550 11250 7150
 Wire Wire Line
@@ -244,7 +212,6 @@ Wire Wire Line
 	12700 6650 12800 6650
 Wire Wire Line
 	12200 6450 12300 6450
-Connection ~ 11250 7150
 $Comp
 L OTTOdiy_SMD-library:TPS22918_SOT23-6_A U5
 U 1 1 5E1C2CBC
@@ -289,22 +256,6 @@ F 8 "BASIC" H 10850 6650 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R16
-U 1 1 5E1C2CBF
-P 11250 7400
-F 0 "R16" H 11320 7446 50  0000 L CNN
-F 1 "100k" H 11320 7355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 11180 7400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17407.pdf" H 11250 7400 50  0001 C CNN
-F 4 "" H 11250 7400 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F1003T5E" H 11250 7400 50  0001 C CNN "MPN"
-F 6 "" H 11250 7400 50  0001 C CNN "Manufacturer"
-F 7 "BASIC" H 11250 7400 50  0001 C CNN "JLCASM"
-F 8 "C17407" H 11250 7400 50  0001 C CNN "LCSC PN"
-	1    11250 7400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R17
 U 1 1 5E1C2CC0
 P 12550 6650
@@ -329,17 +280,6 @@ F 1 "GND" H 10855 6677 50  0000 C CNN
 F 2 "" H 10850 6850 50  0001 C CNN
 F 3 "" H 10850 6850 50  0001 C CNN
 	1    10850 6850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0128
-U 1 1 5E1C2CC2
-P 11250 7600
-F 0 "#PWR0128" H 11250 7350 50  0001 C CNN
-F 1 "GND" H 11255 7427 50  0000 C CNN
-F 2 "" H 11250 7600 50  0001 C CNN
-F 3 "" H 11250 7600 50  0001 C CNN
-	1    11250 7600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -489,21 +429,6 @@ F 8 "C250096" H 9350 6600 50  0001 C CNN "LCSC PN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5E14EE2D
-P -3150 7800
-AR Path="/5C43B923/5E14EE2D" Ref="#PWR?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5E14EE2D" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H -3150 7550 50  0001 C CNN
-F 1 "GND" H -3063 7763 50  0000 L CNN
-F 2 "" H -3150 7800 50  0001 C CNN
-F 3 "" H -3150 7800 50  0001 C CNN
-	1    -3150 7800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	-3150 7750 -3150 7800
-$Comp
 L Switch:SW_DIP_x02 SW48
 U 1 1 5E200CEF
 P 8100 8150
@@ -524,7 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 8050 9500 8050
 Wire Wire Line
-	9500 8050 9500 7150
+	9500 8050 9500 7750
 Connection ~ 9500 7150
 Wire Wire Line
 	9500 7150 11250 7150
@@ -534,19 +459,10 @@ Wire Wire Line
 	9500 8150 9500 9000
 Wire Wire Line
 	7800 8150 7700 8150
-Wire Wire Line
-	7700 8150 7700 8050
-Connection ~ 7700 8050
-Wire Wire Line
-	7700 8050 7800 8050
 Text Notes 7850 8400 0    50   ~ 0
 Power Override\n
 Text HLabel 8650 9000 0    50   Input ~ 0
 LED_PWR_EN
-Wire Wire Line
-	7450 8050 7700 8050
-Text GLabel -4500 7350 0    50   Input ~ 0
-BL_PWM
 Wire Wire Line
 	2600 4300 2600 4400
 Wire Wire Line
@@ -750,26 +666,10 @@ Text GLabel 8850 5050 0    50   Input ~ 0
 +5V_REG
 Text GLabel 8800 6350 0    50   Input ~ 0
 +5V_REG
-Text GLabel 7450 8050 0    50   Input ~ 0
+Text GLabel 7700 8150 0    50   Input ~ 0
 +3V3_MCU
 Text Label 3100 1950 0    50   ~ 0
 BARL
-$Comp
-L Device:R R31
-U 1 1 5E6739EA
-P 9000 7150
-F 0 "R31" V 9115 7150 50  0000 C CNN
-F 1 "10k" V 9206 7150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 7150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17414.pdf" H 9000 7150 50  0001 C CNN
-F 4 "" H 9000 7150 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F1002T5E" H 9000 7150 50  0001 C CNN "MPN"
-F 6 "" H 9000 7150 50  0001 C CNN "Manufacturer"
-F 7 "BASIC" H 9000 7150 50  0001 C CNN "JLCASM"
-F 8 "C17414" H 9000 7150 50  0001 C CNN "LCSC PN"
-	1    9000 7150
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R R32
 U 1 1 5E674E79
@@ -788,47 +688,10 @@ F 8 "C17414" H 9000 9000 50  0001 C CNN "LCSC PN"
 $EndComp
 Wire Wire Line
 	8650 9000 8850 9000
-Wire Wire Line
-	8650 7150 8850 7150
 Text Label 8550 8050 0    50   ~ 0
 PI_PWR_EN_OVERRIDE
 Text Label 8550 8150 0    50   ~ 0
 LED_PWR_EN_OVERRIDE
-$Comp
-L power:GND #PWR?
-U 1 1 5E77F960
-P -4500 10200
-AR Path="/5C43B923/5E77F960" Ref="#PWR?"  Part="1" 
-AR Path="/5C4320DF/5C4AB597/5E77F960" Ref="#PWR0144"  Part="1" 
-F 0 "#PWR0144" H -4500 9950 50  0001 C CNN
-F 1 "GND" V -4495 10072 50  0000 R CNN
-F 2 "" H -4500 10200 50  0001 C CNN
-F 3 "" H -4500 10200 50  0001 C CNN
-	1    -4500 10200
-	0    1    1    0   
-$EndComp
-Text GLabel -4500 10300 0    50   Input ~ 0
-+3V3_RASPI
-Text GLabel -4500 10400 0    50   Input ~ 0
-BL_PWM
-Text GLabel -4500 10500 0    50   Input ~ 0
-SPI_MOSI_RASPI
-Text GLabel -4500 10600 0    50   Input ~ 0
-SPI_SCLK_RASPI
-Wire Wire Line
-	-3350 10400 -4500 10400
-Wire Wire Line
-	-4500 10500 -3350 10500
-Wire Wire Line
-	-3350 10600 -4500 10600
-Wire Wire Line
-	-4500 10300 -3350 10300
-Wire Wire Line
-	-4500 10200 -3350 10200
-Text GLabel -4500 10700 0    50   Input ~ 0
-SPI_CS_RASPI_DISPLAY
-Wire Wire Line
-	-4500 10700 -3350 10700
 $Comp
 L Power_Protection:SRV05-4 U204
 U 1 1 5EA94B2C
@@ -1115,10 +978,6 @@ Text HLabel 4400 1950 2    50   Output ~ 0
 BARREL_IN
 Text HLabel 13250 1950 2    50   Output ~ 0
 BUCK_OUT
-Wire Wire Line
-	-4500 7450 -3350 7450
-Wire Wire Line
-	-4500 7750 -3350 7750
 Text HLabel 6950 1650 0    50   Input ~ 0
 BARREL_IN
 Text HLabel 6950 1400 0    50   Input ~ 0
@@ -1532,7 +1391,7 @@ F 6 "0805W8F1003T5E" H 4150 6550 50  0001 C CNN "MPN"
 	1    4150 6550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 7400 2    50   Input ~ 0
+Text GLabel 4150 7400 3    50   Input ~ 0
 PWR_BUTTON
 Wire Wire Line
 	4150 7400 4150 7250
@@ -1589,4 +1448,109 @@ F 6 "2N7002" H 4050 7050 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 Connection ~ 4150 6850
+Wire Wire Line
+	7700 8050 7800 8050
+Text GLabel 7700 8050 0    50   Input ~ 0
++5V_REG
+Text GLabel 3550 8600 2    50   Input ~ 0
+PWR_BUTTON
+Wire Wire Line
+	2650 8700 2650 8950
+Wire Wire Line
+	3250 8600 3250 8950
+Wire Wire Line
+	3150 8600 3250 8600
+Connection ~ 2650 8700
+Wire Wire Line
+	2650 8700 2550 8700
+Wire Wire Line
+	2650 8700 2750 8700
+Connection ~ 3250 8600
+Wire Wire Line
+	3250 8600 3550 8600
+$Comp
+L power:GND #PWR?
+U 1 1 6063AED9
+P 2550 8700
+AR Path="/5C4320DF/5C4AB60A/6063AED9" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/6063AED9" Ref="#PWR01"  Part="1" 
+AR Path="/5C4320DF/6063AED9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR01" H 2550 8450 50  0001 C CNN
+F 1 "GND" H 2555 8527 50  0000 C CNN
+F 2 "" H 2550 8700 50  0001 C CNN
+F 3 "" H 2550 8700 50  0001 C CNN
+	1    2550 8700
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DPDT_x2 SW49
+U 1 1 6063AEE4
+P 2950 8600
+AR Path="/5C4320DF/5C4AB597/6063AEE4" Ref="SW49"  Part="1" 
+AR Path="/5C4320DF/6063AEE4" Ref="SW?"  Part="1" 
+F 0 "SW49" H 3100 8400 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 3100 8400 50  0001 C CNN
+F 2 "OTTO_Footprints_Lib:SSAC120100" H 2950 8600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C202374.pdf" H 2950 8600 50  0001 C CNN
+F 4 "DNP" H 2950 8600 50  0001 C CNN "JLCASM"
+F 5 "C202374" H 2950 8600 50  0001 C CNN "LCSC PN"
+F 6 "SSAC120100" H 2950 8600 50  0001 C CNN "MPN"
+F 7 "" H 2950 8600 50  0001 C CNN "Manufacturer"
+F 8 "" H 2950 8600 50  0001 C CNN "UnitCost(USD)"
+	1    2950 8600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2650 8950 2800 8950
+Wire Wire Line
+	3250 8950 3100 8950
+$Comp
+L Device:C C?
+U 1 1 6063AEF1
+P 2950 8950
+AR Path="/5C4320DF/5C4AB60A/6063AEF1" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C6CAC95/6063AEF1" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/6063AEF1" Ref="C4"  Part="1" 
+AR Path="/5C4320DF/6063AEF1" Ref="C?"  Part="1" 
+F 0 "C4" V 3110 8950 50  0000 C CNN
+F 1 "100nF" V 3201 8950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2988 8800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C49678.pdf" H 2950 8950 50  0001 C CNN
+F 4 "" H 2950 8950 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CC0805KRX7R9BB104" H 2950 8950 12700 0001 C CNN "MPN"
+F 6 "" H 2950 8950 12700 0001 C CNN "Manufacturer"
+F 7 "C49678" H 2950 8950 50  0001 C CNN "LCSC PN"
+F 8 "BASIC" H 2950 8950 50  0001 C CNN "JLCASM"
+	1    2950 8950
+	0    1    1    0   
+$EndComp
+NoConn ~ 2750 8500
+Wire Notes Line
+	4150 9350 4150 8150
+Wire Notes Line
+	4150 8150 2200 8150
+Wire Notes Line
+	2200 8150 2200 9350
+Wire Notes Line
+	2200 9350 4150 9350
+Text Notes 2300 8300 0    50   ~ 0
+Power button to MCU\n
+$Comp
+L Device:R R16
+U 1 1 6064B2EA
+P 9500 7600
+F 0 "R16" H 9570 7646 50  0000 L CNN
+F 1 "100k" H 9570 7555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9430 7600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17407.pdf" H 9500 7600 50  0001 C CNN
+F 4 "BASIC" H 9500 7600 50  0001 C CNN "JLCASM"
+F 5 "C17407" H 9500 7600 50  0001 C CNN "LCSC PN"
+F 6 "0805W8F1003T5E" H 9500 7600 50  0001 C CNN "MPN"
+	1    9500 7600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 7450 9500 7150
+Wire Wire Line
+	8650 7150 9500 7150
 $EndSCHEMATC
