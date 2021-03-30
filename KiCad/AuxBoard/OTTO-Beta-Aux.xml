@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/topisani/dev/otto-hardware/KicadAUXBoard/OTTO_AUX_SMD.sch</source>
-    <date>2020-11-05T20:22:36 CET</date>
-    <tool>Eeschema 5.1.6</tool>
+    <source>/home/topisani/dev/otto-hardware/KiCad/AuxBoard/OTTO-Beta-Aux.sch</source>
+    <date>2021-03-30T15:36:05 CEST</date>
+    <tool>Eeschema 5.1.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>OTTOdiy</title>
         <company>https://github.com/otto-project</company>
         <rev>1.0</rev>
         <date>2020-01-10</date>
-        <source>OTTO_AUX_SMD.sch</source>
+        <source>OTTO-Beta-Aux.sch</source>
         <comment number="1" value="Design by Bastian &quot;Spatz&quot; Mohing and Steven &quot;adorbs&quot; Hang"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/KEYS+ENCODERS/" tstamps="/5ED653E0/">
-      <title_block>
-        <title>OTTOdiy</title>
-        <company>https://github.com/otto-project</company>
-        <rev>1.0</rev>
-        <date>2020-01-10</date>
-        <source>KEYS+ENCODERS.sch</source>
-        <comment number="1" value="Design by Bastian &quot;Spatz&quot; Mohing and Steven &quot;adorbs&quot; Hang"/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="3" name="/LEDs/" tstamps="/5ED65394/">
+    <sheet number="2" name="/LEDs/" tstamps="/5ED65394/">
       <title_block>
         <title>OTTOdiy</title>
         <company>https://github.com/otto-project</company>
         <rev>1.0</rev>
         <date>2020-01-10</date>
         <source>LEDS.sch</source>
+        <comment number="1" value="Design by Bastian &quot;Spatz&quot; Mohing and Steven &quot;adorbs&quot; Hang"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/KEYS+ENCODERS/" tstamps="/5ED653E0/">
+      <title_block>
+        <title>OTTOdiy</title>
+        <company>https://github.com/otto-project</company>
+        <rev>1.0</rev>
+        <date>2020-01-10</date>
+        <source>KEYS+ENCODERS.sch</source>
         <comment number="1" value="Design by Bastian &quot;Spatz&quot; Mohing and Steven &quot;adorbs&quot; Hang"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -300,7 +300,6 @@
     <comp ref="C48">
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -310,75 +309,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E911CA8</tstamp>
     </comp>
-    <comp ref="R4">
-      <value>0</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C17477pdf</datasheet>
-      <fields>
-        <field name="JLCASM">BASIC</field>
-        <field name="LCSC PN">C17477</field>
-        <field name="MPN">0805W8F0000T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EF1AA2E</tstamp>
-    </comp>
-    <comp ref="R3">
-      <value>100k</value>
-      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C17407.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">BASIC</field>
-        <field name="LCSC PN">C17407</field>
-        <field name="MPN">0805W8F1003T5E</field>
-      </fields>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EF1AA39</tstamp>
-    </comp>
-    <comp ref="C50">
-      <value>10nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C1710.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">BASIC</field>
-        <field name="LCSC PN">C1710</field>
-        <field name="MPN">CL21B103KBANNNC</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EF1AA44</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>TPS22918_SOT23-6_A</value>
-      <footprint>OTTO_Footprints_Lib:SOT-23-6</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C131941.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C131941</field>
-        <field name="MPN">TPS22918DBVR</field>
-      </fields>
-      <libsource lib="OTTOdiy_SMD-library" part="TPS22918_SOT23-6_A" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EF1AA5A</tstamp>
-    </comp>
-    <comp ref="C49">
-      <value>47uF</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C68361.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C68361</field>
-        <field name="MPN">CL31A476MQHNNNE</field>
-      </fields>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EF1AA4F</tstamp>
-    </comp>
     <comp ref="J1_KD028QVFMA17">
       <value>Conn_02x25_Counter_Clockwise</value>
       <footprint>OTTO_Footprints_Lib:F0501-B-50-20T-R</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Worldsemi-WS2812B-B_C114586.pdf</datasheet>
       <fields>
         <field name="JLCASM">DNP</field>
         <field name="LCSC PN">C481235</field>
@@ -391,7 +324,6 @@
     <comp ref="R2">
       <value>90</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F900JT5E_C247027.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
         <field name="LCSC PN">C247027</field>
@@ -404,7 +336,6 @@
     <comp ref="R9">
       <value>90</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F900JT5E_C247027.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
         <field name="LCSC PN">C247027</field>
@@ -417,7 +348,6 @@
     <comp ref="R8">
       <value>90</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F900JT5E_C247027.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
         <field name="LCSC PN">C247027</field>
@@ -430,7 +360,6 @@
     <comp ref="R7">
       <value>90</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F900JT5E_C247027.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
         <field name="LCSC PN">C247027</field>
@@ -443,7 +372,6 @@
     <comp ref="R6">
       <value>90</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F900JT5E_C247027.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
         <field name="LCSC PN">C247027</field>
@@ -456,7 +384,6 @@
     <comp ref="R5">
       <value>90</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F900JT5E_C247027.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
         <field name="LCSC PN">C247027</field>
@@ -469,7 +396,6 @@
     <comp ref="Q1">
       <value>AO3400A</value>
       <footprint>OTTO_Footprints_Lib:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO3400A_C20917.pdf</datasheet>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C20917</field>
@@ -482,7 +408,6 @@
     <comp ref="R1">
       <value>47k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0805W8F4702T5E_C17713.pdf</datasheet>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C17713</field>
@@ -492,23 +417,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED9D2EA</tstamp>
     </comp>
-    <comp ref="J2">
-      <value>Conn_02x05_Odd_Even</value>
-      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ED4551D</tstamp>
-    </comp>
     <comp ref="J1">
-      <value>Conn_02x05_Odd_Even</value>
-      <footprint>Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical</footprint>
+      <value>Conn_01x20</value>
+      <footprint>OTTO_Footprints_Lib:X10B25L20T_FPC_1x20-1MP_P1.00mm_Horizontal</footprint>
       <fields>
         <field name="JLCASM">DNP</field>
+        <field name="LCSC PN">C500179</field>
+        <field name="MPN">X10B25L20T</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x20" description="Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EECD93B</tstamp>
     </comp>
@@ -560,598 +477,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5DE07FDF</tstamp>
     </comp>
-    <comp ref="SW17">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C48E701</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4917CD</tstamp>
-    </comp>
-    <comp ref="SW18">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C49188D</tstamp>
-    </comp>
-    <comp ref="SW19">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491943</tstamp>
-    </comp>
-    <comp ref="SW20">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491A0D</tstamp>
-    </comp>
-    <comp ref="SW21">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491ABD</tstamp>
-    </comp>
-    <comp ref="SW2">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491B79</tstamp>
-    </comp>
-    <comp ref="SW22">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491EE6</tstamp>
-    </comp>
-    <comp ref="SW23">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491EED</tstamp>
-    </comp>
-    <comp ref="SW24">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491EF4</tstamp>
-    </comp>
-    <comp ref="SW25">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491EFB</tstamp>
-    </comp>
-    <comp ref="SW26">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C491F02</tstamp>
-    </comp>
-    <comp ref="SW3">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4A0C46</tstamp>
-    </comp>
-    <comp ref="SW4">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4A0C4D</tstamp>
-    </comp>
-    <comp ref="SW5">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4AF943</tstamp>
-    </comp>
-    <comp ref="SW6">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4AF94A</tstamp>
-    </comp>
-    <comp ref="SW7">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4AF951</tstamp>
-    </comp>
-    <comp ref="SW8">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4AF958</tstamp>
-    </comp>
-    <comp ref="SW9">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE770</tstamp>
-    </comp>
-    <comp ref="SW10">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE777</tstamp>
-    </comp>
-    <comp ref="SW11">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE77E</tstamp>
-    </comp>
-    <comp ref="SW12">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE785</tstamp>
-    </comp>
-    <comp ref="SW13">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE78C</tstamp>
-    </comp>
-    <comp ref="SW14">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE793</tstamp>
-    </comp>
-    <comp ref="SW15">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE79A</tstamp>
-    </comp>
-    <comp ref="SW16">
-      <value>ALPS SKHC</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_SKHC</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4BE7A1</tstamp>
-    </comp>
-    <comp ref="SW41">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4CD5FF</tstamp>
-    </comp>
-    <comp ref="SW34">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4CD747</tstamp>
-    </comp>
-    <comp ref="SW27">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4CD83D</tstamp>
-    </comp>
-    <comp ref="SW42">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4CDE35</tstamp>
-    </comp>
-    <comp ref="SW35">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4CDE3C</tstamp>
-    </comp>
-    <comp ref="SW28">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C4CDE43</tstamp>
-    </comp>
-    <comp ref="SW43">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5B75BA</tstamp>
-    </comp>
-    <comp ref="SW36">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5B75C1</tstamp>
-    </comp>
-    <comp ref="SW29">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5B75C8</tstamp>
-    </comp>
-    <comp ref="SW44">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5C20D2</tstamp>
-    </comp>
-    <comp ref="SW37">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5C20D9</tstamp>
-    </comp>
-    <comp ref="SW30">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5C20E0</tstamp>
-    </comp>
-    <comp ref="SW45">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5CCBCF</tstamp>
-    </comp>
-    <comp ref="SW38">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5CCBD6</tstamp>
-    </comp>
-    <comp ref="SW31">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5CCBDD</tstamp>
-    </comp>
-    <comp ref="SW46">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5D76FF</tstamp>
-    </comp>
-    <comp ref="SW39">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5D7706</tstamp>
-    </comp>
-    <comp ref="SW32">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5D770D</tstamp>
-    </comp>
-    <comp ref="SW47">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5E221A</tstamp>
-    </comp>
-    <comp ref="SW40">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5E2221</tstamp>
-    </comp>
-    <comp ref="SW33">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C5E2228</tstamp>
-    </comp>
-    <comp ref="ENC1">
-      <value>ALPS EC11E183440C</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_EC11</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C370986.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">N/A</field>
-        <field name="MPN">N/A</field>
-      </fields>
-      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C6BBEC5</tstamp>
-    </comp>
-    <comp ref="ENC2">
-      <value>ALPS EC11E183440C</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_EC11</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C370986.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">N/A</field>
-        <field name="MPN">N/A</field>
-      </fields>
-      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C6BBEED</tstamp>
-    </comp>
-    <comp ref="ENC3">
-      <value>ALPS EC11E183440C</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_EC11</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C370986.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">N/A</field>
-        <field name="MPN">N/A</field>
-      </fields>
-      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C6BBF14</tstamp>
-    </comp>
-    <comp ref="ENC4">
-      <value>ALPS EC11E183440C</value>
-      <footprint>OTTO_Footprints_Lib:ALPS_EC11</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C370986.pdf</datasheet>
-      <fields>
-        <field name="JLCASM">N/A</field>
-        <field name="MPN">N/A</field>
-      </fields>
-      <libsource lib="Device" part="Rotary_Encoder_Switch" description="Rotary encoder, dual channel, incremental quadrate outputs, with switch"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5C6BBF3A</tstamp>
-    </comp>
-    <comp ref="SW50">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5E5873A6</tstamp>
-    </comp>
-    <comp ref="SW51">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5E5873AF</tstamp>
-    </comp>
-    <comp ref="SW52">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5E5873B9</tstamp>
-    </comp>
-    <comp ref="SW53">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5E5873C2</tstamp>
-    </comp>
-    <comp ref="SW54">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5E5873CB</tstamp>
-    </comp>
-    <comp ref="SW55">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5E5873D4</tstamp>
-    </comp>
-    <comp ref="SW56">
-      <value>6x6x13mm</value>
-      <footprint>OTTO_Footprints_Lib:6x6mm_Switch</footprint>
-      <fields>
-        <field name="JLCASM">DNP</field>
-      </fields>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
-      <tstamp>5E5873DD</tstamp>
-    </comp>
     <comp ref="R208">
       <value>100</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C17408.pdf</datasheet>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C17408</field>
@@ -1163,8 +491,7 @@
     </comp>
     <comp ref="C16">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1176,8 +503,7 @@
     </comp>
     <comp ref="C15">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1189,8 +515,7 @@
     </comp>
     <comp ref="C14">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1202,8 +527,7 @@
     </comp>
     <comp ref="C13">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1215,8 +539,7 @@
     </comp>
     <comp ref="C12">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1228,8 +551,7 @@
     </comp>
     <comp ref="C11">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1241,8 +563,7 @@
     </comp>
     <comp ref="C10">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1254,8 +575,7 @@
     </comp>
     <comp ref="C9">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1267,8 +587,7 @@
     </comp>
     <comp ref="C8">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1280,8 +599,7 @@
     </comp>
     <comp ref="C7">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1293,8 +611,7 @@
     </comp>
     <comp ref="C6">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1306,8 +623,7 @@
     </comp>
     <comp ref="C5">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1319,8 +635,7 @@
     </comp>
     <comp ref="C4">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1332,8 +647,7 @@
     </comp>
     <comp ref="C3">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1345,8 +659,7 @@
     </comp>
     <comp ref="C2">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1358,8 +671,7 @@
     </comp>
     <comp ref="C1">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1371,8 +683,7 @@
     </comp>
     <comp ref="C26">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1384,8 +695,7 @@
     </comp>
     <comp ref="C25">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1397,8 +707,7 @@
     </comp>
     <comp ref="C24">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1410,8 +719,7 @@
     </comp>
     <comp ref="C23">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1423,8 +731,7 @@
     </comp>
     <comp ref="C22">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1436,8 +743,7 @@
     </comp>
     <comp ref="C21">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1449,8 +755,7 @@
     </comp>
     <comp ref="C20">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1462,8 +767,7 @@
     </comp>
     <comp ref="C19">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1475,8 +779,7 @@
     </comp>
     <comp ref="C18">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1488,8 +791,7 @@
     </comp>
     <comp ref="C17">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1500,273 +802,252 @@
       <tstamp>5C760A66</tstamp>
     </comp>
     <comp ref="LED47">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136C04</tstamp>
     </comp>
     <comp ref="LED46">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B87</tstamp>
     </comp>
     <comp ref="LED45">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B32</tstamp>
     </comp>
     <comp ref="LED44">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B2C</tstamp>
     </comp>
     <comp ref="LED41">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B20</tstamp>
     </comp>
     <comp ref="LED42">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B1A</tstamp>
     </comp>
     <comp ref="LED43">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B14</tstamp>
     </comp>
     <comp ref="LED35">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B81</tstamp>
     </comp>
     <comp ref="LED34">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B7B</tstamp>
     </comp>
     <comp ref="LED36">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B38</tstamp>
     </comp>
     <comp ref="LED39">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B4A</tstamp>
     </comp>
     <comp ref="LED38">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B44</tstamp>
     </comp>
     <comp ref="LED37">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B3E</tstamp>
     </comp>
     <comp ref="LED40">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B26</tstamp>
     </comp>
     <comp ref="LED27">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B95</tstamp>
     </comp>
     <comp ref="LED33">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B75</tstamp>
     </comp>
     <comp ref="LED32">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B6F</tstamp>
     </comp>
     <comp ref="LED31">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B69</tstamp>
     </comp>
     <comp ref="LED30">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B63</tstamp>
     </comp>
     <comp ref="LED29">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E136B5D</tstamp>
     </comp>
     <comp ref="LED28">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
@@ -1774,8 +1055,7 @@
     </comp>
     <comp ref="C29">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1787,8 +1067,7 @@
     </comp>
     <comp ref="C30">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1800,8 +1079,7 @@
     </comp>
     <comp ref="C28">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1813,8 +1091,7 @@
     </comp>
     <comp ref="C33">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1826,8 +1103,7 @@
     </comp>
     <comp ref="C31">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1839,8 +1115,7 @@
     </comp>
     <comp ref="C32">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1852,8 +1127,7 @@
     </comp>
     <comp ref="C34">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1865,8 +1139,7 @@
     </comp>
     <comp ref="C46">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1878,8 +1151,7 @@
     </comp>
     <comp ref="C45">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1891,8 +1163,7 @@
     </comp>
     <comp ref="C47">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1904,8 +1175,7 @@
     </comp>
     <comp ref="C42">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1917,8 +1187,7 @@
     </comp>
     <comp ref="C41">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1930,8 +1199,7 @@
     </comp>
     <comp ref="C44">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1943,8 +1211,7 @@
     </comp>
     <comp ref="C43">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1956,8 +1223,7 @@
     </comp>
     <comp ref="C39">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1969,8 +1235,7 @@
     </comp>
     <comp ref="C38">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1982,8 +1247,7 @@
     </comp>
     <comp ref="C40">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -1995,8 +1259,7 @@
     </comp>
     <comp ref="C35">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2008,8 +1271,7 @@
     </comp>
     <comp ref="C37">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2021,8 +1283,7 @@
     </comp>
     <comp ref="C36">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2034,8 +1295,7 @@
     </comp>
     <comp ref="C27">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2046,338 +1306,312 @@
       <tstamp>5E1A39A7</tstamp>
     </comp>
     <comp ref="LED17">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B6B5A</tstamp>
     </comp>
     <comp ref="LED18">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B6CD9</tstamp>
     </comp>
     <comp ref="LED19">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B74A1</tstamp>
     </comp>
     <comp ref="LED20">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B75DC</tstamp>
     </comp>
     <comp ref="LED21">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B772F</tstamp>
     </comp>
     <comp ref="LED22">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B793C</tstamp>
     </comp>
     <comp ref="LED23">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B7AEB</tstamp>
     </comp>
     <comp ref="LED24">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B7D45</tstamp>
     </comp>
     <comp ref="LED25">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B7F94</tstamp>
     </comp>
     <comp ref="LED26">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5C5B81C2</tstamp>
     </comp>
     <comp ref="LED12">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B796</tstamp>
     </comp>
     <comp ref="LED11">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B78F</tstamp>
     </comp>
     <comp ref="LED10">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B788</tstamp>
     </comp>
     <comp ref="LED9">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B782</tstamp>
     </comp>
     <comp ref="LED16">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B77B</tstamp>
     </comp>
     <comp ref="LED15">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B774</tstamp>
     </comp>
     <comp ref="LED14">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B76D</tstamp>
     </comp>
     <comp ref="LED13">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B766</tstamp>
     </comp>
     <comp ref="LED7">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B7CC</tstamp>
     </comp>
     <comp ref="LED6">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B7C5</tstamp>
     </comp>
     <comp ref="LED5">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B7BE</tstamp>
     </comp>
     <comp ref="LED4">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B7B7</tstamp>
     </comp>
     <comp ref="LED3">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B7B0</tstamp>
     </comp>
     <comp ref="LED2">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B7A9</tstamp>
     </comp>
     <comp ref="LED1">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5DF8B7A3</tstamp>
     </comp>
     <comp ref="LED8">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
@@ -2386,7 +1620,6 @@
     <comp ref="R11">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C17407.pdf</datasheet>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C17407</field>
@@ -2399,7 +1632,6 @@
     <comp ref="U1">
       <value>SN74LV1T34_SOT-23_A</value>
       <footprint>OTTO_Footprints_Lib:SOT-23-5_HandSoldering</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C100024.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
         <field name="LCSC PN">C100024</field>
@@ -2411,8 +1643,7 @@
     </comp>
     <comp ref="C78">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2424,8 +1655,7 @@
     </comp>
     <comp ref="C105">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2437,8 +1667,7 @@
     </comp>
     <comp ref="C104">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2450,8 +1679,7 @@
     </comp>
     <comp ref="C103">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2463,8 +1691,7 @@
     </comp>
     <comp ref="C102">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2476,8 +1703,7 @@
     </comp>
     <comp ref="C101">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2489,8 +1715,7 @@
     </comp>
     <comp ref="C100">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2502,8 +1727,7 @@
     </comp>
     <comp ref="C99">
       <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="JLCASM">BASIC</field>
         <field name="LCSC PN">C49678</field>
@@ -2514,107 +1738,684 @@
       <tstamp>5E89A963</tstamp>
     </comp>
     <comp ref="LED48">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E89A96D</tstamp>
     </comp>
     <comp ref="LED49">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E89A976</tstamp>
     </comp>
     <comp ref="LED50">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E89A980</tstamp>
     </comp>
     <comp ref="LED51">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E89A989</tstamp>
     </comp>
     <comp ref="LED52">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E89A993</tstamp>
     </comp>
     <comp ref="LED53">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E89A99D</tstamp>
     </comp>
     <comp ref="LED54">
-      <value>WS2812B</value>
+      <value>WS2812C</value>
       <footprint>OTTO_Footprints_Lib:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/C190565.pdf</datasheet>
       <fields>
         <field name="JLCASM">EXT</field>
-        <field name="LCSC PN">C114586</field>
-        <field name="MPN">WS2812B-B</field>
+        <field name="LCSC PN">C114587</field>
+        <field name="MPN">WS2812C</field>
       </fields>
       <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
       <sheetpath names="/LEDs/" tstamps="/5ED65394/"/>
       <tstamp>5E89A9A6</tstamp>
     </comp>
+    <comp ref="SW17">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C48E701</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4917CD</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C49188D</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491943</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491A0D</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491ABD</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491B79</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491EE6</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491EED</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491EF4</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491EFB</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C491F02</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4A0C46</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4A0C4D</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4AF943</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4AF94A</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4AF951</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4AF958</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE770</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE777</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE77E</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE785</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE78C</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE793</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE79A</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>ALPS SKHC Hole</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_SKHC_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4BE7A1</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4CD5FF</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4CD747</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4CD83D</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4CDE35</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4CDE3C</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C4CDE43</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5B75BA</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5B75C1</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5B75C8</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5C20D2</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5C20D9</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5C20E0</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5CCBCF</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5CCBD6</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5CCBDD</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5D76FF</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5D7706</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5D770D</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5E221A</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5E2221</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C5E2228</tstamp>
+    </comp>
+    <comp ref="ENC1">
+      <value>ALPS EC11 HOLE</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_EC11_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+        <field name="MPN">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C6BBEC5</tstamp>
+    </comp>
+    <comp ref="ENC2">
+      <value>ALPS EC11 HOLE</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_EC11_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+        <field name="MPN">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C6BBEED</tstamp>
+    </comp>
+    <comp ref="ENC4">
+      <value>ALPS EC11 HOLE</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_EC11_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+        <field name="MPN">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C6BBF3A</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5E5873A6</tstamp>
+    </comp>
+    <comp ref="SW51">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5E5873AF</tstamp>
+    </comp>
+    <comp ref="SW52">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5E5873B9</tstamp>
+    </comp>
+    <comp ref="SW53">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5E5873C2</tstamp>
+    </comp>
+    <comp ref="SW54">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5E5873CB</tstamp>
+    </comp>
+    <comp ref="SW55">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5E5873D4</tstamp>
+    </comp>
+    <comp ref="SW56">
+      <value>6x6x13mm Hole</value>
+      <footprint>OTTO_Footprints_Lib:6x6mm_Switch_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5E5873DD</tstamp>
+    </comp>
+    <comp ref="ENC3">
+      <value>ALPS EC11 HOLE</value>
+      <footprint>OTTO_Footprints_Lib:ALPS_EC11_aux_hole</footprint>
+      <fields>
+        <field name="JLCASM">N/A</field>
+        <field name="MPN">N/A</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/KEYS+ENCODERS/" tstamps="/5ED653E0/"/>
+      <tstamp>5C6BBF14</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
-      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+    <libpart lib="Connector_Generic" part="Conn_01x20">
+      <description>Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
-        <fp>Connector*:*_2x??_*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Value">Conn_01x20</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2627,6 +2428,16 @@
         <pin num="8" name="Pin_8" type="passive"/>
         <pin num="9" name="Pin_9" type="passive"/>
         <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x25_Counter_Clockwise">
@@ -2750,24 +2561,6 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="Rotary_Encoder_Switch">
-      <description>Rotary encoder, dual channel, incremental quadrate outputs, with switch</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>RotaryEncoder*Switch*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">Rotary_Encoder_Switch</field>
-      </fields>
-      <pins>
-        <pin num="A" name="A" type="passive"/>
-        <pin num="B" name="B" type="passive"/>
-        <pin num="C" name="C" type="passive"/>
-        <pin num="S1" name="S1" type="passive"/>
-        <pin num="S2" name="S2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="LED" part="WS2812B">
       <description>RGB LED with integrated controller</description>
       <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
@@ -2825,38 +2618,6 @@
         <pin num="5" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="OTTOdiy_SMD-library" part="TPS22918_SOT23-6_A">
-      <docs>http://www.ti.com/lit/ds/symlink/tps22918.pdf</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPS22918_SOT23-6_A</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps22918.pdf</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VIN" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="ON" type="input"/>
-        <pin num="4" name="CT" type="output"/>
-        <pin num="5" name="QOD" type="openCol"/>
-        <pin num="6" name="VOUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="Switch" part="SW_Push">
-      <description>Push button switch, generic, two pins</description>
-      <docs>~</docs>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_Push</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector_Generic">
@@ -2872,1008 +2633,589 @@
       <uri>/usr/share/kicad/library/Mechanical.lib</uri>
     </library>
     <library logical="OTTOdiy_SMD-library">
-      <uri>/home/topisani/dev/otto-hardware/KicadAUXBoard/Library/OTTOdiy_SMD-library.lib</uri>
-    </library>
-    <library logical="Switch">
-      <uri>/usr/share/kicad/library/Switch.lib</uri>
+      <uri>/home/topisani/dev/otto-hardware/KiCad/AuxBoard/Library/OTTOdiy_SMD-library.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(J1_KD028QVFMA17-Pad48)">
-      <node ref="J1_KD028QVFMA17" pin="48"/>
-      <node ref="R9" pin="1"/>
+    <net code="1" name="GND">
+      <node ref="C9" pin="2"/>
+      <node ref="LED13" pin="3"/>
+      <node ref="LED7" pin="3"/>
+      <node ref="LED12" pin="3"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="LED14" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="LED11" pin="3"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="LED10" pin="3"/>
+      <node ref="C16" pin="2"/>
+      <node ref="LED17" pin="3"/>
+      <node ref="LED18" pin="3"/>
+      <node ref="LED9" pin="3"/>
+      <node ref="LED19" pin="3"/>
+      <node ref="LED20" pin="3"/>
+      <node ref="LED16" pin="3"/>
+      <node ref="LED15" pin="3"/>
+      <node ref="LED49" pin="3"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C100" pin="2"/>
+      <node ref="C99" pin="2"/>
+      <node ref="LED48" pin="3"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="LED3" pin="3"/>
+      <node ref="C42" pin="2"/>
+      <node ref="LED2" pin="3"/>
+      <node ref="C45" pin="2"/>
+      <node ref="LED1" pin="3"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="LED26" pin="3"/>
+      <node ref="LED25" pin="3"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="LED22" pin="3"/>
+      <node ref="LED23" pin="3"/>
+      <node ref="LED24" pin="3"/>
+      <node ref="LED21" pin="3"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C78" pin="2"/>
+      <node ref="LED44" pin="3"/>
+      <node ref="LED45" pin="3"/>
+      <node ref="LED46" pin="3"/>
+      <node ref="LED47" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="LED54" pin="3"/>
+      <node ref="LED50" pin="3"/>
+      <node ref="LED51" pin="3"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="LED52" pin="3"/>
+      <node ref="C17" pin="2"/>
+      <node ref="LED53" pin="3"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="LED27" pin="3"/>
+      <node ref="LED35" pin="3"/>
+      <node ref="LED41" pin="3"/>
+      <node ref="LED42" pin="3"/>
+      <node ref="LED43" pin="3"/>
+      <node ref="LED33" pin="3"/>
+      <node ref="LED34" pin="3"/>
+      <node ref="J1_KD028QVFMA17" pin="37"/>
+      <node ref="LED39" pin="3"/>
+      <node ref="J1_KD028QVFMA17" pin="30"/>
+      <node ref="J1_KD028QVFMA17" pin="31"/>
+      <node ref="J1_KD028QVFMA17" pin="32"/>
+      <node ref="J1_KD028QVFMA17" pin="33"/>
+      <node ref="J1_KD028QVFMA17" pin="34"/>
+      <node ref="J1_KD028QVFMA17" pin="35"/>
+      <node ref="J1_KD028QVFMA17" pin="36"/>
+      <node ref="J1_KD028QVFMA17" pin="38"/>
+      <node ref="J1_KD028QVFMA17" pin="39"/>
+      <node ref="J1_KD028QVFMA17" pin="40"/>
+      <node ref="LED38" pin="3"/>
+      <node ref="J1_KD028QVFMA17" pin="42"/>
+      <node ref="LED36" pin="3"/>
+      <node ref="LED37" pin="3"/>
+      <node ref="LED40" pin="3"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="C48" pin="2"/>
+      <node ref="J1" pin="9"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="14"/>
+      <node ref="J1" pin="7"/>
+      <node ref="LED4" pin="3"/>
+      <node ref="J1" pin="17"/>
+      <node ref="LED32" pin="3"/>
+      <node ref="LED31" pin="3"/>
+      <node ref="LED30" pin="3"/>
+      <node ref="LED29" pin="3"/>
+      <node ref="LED28" pin="3"/>
+      <node ref="C38" pin="2"/>
+      <node ref="J1_KD028QVFMA17" pin="28"/>
+      <node ref="C40" pin="2"/>
+      <node ref="J1_KD028QVFMA17" pin="21"/>
+      <node ref="LED6" pin="3"/>
+      <node ref="J1_KD028QVFMA17" pin="19"/>
+      <node ref="J1_KD028QVFMA17" pin="18"/>
+      <node ref="J1_KD028QVFMA17" pin="17"/>
+      <node ref="J1_KD028QVFMA17" pin="16"/>
+      <node ref="LED5" pin="3"/>
+      <node ref="J1_KD028QVFMA17" pin="20"/>
+      <node ref="J1_KD028QVFMA17" pin="25"/>
+      <node ref="J1_KD028QVFMA17" pin="24"/>
+      <node ref="J1_KD028QVFMA17" pin="26"/>
+      <node ref="J1_KD028QVFMA17" pin="27"/>
+      <node ref="J1_KD028QVFMA17" pin="29"/>
+      <node ref="J1_KD028QVFMA17" pin="1"/>
+      <node ref="J1_KD028QVFMA17" pin="23"/>
+      <node ref="J1_KD028QVFMA17" pin="50"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="LED8" pin="3"/>
+      <node ref="J1_KD028QVFMA17" pin="11"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="R11" pin="2"/>
     </net>
-    <net code="2" name="Net-(J1_KD028QVFMA17-Pad44)">
+    <net code="2" name="BL_PWM">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="3" name="Net-(Q1-Pad3)">
+      <node ref="R5" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J1_KD028QVFMA17-Pad44)">
       <node ref="R5" pin="1"/>
       <node ref="J1_KD028QVFMA17" pin="44"/>
     </net>
-    <net code="3" name="Net-(J1_KD028QVFMA17-Pad46)">
-      <node ref="J1_KD028QVFMA17" pin="46"/>
-      <node ref="R7" pin="1"/>
+    <net code="5" name="Net-(J1_KD028QVFMA17-Pad45)">
+      <node ref="R6" pin="1"/>
+      <node ref="J1_KD028QVFMA17" pin="45"/>
     </net>
-    <net code="4" name="Net-(J1_KD028QVFMA17-Pad47)">
-      <node ref="J1_KD028QVFMA17" pin="47"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="5" name="Net-(Q1-Pad3)">
-      <node ref="Q1" pin="3"/>
-      <node ref="R2" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="6" name="Net-(J1_KD028QVFMA17-Pad5)">
-      <node ref="J1_KD028QVFMA17" pin="5"/>
+    <net code="6" name="Net-(J1_KD028QVFMA17-Pad48)">
+      <node ref="R9" pin="1"/>
+      <node ref="J1_KD028QVFMA17" pin="48"/>
     </net>
     <net code="7" name="Net-(J1_KD028QVFMA17-Pad49)">
       <node ref="J1_KD028QVFMA17" pin="49"/>
       <node ref="R2" pin="1"/>
     </net>
-    <net code="8" name="Net-(J1_KD028QVFMA17-Pad45)">
-      <node ref="J1_KD028QVFMA17" pin="45"/>
-      <node ref="R6" pin="1"/>
+    <net code="8" name="Net-(J1_KD028QVFMA17-Pad47)">
+      <node ref="J1_KD028QVFMA17" pin="47"/>
+      <node ref="R8" pin="1"/>
     </net>
-    <net code="9" name="Net-(J1_KD028QVFMA17-Pad2)">
-      <node ref="J1_KD028QVFMA17" pin="2"/>
+    <net code="9" name="Net-(J1_KD028QVFMA17-Pad46)">
+      <node ref="J1_KD028QVFMA17" pin="46"/>
+      <node ref="R7" pin="1"/>
     </net>
-    <net code="10" name="SPI_CS_RASPI">
-      <node ref="J1_KD028QVFMA17" pin="14"/>
-      <node ref="J2" pin="8"/>
-    </net>
-    <net code="11" name="Net-(J1_KD028QVFMA17-Pad41)">
-      <node ref="J1_KD028QVFMA17" pin="41"/>
-    </net>
-    <net code="12" name="Net-(J1_KD028QVFMA17-Pad4)">
-      <node ref="J1_KD028QVFMA17" pin="4"/>
-    </net>
-    <net code="13" name="Net-(J1_KD028QVFMA17-Pad3)">
-      <node ref="J1_KD028QVFMA17" pin="3"/>
-    </net>
-    <net code="14" name="Net-(J1-Pad5)">
-      <node ref="J1" pin="5"/>
-    </net>
-    <net code="15" name="Net-(J1-Pad7)">
-      <node ref="J1" pin="7"/>
-    </net>
-    <net code="16" name="Net-(J1-Pad8)">
-      <node ref="J1" pin="8"/>
-    </net>
-    <net code="17" name="+5V_REG">
-      <node ref="C49" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="18" name="/SPI_MOSI_MCU">
-      <node ref="U1" pin="2"/>
-      <node ref="J1" pin="3"/>
-    </net>
-    <net code="19" name="LED_PWR_EN">
-      <node ref="U2" pin="3"/>
-      <node ref="R3" pin="1"/>
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="20" name="GND">
-      <node ref="LED37" pin="3"/>
-      <node ref="C105" pin="2"/>
-      <node ref="LED53" pin="3"/>
-      <node ref="LED54" pin="3"/>
-      <node ref="LED51" pin="3"/>
-      <node ref="LED50" pin="3"/>
-      <node ref="LED49" pin="3"/>
-      <node ref="LED48" pin="3"/>
-      <node ref="LED52" pin="3"/>
-      <node ref="C37" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="C42" pin="2"/>
-      <node ref="C47" pin="2"/>
-      <node ref="C45" pin="2"/>
-      <node ref="C46" pin="2"/>
-      <node ref="C34" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="C35" pin="2"/>
-      <node ref="C40" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C39" pin="2"/>
-      <node ref="C43" pin="2"/>
-      <node ref="C44" pin="2"/>
-      <node ref="C41" pin="2"/>
-      <node ref="LED8" pin="3"/>
-      <node ref="LED1" pin="3"/>
-      <node ref="LED2" pin="3"/>
-      <node ref="LED17" pin="3"/>
-      <node ref="LED25" pin="3"/>
-      <node ref="LED26" pin="3"/>
-      <node ref="LED24" pin="3"/>
-      <node ref="LED23" pin="3"/>
-      <node ref="LED19" pin="3"/>
-      <node ref="LED18" pin="3"/>
-      <node ref="C27" pin="2"/>
-      <node ref="LED21" pin="3"/>
-      <node ref="LED22" pin="3"/>
-      <node ref="LED20" pin="3"/>
-      <node ref="C102" pin="2"/>
-      <node ref="C99" pin="2"/>
-      <node ref="C100" pin="2"/>
-      <node ref="C101" pin="2"/>
-      <node ref="C103" pin="2"/>
-      <node ref="C104" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C36" pin="2"/>
-      <node ref="LED33" pin="3"/>
-      <node ref="LED45" pin="3"/>
-      <node ref="LED46" pin="3"/>
-      <node ref="C16" pin="2"/>
-      <node ref="LED32" pin="3"/>
-      <node ref="C15" pin="2"/>
-      <node ref="LED27" pin="3"/>
-      <node ref="LED30" pin="3"/>
-      <node ref="LED47" pin="3"/>
-      <node ref="LED44" pin="3"/>
-      <node ref="LED41" pin="3"/>
-      <node ref="LED42" pin="3"/>
-      <node ref="LED43" pin="3"/>
-      <node ref="LED35" pin="3"/>
-      <node ref="LED34" pin="3"/>
-      <node ref="C14" pin="2"/>
-      <node ref="LED29" pin="3"/>
-      <node ref="LED28" pin="3"/>
-      <node ref="LED36" pin="3"/>
-      <node ref="LED40" pin="3"/>
-      <node ref="LED38" pin="3"/>
-      <node ref="LED39" pin="3"/>
-      <node ref="C78" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="LED31" pin="3"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="LED4" pin="3"/>
-      <node ref="LED13" pin="3"/>
-      <node ref="LED7" pin="3"/>
-      <node ref="J1_KD028QVFMA17" pin="28"/>
-      <node ref="J1_KD028QVFMA17" pin="37"/>
-      <node ref="J1_KD028QVFMA17" pin="36"/>
-      <node ref="LED9" pin="3"/>
-      <node ref="J1_KD028QVFMA17" pin="35"/>
-      <node ref="J1_KD028QVFMA17" pin="33"/>
-      <node ref="J1_KD028QVFMA17" pin="31"/>
-      <node ref="J1_KD028QVFMA17" pin="30"/>
-      <node ref="LED5" pin="3"/>
-      <node ref="J1_KD028QVFMA17" pin="29"/>
-      <node ref="J1_KD028QVFMA17" pin="27"/>
-      <node ref="J1_KD028QVFMA17" pin="26"/>
-      <node ref="J1_KD028QVFMA17" pin="25"/>
-      <node ref="J1_KD028QVFMA17" pin="24"/>
-      <node ref="LED3" pin="3"/>
-      <node ref="J1" pin="10"/>
-      <node ref="C49" pin="2"/>
-      <node ref="J1" pin="9"/>
-      <node ref="LED6" pin="3"/>
-      <node ref="R1" pin="1"/>
-      <node ref="J1_KD028QVFMA17" pin="32"/>
-      <node ref="J2" pin="5"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J1_KD028QVFMA17" pin="16"/>
-      <node ref="LED16" pin="3"/>
-      <node ref="J1_KD028QVFMA17" pin="21"/>
-      <node ref="J1_KD028QVFMA17" pin="20"/>
-      <node ref="J1_KD028QVFMA17" pin="19"/>
-      <node ref="J1_KD028QVFMA17" pin="18"/>
-      <node ref="J1_KD028QVFMA17" pin="17"/>
-      <node ref="J1_KD028QVFMA17" pin="38"/>
-      <node ref="J1_KD028QVFMA17" pin="23"/>
-      <node ref="LED14" pin="3"/>
-      <node ref="C48" pin="2"/>
-      <node ref="J1_KD028QVFMA17" pin="50"/>
-      <node ref="Q1" pin="2"/>
-      <node ref="J1_KD028QVFMA17" pin="11"/>
-      <node ref="LED12" pin="3"/>
-      <node ref="U2" pin="2"/>
-      <node ref="C50" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="LED11" pin="3"/>
-      <node ref="J1_KD028QVFMA17" pin="1"/>
-      <node ref="J1_KD028QVFMA17" pin="34"/>
-      <node ref="J1_KD028QVFMA17" pin="42"/>
-      <node ref="LED10" pin="3"/>
-      <node ref="J1_KD028QVFMA17" pin="40"/>
-      <node ref="J1_KD028QVFMA17" pin="39"/>
-      <node ref="LED15" pin="3"/>
-    </net>
-    <net code="21" name="Net-(J1-Pad6)">
-      <node ref="J1" pin="6"/>
-    </net>
-    <net code="22" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2"/>
-      <node ref="U2" pin="5"/>
-    </net>
-    <net code="23" name="SPI_MOSI_RASPI">
-      <node ref="J2" pin="4"/>
-      <node ref="J1_KD028QVFMA17" pin="22"/>
-    </net>
-    <net code="24" name="RESET">
-      <node ref="J2" pin="10"/>
+    <net code="10" name="RESET">
+      <node ref="J1" pin="12"/>
       <node ref="J1_KD028QVFMA17" pin="13"/>
     </net>
-    <net code="25" name="5V_BACKLIGHT">
-      <node ref="J2" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="J1_KD028QVFMA17" pin="43"/>
+    <net code="11" name="SPI_CS_RASPI">
+      <node ref="J1" pin="13"/>
+      <node ref="J1_KD028QVFMA17" pin="14"/>
     </net>
-    <net code="26" name="BL_PWM">
-      <node ref="R1" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="J2" pin="9"/>
-    </net>
-    <net code="27" name="3V3">
-      <node ref="J1_KD028QVFMA17" pin="9"/>
-      <node ref="J1_KD028QVFMA17" pin="7"/>
-      <node ref="C48" pin="1"/>
-      <node ref="J1_KD028QVFMA17" pin="8"/>
-      <node ref="J1_KD028QVFMA17" pin="12"/>
-      <node ref="J1_KD028QVFMA17" pin="10"/>
-      <node ref="J2" pin="7"/>
-      <node ref="J1_KD028QVFMA17" pin="6"/>
-    </net>
-    <net code="28" name="SPI_SCLK_RASPI">
-      <node ref="J1_KD028QVFMA17" pin="15"/>
-      <node ref="J2" pin="6"/>
-    </net>
-    <net code="50" name="Net-(C50-Pad1)">
-      <node ref="U2" pin="4"/>
-      <node ref="C50" pin="1"/>
-    </net>
-    <net code="51" name="+5V_LEDS">
-      <node ref="LED34" pin="1"/>
-      <node ref="LED43" pin="1"/>
-      <node ref="C19" pin="1"/>
+    <net code="12" name="+5V">
+      <node ref="C24" pin="1"/>
+      <node ref="LED29" pin="1"/>
+      <node ref="LED32" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="LED31" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="LED30" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="LED46" pin="1"/>
+      <node ref="LED47" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="LED45" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="LED28" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C44" pin="1"/>
       <node ref="C23" pin="1"/>
       <node ref="LED41" pin="1"/>
-      <node ref="LED42" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="LED35" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C31" pin="1"/>
       <node ref="LED44" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C20" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="LED39" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="LED38" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C38" pin="1"/>
       <node ref="C4" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C11" pin="1"/>
       <node ref="C12" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="LED40" pin="1"/>
-      <node ref="LED37" pin="1"/>
-      <node ref="LED36" pin="1"/>
-      <node ref="LED47" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="LED46" pin="1"/>
-      <node ref="LED45" pin="1"/>
-      <node ref="LED27" pin="1"/>
-      <node ref="LED33" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="LED32" pin="1"/>
-      <node ref="LED31" pin="1"/>
-      <node ref="LED30" pin="1"/>
-      <node ref="C7" pin="1"/>
       <node ref="C16" pin="1"/>
       <node ref="C15" pin="1"/>
       <node ref="C14" pin="1"/>
+      <node ref="LED40" pin="1"/>
       <node ref="C13" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="LED37" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="LED33" pin="1"/>
+      <node ref="LED35" pin="1"/>
+      <node ref="LED43" pin="1"/>
+      <node ref="LED42" pin="1"/>
+      <node ref="LED27" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="LED38" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C18" pin="1"/>
       <node ref="C17" pin="1"/>
-      <node ref="LED28" pin="1"/>
-      <node ref="LED29" pin="1"/>
-      <node ref="LED12" pin="1"/>
-      <node ref="LED20" pin="1"/>
-      <node ref="LED21" pin="1"/>
-      <node ref="LED22" pin="1"/>
+      <node ref="LED39" pin="1"/>
+      <node ref="LED36" pin="1"/>
+      <node ref="LED34" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="LED50" pin="1"/>
+      <node ref="LED49" pin="1"/>
+      <node ref="LED48" pin="1"/>
+      <node ref="C99" pin="1"/>
+      <node ref="C100" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="LED54" pin="1"/>
+      <node ref="LED6" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="LED8" pin="1"/>
       <node ref="LED23" pin="1"/>
+      <node ref="LED7" pin="1"/>
+      <node ref="LED25" pin="1"/>
+      <node ref="LED13" pin="1"/>
+      <node ref="LED22" pin="1"/>
+      <node ref="LED24" pin="1"/>
+      <node ref="LED14" pin="1"/>
+      <node ref="LED26" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C36" pin="1"/>
       <node ref="C27" pin="1"/>
+      <node ref="LED15" pin="1"/>
       <node ref="LED17" pin="1"/>
       <node ref="LED18" pin="1"/>
       <node ref="LED19" pin="1"/>
-      <node ref="LED24" pin="1"/>
-      <node ref="LED25" pin="1"/>
-      <node ref="LED26" pin="1"/>
-      <node ref="LED6" pin="1"/>
-      <node ref="LED7" pin="1"/>
-      <node ref="C29" pin="1"/>
-      <node ref="C105" pin="1"/>
-      <node ref="C104" pin="1"/>
-      <node ref="C103" pin="1"/>
-      <node ref="C102" pin="1"/>
-      <node ref="C101" pin="1"/>
-      <node ref="C100" pin="1"/>
-      <node ref="C99" pin="1"/>
-      <node ref="LED48" pin="1"/>
       <node ref="LED16" pin="1"/>
-      <node ref="LED13" pin="1"/>
-      <node ref="LED14" pin="1"/>
-      <node ref="LED1" pin="1"/>
-      <node ref="LED8" pin="1"/>
-      <node ref="LED15" pin="1"/>
-      <node ref="LED10" pin="1"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C28" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="LED2" pin="1"/>
-      <node ref="LED3" pin="1"/>
-      <node ref="LED4" pin="1"/>
-      <node ref="LED5" pin="1"/>
-      <node ref="C44" pin="1"/>
-      <node ref="C43" pin="1"/>
-      <node ref="C39" pin="1"/>
-      <node ref="LED9" pin="1"/>
-      <node ref="C40" pin="1"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C37" pin="1"/>
-      <node ref="C36" pin="1"/>
-      <node ref="C38" pin="1"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C32" pin="1"/>
-      <node ref="C34" pin="1"/>
+      <node ref="LED20" pin="1"/>
+      <node ref="LED21" pin="1"/>
       <node ref="LED11" pin="1"/>
-      <node ref="C41" pin="1"/>
-      <node ref="C46" pin="1"/>
-      <node ref="C45" pin="1"/>
-      <node ref="C47" pin="1"/>
-      <node ref="C42" pin="1"/>
-      <node ref="R4" pin="1"/>
-      <node ref="U2" pin="6"/>
+      <node ref="C105" pin="1"/>
+      <node ref="LED9" pin="1"/>
+      <node ref="LED10" pin="1"/>
+      <node ref="LED12" pin="1"/>
       <node ref="C78" pin="1"/>
       <node ref="U1" pin="5"/>
-      <node ref="LED54" pin="1"/>
-      <node ref="LED53" pin="1"/>
-      <node ref="LED49" pin="1"/>
-      <node ref="LED52" pin="1"/>
       <node ref="LED51" pin="1"/>
-      <node ref="LED50" pin="1"/>
+      <node ref="J1_KD028QVFMA17" pin="43"/>
+      <node ref="LED53" pin="1"/>
+      <node ref="LED52" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="20"/>
+      <node ref="J1" pin="19"/>
+      <node ref="J1" pin="18"/>
     </net>
-    <net code="55" name="Net-(LED5-Pad2)">
-      <node ref="LED6" pin="4"/>
-      <node ref="LED5" pin="2"/>
+    <net code="13" name="/SPI_MOSI_MCU">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="2"/>
     </net>
-    <net code="56" name="Net-(LED6-Pad2)">
-      <node ref="LED7" pin="4"/>
-      <node ref="LED6" pin="2"/>
+    <net code="14" name="SPI_MOSI_RASPI">
+      <node ref="J1_KD028QVFMA17" pin="22"/>
+      <node ref="J1" pin="16"/>
     </net>
-    <net code="57" name="/LEDs/LED_CONN1">
-      <node ref="LED1" pin="4"/>
-      <node ref="LED26" pin="2"/>
+    <net code="15" name="SPI_SCLK_RASPI">
+      <node ref="J1_KD028QVFMA17" pin="15"/>
+      <node ref="J1" pin="15"/>
     </net>
-    <net code="58" name="Net-(LED1-Pad2)">
-      <node ref="LED2" pin="4"/>
-      <node ref="LED1" pin="2"/>
+    <net code="16" name="Net-(J1_KD028QVFMA17-Pad41)">
+      <node ref="J1_KD028QVFMA17" pin="41"/>
     </net>
-    <net code="59" name="Net-(LED2-Pad2)">
-      <node ref="LED2" pin="2"/>
-      <node ref="LED3" pin="4"/>
+    <net code="17" name="Net-(J1_KD028QVFMA17-Pad5)">
+      <node ref="J1_KD028QVFMA17" pin="5"/>
     </net>
-    <net code="60" name="Net-(LED3-Pad2)">
-      <node ref="LED4" pin="4"/>
-      <node ref="LED3" pin="2"/>
+    <net code="18" name="Net-(J1_KD028QVFMA17-Pad4)">
+      <node ref="J1_KD028QVFMA17" pin="4"/>
     </net>
-    <net code="61" name="Net-(LED4-Pad2)">
-      <node ref="LED4" pin="2"/>
-      <node ref="LED5" pin="4"/>
+    <net code="19" name="Net-(J1_KD028QVFMA17-Pad3)">
+      <node ref="J1_KD028QVFMA17" pin="3"/>
     </net>
-    <net code="62" name="Net-(LED10-Pad4)">
-      <node ref="LED10" pin="4"/>
-      <node ref="LED9" pin="2"/>
+    <net code="20" name="Net-(J1_KD028QVFMA17-Pad2)">
+      <node ref="J1_KD028QVFMA17" pin="2"/>
     </net>
-    <net code="63" name="Net-(LED8-Pad2)">
-      <node ref="LED9" pin="4"/>
-      <node ref="LED8" pin="2"/>
+    <net code="21" name="3V3">
+      <node ref="C48" pin="1"/>
+      <node ref="J1_KD028QVFMA17" pin="12"/>
+      <node ref="J1_KD028QVFMA17" pin="10"/>
+      <node ref="J1" pin="11"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1_KD028QVFMA17" pin="6"/>
+      <node ref="J1_KD028QVFMA17" pin="7"/>
+      <node ref="J1_KD028QVFMA17" pin="8"/>
+      <node ref="J1_KD028QVFMA17" pin="9"/>
     </net>
-    <net code="64" name="Net-(LED15-Pad2)">
-      <node ref="LED16" pin="4"/>
-      <node ref="LED15" pin="2"/>
-    </net>
-    <net code="65" name="Net-(LED10-Pad2)">
-      <node ref="LED11" pin="4"/>
-      <node ref="LED10" pin="2"/>
-    </net>
-    <net code="66" name="Net-(LED11-Pad2)">
-      <node ref="LED12" pin="4"/>
-      <node ref="LED11" pin="2"/>
-    </net>
-    <net code="67" name="Net-(LED12-Pad2)">
-      <node ref="LED12" pin="2"/>
-      <node ref="LED13" pin="4"/>
-    </net>
-    <net code="68" name="Net-(LED13-Pad2)">
-      <node ref="LED13" pin="2"/>
-      <node ref="LED14" pin="4"/>
-    </net>
-    <net code="69" name="Net-(LED14-Pad2)">
-      <node ref="LED15" pin="4"/>
-      <node ref="LED14" pin="2"/>
-    </net>
-    <net code="70" name="/LEDs/LED_CONN2">
-      <node ref="LED27" pin="4"/>
-      <node ref="LED16" pin="2"/>
-    </net>
-    <net code="71" name="Net-(LED7-Pad2)">
+    <net code="22" name="Net-(LED7-Pad2)">
       <node ref="LED8" pin="4"/>
       <node ref="LED7" pin="2"/>
     </net>
-    <net code="72" name="Net-(LED18-Pad2)">
-      <node ref="LED18" pin="2"/>
-      <node ref="LED19" pin="4"/>
+    <net code="23" name="Net-(LED6-Pad2)">
+      <node ref="LED7" pin="4"/>
+      <node ref="LED6" pin="2"/>
     </net>
-    <net code="73" name="Net-(LED25-Pad2)">
-      <node ref="LED26" pin="4"/>
-      <node ref="LED25" pin="2"/>
+    <net code="24" name="Net-(LED4-Pad2)">
+      <node ref="LED5" pin="4"/>
+      <node ref="LED4" pin="2"/>
     </net>
-    <net code="74" name="Net-(LED24-Pad2)">
-      <node ref="LED25" pin="4"/>
-      <node ref="LED24" pin="2"/>
+    <net code="25" name="Net-(LED5-Pad2)">
+      <node ref="LED5" pin="2"/>
+      <node ref="LED6" pin="4"/>
     </net>
-    <net code="75" name="Net-(LED21-Pad2)">
+    <net code="26" name="Net-(LED3-Pad2)">
+      <node ref="LED4" pin="4"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(LED2-Pad2)">
+      <node ref="LED2" pin="2"/>
+      <node ref="LED3" pin="4"/>
+    </net>
+    <net code="28" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2"/>
+      <node ref="LED2" pin="4"/>
+    </net>
+    <net code="29" name="Net-(LED20-Pad2)">
+      <node ref="LED20" pin="2"/>
+      <node ref="LED21" pin="4"/>
+    </net>
+    <net code="30" name="Net-(LED21-Pad2)">
       <node ref="LED21" pin="2"/>
       <node ref="LED22" pin="4"/>
     </net>
-    <net code="76" name="Net-(LED23-Pad2)">
-      <node ref="LED24" pin="4"/>
-      <node ref="LED23" pin="2"/>
-    </net>
-    <net code="77" name="Net-(LED22-Pad2)">
+    <net code="31" name="Net-(LED22-Pad2)">
       <node ref="LED23" pin="4"/>
       <node ref="LED22" pin="2"/>
     </net>
-    <net code="78" name="Net-(LED19-Pad2)">
-      <node ref="LED20" pin="4"/>
-      <node ref="LED19" pin="2"/>
+    <net code="32" name="Net-(LED23-Pad2)">
+      <node ref="LED24" pin="4"/>
+      <node ref="LED23" pin="2"/>
     </net>
-    <net code="79" name="Net-(LED17-Pad2)">
-      <node ref="LED18" pin="4"/>
-      <node ref="LED17" pin="2"/>
+    <net code="33" name="Net-(LED24-Pad2)">
+      <node ref="LED25" pin="4"/>
+      <node ref="LED24" pin="2"/>
     </net>
-    <net code="80" name="/LEDs/LED_IN">
+    <net code="34" name="Net-(LED25-Pad2)">
+      <node ref="LED26" pin="4"/>
+      <node ref="LED25" pin="2"/>
+    </net>
+    <net code="35" name="Net-(LED18-Pad2)">
+      <node ref="LED18" pin="2"/>
+      <node ref="LED19" pin="4"/>
+    </net>
+    <net code="36" name="/LEDs/LED_CONN1">
+      <node ref="LED26" pin="2"/>
+      <node ref="LED1" pin="4"/>
+    </net>
+    <net code="37" name="/LEDs/LED_IN">
       <node ref="R208" pin="1"/>
       <node ref="LED17" pin="4"/>
     </net>
-    <net code="81" name="Net-(LED20-Pad2)">
-      <node ref="LED21" pin="4"/>
-      <node ref="LED20" pin="2"/>
+    <net code="38" name="Net-(LED17-Pad2)">
+      <node ref="LED18" pin="4"/>
+      <node ref="LED17" pin="2"/>
     </net>
-    <net code="82" name="/LEDs/LED_OUT">
-      <node ref="LED54" pin="2"/>
+    <net code="39" name="Net-(LED19-Pad2)">
+      <node ref="LED20" pin="4"/>
+      <node ref="LED19" pin="2"/>
     </net>
-    <net code="83" name="Net-(LED48-Pad2)">
+    <net code="40" name="Net-(LED12-Pad2)">
+      <node ref="LED12" pin="2"/>
+      <node ref="LED13" pin="4"/>
+    </net>
+    <net code="41" name="Net-(LED15-Pad2)">
+      <node ref="LED15" pin="2"/>
+      <node ref="LED16" pin="4"/>
+    </net>
+    <net code="42" name="Net-(LED14-Pad2)">
+      <node ref="LED15" pin="4"/>
+      <node ref="LED14" pin="2"/>
+    </net>
+    <net code="43" name="Net-(LED13-Pad2)">
+      <node ref="LED14" pin="4"/>
+      <node ref="LED13" pin="2"/>
+    </net>
+    <net code="44" name="Net-(LED8-Pad2)">
+      <node ref="LED9" pin="4"/>
+      <node ref="LED8" pin="2"/>
+    </net>
+    <net code="45" name="/LEDs/LED_CONN2">
+      <node ref="LED27" pin="4"/>
+      <node ref="LED16" pin="2"/>
+    </net>
+    <net code="46" name="Net-(LED11-Pad2)">
+      <node ref="LED11" pin="2"/>
+      <node ref="LED12" pin="4"/>
+    </net>
+    <net code="47" name="Net-(LED10-Pad2)">
+      <node ref="LED11" pin="4"/>
+      <node ref="LED10" pin="2"/>
+    </net>
+    <net code="48" name="Net-(LED10-Pad4)">
+      <node ref="LED9" pin="2"/>
+      <node ref="LED10" pin="4"/>
+    </net>
+    <net code="49" name="Net-(LED48-Pad2)">
       <node ref="LED48" pin="2"/>
       <node ref="LED49" pin="4"/>
     </net>
-    <net code="84" name="Net-(LED53-Pad2)">
-      <node ref="LED54" pin="4"/>
-      <node ref="LED53" pin="2"/>
-    </net>
-    <net code="85" name="/LEDs/LED_CONN3">
-      <node ref="LED48" pin="4"/>
+    <net code="50" name="/LEDs/LED_CONN3">
       <node ref="LED47" pin="2"/>
+      <node ref="LED48" pin="4"/>
     </net>
-    <net code="86" name="Net-(LED50-Pad2)">
-      <node ref="LED51" pin="4"/>
+    <net code="51" name="Net-(LED53-Pad2)">
+      <node ref="LED53" pin="2"/>
+      <node ref="LED54" pin="4"/>
+    </net>
+    <net code="52" name="/LEDs/LED_OUT">
+      <node ref="LED54" pin="2"/>
+    </net>
+    <net code="53" name="Net-(LED49-Pad2)">
+      <node ref="LED50" pin="4"/>
+      <node ref="LED49" pin="2"/>
+    </net>
+    <net code="54" name="Net-(LED50-Pad2)">
       <node ref="LED50" pin="2"/>
+      <node ref="LED51" pin="4"/>
     </net>
-    <net code="87" name="Net-(LED51-Pad2)">
+    <net code="55" name="Net-(LED51-Pad2)">
       <node ref="LED52" pin="4"/>
       <node ref="LED51" pin="2"/>
     </net>
-    <net code="88" name="Net-(LED49-Pad2)">
-      <node ref="LED49" pin="2"/>
-      <node ref="LED50" pin="4"/>
-    </net>
-    <net code="89" name="Net-(LED52-Pad2)">
-      <node ref="LED52" pin="2"/>
+    <net code="56" name="Net-(LED52-Pad2)">
       <node ref="LED53" pin="4"/>
+      <node ref="LED52" pin="2"/>
     </net>
-    <net code="90" name="/LEDs/SPI_MOSI_MCU_5V">
-      <node ref="R208" pin="2"/>
-      <node ref="R11" pin="1"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="91" name="Net-(U1-Pad1)">
+    <net code="57" name="Net-(U1-Pad1)">
       <node ref="U1" pin="1"/>
     </net>
-    <net code="92" name="Net-(LED28-Pad2)">
-      <node ref="LED29" pin="4"/>
-      <node ref="LED28" pin="2"/>
+    <net code="58" name="/LEDs/SPI_MOSI_MCU_5V">
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R208" pin="2"/>
     </net>
-    <net code="93" name="Net-(LED27-Pad2)">
-      <node ref="LED28" pin="4"/>
-      <node ref="LED27" pin="2"/>
-    </net>
-    <net code="94" name="Net-(LED34-Pad2)">
-      <node ref="LED41" pin="4"/>
-      <node ref="LED34" pin="2"/>
-    </net>
-    <net code="95" name="Net-(LED43-Pad2)">
-      <node ref="LED43" pin="2"/>
-      <node ref="LED44" pin="4"/>
-    </net>
-    <net code="96" name="Net-(LED41-Pad2)">
-      <node ref="LED42" pin="4"/>
-      <node ref="LED41" pin="2"/>
-    </net>
-    <net code="97" name="Net-(LED44-Pad2)">
-      <node ref="LED45" pin="4"/>
-      <node ref="LED44" pin="2"/>
-    </net>
-    <net code="98" name="Net-(LED42-Pad2)">
-      <node ref="LED42" pin="2"/>
-      <node ref="LED43" pin="4"/>
-    </net>
-    <net code="99" name="Net-(LED34-Pad4)">
-      <node ref="LED35" pin="2"/>
-      <node ref="LED34" pin="4"/>
-    </net>
-    <net code="100" name="Net-(LED35-Pad4)">
-      <node ref="LED36" pin="2"/>
-      <node ref="LED35" pin="4"/>
-    </net>
-    <net code="101" name="Net-(LED29-Pad2)">
-      <node ref="LED30" pin="4"/>
-      <node ref="LED29" pin="2"/>
-    </net>
-    <net code="102" name="Net-(LED36-Pad4)">
-      <node ref="LED36" pin="4"/>
-      <node ref="LED37" pin="2"/>
-    </net>
-    <net code="103" name="Net-(LED46-Pad2)">
+    <net code="59" name="Net-(LED46-Pad2)">
       <node ref="LED47" pin="4"/>
       <node ref="LED46" pin="2"/>
     </net>
-    <net code="104" name="Net-(LED45-Pad2)">
+    <net code="60" name="Net-(LED36-Pad4)">
+      <node ref="LED37" pin="2"/>
+      <node ref="LED36" pin="4"/>
+    </net>
+    <net code="61" name="Net-(LED44-Pad2)">
+      <node ref="LED44" pin="2"/>
+      <node ref="LED45" pin="4"/>
+    </net>
+    <net code="62" name="Net-(LED43-Pad2)">
+      <node ref="LED44" pin="4"/>
+      <node ref="LED43" pin="2"/>
+    </net>
+    <net code="63" name="Net-(LED42-Pad2)">
+      <node ref="LED43" pin="4"/>
+      <node ref="LED42" pin="2"/>
+    </net>
+    <net code="64" name="Net-(LED41-Pad2)">
+      <node ref="LED42" pin="4"/>
+      <node ref="LED41" pin="2"/>
+    </net>
+    <net code="65" name="Net-(LED34-Pad2)">
+      <node ref="LED41" pin="4"/>
+      <node ref="LED34" pin="2"/>
+    </net>
+    <net code="66" name="Net-(LED45-Pad2)">
       <node ref="LED45" pin="2"/>
       <node ref="LED46" pin="4"/>
     </net>
-    <net code="105" name="Net-(LED32-Pad2)">
-      <node ref="LED32" pin="2"/>
-      <node ref="LED33" pin="4"/>
-    </net>
-    <net code="106" name="Net-(LED31-Pad2)">
-      <node ref="LED32" pin="4"/>
-      <node ref="LED31" pin="2"/>
-    </net>
-    <net code="107" name="Net-(LED30-Pad2)">
-      <node ref="LED31" pin="4"/>
-      <node ref="LED30" pin="2"/>
-    </net>
-    <net code="108" name="Net-(LED33-Pad2)">
-      <node ref="LED40" pin="4"/>
-      <node ref="LED33" pin="2"/>
-    </net>
-    <net code="109" name="Net-(LED37-Pad4)">
+    <net code="67" name="Net-(LED37-Pad4)">
       <node ref="LED38" pin="2"/>
       <node ref="LED37" pin="4"/>
     </net>
-    <net code="110" name="Net-(LED38-Pad4)">
-      <node ref="LED39" pin="2"/>
-      <node ref="LED38" pin="4"/>
-    </net>
-    <net code="111" name="Net-(LED39-Pad4)">
-      <node ref="LED40" pin="2"/>
+    <net code="68" name="Net-(LED39-Pad4)">
       <node ref="LED39" pin="4"/>
-    </net>
-    <net code="112" name="Net-(SW14-Pad2)">
-      <node ref="SW14" pin="2"/>
-    </net>
-    <net code="113" name="Net-(SW14-Pad1)">
-      <node ref="SW14" pin="1"/>
-    </net>
-    <net code="114" name="Net-(SW13-Pad2)">
-      <node ref="SW13" pin="2"/>
-    </net>
-    <net code="115" name="Net-(SW13-Pad1)">
-      <node ref="SW13" pin="1"/>
-    </net>
-    <net code="116" name="Net-(SW12-Pad2)">
-      <node ref="SW12" pin="2"/>
-    </net>
-    <net code="117" name="Net-(SW12-Pad1)">
-      <node ref="SW12" pin="1"/>
-    </net>
-    <net code="118" name="Net-(SW11-Pad2)">
-      <node ref="SW11" pin="2"/>
-    </net>
-    <net code="119" name="Net-(SW11-Pad1)">
-      <node ref="SW11" pin="1"/>
-    </net>
-    <net code="120" name="Net-(SW10-Pad2)">
-      <node ref="SW10" pin="2"/>
-    </net>
-    <net code="121" name="Net-(SW10-Pad1)">
-      <node ref="SW10" pin="1"/>
-    </net>
-    <net code="122" name="Net-(SW9-Pad2)">
-      <node ref="SW9" pin="2"/>
-    </net>
-    <net code="123" name="Net-(SW9-Pad1)">
-      <node ref="SW9" pin="1"/>
-    </net>
-    <net code="124" name="Net-(SW8-Pad2)">
-      <node ref="SW8" pin="2"/>
-    </net>
-    <net code="125" name="Net-(SW8-Pad1)">
-      <node ref="SW8" pin="1"/>
-    </net>
-    <net code="126" name="Net-(SW7-Pad2)">
-      <node ref="SW7" pin="2"/>
-    </net>
-    <net code="127" name="Net-(SW7-Pad1)">
-      <node ref="SW7" pin="1"/>
-    </net>
-    <net code="128" name="Net-(SW15-Pad1)">
-      <node ref="SW15" pin="1"/>
-    </net>
-    <net code="129" name="Net-(SW15-Pad2)">
-      <node ref="SW15" pin="2"/>
-    </net>
-    <net code="130" name="Net-(SW16-Pad1)">
-      <node ref="SW16" pin="1"/>
-    </net>
-    <net code="131" name="Net-(SW16-Pad2)">
-      <node ref="SW16" pin="2"/>
-    </net>
-    <net code="132" name="Net-(SW41-Pad1)">
-      <node ref="SW41" pin="1"/>
-    </net>
-    <net code="133" name="Net-(SW41-Pad2)">
-      <node ref="SW41" pin="2"/>
-    </net>
-    <net code="134" name="Net-(SW34-Pad1)">
-      <node ref="SW34" pin="1"/>
-    </net>
-    <net code="135" name="Net-(SW34-Pad2)">
-      <node ref="SW34" pin="2"/>
-    </net>
-    <net code="136" name="Net-(SW27-Pad1)">
-      <node ref="SW27" pin="1"/>
-    </net>
-    <net code="137" name="Net-(SW27-Pad2)">
-      <node ref="SW27" pin="2"/>
-    </net>
-    <net code="138" name="Net-(SW42-Pad1)">
-      <node ref="SW42" pin="1"/>
-    </net>
-    <net code="139" name="Net-(SW42-Pad2)">
-      <node ref="SW42" pin="2"/>
-    </net>
-    <net code="140" name="Net-(SW35-Pad1)">
-      <node ref="SW35" pin="1"/>
-    </net>
-    <net code="141" name="Net-(SW35-Pad2)">
-      <node ref="SW35" pin="2"/>
-    </net>
-    <net code="142" name="Net-(SW28-Pad1)">
-      <node ref="SW28" pin="1"/>
-    </net>
-    <net code="143" name="Net-(SW28-Pad2)">
-      <node ref="SW28" pin="2"/>
-    </net>
-    <net code="144" name="Net-(SW22-Pad2)">
-      <node ref="SW22" pin="2"/>
-    </net>
-    <net code="145" name="Net-(SW17-Pad1)">
-      <node ref="SW17" pin="1"/>
-    </net>
-    <net code="146" name="Net-(SW17-Pad2)">
-      <node ref="SW17" pin="2"/>
-    </net>
-    <net code="147" name="Net-(SW1-Pad1)">
-      <node ref="SW1" pin="1"/>
-    </net>
-    <net code="148" name="Net-(SW1-Pad2)">
-      <node ref="SW1" pin="2"/>
-    </net>
-    <net code="149" name="Net-(SW18-Pad1)">
-      <node ref="SW18" pin="1"/>
-    </net>
-    <net code="150" name="Net-(SW18-Pad2)">
-      <node ref="SW18" pin="2"/>
-    </net>
-    <net code="151" name="Net-(SW19-Pad1)">
-      <node ref="SW19" pin="1"/>
-    </net>
-    <net code="152" name="Net-(SW19-Pad2)">
-      <node ref="SW19" pin="2"/>
-    </net>
-    <net code="153" name="Net-(SW20-Pad1)">
-      <node ref="SW20" pin="1"/>
-    </net>
-    <net code="154" name="Net-(SW20-Pad2)">
-      <node ref="SW20" pin="2"/>
-    </net>
-    <net code="155" name="Net-(SW21-Pad1)">
-      <node ref="SW21" pin="1"/>
-    </net>
-    <net code="156" name="Net-(SW21-Pad2)">
-      <node ref="SW21" pin="2"/>
-    </net>
-    <net code="157" name="Net-(SW2-Pad1)">
-      <node ref="SW2" pin="1"/>
-    </net>
-    <net code="158" name="Net-(SW2-Pad2)">
-      <node ref="SW2" pin="2"/>
-    </net>
-    <net code="159" name="Net-(SW22-Pad1)">
-      <node ref="SW22" pin="1"/>
-    </net>
-    <net code="160" name="Net-(SW6-Pad2)">
-      <node ref="SW6" pin="2"/>
-    </net>
-    <net code="161" name="Net-(SW23-Pad1)">
-      <node ref="SW23" pin="1"/>
-    </net>
-    <net code="162" name="Net-(SW23-Pad2)">
-      <node ref="SW23" pin="2"/>
-    </net>
-    <net code="163" name="Net-(SW24-Pad1)">
-      <node ref="SW24" pin="1"/>
-    </net>
-    <net code="164" name="Net-(SW24-Pad2)">
-      <node ref="SW24" pin="2"/>
-    </net>
-    <net code="165" name="Net-(SW25-Pad1)">
-      <node ref="SW25" pin="1"/>
-    </net>
-    <net code="166" name="Net-(SW25-Pad2)">
-      <node ref="SW25" pin="2"/>
-    </net>
-    <net code="167" name="Net-(SW26-Pad1)">
-      <node ref="SW26" pin="1"/>
-    </net>
-    <net code="168" name="Net-(SW26-Pad2)">
-      <node ref="SW26" pin="2"/>
-    </net>
-    <net code="169" name="Net-(SW3-Pad1)">
-      <node ref="SW3" pin="1"/>
-    </net>
-    <net code="170" name="Net-(SW3-Pad2)">
-      <node ref="SW3" pin="2"/>
-    </net>
-    <net code="171" name="Net-(SW4-Pad1)">
-      <node ref="SW4" pin="1"/>
-    </net>
-    <net code="172" name="Net-(SW4-Pad2)">
-      <node ref="SW4" pin="2"/>
-    </net>
-    <net code="173" name="Net-(SW5-Pad1)">
-      <node ref="SW5" pin="1"/>
-    </net>
-    <net code="174" name="Net-(SW5-Pad2)">
-      <node ref="SW5" pin="2"/>
-    </net>
-    <net code="175" name="Net-(SW6-Pad1)">
-      <node ref="SW6" pin="1"/>
-    </net>
-    <net code="176" name="Net-(ENC4-PadS1)">
-      <node ref="ENC4" pin="S1"/>
-    </net>
-    <net code="177" name="Net-(ENC1-PadS1)">
-      <node ref="ENC1" pin="S1"/>
-    </net>
-    <net code="178" name="Net-(ENC1-PadS2)">
-      <node ref="ENC1" pin="S2"/>
-    </net>
-    <net code="179" name="Net-(ENC2-PadA)">
-      <node ref="ENC2" pin="A"/>
-    </net>
-    <net code="180" name="Net-(ENC2-PadB)">
-      <node ref="ENC2" pin="B"/>
-    </net>
-    <net code="181" name="Net-(ENC2-PadC)">
-      <node ref="ENC2" pin="C"/>
-    </net>
-    <net code="182" name="Net-(ENC2-PadS1)">
-      <node ref="ENC2" pin="S1"/>
-    </net>
-    <net code="183" name="Net-(ENC2-PadS2)">
-      <node ref="ENC2" pin="S2"/>
-    </net>
-    <net code="184" name="Net-(ENC3-PadA)">
-      <node ref="ENC3" pin="A"/>
-    </net>
-    <net code="185" name="Net-(ENC3-PadB)">
-      <node ref="ENC3" pin="B"/>
-    </net>
-    <net code="186" name="Net-(ENC3-PadC)">
-      <node ref="ENC3" pin="C"/>
-    </net>
-    <net code="187" name="Net-(ENC3-PadS1)">
-      <node ref="ENC3" pin="S1"/>
-    </net>
-    <net code="188" name="Net-(ENC3-PadS2)">
-      <node ref="ENC3" pin="S2"/>
-    </net>
-    <net code="189" name="Net-(ENC4-PadA)">
-      <node ref="ENC4" pin="A"/>
-    </net>
-    <net code="190" name="Net-(ENC4-PadB)">
-      <node ref="ENC4" pin="B"/>
-    </net>
-    <net code="191" name="Net-(ENC4-PadC)">
-      <node ref="ENC4" pin="C"/>
-    </net>
-    <net code="192" name="Net-(ENC1-PadC)">
-      <node ref="ENC1" pin="C"/>
-    </net>
-    <net code="193" name="Net-(ENC4-PadS2)">
-      <node ref="ENC4" pin="S2"/>
-    </net>
-    <net code="194" name="Net-(SW50-Pad1)">
-      <node ref="SW50" pin="1"/>
-    </net>
-    <net code="195" name="Net-(SW50-Pad2)">
-      <node ref="SW50" pin="2"/>
-    </net>
-    <net code="196" name="Net-(SW51-Pad1)">
-      <node ref="SW51" pin="1"/>
-    </net>
-    <net code="197" name="Net-(SW51-Pad2)">
-      <node ref="SW51" pin="2"/>
-    </net>
-    <net code="198" name="Net-(SW52-Pad1)">
-      <node ref="SW52" pin="1"/>
-    </net>
-    <net code="199" name="Net-(SW52-Pad2)">
-      <node ref="SW52" pin="2"/>
-    </net>
-    <net code="200" name="Net-(SW53-Pad1)">
-      <node ref="SW53" pin="1"/>
-    </net>
-    <net code="201" name="Net-(SW53-Pad2)">
-      <node ref="SW53" pin="2"/>
-    </net>
-    <net code="202" name="Net-(SW54-Pad1)">
-      <node ref="SW54" pin="1"/>
-    </net>
-    <net code="203" name="Net-(SW54-Pad2)">
-      <node ref="SW54" pin="2"/>
-    </net>
-    <net code="204" name="Net-(SW55-Pad1)">
-      <node ref="SW55" pin="1"/>
-    </net>
-    <net code="205" name="Net-(SW55-Pad2)">
-      <node ref="SW55" pin="2"/>
-    </net>
-    <net code="206" name="Net-(SW56-Pad1)">
-      <node ref="SW56" pin="1"/>
-    </net>
-    <net code="207" name="Net-(SW56-Pad2)">
-      <node ref="SW56" pin="2"/>
-    </net>
-    <net code="208" name="Net-(SW31-Pad1)">
-      <node ref="SW31" pin="1"/>
-    </net>
-    <net code="209" name="Net-(SW43-Pad2)">
-      <node ref="SW43" pin="2"/>
-    </net>
-    <net code="210" name="Net-(SW36-Pad1)">
-      <node ref="SW36" pin="1"/>
-    </net>
-    <net code="211" name="Net-(SW36-Pad2)">
-      <node ref="SW36" pin="2"/>
-    </net>
-    <net code="212" name="Net-(SW29-Pad1)">
-      <node ref="SW29" pin="1"/>
-    </net>
-    <net code="213" name="Net-(SW29-Pad2)">
-      <node ref="SW29" pin="2"/>
-    </net>
-    <net code="214" name="Net-(SW44-Pad1)">
-      <node ref="SW44" pin="1"/>
-    </net>
-    <net code="215" name="Net-(SW44-Pad2)">
-      <node ref="SW44" pin="2"/>
-    </net>
-    <net code="216" name="Net-(SW37-Pad1)">
-      <node ref="SW37" pin="1"/>
-    </net>
-    <net code="217" name="Net-(SW37-Pad2)">
-      <node ref="SW37" pin="2"/>
-    </net>
-    <net code="218" name="Net-(SW30-Pad1)">
-      <node ref="SW30" pin="1"/>
-    </net>
-    <net code="219" name="Net-(SW30-Pad2)">
-      <node ref="SW30" pin="2"/>
-    </net>
-    <net code="220" name="Net-(SW45-Pad1)">
-      <node ref="SW45" pin="1"/>
-    </net>
-    <net code="221" name="Net-(SW45-Pad2)">
-      <node ref="SW45" pin="2"/>
-    </net>
-    <net code="222" name="Net-(SW38-Pad1)">
-      <node ref="SW38" pin="1"/>
-    </net>
-    <net code="223" name="Net-(SW38-Pad2)">
-      <node ref="SW38" pin="2"/>
-    </net>
-    <net code="224" name="Net-(SW43-Pad1)">
-      <node ref="SW43" pin="1"/>
-    </net>
-    <net code="225" name="Net-(SW31-Pad2)">
-      <node ref="SW31" pin="2"/>
-    </net>
-    <net code="226" name="Net-(SW46-Pad1)">
-      <node ref="SW46" pin="1"/>
-    </net>
-    <net code="227" name="Net-(SW46-Pad2)">
-      <node ref="SW46" pin="2"/>
-    </net>
-    <net code="228" name="Net-(SW39-Pad1)">
-      <node ref="SW39" pin="1"/>
-    </net>
-    <net code="229" name="Net-(SW39-Pad2)">
-      <node ref="SW39" pin="2"/>
-    </net>
-    <net code="230" name="Net-(SW32-Pad1)">
-      <node ref="SW32" pin="1"/>
-    </net>
-    <net code="231" name="Net-(SW32-Pad2)">
-      <node ref="SW32" pin="2"/>
-    </net>
-    <net code="232" name="Net-(SW47-Pad1)">
-      <node ref="SW47" pin="1"/>
-    </net>
-    <net code="233" name="Net-(SW47-Pad2)">
-      <node ref="SW47" pin="2"/>
-    </net>
-    <net code="234" name="Net-(SW40-Pad1)">
-      <node ref="SW40" pin="1"/>
-    </net>
-    <net code="235" name="Net-(SW40-Pad2)">
-      <node ref="SW40" pin="2"/>
-    </net>
-    <net code="236" name="Net-(SW33-Pad1)">
-      <node ref="SW33" pin="1"/>
-    </net>
-    <net code="237" name="Net-(SW33-Pad2)">
-      <node ref="SW33" pin="2"/>
-    </net>
-    <net code="238" name="Net-(ENC1-PadA)">
-      <node ref="ENC1" pin="A"/>
-    </net>
-    <net code="239" name="Net-(ENC1-PadB)">
-      <node ref="ENC1" pin="B"/>
+      <node ref="LED40" pin="2"/>
+    </net>
+    <net code="69" name="Net-(LED38-Pad4)">
+      <node ref="LED38" pin="4"/>
+      <node ref="LED39" pin="2"/>
+    </net>
+    <net code="70" name="Net-(LED32-Pad2)">
+      <node ref="LED33" pin="4"/>
+      <node ref="LED32" pin="2"/>
+    </net>
+    <net code="71" name="Net-(LED31-Pad2)">
+      <node ref="LED31" pin="2"/>
+      <node ref="LED32" pin="4"/>
+    </net>
+    <net code="72" name="Net-(LED30-Pad2)">
+      <node ref="LED31" pin="4"/>
+      <node ref="LED30" pin="2"/>
+    </net>
+    <net code="73" name="Net-(LED29-Pad2)">
+      <node ref="LED30" pin="4"/>
+      <node ref="LED29" pin="2"/>
+    </net>
+    <net code="74" name="Net-(LED28-Pad2)">
+      <node ref="LED29" pin="4"/>
+      <node ref="LED28" pin="2"/>
+    </net>
+    <net code="75" name="Net-(LED33-Pad2)">
+      <node ref="LED40" pin="4"/>
+      <node ref="LED33" pin="2"/>
+    </net>
+    <net code="76" name="Net-(LED34-Pad4)">
+      <node ref="LED35" pin="2"/>
+      <node ref="LED34" pin="4"/>
+    </net>
+    <net code="77" name="Net-(LED35-Pad4)">
+      <node ref="LED35" pin="4"/>
+      <node ref="LED36" pin="2"/>
+    </net>
+    <net code="78" name="Net-(LED27-Pad2)">
+      <node ref="LED28" pin="4"/>
+      <node ref="LED27" pin="2"/>
     </net>
   </nets>
 </export>
