@@ -1,0 +1,10 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"FID1","Fiducial","Fiducial_1mm_Mask2mm",2.700000,182.400000,0.000000,top
+"FID2","Fiducial","Fiducial_1mm_Mask2mm",-21.300000,108.400000,0.000000,top
+"FID3","Fiducial","Fiducial_1mm_Mask2mm",113.250000,185.550000,0.000000,top
+"FID4","Fiducial","Fiducial_1mm_Mask2mm",102.700000,98.400000,0.000000,top
+"FID5","Fiducial","Fiducial_1mm_Mask2mm",254.900000,183.600000,0.000000,top
+"FID6","Fiducial","Fiducial_1mm_Mask2mm",246.700000,100.600000,0.000000,top
+"G***","otto_logo","otto_logo_small",87.372200,135.411000,0.000000,top
+"J1","Conn_ARM_JTAG_SWD_10","PinHeader_2x05_P1.27mm_Vertical_SMD",36.450000,159.750000,90.000000,top
+"J7","Conn_01x20","X10B25L20T_FPC_1x20-1MP_P1.00mm_Horizontal",154.831800,138.263800,180.000000,top
