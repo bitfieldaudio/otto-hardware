@@ -1194,18 +1194,14 @@ $EndComp
 $Comp
 L power:GND #PWR0122
 U 1 1 6070F4CF
-P 13450 3900
-F 0 "#PWR0122" H 13450 3650 50  0001 C CNN
-F 1 "GND" V 13455 3772 50  0000 R CNN
-F 2 "" H 13450 3900 50  0001 C CNN
-F 3 "" H 13450 3900 50  0001 C CNN
-	1    13450 3900
+P 13450 4000
+F 0 "#PWR0122" H 13450 3750 50  0001 C CNN
+F 1 "GND" V 13455 3872 50  0000 R CNN
+F 2 "" H 13450 4000 50  0001 C CNN
+F 3 "" H 13450 4000 50  0001 C CNN
+	1    13450 4000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 13450 3800 2    50   Input ~ 0
-+5V_REG
-Text GLabel 13450 3700 2    50   Input ~ 0
-+5V_REG
 $Comp
 L power:GND #PWR0120
 U 1 1 603D737C
@@ -1219,12 +1215,10 @@ F 3 "" H 13450 3400 50  0001 C CNN
 $EndComp
 Text GLabel 13450 3200 2    50   Input ~ 0
 +3V3_RASPI
-Text GLabel 13450 2400 2    50   Input ~ 0
+Text GLabel 13450 3800 2    50   Input ~ 0
 +5V_RASPI
-Text GLabel 13450 2300 2    50   Input ~ 0
+Text GLabel 13450 3700 2    50   Input ~ 0
 +5V_RASPI
-Text GLabel 13450 3600 2    50   Input ~ 0
-+5V_REG
 $Comp
 L power:GND #PWR0110
 U 1 1 6017DA61
@@ -1237,8 +1231,6 @@ F 3 "" H 13450 2900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 13450 4100 2    50   Input ~ 0
-LED_PWR_EN
-Text GLabel 13450 4000 2    50   Input ~ 0
 SPI_MOSI_MCU
 Text GLabel 13450 2800 2    50   Input ~ 0
 SPI_SCLK_RASPI
@@ -1263,6 +1255,23 @@ Text GLabel 13450 3100 2    50   Input ~ 0
 DISPLAY_RESET
 Text GLabel 13450 3000 2    50   Input ~ 0
 SPI_CS_RASPI_DISPLAY
+Text GLabel 13450 3900 2    50   Input ~ 0
++5V_RASPI
+$Comp
+L power:GND #PWR?
+U 1 1 6064E3EF
+P 13450 3600
+F 0 "#PWR?" H 13450 3350 50  0001 C CNN
+F 1 "GND" V 13455 3472 50  0000 R CNN
+F 2 "" H 13450 3600 50  0001 C CNN
+F 3 "" H 13450 3600 50  0001 C CNN
+	1    13450 3600
+	0    -1   -1   0   
+$EndComp
 Text GLabel 13450 2500 2    50   Input ~ 0
++5V_RASPI
+Text GLabel 13450 2400 2    50   Input ~ 0
++5V_RASPI
+Text GLabel 13450 2300 2    50   Input ~ 0
 +5V_RASPI
 $EndSCHEMATC

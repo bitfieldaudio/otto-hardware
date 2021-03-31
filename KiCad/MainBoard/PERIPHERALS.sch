@@ -445,24 +445,14 @@ F 8 "C129087" H 8100 8150 50  0001 C CNN "LCSC PN"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9150 9000 9500 9000
-Wire Wire Line
 	8400 8050 9500 8050
 Wire Wire Line
 	9500 8050 9500 7750
 Connection ~ 9500 7150
 Wire Wire Line
 	9500 7150 11250 7150
-Wire Wire Line
-	8400 8150 9500 8150
-Wire Wire Line
-	9500 8150 9500 9000
-Wire Wire Line
-	7800 8150 7700 8150
 Text Notes 7850 8400 0    50   ~ 0
 Power Override\n
-Text HLabel 8650 9000 0    50   Input ~ 0
-LED_PWR_EN
 Wire Wire Line
 	2600 4300 2600 4400
 Wire Wire Line
@@ -666,32 +656,10 @@ Text GLabel 8850 5050 0    50   Input ~ 0
 +5V_REG
 Text GLabel 8800 6350 0    50   Input ~ 0
 +5V_REG
-Text GLabel 7700 8150 0    50   Input ~ 0
-+3V3_MCU
 Text Label 3100 1950 0    50   ~ 0
 BARL
-$Comp
-L Device:R R32
-U 1 1 5E674E79
-P 9000 9000
-F 0 "R32" V 9115 9000 50  0000 C CNN
-F 1 "10k" V 9206 9000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8930 9000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17414.pdf" H 9000 9000 50  0001 C CNN
-F 4 "" H 9000 9000 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F1002T5E" H 9000 9000 50  0001 C CNN "MPN"
-F 6 "" H 9000 9000 50  0001 C CNN "Manufacturer"
-F 7 "BASIC" H 9000 9000 50  0001 C CNN "JLCASM"
-F 8 "C17414" H 9000 9000 50  0001 C CNN "LCSC PN"
-	1    9000 9000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8650 9000 8850 9000
 Text Label 8550 8050 0    50   ~ 0
 PI_PWR_EN_OVERRIDE
-Text Label 8550 8150 0    50   ~ 0
-LED_PWR_EN_OVERRIDE
 $Comp
 L Power_Protection:SRV05-4 U204
 U 1 1 5EA94B2C
