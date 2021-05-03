@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Value,Package,Mid X, Mid Y,Rotation,Layer
 "FID8","Fiducial","Fiducial_1mm_Mask2mm",-16.100000,122.350000,0.000000,bottom
 "FID9","Fiducial","Fiducial_1mm_Mask2mm",100.700000,182.400000,0.000000,bottom
 "FID10","Fiducial","Fiducial_1mm_Mask2mm",113.100000,118.850000,0.000000,bottom

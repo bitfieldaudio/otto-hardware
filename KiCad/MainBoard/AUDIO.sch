@@ -343,20 +343,6 @@ Text Label 12600 4600 0    50   ~ 0
 AMP_OUT_R
 Text Label 12600 4800 0    50   ~ 0
 AMP_OUT_L
-Text GLabel 2000 9200 0    50   Input ~ 0
-I2S_BCLK
-Text GLabel 2000 9550 0    50   Input ~ 0
-I2S_LRCLK
-Text GLabel 2000 9900 0    50   Input ~ 0
-I2S_DIN
-Text GLabel 2000 10250 0    50   Output ~ 0
-I2S_DOUT
-Text GLabel 2600 9200 2    50   Output ~ 0
-(F427)_SAI1_SCK_A
-Text GLabel 2600 9550 2    50   Output ~ 0
-(F427)_SAI1_FS_A
-Text GLabel 2600 9900 2    50   Input ~ 0
-(F427)_SAI1_SD_A
 $Comp
 L power:GND #PWR?
 U 1 1 5E14054A
@@ -735,8 +721,6 @@ Text GLabel 11000 8150 2    50   Input ~ 0
 AMP_ENABLE
 Text Notes 9600 9300 0    50   ~ 0
 Header for external amplifier board.
-Text GLabel 2600 10250 2    50   Output ~ 0
-(F427)_SAI1_SD_B
 $Comp
 L power:GND #PWR?
 U 1 1 5E6B4813
@@ -1062,22 +1046,6 @@ Wire Wire Line
 	2000 8500 2150 8500
 Wire Wire Line
 	2000 8850 2150 8850
-Wire Wire Line
-	2000 9200 2150 9200
-Wire Wire Line
-	2000 9550 2150 9550
-Wire Wire Line
-	2000 9900 2150 9900
-Wire Wire Line
-	2000 10250 2150 10250
-Wire Wire Line
-	2450 10250 2600 10250
-Wire Wire Line
-	2450 9900 2600 9900
-Wire Wire Line
-	2450 9550 2600 9550
-Wire Wire Line
-	2450 9200 2600 9200
 Wire Wire Line
 	2450 8850 3000 8850
 Wire Wire Line
@@ -1919,74 +1887,6 @@ F 6 "" H 2300 8850 50  0001 C CNN "Manufacturer"
 F 7 "BASIC" H 2300 8850 50  0001 C CNN "JLCASM"
 F 8 "C17634" H 2300 8850 50  0001 C CNN "LCSC PN"
 	1    2300 8850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R235
-U 1 1 5EBA29B5
-P 2300 9200
-F 0 "R235" V 2507 9200 50  0000 C CNN
-F 1 "33" V 2416 9200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 9200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17634.pdf" H 2300 9200 50  0001 C CNN
-F 4 "" H 2300 9200 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F330JT5E" H 2300 9200 50  0001 C CNN "MPN"
-F 6 "" H 2300 9200 50  0001 C CNN "Manufacturer"
-F 7 "" V 2300 9200 50  0000 C CNN "AssemblyOption"
-F 8 "BASIC" H 2300 9200 50  0001 C CNN "JLCASM"
-F 9 "C17634" H 2300 9200 50  0001 C CNN "LCSC PN"
-	1    2300 9200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R236
-U 1 1 5EBA32AC
-P 2300 9550
-F 0 "R236" V 2507 9550 50  0000 C CNN
-F 1 "33" V 2416 9550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 9550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17634.pdf" H 2300 9550 50  0001 C CNN
-F 4 "" H 2300 9550 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F330JT5E" H 2300 9550 50  0001 C CNN "MPN"
-F 6 "" H 2300 9550 50  0001 C CNN "Manufacturer"
-F 7 "" V 2300 9550 50  0000 C CNN "AssemblyOption"
-F 8 "BASIC" H 2300 9550 50  0001 C CNN "JLCASM"
-F 9 "C17634" H 2300 9550 50  0001 C CNN "LCSC PN"
-	1    2300 9550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R237
-U 1 1 5EBA374A
-P 2300 9900
-F 0 "R237" V 2507 9900 50  0000 C CNN
-F 1 "33" V 2416 9900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 9900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17634.pdf" H 2300 9900 50  0001 C CNN
-F 4 "" H 2300 9900 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F330JT5E" H 2300 9900 50  0001 C CNN "MPN"
-F 6 "" H 2300 9900 50  0001 C CNN "Manufacturer"
-F 7 "" V 2300 9900 50  0000 C CNN "AssemblyOption"
-F 8 "BASIC" H 2300 9900 50  0001 C CNN "JLCASM"
-F 9 "C17634" H 2300 9900 50  0001 C CNN "LCSC PN"
-	1    2300 9900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R238
-U 1 1 5EBA3AAD
-P 2300 10250
-F 0 "R238" V 2507 10250 50  0000 C CNN
-F 1 "33" V 2416 10250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2230 10250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/C17634.pdf" H 2300 10250 50  0001 C CNN
-F 4 "" H 2300 10250 50  0001 C CNN "UnitCost(USD)"
-F 5 "0805W8F330JT5E" H 2300 10250 50  0001 C CNN "MPN"
-F 6 "" H 2300 10250 50  0001 C CNN "Manufacturer"
-F 7 "" V 2300 10250 50  0000 C CNN "AssemblyOption"
-F 8 "BASIC" H 2300 10250 50  0001 C CNN "JLCASM"
-F 9 "C17634" H 2300 10250 50  0001 C CNN "LCSC PN"
-	1    2300 10250
 	0    -1   -1   0   
 $EndComp
 $Comp

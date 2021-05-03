@@ -467,22 +467,6 @@ Wire Wire Line
 	9600 4950 9600 4900
 Wire Wire Line
 	9600 4900 9700 4900
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5EB287AC
-P 10600 5650
-F 0 "TP9" V 10554 5838 50  0000 L CNN
-F 1 "TestPoint" V 10645 5838 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 10800 5650 50  0001 C CNN
-F 3 "" H 10800 5650 50  0001 C CNN
-F 4 "" H 10600 5650 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 10600 5650 50  0001 C CNN "MPN"
-F 6 "" H 10600 5650 50  0001 C CNN "Manufacturer"
-F 7 "" H 10600 5650 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 10600 5650 50  0001 C CNN "JLCASM"
-	1    10600 5650
-	0    1    1    0   
-$EndComp
 Text Label 9750 5650 0    50   ~ 0
 PWM1_GPIO13_RASPI
 Wire Wire Line
@@ -1215,10 +1199,6 @@ F 3 "" H 13450 3400 50  0001 C CNN
 $EndComp
 Text GLabel 13450 3200 2    50   Input ~ 0
 +3V3_RASPI
-Text GLabel 13450 3800 2    50   Input ~ 0
-+5V_RASPI
-Text GLabel 13450 3700 2    50   Input ~ 0
-+5V_RASPI
 $Comp
 L power:GND #PWR0110
 U 1 1 6017DA61
@@ -1236,17 +1216,6 @@ Text GLabel 13450 2800 2    50   Input ~ 0
 SPI_SCLK_RASPI
 Text GLabel 13450 2700 2    50   Input ~ 0
 SPI_MOSI_RASPI
-$Comp
-L power:GND #PWR0118
-U 1 1 5ED9D03F
-P 13450 4200
-F 0 "#PWR0118" H 13450 3950 50  0001 C CNN
-F 1 "GND" V 13455 4072 50  0000 R CNN
-F 2 "" H 13450 4200 50  0001 C CNN
-F 3 "" H 13450 4200 50  0001 C CNN
-	1    13450 4200
-	0    -1   -1   0   
-$EndComp
 Text GLabel 13450 3300 2    50   Input ~ 0
 +3V3_RASPI
 Text GLabel 13450 3500 2    50   Input ~ 0
@@ -1255,13 +1224,11 @@ Text GLabel 13450 3100 2    50   Input ~ 0
 DISPLAY_RESET
 Text GLabel 13450 3000 2    50   Input ~ 0
 SPI_CS_RASPI_DISPLAY
-Text GLabel 13450 3900 2    50   Input ~ 0
-+5V_RASPI
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 6064E3EF
 P 13450 3600
-F 0 "#PWR?" H 13450 3350 50  0001 C CNN
+F 0 "#PWR0105" H 13450 3350 50  0001 C CNN
 F 1 "GND" V 13455 3472 50  0000 R CNN
 F 2 "" H 13450 3600 50  0001 C CNN
 F 3 "" H 13450 3600 50  0001 C CNN
@@ -1274,4 +1241,12 @@ Text GLabel 13450 2400 2    50   Input ~ 0
 +5V_RASPI
 Text GLabel 13450 2300 2    50   Input ~ 0
 +5V_RASPI
+Text GLabel 13450 4200 2    50   Input ~ 0
+LED_PWR_EN
+Text GLabel 13450 3800 2    50   Input ~ 0
++5V_REG
+Text GLabel 13450 3900 2    50   Input ~ 0
++5V_REG
+Text GLabel 13450 3700 2    50   Input ~ 0
++5V_REG
 $EndSCHEMATC

@@ -946,26 +946,14 @@ Text HLabel 4400 1950 2    50   Output ~ 0
 BARREL_IN
 Text HLabel 13250 1950 2    50   Output ~ 0
 BUCK_OUT
-Text HLabel 6950 1650 0    50   Input ~ 0
+Text HLabel 6400 1600 0    50   Input ~ 0
 BARREL_IN
-Text HLabel 6950 1400 0    50   Input ~ 0
+Text HLabel 7250 1600 2    50   Input ~ 0
 BUCK_IN
-Wire Wire Line
-	6950 1400 7100 1400
-Wire Wire Line
-	7100 1400 7100 1650
-Wire Wire Line
-	7100 1650 6950 1650
-Text HLabel 6950 1950 0    50   Input ~ 0
+Text HLabel 6400 1900 0    50   Input ~ 0
 BUCK_OUT
-Text GLabel 6950 2200 0    50   Input ~ 0
+Text GLabel 7250 1900 2    50   Input ~ 0
 +5V_REG
-Wire Wire Line
-	6950 1950 7100 1950
-Wire Wire Line
-	7100 1950 7100 2200
-Wire Wire Line
-	7100 2200 6950 2200
 Text Notes 6300 1250 0    50   ~ 0
 Cut these connections to use \nthe battery extension header
 $Comp
@@ -1015,7 +1003,7 @@ U 1 1 601C3240
 P 11300 5050
 F 0 "U2" H 11300 5720 50  0000 C CNN
 F 1 "TPS54331DR" H 11300 5629 50  0000 C CNN
-F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_ThermalVias" H 11300 5050 50  0001 L BNN
+F 2 "OTTO_Footprints_Lib:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_ThermalVias" H 11300 5050 50  0001 L BNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C9865.pdf" H 11300 5050 50  0001 L BNN
 F 4 "BASIC" H 11300 5050 50  0001 C CNN "JLCASM"
 F 5 "C9865" H 11300 5050 50  0001 C CNN "LCSC PN"
@@ -1507,7 +1495,7 @@ U 1 1 6064B2EA
 P 9500 7600
 F 0 "R16" H 9570 7646 50  0000 L CNN
 F 1 "100k" H 9570 7555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9430 7600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9430 7600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/C17407.pdf" H 9500 7600 50  0001 C CNN
 F 4 "BASIC" H 9500 7600 50  0001 C CNN "JLCASM"
 F 5 "C17407" H 9500 7600 50  0001 C CNN "LCSC PN"
@@ -1521,4 +1509,42 @@ Wire Wire Line
 	8650 7150 9500 7150
 Text GLabel 3600 6300 0    50   Input ~ 0
 +5V_REG
+Text GLabel 7700 8150 0    50   Input ~ 0
++3V3_MCU
+Wire Wire Line
+	7700 8150 7800 8150
+Text GLabel 9800 8150 2    50   Input ~ 0
+LED_PWR_EN
+$Comp
+L Jumper:Jumper_2_Bridged JP1
+U 1 1 609E181B
+P 6800 1600
+F 0 "JP1" H 6800 1795 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 6800 1704 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6800 1600 50  0001 C CNN
+F 3 "~" H 6800 1600 50  0001 C CNN
+	1    6800 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:Jumper_2_Bridged JP2
+U 1 1 609F05B5
+P 6800 1900
+F 0 "JP2" H 6800 2095 50  0000 C CNN
+F 1 "Jumper_2_Bridged" H 6800 2004 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 6800 1900 50  0001 C CNN
+F 3 "~" H 6800 1900 50  0001 C CNN
+	1    6800 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1900 6600 1900
+Wire Wire Line
+	7000 1900 7250 1900
+Wire Wire Line
+	6400 1600 6600 1600
+Wire Wire Line
+	7000 1600 7250 1600
+Wire Wire Line
+	8400 8150 9800 8150
 $EndSCHEMATC

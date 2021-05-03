@@ -62,22 +62,6 @@ F 8 "N/A" H 2000 9100 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
-U 1 1 5DFC860B
-P 2000 10650
-F 0 "H5" H 2100 10701 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2100 10610 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 2000 10650 50  0001 C CNN
-F 3 "" H 2000 10650 50  0001 C CNN
-F 4 "DNP" H 2000 10650 50  0001 C CNN "AssemblyOption"
-F 5 "" H 2000 10650 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 2000 10650 50  0001 C CNN "MPN"
-F 7 "" H 2000 10650 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 2000 10650 50  0001 C CNN "JLCASM"
-	1    2000 10650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H2
 U 1 1 5E868395
 P 3000 10050
@@ -305,22 +289,6 @@ B8 57 00 EB 64 A0 57 2E C2 4E A4 4B 5B EB 02 8B CD F1 BF 1F 05 FE 02 9C 08 7C 35
 EndData
 $EndBitmap
 $Comp
-L Mechanical:Fiducial FID1
-U 1 1 5E4B0BDE
-P 4750 9100
-F 0 "FID1" H 4835 9146 50  0000 L CNN
-F 1 "Fiducial" H 4835 9055 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 9100 50  0001 C CNN
-F 3 "" H 4750 9100 50  0001 C CNN
-F 4 "DNP" H 4750 9100 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 4750 9100 50  0001 C CNN "MPN"
-F 6 "" H 4750 9100 50  0001 C CNN "Manufacturer"
-F 7 "" H 4750 9100 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 4750 9100 50  0001 C CNN "JLCASM"
-	1    4750 9100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:Fiducial FID2
 U 1 1 5E4B3C73
 P 4750 9400
@@ -385,22 +353,6 @@ F 8 "N/A" H 4750 10300 50  0001 C CNN "JLCASM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID7
-U 1 1 5E4B4BAF
-P 5300 9100
-F 0 "FID7" H 5385 9146 50  0000 L CNN
-F 1 "Fiducial" H 5385 9055 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 5300 9100 50  0001 C CNN
-F 3 "" H 5300 9100 50  0001 C CNN
-F 4 "DNP" H 5300 9100 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 5300 9100 50  0001 C CNN "MPN"
-F 6 "" H 5300 9100 50  0001 C CNN "Manufacturer"
-F 7 "" H 5300 9100 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 5300 9100 50  0001 C CNN "JLCASM"
-	1    5300 9100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:Fiducial FID8
 U 1 1 5E4B55FE
 P 5300 9400
@@ -462,22 +414,6 @@ F 6 "" H 5300 10300 50  0001 C CNN "Manufacturer"
 F 7 "" H 5300 10300 50  0001 C CNN "UnitCost(USD)"
 F 8 "N/A" H 5300 10300 50  0001 C CNN "JLCASM"
 	1    5300 10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:Fiducial FID6
-U 1 1 5E4B642A
-P 4750 10600
-F 0 "FID6" H 4835 10646 50  0000 L CNN
-F 1 "Fiducial" H 4835 10555 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 10600 50  0001 C CNN
-F 3 "" H 4750 10600 50  0001 C CNN
-F 4 "DNP" H 4750 10600 50  0001 C CNN "AssemblyOption"
-F 5 "N/A" H 4750 10600 50  0001 C CNN "MPN"
-F 6 "" H 4750 10600 50  0001 C CNN "Manufacturer"
-F 7 "" H 4750 10600 50  0001 C CNN "UnitCost(USD)"
-F 8 "N/A" H 4750 10600 50  0001 C CNN "JLCASM"
-	1    4750 10600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -672,7 +608,7 @@ SPI_MOSI_MCU
 Wire Wire Line
 	1600 750  2550 750 
 Wire Wire Line
-	2050 850  1600 850 
+	2550 850  1600 850 
 Wire Wire Line
 	5450 2350 5450 2450
 Connection ~ 5450 2450
@@ -1051,38 +987,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 2450 7150 2450
 $Comp
-L Mechanical:MountingHole H3
-U 1 1 5EE93400
-P 950 10650
-F 0 "H3" H 1050 10701 50  0000 L CNN
-F 1 "MountingHole_Pad" H 1050 10610 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 950 10650 50  0001 C CNN
-F 3 "" H 950 10650 50  0001 C CNN
-F 4 "DNP" H 950 10650 50  0001 C CNN "AssemblyOption"
-F 5 "" H 950 10650 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 950 10650 50  0001 C CNN "MPN"
-F 7 "" H 950 10650 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 950 10650 50  0001 C CNN "JLCASM"
-	1    950  10650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5EE9FC51
-P 3000 10650
-F 0 "H4" H 3100 10701 50  0000 L CNN
-F 1 "MountingHole_Pad" H 3100 10610 50  0000 L CNN
-F 2 "OTTO_Footprints_Lib:MountingHoleHole" H 3000 10650 50  0001 C CNN
-F 3 "" H 3000 10650 50  0001 C CNN
-F 4 "DNP" H 3000 10650 50  0001 C CNN "AssemblyOption"
-F 5 "" H 3000 10650 50  0001 C CNN "UnitCost(USD)"
-F 6 "N/A" H 3000 10650 50  0001 C CNN "MPN"
-F 7 "" H 3000 10650 50  0001 C CNN "Manufacturer"
-F 8 "N/A" H 3000 10650 50  0001 C CNN "JLCASM"
-	1    3000 10650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H204
 U 1 1 5C6CE161
 P 3000 9100
@@ -1126,31 +1030,20 @@ F 3 "" H 8300 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8300 5800 8400 5800
+	8300 5600 8400 5600
 $Comp
 L power:GND #PWR0107
 U 1 1 604087CE
-P 8300 5800
-F 0 "#PWR0107" H 8300 5550 50  0001 C CNN
-F 1 "GND" V 8305 5672 50  0000 R CNN
-F 2 "" H 8300 5800 50  0001 C CNN
-F 3 "" H 8300 5800 50  0001 C CNN
-	1    8300 5800
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8400 5200 8300 5200
-$Comp
-L power:GND #PWR0106
-U 1 1 60590E4A
 P 8300 5600
-F 0 "#PWR0106" H 8300 5350 50  0001 C CNN
+F 0 "#PWR0107" H 8300 5350 50  0001 C CNN
 F 1 "GND" V 8305 5472 50  0000 R CNN
 F 2 "" H 8300 5600 50  0001 C CNN
 F 3 "" H 8300 5600 50  0001 C CNN
 	1    8300 5600
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8400 5200 8300 5200
 Text GLabel 8300 4800 0    50   Input ~ 0
 3V3
 Text GLabel 8300 4900 0    50   Input ~ 0
@@ -1202,8 +1095,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 5500 8400 5500
 Wire Wire Line
-	8300 5600 8400 5600
-Wire Wire Line
 	8400 5100 8300 5100
 Wire Wire Line
 	8400 5000 8300 5000
@@ -1222,11 +1113,9 @@ Wire Wire Line
 Wire Wire Line
 	8400 4300 8300 4300
 Wire Wire Line
-	8400 5700 7350 5700
+	8400 5800 7350 5800
 Text Label 7350 5700 0    50   ~ 0
 SPI_MOSI_MCU
-Text GLabel 8300 5300 0    50   Input ~ 0
-+5V
 $Sheet
 S 600  1150 1000 250 
 U 5ED653E0
@@ -1244,18 +1133,254 @@ F 3 "" H 8300 5200 50  0001 C CNN
 	1    8300 5200
 	0    1    1    0   
 $EndComp
-Text GLabel 8300 5400 0    50   Input ~ 0
-+5V
-Text GLabel 8300 5500 0    50   Input ~ 0
-+5V
-Text GLabel 8300 4100 0    50   Input ~ 0
-+5V
-Text GLabel 8300 4000 0    50   Input ~ 0
-+5V
 Text GLabel 8300 3900 0    50   Input ~ 0
-+5V
++5V_RASPI
+Text GLabel 8300 4000 0    50   Input ~ 0
++5V_RASPI
+Text GLabel 8300 4100 0    50   Input ~ 0
++5V_RASPI
+Text GLabel 8300 5300 0    50   Input ~ 0
++5V_REG
+Text GLabel 8300 5400 0    50   Input ~ 0
++5V_REG
+Text GLabel 8300 5500 0    50   Input ~ 0
++5V_REG
+Text Label 7350 5800 0    50   ~ 0
+LED_PWR_EN
+Wire Wire Line
+	7350 5700 8400 5700
+Wire Wire Line
+	2700 5000 2900 5000
+Wire Wire Line
+	2900 5000 2900 5150
+Connection ~ 2900 5000
+Wire Wire Line
+	2900 5000 3950 5000
+$Comp
+L power:GND #PWR?
+U 1 1 607B0A80
+P 2900 5550
+AR Path="/5C4320DF/5C4AB546/607B0A80" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0A80" Ref="#PWR?"  Part="1" 
+AR Path="/5ED65394/607B0A80" Ref="#PWR?"  Part="1" 
+AR Path="/607B0A80" Ref="#PWR019"  Part="1" 
+AR Path="/6079CAA2/607B0A80" Ref="#PWR?"  Part="1" 
+F 0 "#PWR019" H 2900 5300 50  0001 C CNN
+F 1 "GND" H 2905 5377 50  0000 C CNN
+F 2 "" H 2900 5550 50  0001 C CNN
+F 3 "" H 2900 5550 50  0001 C CNN
+	1    2900 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 5450 2900 5550
+Wire Wire Line
+	3400 5100 3400 5150
+Wire Wire Line
+	3400 5100 3950 5100
+$Comp
+L power:GND #PWR?
+U 1 1 607B0A89
+P 3400 5550
+AR Path="/5C4320DF/5C4AB546/607B0A89" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0A89" Ref="#PWR?"  Part="1" 
+AR Path="/5ED65394/607B0A89" Ref="#PWR?"  Part="1" 
+AR Path="/607B0A89" Ref="#PWR021"  Part="1" 
+AR Path="/6079CAA2/607B0A89" Ref="#PWR?"  Part="1" 
+F 0 "#PWR021" H 3400 5300 50  0001 C CNN
+F 1 "GND" H 3405 5377 50  0000 C CNN
+F 2 "" H 3400 5550 50  0001 C CNN
+F 3 "" H 3400 5550 50  0001 C CNN
+	1    3400 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5450 3400 5550
+Wire Wire Line
+	3950 5200 3800 5200
+Wire Wire Line
+	3800 5200 3800 5800
+Connection ~ 3800 5800
+Wire Wire Line
+	3800 5800 3800 5850
+$Comp
+L power:GND #PWR?
+U 1 1 607B0A94
+P 3800 6200
+AR Path="/5C4320DF/5C4AB546/607B0A94" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0A94" Ref="#PWR?"  Part="1" 
+AR Path="/5ED65394/607B0A94" Ref="#PWR?"  Part="1" 
+AR Path="/607B0A94" Ref="#PWR022"  Part="1" 
+AR Path="/6079CAA2/607B0A94" Ref="#PWR?"  Part="1" 
+F 0 "#PWR022" H 3800 5950 50  0001 C CNN
+F 1 "GND" H 3805 6027 50  0000 C CNN
+F 2 "" H 3800 6200 50  0001 C CNN
+F 3 "" H 3800 6200 50  0001 C CNN
+	1    3800 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 6150 3800 6200
+$Comp
+L power:GND #PWR?
+U 1 1 607B0A9B
+P 4350 5550
+AR Path="/5C4320DF/5C4AB546/607B0A9B" Ref="#PWR?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0A9B" Ref="#PWR?"  Part="1" 
+AR Path="/5ED65394/607B0A9B" Ref="#PWR?"  Part="1" 
+AR Path="/607B0A9B" Ref="#PWR023"  Part="1" 
+AR Path="/6079CAA2/607B0A9B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR023" H 4350 5300 50  0001 C CNN
+F 1 "GND" H 4355 5377 50  0000 C CNN
+F 2 "" H 4350 5550 50  0001 C CNN
+F 3 "" H 4350 5550 50  0001 C CNN
+	1    4350 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 5400 4350 5550
+Wire Wire Line
+	5150 5100 5250 5100
+Wire Wire Line
+	5250 5100 5250 5000
+Wire Wire Line
+	5250 5000 5800 5000
+Wire Wire Line
+	4750 5000 5250 5000
+Connection ~ 5250 5000
+Wire Wire Line
+	2150 5800 3800 5800
+Text GLabel 2700 5000 0    50   Input ~ 0
++5V_REG
+$Comp
+L Device:R R?
+U 1 1 607B0AAF
+P 5000 5100
+AR Path="/5C4320DF/5C4AB546/607B0AAF" Ref="R?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0AAF" Ref="R?"  Part="1" 
+AR Path="/5ED65394/607B0AAF" Ref="R?"  Part="1" 
+AR Path="/607B0AAF" Ref="R4"  Part="1" 
+AR Path="/6079CAA2/607B0AAF" Ref="R?"  Part="1" 
+F 0 "R4" V 4794 5100 50  0000 C CNN
+F 1 "0" V 4885 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4930 5100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17477pdf" H 5000 5100 50  0001 C CNN
+F 4 "" H 5000 5100 50  0001 C CNN "UnitCost(USD)"
+F 5 "0805W8F0000T5E" H 5000 5100 50  0001 C CNN "MPN"
+F 6 "" H 5000 5100 50  0001 C CNN "Manufacturer"
+F 7 "BASIC" H 5000 5100 50  0001 C CNN "JLCASM"
+F 8 "C17477" H 5000 5100 50  0001 C CNN "LCSC PN"
+	1    5000 5100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 607B0ABA
+P 3800 6000
+AR Path="/5C4320DF/5C4AB546/607B0ABA" Ref="R?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0ABA" Ref="R?"  Part="1" 
+AR Path="/5ED65394/607B0ABA" Ref="R?"  Part="1" 
+AR Path="/607B0ABA" Ref="R3"  Part="1" 
+AR Path="/6079CAA2/607B0ABA" Ref="R?"  Part="1" 
+F 0 "R3" H 3870 6046 50  0000 L CNN
+F 1 "100k" H 3870 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3730 6000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C17407.pdf" H 3800 6000 50  0001 C CNN
+F 4 "" H 3800 6000 50  0001 C CNN "UnitCost(USD)"
+F 5 "0805W8F1003T5E" H 3800 6000 50  0001 C CNN "MPN"
+F 6 "" H 3800 6000 50  0001 C CNN "Manufacturer"
+F 7 "BASIC" H 3800 6000 50  0001 C CNN "JLCASM"
+F 8 "C17407" H 3800 6000 50  0001 C CNN "LCSC PN"
+	1    3800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 607B0AC5
+P 3400 5300
+AR Path="/5C4320DF/5C4AB546/607B0AC5" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0AC5" Ref="C?"  Part="1" 
+AR Path="/5ED65394/607B0AC5" Ref="C?"  Part="1" 
+AR Path="/607B0AC5" Ref="C50"  Part="1" 
+AR Path="/6079CAA2/607B0AC5" Ref="C?"  Part="1" 
+F 0 "C50" H 3515 5346 50  0000 L CNN
+F 1 "10nF" H 3515 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C1710.pdf" H 3400 5300 50  0001 C CNN
+F 4 "" H 3400 5300 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL21B103KBANNNC" H 3400 5300 12700 0001 C CNN "MPN"
+F 6 "" H 3400 5300 12700 0001 C CNN "Manufacturer"
+F 7 "C1710" H 3400 5300 50  0001 C CNN "LCSC PN"
+F 8 "BASIC" H 3400 5300 50  0001 C CNN "JLCASM"
+	1    3400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L OTTOdiy_SMD-library:TPS22918_SOT23-6_A U?
+U 1 1 607B0AD0
+P 4350 5100
+AR Path="/5C4320DF/5C4AB546/607B0AD0" Ref="U?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0AD0" Ref="U?"  Part="1" 
+AR Path="/5ED65394/607B0AD0" Ref="U?"  Part="1" 
+AR Path="/607B0AD0" Ref="U2"  Part="1" 
+AR Path="/6079CAA2/607B0AD0" Ref="U?"  Part="1" 
+F 0 "U2" H 4350 5466 50  0000 C CNN
+F 1 "TPS22918_SOT23-6_A" H 4350 5375 50  0000 C CNN
+F 2 "OTTO_Footprints_Lib:SOT-23-6" H 4350 5600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C131941.pdf" H 4400 4400 50  0001 C CNN
+F 4 "" H 4350 5100 12700 0001 C CNN "UnitCost(USD)"
+F 5 "TPS22918DBVR" H 4350 5100 12700 0001 C CNN "MPN"
+F 6 "" H 4350 5100 12700 0001 C CNN "Manufacturer"
+F 7 "EXT" H 4350 5100 50  0001 C CNN "JLCASM"
+F 8 "C131941" H 4350 5100 50  0001 C CNN "LCSC PN"
+	1    4350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 607B0ADB
+P 2900 5300
+AR Path="/5C4320DF/5C4AB546/607B0ADB" Ref="C?"  Part="1" 
+AR Path="/5C4320DF/5C4AB597/607B0ADB" Ref="C?"  Part="1" 
+AR Path="/5ED65394/607B0ADB" Ref="C?"  Part="1" 
+AR Path="/607B0ADB" Ref="C49"  Part="1" 
+AR Path="/6079CAA2/607B0ADB" Ref="C?"  Part="1" 
+F 0 "C49" H 3015 5346 50  0000 L CNN
+F 1 "47uF" H 3015 5255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2938 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/C68361.pdf" H 2900 5300 50  0001 C CNN
+F 4 "" H 2900 5300 12700 0001 C CNN "UnitCost(USD)"
+F 5 "CL31A476MQHNNNE" H 2900 5300 12700 0001 C CNN "MPN"
+F 6 "" H 2900 5300 12700 0001 C CNN "Manufacturer"
+F 7 "EXT" H 2900 5300 50  0001 C CNN "JLCASM"
+F 8 "C68361" H 2900 5300 50  0001 C CNN "LCSC PN"
+	1    2900 5300
+	1    0    0    -1  
+$EndComp
+Text Label 5800 5000 2    50   ~ 0
++5V_LEDS
+Wire Wire Line
+	4750 5100 4850 5100
+Text Label 2550 850  2    50   ~ 0
++5V_LEDS
+Text Label 2150 5800 0    50   ~ 0
+LED_PWR_EN
 Text GLabel 5550 2050 2    50   Input ~ 0
-+5V
-Text GLabel 2050 850  2    50   Input ~ 0
-+5V
++5V_RASPI
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 5E4B642A
+P 4750 10600
+F 0 "FID6" H 4835 10646 50  0000 L CNN
+F 1 "Fiducial" H 4835 10555 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4750 10600 50  0001 C CNN
+F 3 "" H 4750 10600 50  0001 C CNN
+F 4 "DNP" H 4750 10600 50  0001 C CNN "AssemblyOption"
+F 5 "N/A" H 4750 10600 50  0001 C CNN "MPN"
+F 6 "" H 4750 10600 50  0001 C CNN "Manufacturer"
+F 7 "" H 4750 10600 50  0001 C CNN "UnitCost(USD)"
+F 8 "N/A" H 4750 10600 50  0001 C CNN "JLCASM"
+	1    4750 10600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
