@@ -18,6 +18,11 @@ $CMP SN74LV1T34_SOT-23_A
 F http://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf
 $ENDCMP
 #
+$CMP TCA6416APWR
+D TCA6416APWR
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TCA6416A&fileType=pdf
+$ENDCMP
+#
 $CMP TLV62568_SOT-23-5_A
 F http://www.ti.com/lit/ds/symlink/tlv62568.pdf
 $ENDCMP

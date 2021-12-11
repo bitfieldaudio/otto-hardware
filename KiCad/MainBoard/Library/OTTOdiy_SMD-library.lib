@@ -642,6 +642,73 @@ X VSS 99 100 -3000 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# TCA6416APWR
+#
+DEF TCA6416APWR U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "TCA6416APWR" 0 300 50 H V L CNN
+F2 "Texas_Instruments-TCA6416APWR-*" 0 400 50 H I L CNN
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TCA6416A&fileType=pdf" 0 500 50 H I L CNN
+F4 "Yes" 0 600 50 H I L CNN "5V Tolerant IO"
+F5 "MO-153" 0 800 50 H I L CNN "Code  JEDEC"
+F6 "Package Specification" 0 900 50 H I L CNN "Component Link 2 Description"
+F7 "http://www.ti.com/litv/pdf/mpds177g" 0 1000 50 H I L CNN "Component Link 2 URL"
+F8 "Yes" 0 1100 50 H I L CNN "Configuration Registers"
+F9 "SCPS194A" 0 1200 50 H I L CNN "Datasheet Version"
+F10 "0100 00x" 0 1600 50 H I L CNN "I2C Address"
+F11 "Yes" 0 1700 50 H I L CNN "Interrupt Output"
+F12 "Yes" 0 1800 50 H I L CNN "Low Power"
+F13 "400" 0 2000 50 H I L CNN "Max FrequencykHz"
+F14 "Surface Mount" 0 2100 50 H I L CNN "Mounting Technology"
+F15 "16" 0 2200 50 H I L CNN "No of Outputs"
+F16 "24-Pin Thin Small Outline Package 0.65 mm Pitch" 0 2500 50 H I L CNN "Package Description"
+F17 "revG, Feb-2011" 0 2600 50 H I L CNN "Package Version"
+F18 "Yes" 0 2700 50 H I L CNN "Push Pull IO Type"
+F19 "Yes" 0 2900 50 H I L CNN "Reset Input"
+F20 "I2C IO Expander" 0 3200 50 H I L CNN "Sub Family"
+F21 "5.5" 0 3400 50 H I L CNN "VCC Max V"
+F22 "1.65" 0 3500 50 H I L CNN "VCC Min V"
+F23 "1.65 to 5.5" 0 3600 50 H I L CNN "Vcc rangeV"
+F24 "IC" 0 3800 50 H I L CNN "category"
+F25 "1159212" 0 3900 50 H I L CNN "ciiva ids"
+F26 "847ff01043b459ee" 0 4000 50 H I L CNN "library id"
+F27 "Texas Instruments" 0 4100 50 H I L CNN "manufacturer"
+F28 "16" 0 4200 50 H I L CNN "of IOs"
+F29 "PW0024A" 0 4300 50 H I L CNN "package"
+F30 "1464327337" 0 4400 50 H I L CNN "release date"
+F31 "Yes" 0 4500 50 H I L CNN "rohs"
+F32 "3F3BB855-6196-4AAB-B9FC-90EF6412B7AC" 0 4600 50 H I L CNN "vault revision"
+F33 "400" 0 4700 50 H I L CNN "f SCLK Max MHz"
+F34 "yes" 0 4800 50 H I L CNN "imported"
+DRAW
+S 200 100 800 -2000 1 1 0 f
+X ~INT~ 1 100 -1400 100 R 40 40 1 1 C
+X P06 10 900 -600 100 L 40 40 1 1 B
+X P07 11 900 -700 100 L 40 40 1 1 B
+X GND 12 900 -1900 100 L 40 40 1 1 W
+X P10 13 900 -900 100 L 40 40 1 1 B
+X P11 14 900 -1000 100 L 40 40 1 1 B
+X P12 15 900 -1100 100 L 40 40 1 1 B
+X P13 16 900 -1200 100 L 40 40 1 1 B
+X P14 17 900 -1300 100 L 40 40 1 1 B
+X P15 18 900 -1400 100 L 40 40 1 1 B
+X P16 19 900 -1500 100 L 40 40 1 1 B
+X VCCI 2 100 -1800 100 R 40 40 1 1 W
+X P17 20 900 -1600 100 L 40 40 1 1 B
+X ADDR 21 100 -300 100 R 40 40 1 1 I
+X SCL 22 100 0 100 R 40 40 1 1 I C
+X SDA 23 100 -100 100 R 40 40 1 1 B
+X VCCP 24 100 -1900 100 R 40 40 1 1 W
+X ~RESET~ 3 100 -1600 100 R 40 40 1 1 I
+X P00 4 900 0 100 L 40 40 1 1 B
+X P01 5 900 -100 100 L 40 40 1 1 B
+X P02 6 900 -200 100 L 40 40 1 1 B
+X P03 7 900 -300 100 L 40 40 1 1 B
+X P04 8 900 -400 100 L 40 40 1 1 B
+X P05 9 900 -500 100 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
 # TLV62568_SOT-23-5_A
 #
 DEF TLV62568_SOT-23-5_A U 0 20 Y Y 1 F N
